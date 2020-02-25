@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{44289FAE-55B7-4F24-A543-5B6CBAA34BF0}" SchemaVersion="85">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{44289FAE-55B7-4F24-A543-5B6CBAA34BF0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{44289FAE-55B7-4F24-A543-5B6CBAA34BF0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{557ACFD9-5FCE-4F99-B472-C2EA23ACABC2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="test" ID="{DAC1132F-4347-4223-965A-46C0C1D324B8}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="test2" ID="{EC01D694-1330-42AE-A340-497251E6715E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{6DFA0BF3-D88E-4883-8920-DD0D6F3C47C2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="health" ID="{06677AE1-31C7-4059-9DC9-901ABE846E2E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="absorb" ID="{53FC21CE-2960-4564-BA50-F2A099CF24C6}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="601859981">
+<IncrementalBankBuild Version="6" Flags="1653842036">
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Init" Hash="403170349" Timestamp="1582218188"/>
-				<File Name="Main" Hash="1867330226" Timestamp="1582218188"/>
+				<File Name="Main" Hash="903984259" Timestamp="1582290594"/>
+				<File Name="SFX" Hash="1022088386" Timestamp="1582560594"/>
+				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="704109260" Timestamp="1582290574"/>
+				<File Name="Main" Hash="3773512300" Timestamp="1582290574"/>
+			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="1763327078" Timestamp="1582218188"/>
+				<File Name="" Hash="3109707625" Timestamp="1582627409"/>
 			</Language>
 		</XMLInfo>
+		<JSONInfo>
+			<Language ID="393239870">
+				<File Name="Init" Hash="1278528494" Timestamp="1582290574"/>
+				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
+			</Language>
+			<Language ID="-1">
+				<File Name="" Hash="1678703247" Timestamp="1582627409"/>
+			</Language>
+		</JSONInfo>
 	</Platform>
 </IncrementalBankBuild>

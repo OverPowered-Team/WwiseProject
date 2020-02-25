@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="test" ID="{DAC1132F-4347-4223-965A-46C0C1D324B8}">
+					<ChildrenList>
+						<Action Name="" ID="{090A5A20-A1F6-4A19-BFCB-1C636442E96A}" ShortID="567910880">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="David Bisbal - Ave María" ID="{5AA72D08-3845-445B-9481-A2DEBF0EE52B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="test2" ID="{EC01D694-1330-42AE-A340-497251E6715E}">
+					<ChildrenList>
+						<Action Name="" ID="{E5FC4BC6-356C-4F93-BA0E-A4C7BCB363C2}" ShortID="798536814">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Porta - Dragon Ball Rap (con Letra)" ID="{5EB90689-C9AB-44B2-B609-648159C1A90D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="health" ID="{06677AE1-31C7-4059-9DC9-901ABE846E2E}">
+					<ChildrenList>
+						<Action Name="" ID="{D19740E0-A04A-4BAB-94CE-F49377E2CF80}" ShortID="546984326">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pokemon-health" ID="{7EACDB1A-B847-467A-8661-C840A0C8991C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="absorb" ID="{53FC21CE-2960-4564-BA50-F2A099CF24C6}">
+					<ChildrenList>
+						<Action Name="" ID="{A6DD7C8C-263B-4CD3-9857-F4AF5ADCAB4B}" ShortID="804820315">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Absorb" ID="{A3EDAF58-F804-4D92-883B-0D9169C15B60}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
