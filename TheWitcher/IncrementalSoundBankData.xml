@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="1653842036">
+<IncrementalBankBuild Version="6" Flags="929034382">
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="403170349" Timestamp="1582218188"/>
-				<File Name="Main" Hash="903984259" Timestamp="1582290594"/>
-				<File Name="SFX" Hash="1022088386" Timestamp="1582560594"/>
+				<File Name="Init" Hash="403170349" Timestamp="1582742295"/>
+				<File Name="Main" Hash="2577952794" Timestamp="1582749199"/>
+				<File Name="SFX" Hash="549489398" Timestamp="1582747863"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
 			</Language>
 		</Banks>
@@ -24,7 +24,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="1678703247" Timestamp="1582627409"/>
+				<File Name="" Hash="3648466321" Timestamp="1582749199"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
