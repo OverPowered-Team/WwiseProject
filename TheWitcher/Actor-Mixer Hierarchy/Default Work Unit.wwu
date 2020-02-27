@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Sound Name="David Bisbal - Ave María" ID="{5AA72D08-3845-445B-9481-A2DEBF0EE52B}" ShortID="166782844">
 					<PropertyList>
-						<Property Name="DynamicPositioning" Type="bool" Value="False"/>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
@@ -27,7 +27,20 @@
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{E69B3988-0A0A-475F-A40E-BD88888FF554}"/>
-						<Position Name="" ID="{DA234BF7-5D3A-4A4F-9558-D3E48B25225A}"/>
+						<Position Name="" ID="{DA234BF7-5D3A-4A4F-9558-D3E48B25225A}">
+							<ChildrenList>
+								<Path2D Name="David Bisbal - Ave María_Path" ID="{0D7F93C3-C3FA-4CA9-B149-3C9CE8C575A4}">
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>50</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
 					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="David Bisbal - Ave María" ID="{FD621785-F73D-4E60-9480-B5AE3D2450CC}" Platform="Linked"/>
