@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\Christian\Github\WwiseProject\TheWitcher\</ProjectRoot>
-		<SourceFilesRoot>D:\Christian\Github\WwiseProject\TheWitcher\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Christian\Github\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Christian\Github\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
