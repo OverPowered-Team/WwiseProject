@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	576110585	test2			\Default Work Unit\test2	
+	3157003241	test			\Default Work Unit\test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	192450603	David Bisbal - Ave María	C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\David Bisbal - Ave María_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\David Bisbal - Ave María		36991040
+	889853004	Porta - Dragon Ball Rap (con Letra)	C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\Porta - Dragon Ball Rap (con Letra)_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Porta - Dragon Ball Rap (con Letra)		21188672
+

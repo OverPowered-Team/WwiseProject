@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1970334122	absorb			\Default Work Unit\absorb	
+	3677180323	health			\Default Work Unit\health	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	423178946	Pokemon-health	C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\111-pokemon-recovery_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pokemon-health		1317184
+	1038143432	Absorb	C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\Absorb_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Absorb		499384
+

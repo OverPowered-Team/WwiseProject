@@ -49,6 +49,16 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID ABSORB = 1970334122U;
+        static const AkUniqueID HEALTH = 3677180323U;
+        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID TEST2 = 576110585U;
+    } // namespace EVENTS
+
+    namespace BANKS
+    {
+        static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MAIN = 3161908922U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
