@@ -3,7 +3,10 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="David Bisbal - Ave María" ID="{5AA72D08-3845-445B-9481-A2DEBF0EE52B}" ShortID="166782844">
+				<Sound Name="lol" ID="{E63E1067-2AE7-4834-8ECB-4852AC4054B8}" ShortID="551121811">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -13,70 +16,13 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="David Bisbal - Ave María" ID="{FD621785-F73D-4E60-9480-B5AE3D2450CC}" ShortID="192450603">
+						<AudioFileSource Name="videoplayback" ID="{8017BD90-5088-4840-9CF9-E8CAA6B17117}" ShortID="414324291">
 							<Language>SFX</Language>
-							<AudioFile>David Bisbal - Ave María.wav</AudioFile>
+							<AudioFile>videoplayback.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="David Bisbal - Ave María" ID="{FD621785-F73D-4E60-9480-B5AE3D2450CC}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Porta - Dragon Ball Rap (con Letra)" ID="{5EB90689-C9AB-44B2-B609-648159C1A90D}" ShortID="298338981">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Porta - Dragon Ball Rap (con Letra)" ID="{8209C695-DDDD-4AFF-ACFF-BDF0249419CF}" ShortID="889853004">
-							<Language>SFX</Language>
-							<AudioFile>Porta - Dragon Ball Rap (con Letra).wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Porta - Dragon Ball Rap (con Letra)" ID="{8209C695-DDDD-4AFF-ACFF-BDF0249419CF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Pokemon-health" ID="{7EACDB1A-B847-467A-8661-C840A0C8991C}" ShortID="833005003">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="111-pokemon-recovery" ID="{ABFE6F40-5B7A-4852-AD01-677E83299B1D}" ShortID="423178946">
-							<Language>SFX</Language>
-							<AudioFile>111-pokemon-recovery.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="111-pokemon-recovery" ID="{ABFE6F40-5B7A-4852-AD01-677E83299B1D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Absorb" ID="{A3EDAF58-F804-4D92-883B-0D9169C15B60}" ShortID="1016265867">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Absorb" ID="{79B740A3-83A2-451E-AE1A-1C3D491696E9}" ShortID="1038143432">
-							<Language>SFX</Language>
-							<AudioFile>Absorb.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Absorb" ID="{79B740A3-83A2-451E-AE1A-1C3D491696E9}" Platform="Linked"/>
+						<ActiveSource Name="videoplayback" ID="{8017BD90-5088-4840-9CF9-E8CAA6B17117}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

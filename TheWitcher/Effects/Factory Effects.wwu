@@ -824,6 +824,11 @@
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
 										<Property Name="RoomSize" Type="Real32" Value="24"/>
 									</PropertyList>
+									<StateInfo>
+										<StatePropertyList>
+											<Property Name="ReverbLevel"/>
+										</StatePropertyList>
+									</StateInfo>
 								</Effect>
 								<Effect Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
