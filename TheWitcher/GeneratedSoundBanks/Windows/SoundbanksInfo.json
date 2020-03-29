@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
-   "SourceFilesRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "E:\\Documentos\\GitHub\\WwiseProject\\TheWitcher\\",
+   "SourceFilesRoot": "E:\\Documentos\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\Documentos\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "E:\\Documentos\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -20,22 +20,7 @@
     "Language": "SFX",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
-    "Path": "SFX.bnk",
-    "IncludedEvents": [
-     {
-      "Id": "545371390",
-      "Name": "lol",
-      "ObjectPath": "\\Events\\Default Work Unit\\lol"
-     }
-    ],
-    "IncludedMemoryFiles": [
-     {
-      "Id": "414324291",
-      "Language": "SFX",
-      "ShortName": "videoplayback.wav",
-      "Path": "SFX\\videoplayback_1C9C67B2.wem"
-     }
-    ]
+    "Path": "SFX.bnk"
    },
    {
     "Id": "1355168291",
@@ -43,6 +28,28 @@
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
+   },
+   {
+    "Id": "1865857008",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Transition",
+    "ShortName": "Transition",
+    "Path": "Transition.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1865857008",
+      "Name": "Transition",
+      "ObjectPath": "\\Events\\Default Work Unit\\Transition"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "607056729",
+      "Language": "SFX",
+      "ShortName": "green-tea-smith-the-mister-vlog-no-copyright-music.wav",
+      "Path": "SFX\\green-tea-smith-the-mister-vlog-no-copyright-music_1C9C67B2.wem"
+     }
+    ]
    }
   ]
  }

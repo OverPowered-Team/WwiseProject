@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Documentos\GitHub\WwiseProject\TheWitcher\</ProjectRoot>
+		<SourceFilesRoot>E:\Documentos\GitHub\WwiseProject\TheWitcher\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Documentos\GitHub\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Documentos\GitHub\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -15,20 +15,25 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
-			<IncludedEvents>
-				<Event Id="545371390" Name="lol" ObjectPath="\Events\Default Work Unit\lol"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="414324291" Language="SFX">
-					<ShortName>videoplayback.wav</ShortName>
-					<Path>SFX\videoplayback_1C9C67B2.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1865857008" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Transition</ObjectPath>
+			<ShortName>Transition</ShortName>
+			<Path>Transition.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1865857008" Name="Transition" ObjectPath="\Events\Default Work Unit\Transition"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="607056729" Language="SFX">
+					<ShortName>green-tea-smith-the-mister-vlog-no-copyright-music.wav</ShortName>
+					<Path>SFX\green-tea-smith-the-mister-vlog-no-copyright-music_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

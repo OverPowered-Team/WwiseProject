@@ -3,15 +3,15 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="lol" ID="{15ADBA35-CB6B-434B-B753-8B5419F1916C}">
+				<Event Name="Transition" ID="{3E28EE2B-3014-4281-92C0-85FD0E6A7B6D}">
 					<ChildrenList>
-						<Action Name="" ID="{F842542C-8F84-430B-A86E-76007D09C339}" ShortID="582830739">
+						<Action Name="" ID="{D8E00CC3-B763-4778-AED0-AE2E220ACC4B}" ShortID="406586865">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="lol" ID="{E63E1067-2AE7-4834-8ECB-4852AC4054B8}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+									<ObjectRef Name="green-tea-smith-the-mister-vlog-no-copyright-music" ID="{B6D59E04-4505-479B-975A-E0E1580213B3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
