@@ -14,6 +14,9 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID LOL = 545371390U;
+        static const AkUniqueID NARUTO = 2950469026U;
+        static const AkUniqueID POKEMON = 3274709972U;
+        static const AkUniqueID TOWN = 3091570009U;
     } // namespace EVENTS
 
     namespace STATES
@@ -49,16 +52,6 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID ABSORB = 1970334122U;
-        static const AkUniqueID HEALTH = 3677180323U;
-        static const AkUniqueID TEST = 3157003241U;
-        static const AkUniqueID TEST2 = 576110585U;
-    } // namespace EVENTS
-
-    namespace BANKS
-    {
-        static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID MAIN = 3161908922U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 

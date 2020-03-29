@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Christian\Github\WwiseProject\TheWitcher\</ProjectRoot>
+		<SourceFilesRoot>D:\Christian\Github\WwiseProject\TheWitcher\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Christian\Github\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\ivan_\OneDrive\Documentos\GitHub\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Christian\Github\WwiseProject\TheWitcher\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -17,11 +17,26 @@
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
 				<Event Id="545371390" Name="lol" ObjectPath="\Events\Default Work Unit\lol"/>
+				<Event Id="2950469026" Name="Naruto" ObjectPath="\Events\Default Work Unit\Naruto"/>
+				<Event Id="3274709972" Name="Pokemon" ObjectPath="\Events\Default Work Unit\Pokemon"/>
+				<Event Id="3091570009" Name="Town" ObjectPath="\Events\Default Work Unit\Town"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="199201655" Language="SFX">
+					<ShortName>Naruto - Yamagsumi (RUDE Remix).wav</ShortName>
+					<Path>SFX\Naruto - Yamagsumi (RUDE Remix)_1C9C67B2.wem</Path>
+				</File>
 				<File Id="414324291" Language="SFX">
 					<ShortName>videoplayback.wav</ShortName>
 					<Path>SFX\videoplayback_1C9C67B2.wem</Path>
+				</File>
+				<File Id="672680235" Language="SFX">
+					<ShortName>Pokémon Theme Song.wav</ShortName>
+					<Path>SFX\Pokémon Theme Song_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1027203740" Language="SFX">
+					<ShortName>pokemon-rubysapphireemerald-littleroot-town.wav</ShortName>
+					<Path>SFX\pokemon-rubysapphireemerald-littleroot-town_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

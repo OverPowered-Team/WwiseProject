@@ -11,7 +11,21 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="lol" ID="{E63E1067-2AE7-4834-8ECB-4852AC4054B8}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+									<ObjectRef Name="LOL" ID="{5AA72D08-3845-445B-9481-A2DEBF0EE52B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="walk" ID="{670D56FB-28FF-4E42-BF74-BAAD1D7F432A}">
+					<ChildrenList>
+						<Action Name="" ID="{77F89F37-189E-4A31-AA31-9F51FB46AA8E}" ShortID="86984984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dirt_1" ID="{0868ACFC-92AB-4422-830D-B5A494E4F697}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

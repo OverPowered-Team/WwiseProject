@@ -6,6 +6,7 @@
 				<SoundBank Name="SFX" ID="{6DFA0BF3-D88E-4883-8920-DD0D6F3C47C2}">
 					<ObjectInclusionList>
 						<ObjectRef Name="lol" ID="{15ADBA35-CB6B-434B-B753-8B5419F1916C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="walk" ID="{670D56FB-28FF-4E42-BF74-BAAD1D7F432A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

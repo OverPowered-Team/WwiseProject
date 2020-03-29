@@ -10,13 +10,11 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="normal" ID="{5999822D-6806-4366-AABF-7F7CE12DB580}">
-							<ReferenceList/>
-						</AuxBus>
+						<AuxBus Name="normal" ID="{5999822D-6806-4366-AABF-7F7CE12DB580}"/>
 						<AuxBus Name="reverb" ID="{955FCAA6-8094-41F5-8778-D1B24E34F35D}">
 							<ReferenceList>
 								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
-									<ObjectRef Name="Robotic_Trash" ID="{18FEB1E8-36C5-4B2D-959A-8F3CE9ECBB0E}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+									<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
