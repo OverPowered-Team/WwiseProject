@@ -3,10 +3,18 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="materials" ID="{911E36AC-54EF-4DAB-947C-75946CE4D851}">
+				<SwitchGroup Name="Material" ID="{429E3853-41F0-440C-B2D5-29BD437D0137}">
 					<ChildrenList>
-						<Switch Name="concrete" ID="{07D0BBF6-028E-4523-8E62-2B682901621F}"/>
-						<Switch Name="sand" ID="{A411EA60-4BDF-41F3-83AD-DAB0AAE71E9F}"/>
+						<Switch Name="Sand" ID="{C55D0771-EF04-418D-8C80-5466CE144BB1}"/>
+						<Switch Name="Stone" ID="{C5CC37D8-B4F6-4B66-86AA-213C54F44C29}"/>
+						<Switch Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Env_Lvl1" ID="{66E19EDD-FDB1-4060-A6F5-F0945F956C79}">
+					<ChildrenList>
+						<Switch Name="Forest" ID="{C4FF6980-256C-4E0B-9F46-A81569CC7EFC}"/>
+						<Switch Name="Wind" ID="{6B14197D-4E60-427D-809A-B4FA5527D90E}"/>
+						<Switch Name="Quiet" ID="{30C2C65E-37EB-4AD6-810E-6F453D2DF080}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

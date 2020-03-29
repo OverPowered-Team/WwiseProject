@@ -9,16 +9,6 @@
 							<ObjectRef Name="System" ID="{AF36FC76-15BF-40B5-A980-4E1F7F18CCC0}" WorkUnitID="{F4FF8F86-1AEC-445F-8209-1E95344DB5A5}"/>
 						</Reference>
 					</ReferenceList>
-					<ChildrenList>
-						<AuxBus Name="normal" ID="{5999822D-6806-4366-AABF-7F7CE12DB580}"/>
-						<AuxBus Name="reverb" ID="{955FCAA6-8094-41F5-8778-D1B24E34F35D}">
-							<ReferenceList>
-								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
-									<ObjectRef Name="Hall_Guns" ID="{B35D266A-CE6E-40A1-B197-14C12F9C21B1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-							</ReferenceList>
-						</AuxBus>
-					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

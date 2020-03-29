@@ -3,12 +3,72 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{58DCB129-15F2-44FA-A211-5AADFC31BC33}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="environment" ID="{BF0C279A-7D1A-4E07-9AF8-A7CF78C9746A}">
+				<StateGroup Name="PlayerLife" ID="{BA374DBC-74D8-46FD-AC5E-6260A535060D}">
 					<ChildrenList>
-						<State Name="None" ID="{DA7FCD8E-E4B4-46F8-AD11-E167BDA12113}"/>
-						<State Name="state1" ID="{8D7A94FE-C8F4-4819-A8F1-4CAEBAF78883}"/>
-						<State Name="state2" ID="{BDEA5AB3-E411-4981-8ED7-2411C85A5033}"/>
+						<State Name="None" ID="{6D310C56-C9F0-4E13-8B8A-C64602BCE189}"/>
+						<State Name="Alive" ID="{E021D851-ADEA-4D39-941E-EBBA47344F0D}"/>
+						<State Name="Dead" ID="{BF39845A-4E36-4886-99BB-62C977B66FC0}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Alive" ID="{E021D851-ADEA-4D39-941E-EBBA47344F0D}"/>
+							<EndState Name="Dead" ID="{BF39845A-4E36-4886-99BB-62C977B66FC0}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dead" ID="{BF39845A-4E36-4886-99BB-62C977B66FC0}"/>
+							<EndState Name="Alive" ID="{E021D851-ADEA-4D39-941E-EBBA47344F0D}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}">
+					<ChildrenList>
+						<State Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+						<State Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
+						<State Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
+						<State Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
+							<EndState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+							<EndState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+							<EndState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<EndState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<EndState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<EndState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
