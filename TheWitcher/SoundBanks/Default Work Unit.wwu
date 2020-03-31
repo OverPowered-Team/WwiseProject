@@ -15,13 +15,6 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Transition" ID="{6420B218-D90F-4A66-996E-923B474F4EC1}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Transition" ID="{3E28EE2B-3014-4281-92C0-85FD0E6A7B6D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

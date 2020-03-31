@@ -3,15 +3,85 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Transition" ID="{3E28EE2B-3014-4281-92C0-85FD0E6A7B6D}">
+				<Event Name="Player_Footstep" ID="{D3F5639F-0013-423F-B9FA-758B0A3C0DB4}">
 					<ChildrenList>
-						<Action Name="" ID="{D8E00CC3-B763-4778-AED0-AE2E220ACC4B}" ShortID="406586865">
+						<Action Name="" ID="{64B24362-3748-4087-88CE-195E7764CEDE}" ShortID="157936120">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="green-tea-smith-the-mister-vlog-no-copyright-music" ID="{B6D59E04-4505-479B-975A-E0E1580213B3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+									<ObjectRef Name="Footsteps" ID="{05AD6DB5-4AC5-4753-B85D-2B2FDCC8FC31}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hit_Sword" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}">
+					<ChildrenList>
+						<Action Name="" ID="{018C26EC-DDD3-4850-A994-06D05C03E9A6}" ShortID="561404702">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="swordswip" ID="{DFCACF54-3017-452F-8B30-094FDC1CA59F}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayGhouls" ID="{2490856D-900E-4B11-B98F-EE738E57FDF8}">
+					<ChildrenList>
+						<Action Name="" ID="{FDF4C86B-BDF2-4753-9241-DC754B3A5D6E}" ShortID="993084335">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ghoul2" ID="{33E705D3-9D02-43FA-830F-6CA0EDE64F31}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayPreviousBattleBoss" ID="{E0ED2777-F452-4103-AEF2-8EC6030D49B7}">
+					<ChildrenList>
+						<Action Name="" ID="{AA8B6ABB-9360-4358-8F2A-BD007C6D739F}" ShortID="728313616">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intense" ID="{5B3A08B4-529F-4C1F-9736-99AC00FD384E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wind" ID="{6EC1C5CE-6ABF-4349-896E-BC86F3120E57}">
+					<ChildrenList>
+						<Action Name="" ID="{ABB87902-A18F-4482-9DED-B1A7227D14EB}" ShortID="784474166">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{C797D950-8A62-47B9-AD4E-91B9FC34D381}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Forest" ID="{FD822737-B670-43C2-932A-DEF1B418ED53}">
+					<ChildrenList>
+						<Action Name="" ID="{0843FC39-5192-4F68-94E8-917F785EC4F7}" ShortID="984013346">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest" ID="{5BF864D8-32A4-43E0-AAC8-FF2BC3DBF321}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
