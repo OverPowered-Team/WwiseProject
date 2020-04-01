@@ -30,18 +30,18 @@ Custom State	ID	Name	State Group	Owner		Notes
 	630531151	Quiet	Env_Lvl1	\Actor-Mixer Hierarchy\Default Work Unit\Forest		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	65317710	walking_sand2	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_sand2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\walking_sand2		53108
-	93647279	Wind	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\Wind_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind		40819176
-	93995469	walking_sand1	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_sand1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\walking_sand1		38104
-	255918428	Forest	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\Forest_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Forest		5292096
-	342699556	walking_stone1	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_stone1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\walking_stone1		37912
-	366365075	walking_stone2	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_stone2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\walking_stone2		37032
-	418092558	walkig_mud1	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walkig_mud1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Mud\walkig_mud1		84928
-	488418141	walking_stone3	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_stone3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\walking_stone3		37912
-	690941690	walking_mud3	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_mud3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Mud\walking_mud3		32656
-	693467915	walking_sand3	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_sand3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\walking_sand3		31732
-	808237431	walking_mud2	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_mud2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Mud\walking_mud2		32544
-	842888706	Intense	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\Intense_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intense		324064
-	901267111	swordswip	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\swordswip_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\swordswip		33856
-	1056131618	Ghoul2	C:\Users\Iván\Documents\GitHub\WwiseProject\TheWitcher\.cache\Windows\SFX\Ghoul2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ghoul2		136308
+	65317710	walking_sand2	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_sand2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\walking_sand2		53108
+	93647279	Wind	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\Wind_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind		40819176
+	93995469	walking_sand1	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_sand1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\walking_sand1		38104
+	255918428	Forest	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\Forest_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Forest		5292096
+	342699556	walking_stone1	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_stone1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\walking_stone1		37912
+	366365075	walking_stone2	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_stone2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\walking_stone2		37032
+	418092558	walkig_mud1	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walkig_mud1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Mud\walkig_mud1		84928
+	488418141	walking_stone3	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_stone3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\walking_stone3		37912
+	690941690	walking_mud3	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_mud3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Mud\walking_mud3		32656
+	693467915	walking_sand3	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_sand3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Sand\walking_sand3		31732
+	808237431	walking_mud2	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\walking_mud2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Mud\walking_mud2		32544
+	842888706	Intense	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\Intense_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intense		324064
+	901267111	swordswip	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\swordswip_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\swordswip		33856
+	1056131618	Ghoul2	C:\Users\mdpdo\OneDrive\Documentos\Github\WwiseProject\TheWitcher\.cache\Windows\SFX\Ghoul2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ghoul2		136308
 
