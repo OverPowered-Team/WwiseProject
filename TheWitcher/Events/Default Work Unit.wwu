@@ -3,34 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Player_Footstep" ID="{D3F5639F-0013-423F-B9FA-758B0A3C0DB4}">
-					<ChildrenList>
-						<Action Name="" ID="{64B24362-3748-4087-88CE-195E7764CEDE}" ShortID="157936120">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{05AD6DB5-4AC5-4753-B85D-2B2FDCC8FC31}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Hit_Sword" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}">
-					<ChildrenList>
-						<Action Name="" ID="{018C26EC-DDD3-4850-A994-06D05C03E9A6}" ShortID="561404702">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="swordswip" ID="{DFCACF54-3017-452F-8B30-094FDC1CA59F}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="PlayGhouls" ID="{2490856D-900E-4B11-B98F-EE738E57FDF8}">
 					<ChildrenList>
 						<Action Name="" ID="{FDF4C86B-BDF2-4753-9241-DC754B3A5D6E}" ShortID="993084335">
@@ -45,7 +17,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayPreviousBattleBoss" ID="{E0ED2777-F452-4103-AEF2-8EC6030D49B7}">
+				<Event Name="Play_Battle_Boss" ID="{E0ED2777-F452-4103-AEF2-8EC6030D49B7}">
 					<ChildrenList>
 						<Action Name="" ID="{AA8B6ABB-9360-4358-8F2A-BD007C6D739F}" ShortID="728313616">
 							<PropertyList>
@@ -532,6 +504,168 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Geralt4" ID="{E863DB82-E31F-4BF3-A2D3-8CBCA684A50C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{8C1EA775-6809-48D5-8B5B-3826AB2FB4C9}" ShortID="858765746">
+					<ChildrenList>
+						<Event Name="Play_MainMenu_Music" ID="{9F7BDE6D-1BD9-40B9-A4C7-09E635E2A98B}">
+							<ChildrenList>
+								<Action Name="" ID="{01D5715A-B645-4579-B734-83D0E3C24DC8}" ShortID="640372102">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_calm_green_lake_serenade" ID="{80E4A3F1-CCD6-4FEB-88B6-7B7299FF8CF5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_End_Music" ID="{6F145182-6D4B-422A-A704-B711BCEA7D4F}">
+							<ChildrenList>
+								<Action Name="" ID="{02BA4F44-B5A2-40A1-B1C8-A169628F8B22}" ShortID="11357772">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_misty_woods_calling" ID="{06654190-F5F1-4495-A99D-A4BA7D28EEE7}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WinMenu_Music" ID="{310276B1-8857-4509-B7B5-681D244A1F3A}">
+							<ChildrenList>
+								<Action Name="" ID="{583F1728-0B52-4166-848C-B447DC8CF055}" ShortID="936184948">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_harp_peaceful_loop" ID="{E0D94F41-4381-48F6-9E3C-3D5A77E6043B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player_Interactions" ID="{342DC179-3248-4379-942D-DF0259F9C653}" ShortID="787945414">
+					<ChildrenList>
+						<Event Name="Player_SwordHit" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}">
+							<ChildrenList>
+								<Action Name="" ID="{018C26EC-DDD3-4850-A994-06D05C03E9A6}" ShortID="561404702">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="swordswip" ID="{DFCACF54-3017-452F-8B30-094FDC1CA59F}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Jump" ID="{BD8E6503-0971-4A8E-9B5A-6FD0307B954D}">
+							<ChildrenList>
+								<Action Name="" ID="{EB15EB4D-E7D3-4606-AF61-DD3E3687066B}" ShortID="598180848">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="jumping_scream" ID="{8AC445A6-AF6E-414A-A55A-A59AE19CC8BC}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GetDamaged" ID="{51661839-A4FD-467E-A1F7-C44D2826A22B}">
+							<ChildrenList>
+								<Action Name="" ID="{5B0CFE5B-3F2A-4283-B4D8-DCF5AEB7A7FF}" ShortID="314165661">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DamageReceivedVoice" ID="{0D245C8F-B1BD-451E-BDC0-016C2CF35E2B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4444954E-71E0-4375-B834-669990F5C7AC}" ShortID="114214148">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DamageReceivedNoVoice" ID="{8B9F54DA-26C7-4570-B6E5-33497CF63951}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Roll" ID="{9D127D89-3A60-4CD3-AAE3-D4275EFE3B04}">
+							<ChildrenList>
+								<Action Name="" ID="{91CBC73A-601D-4F1E-ACB5-5D61162A6BB9}" ShortID="491942357">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="roll" ID="{5A8972E2-3AC1-4B80-8C52-94CD228B3DC6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Footstep" ID="{D3F5639F-0013-423F-B9FA-758B0A3C0DB4}">
+							<ChildrenList>
+								<Action Name="" ID="{64B24362-3748-4087-88CE-195E7764CEDE}" ShortID="157936120">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{05AD6DB5-4AC5-4753-B85D-2B2FDCC8FC31}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{5BB40668-A1E7-463E-978A-61B07C5C8801}" ShortID="537841474">
+					<ChildrenList>
+						<Event Name="Play_MenuSelect" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}">
+							<ChildrenList>
+								<Action Name="" ID="{E6751B68-420D-497F-9A31-272BA7093765}" ShortID="501497129">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="menu_select" ID="{EDAB7203-5482-42D0-A9D5-DEA956213810}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MenuMove" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}">
+							<ChildrenList>
+								<Action Name="" ID="{032CCE09-B5B0-41B4-BAEE-CE2047F77DFF}" ShortID="517410747">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="menu_move" ID="{8C5ABD3A-4C78-463B-AB9A-FB29E14F310D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

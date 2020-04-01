@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="4208174439">
+<IncrementalBankBuild Version="6" Flags="929034382">
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dialogues" Hash="871362854" Timestamp="1585748434"/>
-				<File Name="Init" Hash="3161206947" Timestamp="1585680273"/>
+				<File Name="Dialogues" Hash="935136999" Timestamp="1585760994"/>
+				<File Name="Environment_Lvl1" Hash="716663313" Timestamp="1585762849"/>
+				<File Name="Init" Hash="3161206947" Timestamp="1585760997"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="SFX" Hash="2491831886" Timestamp="1585680273"/>
+				<File Name="Music" Hash="3425189213" Timestamp="1585760997"/>
+				<File Name="Player_SFX" Hash="520799191" Timestamp="1585762849"/>
+				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
+				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585763534"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -25,7 +29,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2910790623" Timestamp="1585748434"/>
+				<File Name="" Hash="1993839284" Timestamp="1585763535"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

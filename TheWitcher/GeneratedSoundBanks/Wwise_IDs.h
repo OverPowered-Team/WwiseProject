@@ -13,12 +13,52 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID HIT_SWORD = 2480223178U;
+        static const AkUniqueID PLAY_BATTLE_BOSS = 1365115432U;
+        static const AkUniqueID PLAY_DIALOGUE1 = 4285197669U;
+        static const AkUniqueID PLAY_DIALOGUE1_01 = 740533569U;
+        static const AkUniqueID PLAY_DIALOGUE1_02 = 740533570U;
+        static const AkUniqueID PLAY_DIALOGUE1_03 = 740533571U;
+        static const AkUniqueID PLAY_DIALOGUE1_04 = 740533572U;
+        static const AkUniqueID PLAY_DIALOGUE1_05 = 740533573U;
+        static const AkUniqueID PLAY_DIALOGUE1_06 = 740533574U;
+        static const AkUniqueID PLAY_DIALOGUE1_07 = 740533575U;
+        static const AkUniqueID PLAY_DIALOGUE1_08 = 740533576U;
+        static const AkUniqueID PLAY_DIALOGUE1_09 = 740533577U;
+        static const AkUniqueID PLAY_DIALOGUE1_10 = 757311283U;
+        static const AkUniqueID PLAY_DIALOGUE1_11 = 757311282U;
+        static const AkUniqueID PLAY_DIALOGUE1_12 = 757311281U;
+        static const AkUniqueID PLAY_DIALOGUE1_13 = 757311280U;
+        static const AkUniqueID PLAY_DIALOGUE1_14 = 757311287U;
+        static const AkUniqueID PLAY_DIALOGUE1_15 = 757311286U;
+        static const AkUniqueID PLAY_DIALOGUE1_16 = 757311285U;
+        static const AkUniqueID PLAY_DIALOGUE1_17 = 757311284U;
+        static const AkUniqueID PLAY_DIALOGUE1_18 = 757311291U;
+        static const AkUniqueID PLAY_DIALOGUE1_19 = 757311290U;
+        static const AkUniqueID PLAY_DIALOGUE1_20 = 774088870U;
+        static const AkUniqueID PLAY_DIALOGUE1_21 = 774088871U;
+        static const AkUniqueID PLAY_DIALOGUE1_22 = 774088868U;
+        static const AkUniqueID PLAY_DIALOGUE1_23 = 774088869U;
+        static const AkUniqueID PLAY_DIALOGUE1_24 = 774088866U;
+        static const AkUniqueID PLAY_DIALOGUE1_25 = 774088867U;
+        static const AkUniqueID PLAY_DIALOGUE1_26 = 774088864U;
+        static const AkUniqueID PLAY_DIALOGUE1_27 = 774088865U;
+        static const AkUniqueID PLAY_DIALOGUE1_28 = 774088878U;
+        static const AkUniqueID PLAY_DIALOGUE1_29 = 774088879U;
+        static const AkUniqueID PLAY_DIALOGUE1_30 = 790866457U;
+        static const AkUniqueID PLAY_DIALOGUE1_31 = 790866456U;
+        static const AkUniqueID PLAY_END_MUSIC = 1635916389U;
         static const AkUniqueID PLAY_FOREST = 207755397U;
+        static const AkUniqueID PLAY_GETDAMAGED = 2767564667U;
+        static const AkUniqueID PLAY_JUMP = 3689126666U;
+        static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
+        static const AkUniqueID PLAY_MENUMOVE = 1291640088U;
+        static const AkUniqueID PLAY_MENUSELECT = 40516875U;
+        static const AkUniqueID PLAY_ROLL = 2719919427U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
+        static const AkUniqueID PLAY_WINMENU_MUSIC = 3241038393U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+        static const AkUniqueID PLAYER_SWORDHIT = 3070097383U;
         static const AkUniqueID PLAYGHOULS = 3184224717U;
-        static const AkUniqueID PLAYPREVIOUSBATTLEBOSS = 981299297U;
     } // namespace EVENTS
 
     namespace STATES
@@ -79,7 +119,11 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID DIALOGUES = 1669749310U;
+        static const AkUniqueID ENVIRONMENT_LVL1 = 4139483824U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID PLAYER_SFX = 817096458U;
+        static const AkUniqueID UI_SXF = 3529925883U;
     } // namespace BANKS
 
     namespace BUSSES
