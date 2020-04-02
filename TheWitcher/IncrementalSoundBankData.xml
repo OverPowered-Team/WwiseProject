@@ -3,16 +3,16 @@
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dialogues" Hash="2122284897" Timestamp="1585840661"/>
-				<File Name="Environment_Lvl1" Hash="3898332393" Timestamp="1585840662"/>
-				<File Name="Init" Hash="3055810431" Timestamp="1585840662"/>
+				<File Name="Dialogues" Hash="2122284897" Timestamp="1585840928"/>
+				<File Name="Environment_Lvl1" Hash="3898332393" Timestamp="1585840929"/>
+				<File Name="Init" Hash="3055810431" Timestamp="1585840929"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="1199714015" Timestamp="1585840662"/>
-				<File Name="Objects_SFX" Hash="60039785" Timestamp="1585840662"/>
-				<File Name="Player_SFX" Hash="2412531093" Timestamp="1585840662"/>
+				<File Name="Music" Hash="1199714015" Timestamp="1585840929"/>
+				<File Name="Objects_SFX" Hash="60039785" Timestamp="1585840929"/>
+				<File Name="Player_SFX" Hash="2412531093" Timestamp="1585840929"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
-				<File Name="UI_SXF" Hash="3479580265" Timestamp="1585840662"/>
+				<File Name="UI_SXF" Hash="3479580265" Timestamp="1585840929"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -21,7 +21,7 @@
 				<File Name="Main" Hash="3773512300" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="384036173" Timestamp="1585840662"/>
+				<File Name="" Hash="384036173" Timestamp="1585840929"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
@@ -30,7 +30,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3828935581" Timestamp="1585840662"/>
+				<File Name="" Hash="3828935581" Timestamp="1585840929"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
