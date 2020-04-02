@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
-   "SourceFilesRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "E:\\Documentos\\GitHub\\WwiseProject\\TheWitcher\\",
+   "SourceFilesRoot": "E:\\Documentos\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\Documentos\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "E:\\Documentos\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -270,6 +270,11 @@
     "ShortName": "Dialogues",
     "Path": "Dialogues.bnk",
     "IncludedEvents": [
+     {
+      "Id": "1909520851",
+      "Name": "IntroDialogue",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dialogues\\IntroDialogue"
+     },
      {
       "Id": "4285197669",
       "Name": "Play_Dialogue1",
@@ -605,6 +610,12 @@
       "Language": "SFX",
       "ShortName": "GeraltE6.wav",
       "Path": "SFX\\GeraltE6_1C9C67B2.wem"
+     },
+     {
+      "Id": "1014146210",
+      "Language": "SFX",
+      "ShortName": "Jonied_Audios.wav",
+      "Path": "SFX\\Jonied_Audios_1C9C67B2.wem"
      },
      {
       "Id": "1042751737",
