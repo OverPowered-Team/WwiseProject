@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<SoundBank Name="Dialogues" ID="{8E7FD2B3-043A-408E-8791-E19B05C7D500}">
 							<ObjectInclusionList>
+								<ObjectRef Name="IntroDialogue" ID="{AF2DB777-1688-40F4-98EE-8ED96510406C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Dialogue1_09" ID="{D1852D92-BF17-41B2-829B-515C4B48276D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Dialogue1_27" ID="{2A5CF26F-3E12-420F-ADF2-401EF516AC2E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Dialogue1_30" ID="{99CAA403-1E7B-427F-8A61-5F02CBEF44D8}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>

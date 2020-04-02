@@ -453,6 +453,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="IntroDialogue" ID="{AF2DB777-1688-40F4-98EE-8ED96510406C}">
+							<ChildrenList>
+								<Action Name="" ID="{EC41D192-3248-4A9D-8EB5-45E552CA0B40}" ShortID="259992844">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jonied_Audios" ID="{AA15BE19-1343-4580-AD41-370F8AF83ED7}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{8C1EA775-6809-48D5-8B5B-3826AB2FB4C9}" ShortID="858765746">
