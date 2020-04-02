@@ -70,6 +70,27 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Interactive_Music_Lvl1" ID="{04C83905-2067-46D1-9EB4-362D64D28C29}">
+					<ChildrenList>
+						<State Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+						<State Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+						<State Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<EndState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<EndState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -5,10 +5,11 @@
 			<Language ID="393239870">
 				<File Name="Dialogues" Hash="935136999" Timestamp="1585760994"/>
 				<File Name="Environment_Lvl1" Hash="716663313" Timestamp="1585762849"/>
-				<File Name="Init" Hash="3161206947" Timestamp="1585760997"/>
+				<File Name="Init" Hash="3055810431" Timestamp="1585822692"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="3425189213" Timestamp="1585760997"/>
-				<File Name="Player_SFX" Hash="520799191" Timestamp="1585762849"/>
+				<File Name="Music" Hash="2901387059" Timestamp="1585822732"/>
+				<File Name="Objects_SFX" Hash="1392316130" Timestamp="1585822692"/>
+				<File Name="Player_SFX" Hash="4045530639" Timestamp="1585822692"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585763534"/>
@@ -29,7 +30,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="1993839284" Timestamp="1585763535"/>
+				<File Name="" Hash="4193893057" Timestamp="1585822732"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

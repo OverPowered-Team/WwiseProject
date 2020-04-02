@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BATTLE_BOSS = 1365115432U;
+        static const AkUniqueID PLAY_COMBAT_MUSIC = 3155474038U;
         static const AkUniqueID PLAY_DIALOGUE1 = 4285197669U;
         static const AkUniqueID PLAY_DIALOGUE1_01 = 740533569U;
         static const AkUniqueID PLAY_DIALOGUE1_02 = 740533570U;
@@ -47,15 +48,22 @@ namespace AK
         static const AkUniqueID PLAY_DIALOGUE1_30 = 790866457U;
         static const AkUniqueID PLAY_DIALOGUE1_31 = 790866456U;
         static const AkUniqueID PLAY_END_MUSIC = 1635916389U;
+        static const AkUniqueID PLAY_FENCEDESTROY = 2372531077U;
         static const AkUniqueID PLAY_FOREST = 207755397U;
-        static const AkUniqueID PLAY_GETDAMAGED = 2767564667U;
-        static const AkUniqueID PLAY_JUMP = 3689126666U;
+        static const AkUniqueID PLAY_GERALTDEATH = 2048623797U;
+        static const AkUniqueID PLAY_GERALTGETDAMAGED = 219750196U;
+        static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
+        static const AkUniqueID PLAY_IGNI = 511861945U;
+        static const AkUniqueID PLAY_LVL1_MUSIC = 29834681U;
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
         static const AkUniqueID PLAY_MENUMOVE = 1291640088U;
         static const AkUniqueID PLAY_MENUSELECT = 40516875U;
         static const AkUniqueID PLAY_ROLL = 2719919427U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
         static const AkUniqueID PLAY_WINMENU_MUSIC = 3241038393U;
+        static const AkUniqueID PLAY_YENNDEATH = 149154610U;
+        static const AkUniqueID PLAY_YENNGETDAMAGED = 831621349U;
+        static const AkUniqueID PLAY_YENNJUMP = 4258364352U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_SWORDHIT = 3070097383U;
         static const AkUniqueID PLAYGHOULS = 3184224717U;
@@ -74,6 +82,17 @@ namespace AK
                 static const AkUniqueID WIND = 1537061107U;
             } // namespace STATE
         } // namespace ENV_LVL1
+
+        namespace INTERACTIVE_MUSIC_LVL1
+        {
+            static const AkUniqueID GROUP = 3197359073U;
+
+            namespace STATE
+            {
+                static const AkUniqueID COMBAT = 2764240573U;
+                static const AkUniqueID NORMAL = 1160234136U;
+            } // namespace STATE
+        } // namespace INTERACTIVE_MUSIC_LVL1
 
         namespace PLAYERLIFE
         {
@@ -122,6 +141,7 @@ namespace AK
         static const AkUniqueID DIALOGUES = 1669749310U;
         static const AkUniqueID ENVIRONMENT_LVL1 = 4139483824U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID OBJECTS_SFX = 3698921875U;
         static const AkUniqueID PLAYER_SFX = 817096458U;
         static const AkUniqueID UI_SXF = 3529925883U;
     } // namespace BANKS

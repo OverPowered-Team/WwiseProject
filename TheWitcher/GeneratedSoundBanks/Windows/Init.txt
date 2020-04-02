@@ -1,6 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	
 	2478762362	Env_Lvl1			\Default Work Unit\Env_Lvl1	
+	3197359073	Interactive_Music_Lvl1			\Default Work Unit\Interactive_Music_Lvl1	
 
 State	ID	Name	State Group			Notes
 	0	None	PlayerLife			
@@ -10,6 +11,9 @@ State	ID	Name	State Group			Notes
 	491961918	Forest	Env_Lvl1			
 	1537061107	Wind	Env_Lvl1			
 	1565680351	Quiet	Env_Lvl1			
+	0	None	Interactive_Music_Lvl1			
+	1160234136	Normal	Interactive_Music_Lvl1			
+	2764240573	Combat	Interactive_Music_Lvl1			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

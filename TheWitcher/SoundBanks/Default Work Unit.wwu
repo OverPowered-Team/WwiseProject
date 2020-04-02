@@ -48,8 +48,10 @@
 				<SoundBank Name="Music" ID="{E8511F3E-1422-49BA-BF93-7CFF4F7C0AE8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_MainMenu_Music" ID="{9F7BDE6D-1BD9-40B9-A4C7-09E635E2A98B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Combat_Music" ID="{35BCEC88-A380-40D3-8B9C-71E0A2C53C31}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_End_Music" ID="{6F145182-6D4B-422A-A704-B711BCEA7D4F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_WinMenu_Music" ID="{310276B1-8857-4509-B7B5-681D244A1F3A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Lvl1_Music" ID="{34CAA32F-A3E6-4DB5-BA79-70BDDB956E18}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -58,8 +60,13 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Player_SwordHit" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_Footstep" ID="{D3F5639F-0013-423F-B9FA-758B0A3C0DB4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_GetDamaged" ID="{51661839-A4FD-467E-A1F7-C44D2826A22B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Jump" ID="{BD8E6503-0971-4A8E-9B5A-6FD0307B954D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_YennDeath" ID="{D1DD9447-896C-42BC-8665-70FA4FE8AC45}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GeraltDeath" ID="{BFDF4691-C7FF-442F-90F6-D8483A6747ED}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GeraltGetDamaged" ID="{51661839-A4FD-467E-A1F7-C44D2826A22B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Igni" ID="{1750555E-727C-474F-82E0-42C177545320}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_YennGetDamaged" ID="{FAB5CB73-6304-47D7-9BC5-EBFB476ACE5D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GeraltJump" ID="{BD8E6503-0971-4A8E-9B5A-6FD0307B954D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_YennJump" ID="{053AE285-B4FF-4C4B-B3BE-47246B12ED85}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Roll" ID="{9D127D89-3A60-4CD3-AAE3-D4275EFE3B04}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -79,6 +86,13 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_MenuMove" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MenuSelect" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Objects_SFX" ID="{DF3F8A72-B5E7-48C1-A821-7028826866A3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_FenceDestroy" ID="{13E4E853-E69A-4542-94A7-5DF2A7D01D51}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
