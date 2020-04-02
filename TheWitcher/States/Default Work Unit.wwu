@@ -75,6 +75,8 @@
 						<State Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
 						<State Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
 						<State Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+						<State Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+						<State Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -86,6 +88,66 @@
 						<Transition>
 							<StartState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
 							<EndState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<EndState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<EndState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<EndState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<EndState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<EndState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<EndState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<EndState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<EndState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<EndState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<EndState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
 							<Time>1</Time>
 							<IsShared>false</IsShared>
 						</Transition>

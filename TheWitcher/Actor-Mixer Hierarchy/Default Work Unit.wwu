@@ -733,6 +733,14 @@
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
+										<StateRef Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+										<State Name="" ID="{3AB42C25-DAB4-443F-BE81-C2DF3FB91188}" ShortID="913096066">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
 										<State Name="" ID="{EF41B5D6-89DC-4772-B58F-09C0A0064D2C}" ShortID="831635840">
 											<PropertyList>
@@ -743,6 +751,14 @@
 									<CustomState>
 										<StateRef Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
 										<State Name="" ID="{7E0362AA-3860-46A0-B54B-4B6E6B502837}" ShortID="592835222"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+										<State Name="" ID="{1C396464-06DE-429D-A119-DEA8DA6FE23E}" ShortID="341108273">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -781,6 +797,14 @@
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
+										<StateRef Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+										<State Name="" ID="{49D0DEF7-05ED-49D2-8893-4A25518D9DF6}" ShortID="188584433">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
 										<State Name="" ID="{982C83F1-BD85-4268-94BD-A89897E5C6DE}" ShortID="159718895"/>
 									</CustomState>
@@ -792,10 +816,183 @@
 											</PropertyList>
 										</State>
 									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+										<State Name="" ID="{841377ED-F625-45F6-AC9E-69B87370022A}" ShortID="752946357">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="combatmusic" ID="{62CEA45C-8DF7-4EDA-9914-9C3F587F07F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Quiet" ID="{3B79F349-6498-469C-98A6-98F8ED9B6C3E}" ShortID="947110844">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Quiet" ID="{64E5B717-161E-4EE7-BAA1-75D194856AE3}" ShortID="43775023">
+									<Language>SFX</Language>
+									<AudioFile>Quiet.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="Interactive_Music_Lvl1" ID="{04C83905-2067-46D1-9EB4-362D64D28C29}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+										<State Name="" ID="{C1AA0F7F-CABF-429E-A66A-63831B619B54}" ShortID="356229018"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+										<State Name="" ID="{4AFB1891-5C01-45B5-9E6F-2E5B3A7810C0}" ShortID="102318340">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+										<State Name="" ID="{AC0A5EFD-FC9E-4FFE-B1EA-76E3C350CBD1}" ShortID="837367414">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+										<State Name="" ID="{FE441D17-90DE-4D93-A258-717BBA9E14FC}" ShortID="103599427">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
+										<State Name="" ID="{2DF7BDC3-4EBE-415F-A8CF-ACF2E2CEF7FB}" ShortID="1008352152">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+										<State Name="" ID="{18181648-4CA6-4B1C-89FB-80F7D747547D}" ShortID="548214342"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
+										<State Name="" ID="{4E67D619-5C23-4209-B637-3B3CE40A9D03}" ShortID="201275821">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Quiet" ID="{64E5B717-161E-4EE7-BAA1-75D194856AE3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="music_mountainous_journeyLoop" ID="{BC954DA2-2DF5-4ADC-A114-1694AD15C9D1}" ShortID="178991366">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="music_mountainous_journeyLoop" ID="{279D741E-0DC9-4208-A7EB-5C3F954C835A}" ShortID="797610605">
+									<Language>SFX</Language>
+									<AudioFile>music_mountainous_journeyLoop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Interactive_Music_Lvl1" ID="{04C83905-2067-46D1-9EB4-362D64D28C29}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+										<State Name="" ID="{68C0008D-67AF-4283-9D92-8A3E30E0FB91}" ShortID="264580931"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+										<State Name="" ID="{D3D2C3ED-48B3-4DE6-9A67-2F188E4C8A01}" ShortID="273308045">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+										<State Name="" ID="{EF915672-7988-498C-B3BC-6F0AEC93A33B}" ShortID="930118315">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+										<State Name="" ID="{4E3E7703-4EBA-4FD7-9FAF-CA7ACE1CF691}" ShortID="194852143">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="music_mountainous_journeyLoop" ID="{279D741E-0DC9-4208-A7EB-5C3F954C835A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MusicaBardo" ID="{3ABDAA53-EE0D-49E4-8B22-393C1A9F997C}" ShortID="702860477">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MusicaBardo" ID="{66778D90-BDCB-46D3-9F9A-26AA83F90529}" ShortID="289528602">
+									<Language>SFX</Language>
+									<AudioFile>MusicaBardo.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MusicaBardo" ID="{66778D90-BDCB-46D3-9F9A-26AA83F90529}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -1571,6 +1768,58 @@
 								<ActiveSource Name="Torch_single_pass_by_whoosh_07_SFXBible_ss007673" ID="{DCD2AF32-6FEC-41DC-BEB6-7535B379CC9F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Shockwave" ID="{BD6AA8B0-31C6-4896-B85D-3B032837145D}" ShortID="839880857">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Shockwave" ID="{DB6167B7-F601-4790-A712-9D7866261BDB}" ShortID="959982697">
+									<Language>SFX</Language>
+									<AudioFile>Shockwave.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Shockwave" ID="{DB6167B7-F601-4790-A712-9D7866261BDB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fire_Spell_Flame_Breath_02_16_441" ID="{59EF8979-6C05-46FC-97A4-2F4912FB5E0B}" ShortID="40599485">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire_Spell_Flame_Breath_02_16_441" ID="{7F1426EF-ACA3-42EF-A99D-8C412134FED9}" ShortID="407575829">
+									<Language>SFX</Language>
+									<AudioFile>Fire_Spell_Flame_Breath_02_16_441.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire_Spell_Flame_Breath_02_16_441" ID="{7F1426EF-ACA3-42EF-A99D-8C412134FED9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{110D2F3C-139C-4474-842C-04421BFDB975}" ShortID="606462137">
@@ -1617,61 +1866,6 @@
 				</Folder>
 				<Folder Name="EnvironmentLVL1" ID="{F9AD9558-1706-4275-A9A9-621E215213F5}" ShortID="163571110">
 					<ChildrenList>
-						<Sound Name="Quiet" ID="{3B79F349-6498-469C-98A6-98F8ED9B6C3E}" ShortID="947110844">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Quiet" ID="{64E5B717-161E-4EE7-BAA1-75D194856AE3}" ShortID="43775023">
-									<Language>SFX</Language>
-									<AudioFile>Quiet.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-										<State Name="" ID="{FE441D17-90DE-4D93-A258-717BBA9E14FC}" ShortID="103599427">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-96"/>
-											</PropertyList>
-										</State>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-										<State Name="" ID="{2DF7BDC3-4EBE-415F-A8CF-ACF2E2CEF7FB}" ShortID="1008352152">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-96"/>
-											</PropertyList>
-										</State>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-										<State Name="" ID="{4E67D619-5C23-4209-B637-3B3CE40A9D03}" ShortID="201275821">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-96"/>
-											</PropertyList>
-										</State>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="Quiet" ID="{64E5B717-161E-4EE7-BAA1-75D194856AE3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Ghoul2" ID="{33E705D3-9D02-43FA-830F-6CA0EDE64F31}" ShortID="362396900">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1824,34 +2018,121 @@
 								<ActiveSource Name="Wind" ID="{568CBF4A-3546-4E9C-B381-39FA74CE56EE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="ShortSuspense" ID="{702019D7-4C7B-468D-9EB2-A49E80543EB9}" ShortID="387425649">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ShortSuspense" ID="{D8D716EE-B936-4389-A396-2B57E22C6D64}" ShortID="704690365">
+									<Language>SFX</Language>
+									<AudioFile>ShortSuspense.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ShortSuspense" ID="{D8D716EE-B936-4389-A396-2B57E22C6D64}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="River" ID="{5465B0A5-C44E-4E88-BB16-1B90893620E5}" ShortID="698283548">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ElDavid" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="River" ID="{29984C36-386E-4CC6-AA0A-5B83910F0881}" ShortID="452321188">
+									<Language>SFX</Language>
+									<AudioFile>River.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="River" ID="{29984C36-386E-4CC6-AA0A-5B83910F0881}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="barrel_destroyed" ID="{A53032A4-082F-4978-89AE-8B3789863446}" ShortID="595799140">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-19</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Object" ID="{0A74FED8-45B6-4972-9E7B-5BA5BE8E756B}" ShortID="614134395">
 					<ChildrenList>
-						<AudioFileSource Name="barrel_destroyed" ID="{895F60D2-B872-47CD-B572-D328D69912A4}" ShortID="713490204">
-							<Language>SFX</Language>
-							<AudioFile>barrel_destroyed.wav</AudioFile>
-						</AudioFileSource>
+						<Sound Name="barrel_destroyed" ID="{A53032A4-082F-4978-89AE-8B3789863446}" ShortID="595799140">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="barrel_destroyed" ID="{895F60D2-B872-47CD-B572-D328D69912A4}" ShortID="713490204">
+									<Language>SFX</Language>
+									<AudioFile>barrel_destroyed.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="barrel_destroyed" ID="{895F60D2-B872-47CD-B572-D328D69912A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chest" ID="{312F0CB7-E4E6-4339-AE0B-E4FFED3A03D4}" ShortID="813926889">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ElDavid" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Chest" ID="{C25E43E4-ACBD-4982-A1EE-DAC75C771E15}" ShortID="976612201">
+									<Language>SFX</Language>
+									<AudioFile>Chest.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Chest" ID="{C25E43E4-ACBD-4982-A1EE-DAC75C771E15}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="barrel_destroyed" ID="{895F60D2-B872-47CD-B572-D328D69912A4}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

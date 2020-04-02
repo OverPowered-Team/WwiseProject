@@ -541,6 +541,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Quiet_Music" ID="{8B0B9FED-C1C6-40CA-B9D4-16D8EFDA3F7C}">
+							<ChildrenList>
+								<Action Name="" ID="{FA1379DE-A7E0-4F7E-9245-EC43D44D9BB0}" ShortID="457067442">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Quiet" ID="{3B79F349-6498-469C-98A6-98F8ED9B6C3E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Mountain_Music" ID="{9ABB3A5C-EAC1-4DCE-9305-CFCBEBA10057}">
+							<ChildrenList>
+								<Action Name="" ID="{4D1A04CB-6422-41E1-AEB3-420C207A8AAC}" ShortID="1030471764">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_mountainous_journeyLoop" ID="{BC954DA2-2DF5-4ADC-A114-1694AD15C9D1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player_Interactions" ID="{342DC179-3248-4379-942D-DF0259F9C653}" ShortID="787945414">
@@ -699,7 +727,21 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Torch_single_pass_by_whoosh_07_SFXBible_ss007673" ID="{7E324CE0-8D3D-47A2-A0DE-4F8BBFD9F81B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="Fire_Spell_Flame_Breath_02_16_441" ID="{59EF8979-6C05-46FC-97A4-2F4912FB5E0B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_YennShockwave" ID="{EE70C539-B135-42CE-ACC3-31D0934F77AE}">
+							<ChildrenList>
+								<Action Name="" ID="{CF4CDD1E-A716-485F-B9B2-03D81E901AA6}" ShortID="482438551">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shockwave" ID="{BD6AA8B0-31C6-4896-B85D-3B032837145D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -797,22 +839,68 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Suspense" ID="{21E44E1C-F4D1-46B9-BF1D-8755146FEFF2}">
+							<ChildrenList>
+								<Action Name="" ID="{51155FD7-C311-4E98-895F-9A9A68833F9E}" ShortID="33481927">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ShortSuspense" ID="{702019D7-4C7B-468D-9EB2-A49E80543EB9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_River" ID="{0A38E665-80C2-4694-B228-04B1604E350D}">
+							<ChildrenList>
+								<Action Name="" ID="{9403468D-C6DD-4B73-9E75-375D6679BE5D}" ShortID="448462711">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="River" ID="{5465B0A5-C44E-4E88-BB16-1B90893620E5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_FenceDestroy" ID="{13E4E853-E69A-4542-94A7-5DF2A7D01D51}">
+				<Folder Name="Object" ID="{0B796F3F-4771-449B-A7AA-E87121C362B3}" ShortID="516657702">
 					<ChildrenList>
-						<Action Name="" ID="{4B143AA1-B77A-4EF3-A647-A16848174B1E}" ShortID="907833136">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="barrel_destroyed" ID="{A53032A4-082F-4978-89AE-8B3789863446}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_FenceDestroy" ID="{13E4E853-E69A-4542-94A7-5DF2A7D01D51}">
+							<ChildrenList>
+								<Action Name="" ID="{4B143AA1-B77A-4EF3-A647-A16848174B1E}" ShortID="907833136">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="barrel_destroyed" ID="{A53032A4-082F-4978-89AE-8B3789863446}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chest" ID="{C6ED4CC9-1D29-4C77-8E74-776FEF8E245A}">
+							<ChildrenList>
+								<Action Name="" ID="{9BC2BC50-FF84-4EAE-A4F6-BC8D6E6EED37}" ShortID="211139671">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chest" ID="{312F0CB7-E4E6-4339-AE0B-E4FFED3A03D4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID INTRODIALOGUE = 1909520851U;
         static const AkUniqueID PLAY_BATTLE_BOSS = 1365115432U;
+        static const AkUniqueID PLAY_CHEST = 3067740349U;
         static const AkUniqueID PLAY_COMBAT_MUSIC = 3155474038U;
         static const AkUniqueID PLAY_DIALOGUE1 = 4285197669U;
         static const AkUniqueID PLAY_DIALOGUE1_01 = 740533569U;
@@ -58,12 +60,17 @@ namespace AK
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
         static const AkUniqueID PLAY_MENUMOVE = 1291640088U;
         static const AkUniqueID PLAY_MENUSELECT = 40516875U;
+        static const AkUniqueID PLAY_MOUNTAIN_MUSIC = 3813093503U;
+        static const AkUniqueID PLAY_QUIET_MUSIC = 2462691910U;
+        static const AkUniqueID PLAY_RIVER = 1498169336U;
         static const AkUniqueID PLAY_ROLL = 2719919427U;
+        static const AkUniqueID PLAY_SUSPENSE = 1099345086U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
         static const AkUniqueID PLAY_WINMENU_MUSIC = 3241038393U;
         static const AkUniqueID PLAY_YENNDEATH = 149154610U;
         static const AkUniqueID PLAY_YENNGETDAMAGED = 831621349U;
         static const AkUniqueID PLAY_YENNJUMP = 4258364352U;
+        static const AkUniqueID PLAY_YENNSHOCKWAVE = 527437U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_SWORDHIT = 3070097383U;
         static const AkUniqueID PLAYGHOULS = 3184224717U;
@@ -90,7 +97,9 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID COMBAT = 2764240573U;
+                static const AkUniqueID MOUNTAIN = 513139656U;
                 static const AkUniqueID NORMAL = 1160234136U;
+                static const AkUniqueID QUIET = 1565680351U;
             } // namespace STATE
         } // namespace INTERACTIVE_MUSIC_LVL1
 
