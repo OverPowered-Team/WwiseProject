@@ -48,11 +48,13 @@
 				</Folder>
 				<SoundBank Name="Music" ID="{E8511F3E-1422-49BA-BF93-7CFF4F7C0AE8}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Bard_Music" ID="{4FEE8E0F-F7DA-406E-AE1C-C1632A425B47}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MainMenu_Music" ID="{9F7BDE6D-1BD9-40B9-A4C7-09E635E2A98B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Quiet_Music" ID="{8B0B9FED-C1C6-40CA-B9D4-16D8EFDA3F7C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Combat_Music" ID="{35BCEC88-A380-40D3-8B9C-71E0A2C53C31}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_End_Music" ID="{6F145182-6D4B-422A-A704-B711BCEA7D4F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_WinMenu_Music" ID="{310276B1-8857-4509-B7B5-681D244A1F3A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Lake_Music" ID="{9D2180A9-C419-4C8E-AC40-1B2DF2E2BFC5}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lvl1_Music" ID="{34CAA32F-A3E6-4DB5-BA79-70BDDB956E18}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Mountain_Music" ID="{9ABB3A5C-EAC1-4DCE-9305-CFCBEBA10057}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
@@ -83,6 +85,7 @@
 						<ObjectRef Name="Play_Forest" ID="{FD822737-B670-43C2-932A-DEF1B418ED53}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_River" ID="{0A38E665-80C2-4694-B228-04B1604E350D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Suspense" ID="{21E44E1C-F4D1-46B9-BF1D-8755146FEFF2}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Birds_Wind" ID="{F3C87BB7-50DF-4949-900D-B1C56AE569EB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayGhouls" ID="{2490856D-900E-4B11-B98F-EE738E57FDF8}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

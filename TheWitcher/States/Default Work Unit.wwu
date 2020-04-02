@@ -30,6 +30,7 @@
 						<State Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
 						<State Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
 						<State Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+						<State Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -68,6 +69,54 @@
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<EndState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
+							<EndState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
+							<EndState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+							<EndState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+							<EndState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+							<EndState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+							<EndState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+							<EndState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
 					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="Interactive_Music_Lvl1" ID="{04C83905-2067-46D1-9EB4-362D64D28C29}">
@@ -77,6 +126,7 @@
 						<State Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
 						<State Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
 						<State Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+						<State Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -147,6 +197,114 @@
 						</Transition>
 						<Transition>
 							<StartState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<EndState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<EndState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<EndState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<EndState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<EndState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<EndState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<EndState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<EndState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<EndState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<EndState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<EndState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<EndState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<EndState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+							<EndState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<EndState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<EndState Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<EndState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+							<EndState Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
 							<EndState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
 							<Time>1</Time>
 							<IsShared>false</IsShared>

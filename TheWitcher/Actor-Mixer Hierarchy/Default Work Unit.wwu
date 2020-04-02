@@ -639,6 +639,11 @@
 						<Sound Name="music_calm_green_lake_serenade" ID="{80E4A3F1-CCD6-4FEB-88B6-7B7299FF8CF5}" ShortID="665178760">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -753,6 +758,14 @@
 										<State Name="" ID="{7E0362AA-3860-46A0-B54B-4B6E6B502837}" ShortID="592835222"/>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+										<State Name="" ID="{F67FF834-5E96-423B-9806-1C12B80B54D8}" ShortID="683541108">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
 										<State Name="" ID="{1C396464-06DE-429D-A119-DEA8DA6FE23E}" ShortID="341108273">
 											<PropertyList>
@@ -817,6 +830,14 @@
 										</State>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+										<State Name="" ID="{2A828659-B4D9-4004-9202-0622FE4FE33C}" ShortID="876048215">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
 										<State Name="" ID="{841377ED-F625-45F6-AC9E-69B87370022A}" ShortID="752946357">
 											<PropertyList>
@@ -860,7 +881,11 @@
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
-										<State Name="" ID="{C1AA0F7F-CABF-429E-A66A-63831B619B54}" ShortID="356229018"/>
+										<State Name="" ID="{C1AA0F7F-CABF-429E-A66A-63831B619B54}" ShortID="356229018">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
@@ -880,7 +905,11 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-										<State Name="" ID="{FE441D17-90DE-4D93-A258-717BBA9E14FC}" ShortID="103599427">
+										<State Name="" ID="{FE441D17-90DE-4D93-A258-717BBA9E14FC}" ShortID="103599427"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+										<State Name="" ID="{3EB58E79-ECA4-4618-B1C8-C49E2FC379A8}" ShortID="755025595">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-96"/>
 											</PropertyList>
@@ -901,6 +930,14 @@
 									<CustomState>
 										<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
 										<State Name="" ID="{4E67D619-5C23-4209-B637-3B3CE40A9D03}" ShortID="201275821">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+										<State Name="" ID="{771BA240-C8DE-410C-9742-868F65113B85}" ShortID="596941155">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-96"/>
 											</PropertyList>
@@ -963,6 +1000,14 @@
 										</State>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+										<State Name="" ID="{F2B35D60-19F3-43A1-96DA-5AD508DAE7B5}" ShortID="963654819">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
 										<State Name="" ID="{4E3E7703-4EBA-4FD7-9FAF-CA7ACE1CF691}" ShortID="194852143">
 											<PropertyList>
@@ -977,6 +1022,14 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MusicaBardo" ID="{3ABDAA53-EE0D-49E4-8B22-393C1A9F997C}" ShortID="702860477">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -993,6 +1046,81 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="MusicaBardo" ID="{66778D90-BDCB-46D3-9F9A-26AA83F90529}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="music_calm_green_lake_serenade_01" ID="{A1E45E2F-EE6B-4B14-892D-2D795D4A21F6}" ShortID="808794965">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="music_calm_green_lake_serenade" ID="{AC0A88B9-0E80-469C-802F-4D2963F0B3B2}" ShortID="324348342">
+									<Language>SFX</Language>
+									<AudioFile>music_calm_green_lake_serenade.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="45982187"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Interactive_Music_Lvl1" ID="{04C83905-2067-46D1-9EB4-362D64D28C29}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+										<State Name="" ID="{8EFC7995-EE34-40FF-A225-874C559DEE7D}" ShortID="840092090">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+										<State Name="" ID="{06D1BA81-B931-4A94-BCE1-083900588F81}" ShortID="20978903">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+										<State Name="" ID="{7FEDF2FA-085D-4A84-B962-E5D223936777}" ShortID="1039823784">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+										<State Name="" ID="{0FAFDEAA-84AC-4083-B744-112FBF89840F}" ShortID="182638703"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+										<State Name="" ID="{7C164720-BB9A-4F0A-832C-60A152FA7988}" ShortID="54447167">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="music_calm_green_lake_serenade" ID="{AC0A88B9-0E80-469C-802F-4D2963F0B3B2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -1935,6 +2063,14 @@
 											</PropertyList>
 										</State>
 									</CustomState>
+									<CustomState>
+										<StateRef Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+										<State Name="" ID="{A66B5646-E820-47E2-A12F-20437F267B1D}" ShortID="204701381">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
@@ -2012,6 +2148,14 @@
 										<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
 										<State Name="" ID="{5C3F00D0-B698-490A-885F-84C31794808F}" ShortID="244932377"/>
 									</CustomState>
+									<CustomState>
+										<StateRef Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+										<State Name="" ID="{AB1A4291-3A09-43BF-81A0-E8748C5BB929}" ShortID="771660886">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
@@ -2050,13 +2194,13 @@
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-23</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="ElDavid" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+									<ObjectRef Name="River" ID="{35B5C985-6650-44E8-8308-2190B5CCA502}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -2073,6 +2217,69 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="River" ID="{29984C36-386E-4CC6-AA0A-5B83910F0881}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Birds_env" ID="{7D9F756C-0459-4E2D-B434-648D2DEE8A9D}" ShortID="1011639616">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Birds_env" ID="{EAF07940-7212-4575-BBC4-2F7393D223A4}" ShortID="236180510">
+									<Language>SFX</Language>
+									<AudioFile>Birds_env.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
+										<State Name="" ID="{47D6BB18-4905-41B9-A376-25EECA13DFBF}" ShortID="371645147">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
+										<State Name="" ID="{EE42D514-72E5-4622-98B7-886731E9CCE1}" ShortID="192389694">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
+										<State Name="" ID="{2583332B-DECB-4568-BC9F-4625B209F9B7}" ShortID="108698191">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+										<State Name="" ID="{917A5676-BE00-4F88-BF07-BB9844643DB6}" ShortID="954690379"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Birds_env" ID="{EAF07940-7212-4575-BBC4-2F7393D223A4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

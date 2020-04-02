@@ -569,6 +569,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Lake_Music" ID="{9D2180A9-C419-4C8E-AC40-1B2DF2E2BFC5}">
+							<ChildrenList>
+								<Action Name="" ID="{86C02511-0351-40DA-AC21-E8B77379F44C}" ShortID="435797198">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_calm_green_lake_serenade_01" ID="{A1E45E2F-EE6B-4B14-892D-2D795D4A21F6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bard_Music" ID="{4FEE8E0F-F7DA-406E-AE1C-C1632A425B47}">
+							<ChildrenList>
+								<Action Name="" ID="{829B2652-EECD-4EFE-9046-B42B5F3BF145}" ShortID="655912450">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicaBardo" ID="{3ABDAA53-EE0D-49E4-8B22-393C1A9F997C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player_Interactions" ID="{342DC179-3248-4379-942D-DF0259F9C653}" ShortID="787945414">
@@ -862,6 +890,30 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="River" ID="{5465B0A5-C44E-4E88-BB16-1B90893620E5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Birds_Wind" ID="{F3C87BB7-50DF-4949-900D-B1C56AE569EB}">
+							<ChildrenList>
+								<Action Name="" ID="{A78D474D-8FE2-43AD-B472-88CA2869954E}" ShortID="651292007">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Birds_env" ID="{7D9F756C-0459-4E2D-B434-648D2DEE8A9D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3F62207F-8308-4763-A7F4-2D3139410914}" ShortID="323989074">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind" ID="{C797D950-8A62-47B9-AD4E-91B9FC34D381}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

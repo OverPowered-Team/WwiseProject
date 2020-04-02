@@ -9,10 +9,12 @@ State	ID	Name	State Group			Notes
 	2044049779	Dead	PlayerLife			
 	0	None	Env_Lvl1			
 	491961918	Forest	Env_Lvl1			
+	1295265788	Birds_Wind	Env_Lvl1			
 	1537061107	Wind	Env_Lvl1			
 	1565680351	Quiet	Env_Lvl1			
 	0	None	Interactive_Music_Lvl1			
 	513139656	Mountain	Interactive_Music_Lvl1			
+	624189772	Lake	Interactive_Music_Lvl1			
 	1160234136	Normal	Interactive_Music_Lvl1			
 	1565680351	Quiet	Interactive_Music_Lvl1			
 	2764240573	Combat	Interactive_Music_Lvl1			

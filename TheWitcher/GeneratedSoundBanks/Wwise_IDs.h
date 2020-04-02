@@ -14,7 +14,9 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID INTRODIALOGUE = 1909520851U;
+        static const AkUniqueID PLAY_BARD_MUSIC = 2011049715U;
         static const AkUniqueID PLAY_BATTLE_BOSS = 1365115432U;
+        static const AkUniqueID PLAY_BIRDS_WIND = 1598323015U;
         static const AkUniqueID PLAY_CHEST = 3067740349U;
         static const AkUniqueID PLAY_COMBAT_MUSIC = 3155474038U;
         static const AkUniqueID PLAY_DIALOGUE1 = 4285197669U;
@@ -56,6 +58,7 @@ namespace AK
         static const AkUniqueID PLAY_GERALTGETDAMAGED = 219750196U;
         static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
         static const AkUniqueID PLAY_IGNI = 511861945U;
+        static const AkUniqueID PLAY_LAKE_MUSIC = 110125719U;
         static const AkUniqueID PLAY_LVL1_MUSIC = 29834681U;
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
         static const AkUniqueID PLAY_MENUMOVE = 1291640088U;
@@ -84,6 +87,7 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID BIRDS_WIND = 1295265788U;
                 static const AkUniqueID FOREST = 491961918U;
                 static const AkUniqueID QUIET = 1565680351U;
                 static const AkUniqueID WIND = 1537061107U;
@@ -97,6 +101,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID COMBAT = 2764240573U;
+                static const AkUniqueID LAKE = 624189772U;
                 static const AkUniqueID MOUNTAIN = 513139656U;
                 static const AkUniqueID NORMAL = 1160234136U;
                 static const AkUniqueID QUIET = 1565680351U;
