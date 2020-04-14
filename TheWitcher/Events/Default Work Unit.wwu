@@ -513,76 +513,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Lvl1_Music" ID="{34CAA32F-A3E6-4DB5-BA79-70BDDB956E18}">
-							<ChildrenList>
-								<Action Name="" ID="{0EC44422-89CB-4A6B-B966-7CDBBF7970D4}" ShortID="835170356">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="songlvl1" ID="{B237EB1E-856A-4316-AFF2-D8AB1A567A3B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Combat_Music" ID="{35BCEC88-A380-40D3-8B9C-71E0A2C53C31}">
-							<ChildrenList>
-								<Action Name="" ID="{2CA3569E-BC60-4867-B8BC-D6397783D0A0}" ShortID="323301602">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="combatmusic" ID="{5304F8D9-8B7A-4EE1-AC1A-F928D0A622D3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Quiet_Music" ID="{8B0B9FED-C1C6-40CA-B9D4-16D8EFDA3F7C}">
-							<ChildrenList>
-								<Action Name="" ID="{FA1379DE-A7E0-4F7E-9245-EC43D44D9BB0}" ShortID="457067442">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Quiet" ID="{3B79F349-6498-469C-98A6-98F8ED9B6C3E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Mountain_Music" ID="{9ABB3A5C-EAC1-4DCE-9305-CFCBEBA10057}">
-							<ChildrenList>
-								<Action Name="" ID="{4D1A04CB-6422-41E1-AEB3-420C207A8AAC}" ShortID="1030471764">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="music_mountainous_journeyLoop" ID="{BC954DA2-2DF5-4ADC-A114-1694AD15C9D1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Lake_Music" ID="{9D2180A9-C419-4C8E-AC40-1B2DF2E2BFC5}">
-							<ChildrenList>
-								<Action Name="" ID="{86C02511-0351-40DA-AC21-E8B77379F44C}" ShortID="435797198">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="music_calm_green_lake_serenade_01" ID="{A1E45E2F-EE6B-4B14-892D-2D795D4A21F6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Bard_Music" ID="{4FEE8E0F-F7DA-406E-AE1C-C1632A425B47}">
 							<ChildrenList>
 								<Action Name="" ID="{829B2652-EECD-4EFE-9046-B42B5F3BF145}" ShortID="655912450">
@@ -592,6 +522,54 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="MusicaBardo" ID="{3ABDAA53-EE0D-49E4-8B22-393C1A9F997C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Lvl1" ID="{FED32118-382C-4159-A8BF-00ED3ACA7D18}">
+							<ChildrenList>
+								<Action Name="" ID="{ED0F6231-5313-4448-BC78-557BB85D3B73}" ShortID="43036002">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_calm_green_lake_serenade_01" ID="{A1E45E2F-EE6B-4B14-892D-2D795D4A21F6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{284543FF-D1D9-4FB3-ABC4-B5258520F813}" ShortID="558192771">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_mountainous_journeyLoop" ID="{BC954DA2-2DF5-4ADC-A114-1694AD15C9D1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4F82D4B4-5892-4D56-A132-F291A629A595}" ShortID="39464212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="combatmusic" ID="{5304F8D9-8B7A-4EE1-AC1A-F928D0A622D3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2AFA6DCF-D11A-43A1-AB37-B01E92FF650C}" ShortID="61377509">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Quiet" ID="{3B79F349-6498-469C-98A6-98F8ED9B6C3E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

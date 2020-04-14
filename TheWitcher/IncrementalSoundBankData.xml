@@ -7,11 +7,12 @@
 				<File Name="Environment_Lvl1" Hash="714527801" Timestamp="1585859617"/>
 				<File Name="Init" Hash="2049716945" Timestamp="1585860604"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="112631843" Timestamp="1585861172"/>
+				<File Name="Music" Hash="3485296976" Timestamp="1586617016"/>
 				<File Name="Objects_SFX" Hash="2709085045" Timestamp="1585847642"/>
 				<File Name="Player_SFX" Hash="3892114869" Timestamp="1585845378"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
+				<File Name="UI_SFX" Hash="2954775712" Timestamp="1586617016"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585845378"/>
 			</Language>
 		</Banks>
@@ -30,7 +31,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2946510205" Timestamp="1585861172"/>
+				<File Name="" Hash="2491179324" Timestamp="1586617016"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

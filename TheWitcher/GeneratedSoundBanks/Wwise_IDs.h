@@ -18,7 +18,6 @@ namespace AK
         static const AkUniqueID PLAY_BATTLE_BOSS = 1365115432U;
         static const AkUniqueID PLAY_BIRDS_WIND = 1598323015U;
         static const AkUniqueID PLAY_CHEST = 3067740349U;
-        static const AkUniqueID PLAY_COMBAT_MUSIC = 3155474038U;
         static const AkUniqueID PLAY_DIALOGUE1 = 4285197669U;
         static const AkUniqueID PLAY_DIALOGUE1_01 = 740533569U;
         static const AkUniqueID PLAY_DIALOGUE1_02 = 740533570U;
@@ -58,13 +57,10 @@ namespace AK
         static const AkUniqueID PLAY_GERALTGETDAMAGED = 219750196U;
         static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
         static const AkUniqueID PLAY_IGNI = 511861945U;
-        static const AkUniqueID PLAY_LAKE_MUSIC = 110125719U;
-        static const AkUniqueID PLAY_LVL1_MUSIC = 29834681U;
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
         static const AkUniqueID PLAY_MENUMOVE = 1291640088U;
         static const AkUniqueID PLAY_MENUSELECT = 40516875U;
-        static const AkUniqueID PLAY_MOUNTAIN_MUSIC = 3813093503U;
-        static const AkUniqueID PLAY_QUIET_MUSIC = 2462691910U;
+        static const AkUniqueID PLAY_MUSIC_LVL1 = 4145153789U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
         static const AkUniqueID PLAY_ROLL = 2719919427U;
         static const AkUniqueID PLAY_SUSPENSE = 1099345086U;
@@ -157,7 +153,7 @@ namespace AK
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID OBJECTS_SFX = 3698921875U;
         static const AkUniqueID PLAYER_SFX = 817096458U;
-        static const AkUniqueID UI_SXF = 3529925883U;
+        static const AkUniqueID UI_SFX = 3563481019U;
     } // namespace BANKS
 
     namespace BUSSES

@@ -643,11 +643,11 @@
     ]
    },
    {
-    "Id": "3529925883",
+    "Id": "3563481019",
     "Language": "SFX",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI_SXF",
-    "ShortName": "UI_SXF",
-    "Path": "UI_SXF.bnk",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI_SFX",
+    "ShortName": "UI_SFX",
+    "Path": "UI_SFX.bnk",
     "IncludedEvents": [
      {
       "Id": "1291640088",
@@ -721,24 +721,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Bard_Music"
      },
      {
-      "Id": "3155474038",
-      "Name": "Play_Combat_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Combat_Music"
-     },
-     {
       "Id": "1635916389",
       "Name": "Play_End_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_End_Music"
-     },
-     {
-      "Id": "110125719",
-      "Name": "Play_Lake_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Lake_Music"
-     },
-     {
-      "Id": "29834681",
-      "Name": "Play_Lvl1_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Lvl1_Music"
      },
      {
       "Id": "166541076",
@@ -746,14 +731,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_MainMenu_Music"
      },
      {
-      "Id": "3813093503",
-      "Name": "Play_Mountain_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Mountain_Music"
-     },
-     {
-      "Id": "2462691910",
-      "Name": "Play_Quiet_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Quiet_Music"
+      "Id": "4145153789",
+      "Name": "Play_Music_Lvl1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Music_Lvl1"
      },
      {
       "Id": "3241038393",
@@ -773,12 +753,6 @@
       "Language": "SFX",
       "ShortName": "music_calm_green_lake_serenade.wav",
       "Path": "SFX\\music_calm_green_lake_serenade_F17FB28C.wem"
-     },
-     {
-      "Id": "214870564",
-      "Language": "SFX",
-      "ShortName": "songlvl1.wav",
-      "Path": "SFX\\songlvl1_F17FB28C.wem"
      },
      {
       "Id": "247361237",
