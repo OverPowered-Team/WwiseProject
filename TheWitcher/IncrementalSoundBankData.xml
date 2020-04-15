@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="929034382">
+<IncrementalBankBuild Version="6" Flags="4208174439">
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dialogues" Hash="1332746445" Timestamp="1585845365"/>
-				<File Name="Environment_Lvl1" Hash="714527801" Timestamp="1585859617"/>
-				<File Name="Init" Hash="2049716945" Timestamp="1585860604"/>
+				<File Name="Dialogues" Hash="483231531" Timestamp="1586968931"/>
+				<File Name="Environment_Lvl1" Hash="1750859695" Timestamp="1586968932"/>
+				<File Name="Init" Hash="2049716945" Timestamp="1586968932"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="3485296976" Timestamp="1586617016"/>
-				<File Name="Objects_SFX" Hash="2709085045" Timestamp="1585847642"/>
-				<File Name="Player_SFX" Hash="3892114869" Timestamp="1585845378"/>
+				<File Name="Music" Hash="664680899" Timestamp="1586968932"/>
+				<File Name="Objects_SFX" Hash="3442888632" Timestamp="1586968932"/>
+				<File Name="Player_SFX" Hash="552505523" Timestamp="1586968932"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
-				<File Name="UI_SFX" Hash="2954775712" Timestamp="1586617016"/>
+				<File Name="UI_SFX" Hash="2816144355" Timestamp="1586968932"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585845378"/>
 			</Language>
 		</Banks>
@@ -22,7 +22,7 @@
 				<File Name="Main" Hash="3773512300" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="384036173" Timestamp="1585840929"/>
+				<File Name="" Hash="360373456" Timestamp="1586968932"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
@@ -31,7 +31,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2491179324" Timestamp="1586617016"/>
+				<File Name="" Hash="4127370229" Timestamp="1586969201"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
