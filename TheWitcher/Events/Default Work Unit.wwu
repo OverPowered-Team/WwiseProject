@@ -931,6 +931,122 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Enemy_Interaction" ID="{B8C7B5ED-1177-4B97-9C38-43DACC882595}" ShortID="165262274">
+					<ChildrenList>
+						<Event Name="SoldierBlock" ID="{166E9FCF-6080-404F-9E41-2602BD9EC8B9}">
+							<ChildrenList>
+								<Action Name="" ID="{EA699EAC-9B60-4FBF-8C83-01F3E6FD1E44}" ShortID="433349871">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="shieldblock" ID="{DF1E8EF1-BB9C-420E-BBEA-3381841DF048}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GhoulDeath" ID="{BCC6CC98-FFD1-4499-B275-272E20D8D91D}">
+							<ChildrenList>
+								<Action Name="" ID="{DB425770-1AE7-4B8F-BDF8-4FEDF2231BCC}" ShortID="360646764">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ghoulDeath" ID="{E12671B9-DEAD-4240-867B-3BA9CF9766D4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GhoulAttack" ID="{55E2D1AB-F2C1-4B15-B95D-911A91375F5E}">
+							<ChildrenList>
+								<Action Name="" ID="{A5CE40E8-35D2-4EEA-B9BE-81A24C3316C1}" ShortID="828495127">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ghoulAttack" ID="{9B1C8549-A543-4D19-9DFA-D9DF2F439EC0}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SoldierSword" ID="{81C3AC75-8502-4368-B7C8-25335C8F129C}">
+							<ChildrenList>
+								<Action Name="" ID="{78DD5788-7FCD-4363-9077-E8EC218D9395}" ShortID="111964737">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="enemySwordSwing" ID="{BFF90958-010C-4338-AE22-7FBC29FAE7CA}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SoldierDeath" ID="{E339A166-C39B-4C02-8419-08045A4D4BDD}">
+							<ChildrenList>
+								<Action Name="" ID="{055171FA-390A-4D51-9FFB-DB0CB351A5DE}" ShortID="76030345">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="soldierDeath" ID="{7B8901D6-B382-481A-A0A8-CBFAC5C322D2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GhoulHit" ID="{F812DD4E-AE57-4758-BE1C-C63FA6AD3D0C}">
+							<ChildrenList>
+								<Action Name="" ID="{565093D6-0A9A-4E35-B69B-5A842E30BA84}" ShortID="750397651">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ghoulHit" ID="{24C6A089-23F6-42E8-9619-20AB4C4C3378}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SoldierShoot" ID="{B4E08CEC-245B-42BD-A097-E1D1C8979ABD}">
+							<ChildrenList>
+								<Action Name="" ID="{A4E466C4-65B9-4738-8D0E-8597C082D582}" ShortID="830481272">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="shootArrow" ID="{5F24CFC7-341B-427C-BEB3-741147AEECC3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SoldierHit" ID="{121C428A-88A5-4FA7-B900-B2185D13BF20}">
+							<ChildrenList>
+								<Action Name="" ID="{537CBF30-9815-4452-A3C3-EA9A73B96224}" ShortID="613340372">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="soldierHit" ID="{CD18E49D-E50F-4AFF-BC31-C1E0FF1D20B2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

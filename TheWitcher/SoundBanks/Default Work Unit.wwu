@@ -103,6 +103,20 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Enemy_Interaction" ID="{B4550D5F-FA93-49E7-A869-D2C841FFB846}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SoldierBlock" ID="{166E9FCF-6080-404F-9E41-2602BD9EC8B9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SoldierShoot" ID="{B4E08CEC-245B-42BD-A097-E1D1C8979ABD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SoldierSword" ID="{81C3AC75-8502-4368-B7C8-25335C8F129C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GhoulDeath" ID="{BCC6CC98-FFD1-4499-B275-272E20D8D91D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GhoulHit" ID="{F812DD4E-AE57-4758-BE1C-C63FA6AD3D0C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GhoulAttack" ID="{55E2D1AB-F2C1-4B15-B95D-911A91375F5E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SoldierDeath" ID="{E339A166-C39B-4C02-8419-08045A4D4BDD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SoldierHit" ID="{121C428A-88A5-4FA7-B900-B2185D13BF20}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

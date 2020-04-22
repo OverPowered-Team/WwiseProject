@@ -3,16 +3,17 @@
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dialogues" Hash="483231531" Timestamp="1586968931"/>
-				<File Name="Environment_Lvl1" Hash="1750859695" Timestamp="1586968932"/>
-				<File Name="Init" Hash="2049716945" Timestamp="1586968932"/>
+				<File Name="Dialogues" Hash="4098270572" Timestamp="1587574804"/>
+				<File Name="Enemy_Interaction" Hash="3339934629" Timestamp="1587576793"/>
+				<File Name="Environment_Lvl1" Hash="4201873605" Timestamp="1587574804"/>
+				<File Name="Init" Hash="793345079" Timestamp="1587574804"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="664680899" Timestamp="1586968932"/>
-				<File Name="Objects_SFX" Hash="3442888632" Timestamp="1586968932"/>
-				<File Name="Player_SFX" Hash="552505523" Timestamp="1586968932"/>
+				<File Name="Music" Hash="2561667528" Timestamp="1587574804"/>
+				<File Name="Objects_SFX" Hash="3920614843" Timestamp="1587574804"/>
+				<File Name="Player_SFX" Hash="491201061" Timestamp="1587574804"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
-				<File Name="UI_SFX" Hash="2816144355" Timestamp="1586968932"/>
+				<File Name="UI_SFX" Hash="3740934120" Timestamp="1587574804"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585845378"/>
 			</Language>
 		</Banks>
@@ -31,7 +32,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="4127370229" Timestamp="1586969201"/>
+				<File Name="" Hash="2006831117" Timestamp="1587576793"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

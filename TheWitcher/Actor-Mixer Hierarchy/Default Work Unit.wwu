@@ -2748,6 +2748,181 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Enemy_Interaction" ID="{C4DD65A4-D250-48E4-A588-C6A8A40C2269}" ShortID="730462398">
+					<ChildrenList>
+						<Sound Name="shieldblock" ID="{DF1E8EF1-BB9C-420E-BBEA-3381841DF048}" ShortID="795734267">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shieldblock" ID="{E950479C-6A5B-4730-A58A-596E0992F37A}" ShortID="532431438">
+									<Language>SFX</Language>
+									<AudioFile>shieldblock.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shieldblock" ID="{E950479C-6A5B-4730-A58A-596E0992F37A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="enemySwordSwing" ID="{BFF90958-010C-4338-AE22-7FBC29FAE7CA}" ShortID="257874290">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enemySwordSwing" ID="{98741603-FB15-4E12-95FD-678B04F15D58}" ShortID="990442094">
+									<Language>SFX</Language>
+									<AudioFile>enemySwordSwing.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="enemySwordSwing" ID="{98741603-FB15-4E12-95FD-678B04F15D58}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstepsoldier" ID="{BDFF5818-10DA-4D1F-8167-D8256AA814D7}" ShortID="85205574">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstepsoldier" ID="{2E9D2503-CD4D-4B13-B059-F18960EBA572}" ShortID="502797976">
+									<Language>SFX</Language>
+									<AudioFile>footstepsoldier.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstepsoldier" ID="{2E9D2503-CD4D-4B13-B059-F18960EBA572}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ghoulAttack" ID="{9B1C8549-A543-4D19-9DFA-D9DF2F439EC0}" ShortID="15036163">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ghoulAttack" ID="{06B8F319-3B77-4D64-91A9-FF6C928A1014}" ShortID="882909606">
+									<Language>SFX</Language>
+									<AudioFile>ghoulAttack.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ghoulAttack" ID="{06B8F319-3B77-4D64-91A9-FF6C928A1014}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ghoulDeath" ID="{E12671B9-DEAD-4240-867B-3BA9CF9766D4}" ShortID="147335270">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ghoulDeath" ID="{EF30B681-2893-4D50-9A7B-3EE954644E82}" ShortID="389192671">
+									<Language>SFX</Language>
+									<AudioFile>ghoulDeath.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ghoulDeath" ID="{EF30B681-2893-4D50-9A7B-3EE954644E82}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ghoulHit" ID="{24C6A089-23F6-42E8-9619-20AB4C4C3378}" ShortID="468635143">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ghoulHit" ID="{C8DA1BC1-899E-48B2-9D35-93CD183CCAD5}" ShortID="547647646">
+									<Language>SFX</Language>
+									<AudioFile>ghoulHit.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ghoulHit" ID="{C8DA1BC1-899E-48B2-9D35-93CD183CCAD5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="shootArrow" ID="{5F24CFC7-341B-427C-BEB3-741147AEECC3}" ShortID="828707756">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shootArrow" ID="{F3005614-AA67-4241-9FDE-409E8E8E2BF1}" ShortID="852443415">
+									<Language>SFX</Language>
+									<AudioFile>shootArrow.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shootArrow" ID="{F3005614-AA67-4241-9FDE-409E8E8E2BF1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="soldierDeath" ID="{7B8901D6-B382-481A-A0A8-CBFAC5C322D2}" ShortID="632926479">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="soldierDeath" ID="{BC84D347-9FD1-4B63-9C8E-38E02E3B09B0}" ShortID="1049390434">
+									<Language>SFX</Language>
+									<AudioFile>soldierDeath.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="soldierDeath" ID="{BC84D347-9FD1-4B63-9C8E-38E02E3B09B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="soldierHit" ID="{CD18E49D-E50F-4AFF-BC31-C1E0FF1D20B2}" ShortID="173715869">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="soldierHit" ID="{FB3C163B-4763-491A-8D02-C94B0FE6651D}" ShortID="682751301">
+									<Language>SFX</Language>
+									<AudioFile>soldierHit.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="soldierHit" ID="{FB3C163B-4763-491A-8D02-C94B0FE6651D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
