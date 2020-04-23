@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CLICK = 1584507803U;
+        static const AkUniqueID ENTER = 2368844905U;
         static const AkUniqueID GHOULATTACK = 3827515080U;
         static const AkUniqueID GHOULDEATH = 2611108682U;
         static const AkUniqueID GHOULHIT = 1866221083U;
@@ -61,8 +63,6 @@ namespace AK
         static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
         static const AkUniqueID PLAY_IGNI = 511861945U;
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
-        static const AkUniqueID PLAY_MENUMOVE = 1291640088U;
-        static const AkUniqueID PLAY_MENUSELECT = 40516875U;
         static const AkUniqueID PLAY_MUSIC_LVL1 = 4145153789U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
         static const AkUniqueID PLAY_ROLL = 2719919427U;
