@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID GHOULATTACK = 3827515080U;
+        static const AkUniqueID GHOULDEATH = 2611108682U;
+        static const AkUniqueID GHOULHIT = 1866221083U;
         static const AkUniqueID INTRODIALOGUE = 1909520851U;
         static const AkUniqueID PLAY_BARD_MUSIC = 2011049715U;
         static const AkUniqueID PLAY_BATTLE_BOSS = 1365115432U;
@@ -73,6 +76,11 @@ namespace AK
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_SWORDHIT = 3070097383U;
         static const AkUniqueID PLAYGHOULS = 3184224717U;
+        static const AkUniqueID SOLDIERBLOCK = 192287144U;
+        static const AkUniqueID SOLDIERDEATH = 962204745U;
+        static const AkUniqueID SOLDIERHIT = 4199645896U;
+        static const AkUniqueID SOLDIERSHOOT = 1115497702U;
+        static const AkUniqueID SOLDIERSWORD = 2142965948U;
     } // namespace EVENTS
 
     namespace STATES
@@ -149,6 +157,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID DIALOGUES = 1669749310U;
+        static const AkUniqueID ENEMY_INTERACTION = 4070387514U;
         static const AkUniqueID ENVIRONMENT_LVL1 = 4139483824U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID OBJECTS_SFX = 3698921875U;
