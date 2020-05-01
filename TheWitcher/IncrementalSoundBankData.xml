@@ -4,16 +4,16 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Dialogues" Hash="2716533644" Timestamp="1587651559"/>
-				<File Name="Enemy_Interaction" Hash="1624830205" Timestamp="1587651559"/>
+				<File Name="Enemy_Interaction" Hash="1953223622" Timestamp="1587699085"/>
 				<File Name="Environment_Lvl1" Hash="714527801" Timestamp="1587651562"/>
-				<File Name="Init" Hash="793345079" Timestamp="1587651567"/>
+				<File Name="Init" Hash="55052676" Timestamp="1588092796"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="2169649309" Timestamp="1587651565"/>
+				<File Name="Music" Hash="742619123" Timestamp="1588092796"/>
 				<File Name="Objects_SFX" Hash="2709085045" Timestamp="1587651566"/>
 				<File Name="Player_SFX" Hash="3988513647" Timestamp="1587659931"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
-				<File Name="UI_SFX" Hash="1680319705" Timestamp="1587659931"/>
+				<File Name="UI_SFX" Hash="4129738084" Timestamp="1587699089"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585845378"/>
 			</Language>
 		</Banks>
@@ -32,7 +32,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="659698723" Timestamp="1587659931"/>
+				<File Name="" Hash="659698723" Timestamp="1588092796"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

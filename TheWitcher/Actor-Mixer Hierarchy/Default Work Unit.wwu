@@ -1200,15 +1200,48 @@
 						<Sound Name="combatmusic" ID="{5304F8D9-8B7A-4EE1-AC1A-F928D0A622D3}" ShortID="483549797">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{1DC2788D-5AE8-4668-8C1D-D9057CD69B72}" ShortID="245702220">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Pitch" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D1CC8400-2C04-4E95-A3BA-42BFE0A94AB2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-4800</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Time Stretch (Custom)" ID="{5A545E5A-9A77-4346-969A-94E2BFB2E858}" ShortID="219013093" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3"/>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
@@ -1698,6 +1731,7 @@
 						</Sound>
 						<SwitchContainer Name="Footsteps" ID="{05AD6DB5-4AC5-4753-B85D-2B2FDCC8FC31}" ShortID="1044708184">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2395,7 +2429,14 @@
 				</Folder>
 				<Folder Name="UI" ID="{110D2F3C-139C-4474-842C-04421BFDB975}" ShortID="606462137">
 					<ChildrenList>
-						<Sound Name="menu_select" ID="{EDAB7203-5482-42D0-A9D5-DEA956213810}" ShortID="319577706">
+						<Sound Name="CLICK" ID="{1A04081D-7BC3-478A-8876-9F1BE58B3734}" ShortID="98412960">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -2405,16 +2446,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="menu_select" ID="{9A815C16-980F-4DBE-BA4A-2488674F572B}" ShortID="932025878">
+								<AudioFileSource Name="CLICK" ID="{6E80279B-8CA2-4DE1-9747-220630BCC0C1}" ShortID="281608791">
 									<Language>SFX</Language>
-									<AudioFile>menu_select.wav</AudioFile>
+									<AudioFile>CLICK.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="menu_select" ID="{9A815C16-980F-4DBE-BA4A-2488674F572B}" Platform="Linked"/>
+								<ActiveSource Name="CLICK" ID="{6E80279B-8CA2-4DE1-9747-220630BCC0C1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="menu_move" ID="{8C5ABD3A-4C78-463B-AB9A-FB29E14F310D}" ShortID="539443439">
+						<Sound Name="ENTER" ID="{4F192E28-FF3E-445D-93A9-3AEEED71A601}" ShortID="765502515">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -2424,13 +2472,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="menu_move" ID="{7375EB34-7C72-4264-8683-A6553A6EC434}" ShortID="806850413">
+								<AudioFileSource Name="ENTER" ID="{06912FF2-368B-4413-A755-3F8DC5BD86A7}" ShortID="1012928432">
 									<Language>SFX</Language>
-									<AudioFile>menu_move.wav</AudioFile>
+									<AudioFile>ENTER.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="menu_move" ID="{7375EB34-7C72-4264-8683-A6553A6EC434}" Platform="Linked"/>
+								<ActiveSource Name="ENTER" ID="{06912FF2-368B-4413-A755-3F8DC5BD86A7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -2938,6 +2986,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="soldierHit" ID="{CD18E49D-E50F-4AFF-BC31-C1E0FF1D20B2}" ShortID="173715869">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>

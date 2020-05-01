@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}" SchemaVersion="85">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Pitch" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

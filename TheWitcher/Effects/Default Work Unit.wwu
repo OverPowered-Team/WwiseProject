@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AF79E247-667F-485C-9156-2F8589D1B8E9}" SchemaVersion="85">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{AF79E247-667F-485C-9156-2F8589D1B8E9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AF79E247-667F-485C-9156-2F8589D1B8E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Time_Stretch" ID="{1E608C80-928B-4E3E-8B17-685C65B1CF41}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Interactive_Music_Lvl1" ID="{04C83905-2067-46D1-9EB4-362D64D28C29}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
+								<State Name="" ID="{E3DABBBA-2BD1-411E-A002-B6B725F2C661}" ShortID="570105468"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+								<State Name="" ID="{916E12E8-0B69-4A43-AC16-2FA2B2524038}" ShortID="309808400"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
+								<State Name="" ID="{CE2AE6F8-397C-46C7-8181-6473C5046F4F}" ShortID="782162579"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
+								<State Name="" ID="{DECA62EC-C3F2-4EFA-BA1A-8C7307923B34}" ShortID="792022602"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
+								<State Name="" ID="{B87474EE-D457-4781-9A29-BBBC06B41806}" ShortID="478182972"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

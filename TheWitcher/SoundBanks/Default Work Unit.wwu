@@ -89,8 +89,8 @@
 				</SoundBank>
 				<SoundBank Name="UI_SFX" ID="{563DC89C-8525-439B-8992-910987B0AC73}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_MenuMove" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_MenuSelect" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CLICK" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ENTER" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

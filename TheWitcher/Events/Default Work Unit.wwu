@@ -757,7 +757,7 @@
 				</Folder>
 				<Folder Name="UI" ID="{5BB40668-A1E7-463E-978A-61B07C5C8801}" ShortID="537841474">
 					<ChildrenList>
-						<Event Name="Play_MenuSelect" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}">
+						<Event Name="ENTER" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}">
 							<ChildrenList>
 								<Action Name="" ID="{E6751B68-420D-497F-9A31-272BA7093765}" ShortID="501497129">
 									<PropertyList>
@@ -765,13 +765,13 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="menu_select" ID="{EDAB7203-5482-42D0-A9D5-DEA956213810}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="ENTER" ID="{4F192E28-FF3E-445D-93A9-3AEEED71A601}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_MenuMove" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}">
+						<Event Name="CLICK" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}">
 							<ChildrenList>
 								<Action Name="" ID="{032CCE09-B5B0-41B4-BAEE-CE2047F77DFF}" ShortID="517410747">
 									<PropertyList>
@@ -779,7 +779,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="menu_move" ID="{8C5ABD3A-4C78-463B-AB9A-FB29E14F310D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="CLICK" ID="{1A04081D-7BC3-478A-8876-9F1BE58B3734}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

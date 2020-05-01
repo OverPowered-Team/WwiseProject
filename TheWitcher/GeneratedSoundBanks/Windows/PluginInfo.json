@@ -5,6 +5,11 @@
   "BasePlatform": "Windows",
   "Plugins": {
    "Plugin": {
+    "Name": "Wwise Time Stretch",
+    "ID": "8519683",
+    "DLL": "AkTimeStretch"
+   },
+   "Plugin": {
     "Name": "Wwise Gain",
     "ID": "9109507",
     "DLL": "AkGain"
