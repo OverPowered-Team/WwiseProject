@@ -1125,78 +1125,6 @@
 								<ActiveSource Name="music_misty_woods_calling" ID="{84BA08F7-9C3B-4C87-B4CA-9FDB2CE820F5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="songlvl1" ID="{B237EB1E-856A-4316-AFF2-D8AB1A567A3B}" ShortID="803943051">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="songlvl1" ID="{5338CAB7-5D14-4EF2-AF04-BA1AD052FCC3}" ShortID="214870564">
-									<Language>SFX</Language>
-									<AudioFile>songlvl1.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Interactive_Music_Lvl1" ID="{04C83905-2067-46D1-9EB4-362D64D28C29}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
-										<State Name="" ID="{3AB42C25-DAB4-443F-BE81-C2DF3FB91188}" ShortID="913096066">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-96"/>
-											</PropertyList>
-										</State>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
-										<State Name="" ID="{EF41B5D6-89DC-4772-B58F-09C0A0064D2C}" ShortID="831635840">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-96"/>
-											</PropertyList>
-										</State>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Normal" ID="{9B00EB6F-71A3-45B9-82B8-9806DDE32598}"/>
-										<State Name="" ID="{7E0362AA-3860-46A0-B54B-4B6E6B502837}" ShortID="592835222"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
-										<State Name="" ID="{F67FF834-5E96-423B-9806-1C12B80B54D8}" ShortID="683541108">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-96"/>
-											</PropertyList>
-										</State>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
-										<State Name="" ID="{1C396464-06DE-429D-A119-DEA8DA6FE23E}" ShortID="341108273">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-96"/>
-											</PropertyList>
-										</State>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ActiveSourceList>
-								<ActiveSource Name="songlvl1" ID="{5338CAB7-5D14-4EF2-AF04-BA1AD052FCC3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="combatmusic" ID="{5304F8D9-8B7A-4EE1-AC1A-F928D0A622D3}" ShortID="483549797">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -1228,6 +1156,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-11</Value>
@@ -1235,13 +1164,11 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-								</Reference>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="Wwise Time Stretch (Custom)" ID="{5A545E5A-9A77-4346-969A-94E2BFB2E858}" ShortID="219013093" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3"/>
-									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
@@ -2347,32 +2274,6 @@
 								<ActiveSource Name="Vocalization_-_death_pain_-_grunting_1 (1)" ID="{48ED93A1-9FAC-42AC-A728-8735FB26E631}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Torch_single_pass_by_whoosh_07_SFXBible_ss007673" ID="{7E324CE0-8D3D-47A2-A0DE-4F8BBFD9F81B}" ShortID="753000693">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Torch_single_pass_by_whoosh_07_SFXBible_ss007673" ID="{DCD2AF32-6FEC-41DC-BEB6-7535B379CC9F}" ShortID="426446581">
-									<Language>SFX</Language>
-									<AudioFile>Torch_single_pass_by_whoosh_07_SFXBible_ss007673.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Torch_single_pass_by_whoosh_07_SFXBible_ss007673" ID="{DCD2AF32-6FEC-41DC-BEB6-7535B379CC9F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Shockwave" ID="{BD6AA8B0-31C6-4896-B85D-3B032837145D}" ShortID="839880857">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
@@ -2869,25 +2770,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="enemySwordSwing" ID="{98741603-FB15-4E12-95FD-678B04F15D58}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="footstepsoldier" ID="{BDFF5818-10DA-4D1F-8167-D8256AA814D7}" ShortID="85205574">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="footstepsoldier" ID="{2E9D2503-CD4D-4B13-B059-F18960EBA572}" ShortID="502797976">
-									<Language>SFX</Language>
-									<AudioFile>footstepsoldier.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="footstepsoldier" ID="{2E9D2503-CD4D-4B13-B059-F18960EBA572}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="ghoulAttack" ID="{9B1C8549-A543-4D19-9DFA-D9DF2F439EC0}" ShortID="15036163">
