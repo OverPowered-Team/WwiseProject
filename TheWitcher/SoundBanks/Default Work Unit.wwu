@@ -83,6 +83,7 @@
 						<ObjectRef Name="Play_Suspense" ID="{21E44E1C-F4D1-46B9-BF1D-8755146FEFF2}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Birds_Wind" ID="{F3C87BB7-50DF-4949-900D-B1C56AE569EB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PlayGhouls" ID="{2490856D-900E-4B11-B98F-EE738E57FDF8}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Rocks" ID="{52F061FD-7F4D-4C96-B803-D3A9BF92F34D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

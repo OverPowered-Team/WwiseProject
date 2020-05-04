@@ -897,6 +897,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Rocks" ID="{52F061FD-7F4D-4C96-B803-D3A9BF92F34D}">
+							<ChildrenList>
+								<Action Name="" ID="{47F57453-173A-41D2-B570-B758C9CCEE00}" ShortID="202449790">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RockFalling" ID="{2588985C-D96C-4E41-9586-CF76C4AF828B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Object" ID="{0B796F3F-4771-449B-A7AA-E87121C362B3}" ShortID="516657702">

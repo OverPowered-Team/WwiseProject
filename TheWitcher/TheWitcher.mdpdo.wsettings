@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{3BB0E4FF-6049-4E06-8BD9-0F1FBCECB709}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\mdpdo\OneDrive\Escritorio\Email attachments\Escritorio\levels\Cave"/>
 				<Property Name="Event Action List\{03319661-4C64-4812-BCBC-2DE0EC2C503E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{04C39AC8-E3EB-48EF-9507-7526EE92A9DD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2A5CF26F-3E12-420F-ADF2-401EF516AC2E}\x64_Expand States" Type="string" Value=""/>
@@ -10,6 +11,7 @@
 				<Property Name="Event Action List\{4214B0D1-316A-4A2A-8DDE-C9A01C320F7F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{455D6536-3A4A-4C86-86FC-DB3DCDCB7BA8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4A5C73AF-4704-4CD5-96D6-B0FAB09A2D14}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{52F061FD-7F4D-4C96-B803-D3A9BF92F34D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5F709A83-7C93-4C71-9887-5C02406A1A10}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{63D65F3B-9371-4649-A592-C897939932C8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{68794C5E-72B7-4E33-A974-6AFE3B495E7B}\x64_Expand States" Type="string" Value=""/>
@@ -37,7 +39,9 @@
 				<Property Name="Event Action List\{EAB16142-6121-4FC7-93EC-566F560E7541}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{EB73F336-DCF1-4B85-A2A9-5A714AC09CD0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ECCE5E41-AA3E-4B32-9238-358F1AED6F93}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F3C87BB7-50DF-4949-900D-B1C56AE569EB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F77F0720-AE25-4781-943B-722065721596}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FD822737-B670-43C2-932A-DEF1B418ED53}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -55,7 +59,7 @@
 				<Property Name="GenerateSoundBankXML" Type="bool" Value="False"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="BuJ1+i1XDUaadvP6AGDGqg=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="s9J/jjoEjkCHkeGbBcfVAA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="s9J/jjoEjkCHkeGbBcfVAF8NVbST+udJqGnSyEH/uEaD0GdyhEcRR5IPs3Ohu1XAPh9R6CIUukm/k3z/T3wK6HKKP9/ntcFIqCFwKIJoZqNfzD0prrD/Qqs0cOmc+7pgnMg9ViWFm0OJkpEJh7Cscw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>

@@ -2494,6 +2494,35 @@
 						</Sound>
 						<Sound Name="Intense" ID="{5B3A08B4-529F-4C1F-9736-99AC00FD384E}" ShortID="347064206">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{78D23605-9FCD-4260-9178-2AA3A7AA21D5}" ShortID="858837307">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="DopplerRocks" ID="{0F73C3E4-E7C3-4472-8009-6785D71B5AD2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6424C28F-D0AB-45B9-9023-1259CD2C3D67}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-50</XPos>
+														<YPos>-596</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>716</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-11</Value>
@@ -2697,6 +2726,323 @@
 								<ActiveSource Name="Birds_env" ID="{EAF07940-7212-4575-BBC4-2F7393D223A4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Folder Name="levels" ID="{899AEB14-6326-471D-8D68-26DCCDD5251A}" ShortID="965928159">
+							<ChildrenList>
+								<Folder Name="Boss" ID="{5809BEE6-57C1-49B5-8FFF-AC51A7195053}" ShortID="67490215">
+									<ChildrenList>
+										<Sound Name="earth_movment" ID="{79E59374-FE1F-429F-AA71-701113C5345D}" ShortID="935802430">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="earth_movment" ID="{63575225-E7D9-4705-BACE-95FE0D0489C8}" ShortID="537925721">
+													<Language>SFX</Language>
+													<AudioFile>levels\Boss\earth_movment.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="earth_movment" ID="{63575225-E7D9-4705-BACE-95FE0D0489C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Cave" ID="{BD8383DF-1862-44AD-9792-47F0900A712E}" ShortID="1067945136">
+									<ChildrenList>
+										<Sound Name="bats_loop" ID="{CF1C048F-0606-4373-A95B-BE647C9CF9F9}" ShortID="335157229">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="bats_loop" ID="{4DD41E21-144A-4C8E-8C2C-F61F6ACA539D}" ShortID="214377329">
+													<Language>SFX</Language>
+													<AudioFile>levels\Cave\bats_loop.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="bats_loop" ID="{4DD41E21-144A-4C8E-8C2C-F61F6ACA539D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="cave_ambience_loop" ID="{A0FDA2BE-2501-421D-BB9D-40C6CCB6001C}" ShortID="206371704">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="cave_ambience_loop" ID="{879F8163-A17D-41EF-98EF-424A81D1FCEE}" ShortID="1000431987">
+													<Language>SFX</Language>
+													<AudioFile>levels\Cave\cave_ambience_loop.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="cave_ambience_loop" ID="{879F8163-A17D-41EF-98EF-424A81D1FCEE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Drowners" ID="{41E6ABC6-6BA0-4F06-AA67-44E7CC6B556C}" ShortID="757004558">
+									<ChildrenList>
+										<Sound Name="bats_loop" ID="{5E2FF224-D512-4203-A969-E93CB0FCDF79}" ShortID="349401529">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="bats_loop" ID="{3F4B57F7-2A54-4844-96C4-4D0C16A94DA8}" ShortID="441775105">
+													<Language>SFX</Language>
+													<AudioFile>levels\Drowners\bats_loop.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="bats_loop" ID="{3F4B57F7-2A54-4844-96C4-4D0C16A94DA8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="gloomy_sfx" ID="{8FB20A8B-B96B-485F-801D-D0A97E45B108}" ShortID="782742406">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="gloomy_sfx" ID="{DFAB8C34-E4F0-4728-9DB6-328B0F07F0D1}" ShortID="214774002">
+													<Language>SFX</Language>
+													<AudioFile>levels\Drowners\gloomy_sfx.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="gloomy_sfx" ID="{DFAB8C34-E4F0-4728-9DB6-328B0F07F0D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="NPC_SCREAM" ID="{61312BC7-BE11-4DEE-9A05-A085BB69D050}" ShortID="593393335">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="NPC_SCREAM" ID="{6EECBA58-9126-4F97-8B65-13A4B259E5A3}" ShortID="176829373">
+													<Language>SFX</Language>
+													<AudioFile>levels\Drowners\NPC_SCREAM.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="NPC_SCREAM" ID="{6EECBA58-9126-4F97-8B65-13A4B259E5A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Fortress" ID="{89FDD249-53F1-41F5-A445-B2AF34ECE051}" ShortID="319968142">
+									<ChildrenList>
+										<Folder Name="Enviroment sounds" ID="{660898DF-2115-42BE-AAA1-D2E05852D098}" ShortID="329526690">
+											<ChildrenList>
+												<Sound Name="insects_wind_loop" ID="{EFA29189-2824-48B6-86FA-F47903541830}" ShortID="502320699">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="insects_wind_loop" ID="{A17C1EE2-704C-43A8-9EFA-BC87183EE4F6}" ShortID="767438697">
+															<Language>SFX</Language>
+															<AudioFile>levels\Fortress\Enviroment sounds\insects_wind_loop.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="insects_wind_loop" ID="{A17C1EE2-704C-43A8-9EFA-BC87183EE4F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="nifiglardsoldier_Wonder" ID="{A079B8CA-D88F-4348-9860-3043B481A555}" ShortID="778941972">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="nifiglardsoldier_Wonder" ID="{5B5D3799-2071-400A-9572-0CAB4E908284}" ShortID="732075110">
+															<Language>SFX</Language>
+															<AudioFile>levels\Fortress\Enviroment sounds\nifiglardsoldier_Wonder.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="nifiglardsoldier_Wonder" ID="{5B5D3799-2071-400A-9572-0CAB4E908284}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" ShortID="504525156">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="raven_wings" ID="{477B341F-CD97-4297-B068-F3201A80F641}" ShortID="437446785">
+															<Language>SFX</Language>
+															<AudioFile>levels\Fortress\Enviroment sounds\raven_wings.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="raven_wings" ID="{477B341F-CD97-4297-B068-F3201A80F641}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="river_loop" ID="{D298D8B9-8959-47E7-BCD9-FDCE53EB8B06}" ShortID="457177222">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="river_loop" ID="{7B1CF169-61D3-4E4E-BCD0-47528A0F9F5A}" ShortID="81720044">
+															<Language>SFX</Language>
+															<AudioFile>levels\Fortress\Enviroment sounds\river_loop.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="river_loop" ID="{7B1CF169-61D3-4E4E-BCD0-47528A0F9F5A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stone_Hit_3" ID="{337DA8A4-3D3F-484D-8DE9-1A125E6A4B47}" ShortID="243913986">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stone_Hit_3" ID="{C5947BE0-D477-4576-B154-AB9531106E65}" ShortID="912729209">
+															<Language>SFX</Language>
+															<AudioFile>levels\Fortress\Enviroment sounds\Stone_Hit_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stone_Hit_3" ID="{C5947BE0-D477-4576-B154-AB9531106E65}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="tree_fall" ID="{6BC67D69-7127-4240-84BA-2ADDAD40A2CC}" ShortID="186673478">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="tree_fall" ID="{59B604DE-AAA7-478E-B0E2-014B02EC3031}" ShortID="119498566">
+															<Language>SFX</Language>
+															<AudioFile>levels\Fortress\Enviroment sounds\tree_fall.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="tree_fall" ID="{59B604DE-AAA7-478E-B0E2-014B02EC3031}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_hit" ID="{70148DFB-0381-4716-8461-B756A6EE8604}" ShortID="882286502">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_hit" ID="{D6B6D436-CEBA-443D-9FDC-7C8CF4847469}" ShortID="81270647">
+															<Language>SFX</Language>
+															<AudioFile>levels\Fortress\Enviroment sounds\wood_hit.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_hit" ID="{D6B6D436-CEBA-443D-9FDC-7C8CF4847469}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="MiddleArea" ID="{318AF393-DCA6-4E90-B18A-596C6C64E024}" ShortID="518252298">
+									<ChildrenList>
+										<Sound Name="wolf" ID="{A55C988C-6ECD-4DD1-B70C-0208C56FE52B}" ShortID="292392420">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wolf" ID="{5813ABF5-C5DC-45C9-B490-054E21FAE980}" ShortID="661060477">
+													<Language>SFX</Language>
+													<AudioFile>levels\MiddleArea\wolf.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wolf" ID="{5813ABF5-C5DC-45C9-B490-054E21FAE980}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Ravine" ID="{DCF8933A-13C4-4532-B566-73F76C31941F}" ShortID="194749497">
+									<ChildrenList>
+										<Sound Name="vegetation_footstep" ID="{F85B643A-AEB3-4651-9D08-394DAC605333}" ShortID="76632987">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="vegetation_footstep" ID="{25FAFDCB-B76C-49EF-932A-BA576F73401C}" ShortID="699775253">
+													<Language>SFX</Language>
+													<AudioFile>levels\Ravine\vegetation_footstep.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="vegetation_footstep" ID="{25FAFDCB-B76C-49EF-932A-BA576F73401C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Object" ID="{0A74FED8-45B6-4972-9E7B-5BA5BE8E756B}" ShortID="614134395">
@@ -2751,6 +3097,60 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Chest" ID="{C25E43E4-ACBD-4982-A1EE-DAC75C771E15}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RockFalling" ID="{2588985C-D96C-4E41-9586-CF76C4AF828B}" ShortID="736758395">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{2960E1D4-C763-42B7-88D7-7C2CEBCF45D7}" ShortID="924836477">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="DopplerRocks" ID="{0F73C3E4-E7C3-4472-8009-6785D71B5AD2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{50E4EFBF-A3F2-41CC-8C24-A2082FB9C255}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-50</XPos>
+														<YPos>-500</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>50</XPos>
+														<YPos>500</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="RockPositionning" ID="{0518254D-D534-46FA-A702-EADC4C99F30A}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RockFalling" ID="{15154545-82F4-4793-A167-DDA25052B97E}" ShortID="627373823">
+									<Language>SFX</Language>
+									<AudioFile>RockFalling.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RockFalling" ID="{15154545-82F4-4793-A167-DDA25052B97E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
