@@ -9,6 +9,9 @@
 							<ObjectRef Name="System" ID="{AF36FC76-15BF-40B5-A980-4E1F7F18CCC0}" WorkUnitID="{F4FF8F86-1AEC-445F-8209-1E95344DB5A5}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="reverb" ID="{BE9D3645-7F9D-4FE8-8777-C1B83013225F}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

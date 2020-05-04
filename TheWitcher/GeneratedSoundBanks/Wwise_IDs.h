@@ -155,6 +155,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID COMBATDISTANCE = 1193492672U;
         static const AkUniqueID PITCH = 1908158473U;
     } // namespace GAME_PARAMETERS
 
@@ -174,6 +175,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB = 348963605U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

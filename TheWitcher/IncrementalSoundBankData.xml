@@ -3,12 +3,12 @@
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dialogues" Hash="9672291" Timestamp="1588427620"/>
+				<File Name="Dialogues" Hash="2716533644" Timestamp="1588527841"/>
 				<File Name="Enemy_Interaction" Hash="1953223622" Timestamp="1587699085"/>
 				<File Name="Environment_Lvl1" Hash="714527801" Timestamp="1587651562"/>
-				<File Name="Init" Hash="55052676" Timestamp="1588092796"/>
+				<File Name="Init" Hash="1495917971" Timestamp="1588527846"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="3718919144" Timestamp="1588427622"/>
+				<File Name="Music" Hash="2832822660" Timestamp="1588527846"/>
 				<File Name="Objects_SFX" Hash="2709085045" Timestamp="1587651566"/>
 				<File Name="Player_SFX" Hash="3988513647" Timestamp="1587659931"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
@@ -32,7 +32,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="659698723" Timestamp="1588427622"/>
+				<File Name="" Hash="659698723" Timestamp="1588527846"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

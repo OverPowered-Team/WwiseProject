@@ -3,7 +3,16 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Pitch" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}"/>
+				<GameParameter Name="PitchSlowMo" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CombatDistance" ID="{050E8684-1A60-43F7-9FB3-C33AA80B6629}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

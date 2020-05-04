@@ -1133,7 +1133,7 @@
 										<RTPC Name="" ID="{1DC2788D-5AE8-4668-8C1D-D9057CD69B72}" ShortID="245702220">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Pitch" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+													<ObjectRef Name="PitchSlowMo" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{D1CC8400-2C04-4E95-A3BA-42BFE0A94AB2}">
@@ -1158,9 +1158,32 @@
 								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{4C5A8D83-F925-42AB-B527-265A4BC21B48}" ShortID="165234331">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="CombatDistance" ID="{050E8684-1A60-43F7-9FB3-C33AA80B6629}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0AFBD3B3-A1DC-4365-A086-5A1156253600}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0.04866</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-12.59207</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
