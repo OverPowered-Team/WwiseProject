@@ -2865,7 +2865,7 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 										</Reference>
 										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="reverb" ID="{BE9D3645-7F9D-4FE8-8777-C1B83013225F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+											<ObjectRef Name="reverb_cave" ID="{BE9D3645-7F9D-4FE8-8777-C1B83013225F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -2916,6 +2916,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="reverb_castle" ID="{EA25EE25-3FFB-46A9-9995-208D2977734F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3293,6 +3296,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="reverb_cave" ID="{BE9D3645-7F9D-4FE8-8777-C1B83013225F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="swordsing2" ID="{16A22ED9-444F-4962-8E20-44B94ACE26D5}" ShortID="65266830">
@@ -3574,7 +3580,7 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 										</Reference>
 										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="reverb" ID="{BE9D3645-7F9D-4FE8-8777-C1B83013225F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+											<ObjectRef Name="reverb_cave" ID="{BE9D3645-7F9D-4FE8-8777-C1B83013225F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
