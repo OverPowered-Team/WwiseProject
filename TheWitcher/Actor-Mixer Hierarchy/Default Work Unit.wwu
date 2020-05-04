@@ -1931,11 +1931,117 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Vegetation" ID="{0DC0039D-1C52-4287-AE38-F4078F6F49FB}" ShortID="191194171">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="vegetation_footstep" ID="{F85B643A-AEB3-4651-9D08-394DAC605333}" ShortID="76632987">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="vegetation_footstep" ID="{25FAFDCB-B76C-49EF-932A-BA576F73401C}" ShortID="699775253">
+													<Language>SFX</Language>
+													<AudioFile>levels\Ravine\vegetation_footstep.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="vegetation_footstep" ID="{25FAFDCB-B76C-49EF-932A-BA576F73401C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="vegetation_footstep_01" ID="{B475C173-4152-4004-8508-89BD7021A812}" ShortID="986809784">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>50</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="vegetation_footstep" ID="{F5559E70-11A5-489A-BADF-EF005CA35B6E}" ShortID="764305573">
+													<Language>SFX</Language>
+													<AudioFile>levels\Ravine\vegetation_footstep.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="699775253"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="vegetation_footstep" ID="{F5559E70-11A5-489A-BADF-EF005CA35B6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="vegetation_footstep_02" ID="{1C826714-FA7E-424E-80AB-9454EC826BEF}" ShortID="993580052">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>50</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="vegetation_footstep" ID="{01BEDA81-B875-4F1D-97AE-4BB321A3ED92}" ShortID="986747423">
+													<Language>SFX</Language>
+													<AudioFile>levels\Ravine\vegetation_footstep.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="699775253"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="vegetation_footstep" ID="{01BEDA81-B875-4F1D-97AE-4BB321A3ED92}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="Sand" ID="{C3457622-A858-4371-994A-3D6609CB023A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Vegetation" ID="{0DC0039D-1C52-4287-AE38-F4078F6F49FB}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Mud" ID="{9355959E-0D16-48C8-91E4-3BDE717EE247}"/>
@@ -1955,6 +2061,12 @@
 										<SwitchRef Name="Sand" ID="{C55D0771-EF04-418D-8C80-5466CE144BB1}"/>
 										<ItemList>
 											<ItemRef Name="Sand" ID="{C3457622-A858-4371-994A-3D6609CB023A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Vegetation" ID="{928B2EA7-0339-403A-9A81-8CFD4742ACCE}"/>
+										<ItemList>
+											<ItemRef Name="Vegetation" ID="{0DC0039D-1C52-4287-AE38-F4078F6F49FB}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -3018,29 +3130,7 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Ravine" ID="{DCF8933A-13C4-4532-B566-73F76C31941F}" ShortID="194749497">
-									<ChildrenList>
-										<Sound Name="vegetation_footstep" ID="{F85B643A-AEB3-4651-9D08-394DAC605333}" ShortID="76632987">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="vegetation_footstep" ID="{25FAFDCB-B76C-49EF-932A-BA576F73401C}" ShortID="699775253">
-													<Language>SFX</Language>
-													<AudioFile>levels\Ravine\vegetation_footstep.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="vegetation_footstep" ID="{25FAFDCB-B76C-49EF-932A-BA576F73401C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</Folder>
+								<Folder Name="Ravine" ID="{DCF8933A-13C4-4532-B566-73F76C31941F}" ShortID="194749497"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

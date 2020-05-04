@@ -8,6 +8,7 @@
 						<Switch Name="Sand" ID="{C55D0771-EF04-418D-8C80-5466CE144BB1}"/>
 						<Switch Name="Stone" ID="{C5CC37D8-B4F6-4B66-86AA-213C54F44C29}"/>
 						<Switch Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+						<Switch Name="Vegetation" ID="{928B2EA7-0339-403A-9A81-8CFD4742ACCE}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Env_Lvl1" ID="{66E19EDD-FDB1-4060-A6F5-F0945F956C79}">
