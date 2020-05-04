@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\mdpdo\\OneDrive\\Documentos\\Github\\WwiseProject\\TheWitcher\\",
-   "SourceFilesRoot": "C:\\Users\\mdpdo\\OneDrive\\Documentos\\Github\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\mdpdo\\OneDrive\\Documentos\\Github\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
+   "SourceFilesRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\mdpdo\\OneDrive\\Documentos\\Github\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -611,12 +611,6 @@
       "Path": "SFX\\GhoulE1_1C9C67B2.wem"
      },
      {
-      "Id": "804804872",
-      "Language": "SFX",
-      "ShortName": "GeraltE8.wav",
-      "Path": "SFX\\GeraltE8_1C9C67B2.wem"
-     },
-     {
       "Id": "983592396",
       "Language": "SFX",
       "ShortName": "GeraltE2.wav",
@@ -689,11 +683,6 @@
     "Path": "Objects_SFX.bnk",
     "IncludedEvents": [
      {
-      "Id": "3067740349",
-      "Name": "Play_Chest",
-      "ObjectPath": "\\Events\\Default Work Unit\\Object\\Play_Chest"
-     },
-     {
       "Id": "2372531077",
       "Name": "Play_FenceDestroy",
       "ObjectPath": "\\Events\\Default Work Unit\\Object\\Play_FenceDestroy"
@@ -705,12 +694,6 @@
       "Language": "SFX",
       "ShortName": "barrel_destroyed.wav",
       "Path": "SFX\\barrel_destroyed_1C9C67B2.wem"
-     },
-     {
-      "Id": "976612201",
-      "Language": "SFX",
-      "ShortName": "Chest.wav",
-      "Path": "SFX\\Chest_F17FB28C.wem"
      }
     ]
    },

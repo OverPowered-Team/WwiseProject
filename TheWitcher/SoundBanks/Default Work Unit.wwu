@@ -99,7 +99,6 @@
 				<SoundBank Name="Objects_SFX" ID="{DF3F8A72-B5E7-48C1-A821-7028826866A3}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_FenceDestroy" ID="{13E4E853-E69A-4542-94A7-5DF2A7D01D51}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Chest" ID="{C6ED4CC9-1D29-4C77-8E74-776FEF8E245A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -223,7 +223,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GeraltE8" ID="{1FFE4C8A-4977-40E0-B8E9-F57BDA98CC90}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="GeraltE8" ID="{D71F6C99-BD2A-449E-A7E6-70F62991F321}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -479,7 +479,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="music_calm_green_lake_serenade" ID="{80E4A3F1-CCD6-4FEB-88B6-7B7299FF8CF5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="music_calm_green_lake_serenade" ID="{17A01B91-5AF0-4959-BC9D-C40EC7EF8426}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -924,20 +924,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="barrel_destroyed" ID="{A53032A4-082F-4978-89AE-8B3789863446}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Chest" ID="{C6ED4CC9-1D29-4C77-8E74-776FEF8E245A}">
-							<ChildrenList>
-								<Action Name="" ID="{9BC2BC50-FF84-4EAE-A4F6-BC8D6E6EED37}" ShortID="211139671">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chest" ID="{312F0CB7-E4E6-4339-AE0B-E4FFED3A03D4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

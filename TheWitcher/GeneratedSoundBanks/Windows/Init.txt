@@ -2,6 +2,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	
 	2478762362	Env_Lvl1			\Default Work Unit\Env_Lvl1	
 	3197359073	Interactive_Music_Lvl1			\Default Work Unit\Interactive_Music_Lvl1	
+	3295242124	GameVolumes			\Default Work Unit\GameVolumes	
 
 State	ID	Name	State Group			Notes
 	0	None	PlayerLife			
@@ -18,6 +19,14 @@ State	ID	Name	State Group			Notes
 	1160234136	Normal	Interactive_Music_Lvl1			
 	1565680351	Quiet	Interactive_Music_Lvl1			
 	2764240573	Combat	Interactive_Music_Lvl1			
+	0	None	GameVolumes			
+	1229948536	Environment	GameVolumes			
+	1551306167	UI	GameVolumes			
+	1669749310	Dialogues	GameVolumes			
+	1695690031	Objects	GameVolumes			
+	2188949101	Players	GameVolumes			
+	2242381963	Enemies	GameVolumes			
+	3991942870	Music	GameVolumes			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
