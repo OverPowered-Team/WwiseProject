@@ -311,6 +311,65 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="GameVolumes" ID="{0C93D6E6-05B0-4BC4-90BE-BCE15D974FF1}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A065A4BA-C5B1-4634-B06E-E7FB8A830D3E}"/>
+						<State Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+						<State Name="Players" ID="{512F669F-3B1D-48F7-AFE5-7835EE0FF53F}"/>
+						<State Name="Enemies" ID="{B65FDE79-AE88-44FD-A1CE-9BFB5820821F}"/>
+						<State Name="Environment" ID="{6D11E3D0-5FD9-48CA-9070-DC1D75DB2659}"/>
+						<State Name="Objects" ID="{B42D5927-BE9C-40FB-AD21-2364BE6345E4}"/>
+						<State Name="UI" ID="{7221B164-80DA-484F-AFE4-12C0D24B51D6}"/>
+						<State Name="Music" ID="{FC6E7298-9A0F-4602-BE0F-558A51B0AE66}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{A065A4BA-C5B1-4634-B06E-E7FB8A830D3E}"/>
+							<EndState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Players" ID="{512F669F-3B1D-48F7-AFE5-7835EE0FF53F}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Enemies" ID="{B65FDE79-AE88-44FD-A1CE-9BFB5820821F}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Environment" ID="{6D11E3D0-5FD9-48CA-9070-DC1D75DB2659}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Objects" ID="{B42D5927-BE9C-40FB-AD21-2364BE6345E4}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="UI" ID="{7221B164-80DA-484F-AFE4-12C0D24B51D6}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Music" ID="{FC6E7298-9A0F-4602-BE0F-558A51B0AE66}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
