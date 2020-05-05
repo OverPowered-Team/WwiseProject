@@ -9,10 +9,16 @@ State	ID	Name	State Group			Notes
 	655265632	Alive	PlayerLife			
 	2044049779	Dead	PlayerLife			
 	0	None	Env_Lvl1			
-	491961918	Forest	Env_Lvl1			
-	1295265788	Birds_Wind	Env_Lvl1			
-	1537061107	Wind	Env_Lvl1			
+	500935542	Ravine	Env_Lvl1			
+	1258683828	Pre_Boss	Env_Lvl1			
+	1362486867	After_Boss	Env_Lvl1			
 	1565680351	Quiet	Env_Lvl1			
+	1665801306	Slope_To_Cave	Env_Lvl1			
+	1908629550	Middle_Area	Env_Lvl1			
+	2358467699	Drowners	Env_Lvl1			
+	2427728260	Ghoul_Nests	Env_Lvl1			
+	3565738319	Fortress	Env_Lvl1			
+	4122393694	Cave	Env_Lvl1			
 	0	None	Interactive_Music_Lvl1			
 	513139656	Mountain	Interactive_Music_Lvl1			
 	624189772	Lake	Interactive_Music_Lvl1			
@@ -32,7 +38,13 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	348963605	reverb			\Default Work Unit\Master Audio Bus\reverb	
+	323187407	reverb_cave			\Default Work Unit\Master Audio Bus\reverb_cave	
+	987957292	reverb_castle			\Default Work Unit\Master Audio Bus\reverb_castle	
+	2646605403	fade			\Default Work Unit\Master Audio Bus\fade	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

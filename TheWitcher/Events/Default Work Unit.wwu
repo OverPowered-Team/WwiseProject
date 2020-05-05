@@ -761,7 +761,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="heartbeat" ID="{43BCE805-54AB-409F-9E2D-4BB7835675C5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="heartbeat" ID="{6398666E-CE9A-4E00-BBAE-E896D20DD28C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

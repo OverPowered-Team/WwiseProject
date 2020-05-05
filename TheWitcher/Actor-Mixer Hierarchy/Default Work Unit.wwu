@@ -3806,6 +3806,93 @@
 										<ActiveSource Name="wood_hit" ID="{D6B6D436-CEBA-443D-9FDC-7C8CF4847469}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="heartbeat" ID="{6398666E-CE9A-4E00-BBAE-E896D20DD28C}" ShortID="128884164">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{ADC2791C-09C9-48DC-811C-C6D82B69209C}" ShortID="182657504">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3834BF96-94B6-4CD7-8387-29F0644B41F3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>1879</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>29.79351</XPos>
+																<YPos>566</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>418</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{9BB81384-89A2-41BF-8AD7-63C44A392560}" ShortID="875285599">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8D64B979-FC5A-438A-A884-865CA32542E0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>182.13574</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>29.79351</XPos>
+																<YPos>1.65948</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="heartbeat" ID="{1C7097C8-0C37-44C6-BD21-08A511D149B1}" ShortID="970877176">
+											<Language>SFX</Language>
+											<AudioFile>heartbeat.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="heartbeat" ID="{1C7097C8-0C37-44C6-BD21-08A511D149B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
