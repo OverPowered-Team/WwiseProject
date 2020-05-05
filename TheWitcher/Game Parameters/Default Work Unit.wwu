@@ -20,10 +20,9 @@
 						<Property Name="Min" Type="Real64" Value="-50"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="PlayerHeartbeatLife" ID="{AFCFBEFB-D6F3-4DB2-B187-C0214FA900DA}">
+				<GameParameter Name="Fade" ID="{C35AAFE0-A634-402C-BD30-2BC09FE0BF8A}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="20"/>
-						<Property Name="Max" Type="Real64" Value="20"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

@@ -5,11 +5,6 @@
   "BasePlatform": "Windows",
   "Plugins": {
    "Plugin": {
-    "Name": "Wwise Gain",
-    "ID": "9109507",
-    "DLL": "AkGain"
-   },
-   "Plugin": {
     "Name": "System",
     "ID": "11403271",
     "DLL": "DefaultSink"

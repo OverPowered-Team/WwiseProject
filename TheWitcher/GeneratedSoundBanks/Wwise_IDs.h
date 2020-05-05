@@ -22,7 +22,6 @@ namespace AK
         static const AkUniqueID PLAY_BARD_MUSIC = 2011049715U;
         static const AkUniqueID PLAY_BATTLE_BOSS = 1365115432U;
         static const AkUniqueID PLAY_BIRDS_WIND = 1598323015U;
-        static const AkUniqueID PLAY_CHEST = 3067740349U;
         static const AkUniqueID PLAY_DIALOGUE1 = 4285197669U;
         static const AkUniqueID PLAY_DIALOGUE1_01 = 740533569U;
         static const AkUniqueID PLAY_DIALOGUE1_02 = 740533570U;
@@ -65,6 +64,7 @@ namespace AK
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
         static const AkUniqueID PLAY_MUSIC_LVL1 = 4145153789U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
+        static const AkUniqueID PLAY_ROCKS = 2052558220U;
         static const AkUniqueID PLAY_ROLL = 2719919427U;
         static const AkUniqueID PLAY_SUSPENSE = 1099345086U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
@@ -97,6 +97,22 @@ namespace AK
                 static const AkUniqueID WIND = 1537061107U;
             } // namespace STATE
         } // namespace ENV_LVL1
+
+        namespace GAMEVOLUMES
+        {
+            static const AkUniqueID GROUP = 3295242124U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DIALOGUES = 1669749310U;
+                static const AkUniqueID ENEMIES = 2242381963U;
+                static const AkUniqueID ENVIRONMENT = 1229948536U;
+                static const AkUniqueID MUSIC = 3991942870U;
+                static const AkUniqueID OBJECTS = 1695690031U;
+                static const AkUniqueID PLAYERS = 2188949101U;
+                static const AkUniqueID UI = 1551306167U;
+            } // namespace STATE
+        } // namespace GAMEVOLUMES
 
         namespace INTERACTIVE_MUSIC_LVL1
         {
@@ -148,6 +164,7 @@ namespace AK
                 static const AkUniqueID MUD = 712897245U;
                 static const AkUniqueID SAND = 803837735U;
                 static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID VEGETATION = 2932679629U;
             } // namespace SWITCH
         } // namespace MATERIAL
 
@@ -156,7 +173,8 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID COMBATDISTANCE = 1193492672U;
-        static const AkUniqueID PITCH = 1908158473U;
+        static const AkUniqueID DOPPLERROCKS = 442820407U;
+        static const AkUniqueID PITCHSLOWMO = 1799551114U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

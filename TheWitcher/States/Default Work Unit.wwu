@@ -27,97 +27,17 @@
 				<StateGroup Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}">
 					<ChildrenList>
 						<State Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
-						<State Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-						<State Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-						<State Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-						<State Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
+						<State Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+						<State Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
+						<State Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+						<State Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
+						<State Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+						<State Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
+						<State Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
+						<State Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
+						<State Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
+						<State Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
 					</ChildrenList>
-					<TransitionList>
-						<Transition>
-							<StartState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-							<EndState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-							<EndState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-							<EndState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
-							<EndState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
-							<EndState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
-							<EndState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-							<Time>1</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
-							<EndState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-							<EndState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-							<EndState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-							<EndState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-							<EndState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
-							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-							<EndState Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-							<EndState Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-							<EndState Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-							<Time>1</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="Interactive_Music_Lvl1" ID="{04C83905-2067-46D1-9EB4-362D64D28C29}">
 					<ChildrenList>
@@ -308,6 +228,65 @@
 							<EndState Name="Mountain" ID="{FFA9B83F-BCD5-41A3-9C63-E066E39ED565}"/>
 							<Time>1</Time>
 							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="GameVolumes" ID="{0C93D6E6-05B0-4BC4-90BE-BCE15D974FF1}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A065A4BA-C5B1-4634-B06E-E7FB8A830D3E}"/>
+						<State Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+						<State Name="Players" ID="{512F669F-3B1D-48F7-AFE5-7835EE0FF53F}"/>
+						<State Name="Enemies" ID="{B65FDE79-AE88-44FD-A1CE-9BFB5820821F}"/>
+						<State Name="Environment" ID="{6D11E3D0-5FD9-48CA-9070-DC1D75DB2659}"/>
+						<State Name="Objects" ID="{B42D5927-BE9C-40FB-AD21-2364BE6345E4}"/>
+						<State Name="UI" ID="{7221B164-80DA-484F-AFE4-12C0D24B51D6}"/>
+						<State Name="Music" ID="{FC6E7298-9A0F-4602-BE0F-558A51B0AE66}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{A065A4BA-C5B1-4634-B06E-E7FB8A830D3E}"/>
+							<EndState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Players" ID="{512F669F-3B1D-48F7-AFE5-7835EE0FF53F}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Enemies" ID="{B65FDE79-AE88-44FD-A1CE-9BFB5820821F}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Environment" ID="{6D11E3D0-5FD9-48CA-9070-DC1D75DB2659}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Objects" ID="{B42D5927-BE9C-40FB-AD21-2364BE6345E4}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="UI" ID="{7221B164-80DA-484F-AFE4-12C0D24B51D6}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dialogues" ID="{2D722E90-1996-4717-936D-63298A31C2C4}"/>
+							<EndState Name="Music" ID="{FC6E7298-9A0F-4602-BE0F-558A51B0AE66}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
 						</Transition>
 					</TransitionList>
 				</StateGroup>

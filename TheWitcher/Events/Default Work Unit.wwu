@@ -223,7 +223,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GeraltE8" ID="{1FFE4C8A-4977-40E0-B8E9-F57BDA98CC90}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="GeraltE8" ID="{D71F6C99-BD2A-449E-A7E6-70F62991F321}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -479,7 +479,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="music_calm_green_lake_serenade" ID="{80E4A3F1-CCD6-4FEB-88B6-7B7299FF8CF5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="music_calm_green_lake_serenade" ID="{17A01B91-5AF0-4959-BC9D-C40EC7EF8426}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -859,20 +859,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Suspense" ID="{21E44E1C-F4D1-46B9-BF1D-8755146FEFF2}">
-							<ChildrenList>
-								<Action Name="" ID="{51155FD7-C311-4E98-895F-9A9A68833F9E}" ShortID="33481927">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ShortSuspense" ID="{702019D7-4C7B-468D-9EB2-A49E80543EB9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_River" ID="{0A38E665-80C2-4694-B228-04B1604E350D}">
 							<ChildrenList>
 								<Action Name="" ID="{9403468D-C6DD-4B73-9E75-375D6679BE5D}" ShortID="448462711">
@@ -882,30 +868,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="River" ID="{5465B0A5-C44E-4E88-BB16-1B90893620E5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Birds_Wind" ID="{F3C87BB7-50DF-4949-900D-B1C56AE569EB}">
-							<ChildrenList>
-								<Action Name="" ID="{A78D474D-8FE2-43AD-B472-88CA2869954E}" ShortID="651292007">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Birds_env" ID="{7D9F756C-0459-4E2D-B434-648D2DEE8A9D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{3F62207F-8308-4763-A7F4-2D3139410914}" ShortID="323989074">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Wind" ID="{C797D950-8A62-47B9-AD4E-91B9FC34D381}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -925,48 +887,16 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Vegetation_Hit" ID="{D4A75D59-C1EB-40DF-B28D-788B1CC7659B}">
-							<ChildrenList>
-								<Action Name="" ID="{6F806A5C-51E3-418B-B10B-3EBD4C2DD551}" ShortID="193914416">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="vegetation_hit" ID="{ED6A206C-DE2D-4651-9999-4CCA997AC647}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Stone_Hit" ID="{DFF59379-D78A-4160-95EF-4BE32AEB59E0}">
-							<ChildrenList>
-								<Action Name="" ID="{0C857265-5A22-4A2A-BCE4-F00649394947}" ShortID="9548403">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Stone_Hit_3" ID="{337DA8A4-3D3F-484D-8DE9-1A125E6A4B47}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Wood_Hit" ID="{22D514B9-B712-4C00-A890-CAF62C4DABEB}">
-							<ChildrenList>
-								<Action Name="" ID="{0924994F-3135-4EA2-A430-81E91B06B367}" ShortID="191658140">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="wood_hit" ID="{70148DFB-0381-4716-8461-B756A6EE8604}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						<Event Name="Play_Birds" ID="{A4E0EF87-54C8-4164-BE96-40679F97CA12}"/>
+						<Event Name="Play_Crows" ID="{B31414A4-F1EA-4877-A951-E04E7E6BCA3F}"/>
+						<Event Name="Play_Squirrels" ID="{791DCB92-7809-476E-A973-934D68FF6A4B}"/>
+						<Event Name="Play_Bats" ID="{73DC4792-2AA1-4C70-851E-42612D8AFD70}"/>
+						<Event Name="Play_Cave" ID="{952D26FE-FF90-4173-8DD1-2F16E8E1C9F1}"/>
+						<Event Name="Play_Gloomy" ID="{0A7144BC-C95C-4FC6-BCD1-023111500C72}"/>
+						<Event Name="Play_Insects" ID="{9881B2AE-0A42-4B76-9C9E-22995396A393}"/>
+						<Event Name="Play_Trees_Squeaking" ID="{2AD0B5C7-23D4-4FA0-B802-5A23A089146F}"/>
+						<Event Name="Play_Tree_Fall" ID="{4E359267-BA40-48BD-B797-B04254A49270}"/>
+						<Event Name="Play_Wolf_Howling" ID="{2E1EC5BC-ADC2-4DE7-8EB5-8ADF2B44D7E4}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Object" ID="{0B796F3F-4771-449B-A7AA-E87121C362B3}" ShortID="516657702">
@@ -980,20 +910,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="barrel_destroyed" ID="{A53032A4-082F-4978-89AE-8B3789863446}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Chest" ID="{C6ED4CC9-1D29-4C77-8E74-776FEF8E245A}">
-							<ChildrenList>
-								<Action Name="" ID="{9BC2BC50-FF84-4EAE-A4F6-BC8D6E6EED37}" ShortID="211139671">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chest" ID="{312F0CB7-E4E6-4339-AE0B-E4FFED3A03D4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
