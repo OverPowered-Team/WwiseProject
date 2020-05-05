@@ -6,6 +6,7 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\mdpdo\OneDrive\Escritorio\Email attachments\Escritorio"/>
 				<Property Name="Event Action List\{03319661-4C64-4812-BCBC-2DE0EC2C503E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{04C39AC8-E3EB-48EF-9507-7526EE92A9DD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{108E7DA2-0963-4096-A7F1-7563C5CD00D9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{22D514B9-B712-4C00-A890-CAF62C4DABEB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2A5CF26F-3E12-420F-ADF2-401EF516AC2E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{36B202EB-A1E1-41AB-A613-84468D2A01A7}\x64_Expand States" Type="string" Value=""/>
@@ -31,6 +32,7 @@
 				<Property Name="Event Action List\{A4A89E51-5F39-46E1-9B13-8A1CA96D8E38}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A5976E01-44DE-436D-9A09-FB919892590D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ADA01FE2-BC9F-45D5-9199-8937C2F30165}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BFDF4691-C7FF-442F-90F6-D8483A6747ED}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C9686C2A-2CE3-46CC-A0D4-2CDEBE0BA3EE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CC4FD249-86FD-4454-A88B-9F36E702F680}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D0CE2A02-9016-494F-A72D-BDBD6BB3A224}\x64_Expand States" Type="string" Value=""/>

@@ -753,6 +753,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Heartbeats" ID="{108E7DA2-0963-4096-A7F1-7563C5CD00D9}">
+							<ChildrenList>
+								<Action Name="" ID="{F1F94FEB-1654-4BDA-852B-309DE7969A15}" ShortID="576288355">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="heartbeat" ID="{43BCE805-54AB-409F-9E2D-4BB7835675C5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{5BB40668-A1E7-463E-978A-61B07C5C8801}" ShortID="537841474">

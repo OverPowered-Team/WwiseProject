@@ -59,6 +59,7 @@
 				</SoundBank>
 				<SoundBank Name="Player_SFX" ID="{293DCC5F-B0AE-42FF-AB34-70E99CFBBA60}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Heartbeats" ID="{108E7DA2-0963-4096-A7F1-7563C5CD00D9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_SwordHit" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_Footstep" ID="{D3F5639F-0013-423F-B9FA-758B0A3C0DB4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_YennDeath" ID="{D1DD9447-896C-42BC-8665-70FA4FE8AC45}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>

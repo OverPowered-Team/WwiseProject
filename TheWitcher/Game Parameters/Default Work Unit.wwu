@@ -20,6 +20,12 @@
 						<Property Name="Min" Type="Real64" Value="-50"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="PlayerHeartbeatLife" ID="{AFCFBEFB-D6F3-4DB2-B187-C0214FA900DA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="20"/>
+						<Property Name="Max" Type="Real64" Value="20"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
