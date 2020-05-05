@@ -2038,7 +2038,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
-												<State Name="" ID="{43C2955D-0A4B-4F35-B149-D31490905892}" ShortID="818217839"/>
+												<State Name="" ID="{43C2955D-0A4B-4F35-B149-D31490905892}" ShortID="818217839">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
@@ -3218,11 +3222,7 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
-																<State Name="" ID="{5836923A-400B-441E-8059-4182120BFED3}" ShortID="961972549">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-96"/>
-																	</PropertyList>
-																</State>
+																<State Name="" ID="{5836923A-400B-441E-8059-4182120BFED3}" ShortID="961972549"/>
 															</CustomState>
 															<CustomState>
 																<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
@@ -3242,11 +3242,7 @@
 															</CustomState>
 															<CustomState>
 																<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
-																<State Name="" ID="{4CB2F8CF-2B5A-4B33-B257-CE203729853D}" ShortID="587625018">
-																	<PropertyList>
-																		<Property Name="Volume" Type="Real64" Value="-96"/>
-																	</PropertyList>
-																</State>
+																<State Name="" ID="{4CB2F8CF-2B5A-4B33-B257-CE203729853D}" ShortID="587625018"/>
 															</CustomState>
 															<CustomState>
 																<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>

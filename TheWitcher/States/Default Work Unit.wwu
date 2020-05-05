@@ -42,7 +42,7 @@
 						<Transition>
 							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
 							<EndState Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
-							<Time>1</Time>
+							<Time>0</Time>
 							<IsShared>true</IsShared>
 						</Transition>
 						<Transition>
