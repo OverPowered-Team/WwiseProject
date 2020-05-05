@@ -24,6 +24,7 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
+						<AuxBus Name="fade" ID="{8E9B1061-741B-41FD-ABDA-CB59E69FCAD5}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

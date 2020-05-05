@@ -845,20 +845,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Suspense" ID="{21E44E1C-F4D1-46B9-BF1D-8755146FEFF2}">
-							<ChildrenList>
-								<Action Name="" ID="{51155FD7-C311-4E98-895F-9A9A68833F9E}" ShortID="33481927">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ShortSuspense" ID="{702019D7-4C7B-468D-9EB2-A49E80543EB9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_River" ID="{0A38E665-80C2-4694-B228-04B1604E350D}">
 							<ChildrenList>
 								<Action Name="" ID="{9403468D-C6DD-4B73-9E75-375D6679BE5D}" ShortID="448462711">
@@ -868,30 +854,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="River" ID="{5465B0A5-C44E-4E88-BB16-1B90893620E5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Birds_Wind" ID="{F3C87BB7-50DF-4949-900D-B1C56AE569EB}">
-							<ChildrenList>
-								<Action Name="" ID="{A78D474D-8FE2-43AD-B472-88CA2869954E}" ShortID="651292007">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Birds_env" ID="{7D9F756C-0459-4E2D-B434-648D2DEE8A9D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{3F62207F-8308-4763-A7F4-2D3139410914}" ShortID="323989074">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Wind" ID="{C797D950-8A62-47B9-AD4E-91B9FC34D381}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -911,6 +873,16 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Birds" ID="{A4E0EF87-54C8-4164-BE96-40679F97CA12}"/>
+						<Event Name="Play_Crows" ID="{B31414A4-F1EA-4877-A951-E04E7E6BCA3F}"/>
+						<Event Name="Play_Squirrels" ID="{791DCB92-7809-476E-A973-934D68FF6A4B}"/>
+						<Event Name="Play_Bats" ID="{73DC4792-2AA1-4C70-851E-42612D8AFD70}"/>
+						<Event Name="Play_Cave" ID="{952D26FE-FF90-4173-8DD1-2F16E8E1C9F1}"/>
+						<Event Name="Play_Gloomy" ID="{0A7144BC-C95C-4FC6-BCD1-023111500C72}"/>
+						<Event Name="Play_Insects" ID="{9881B2AE-0A42-4B76-9C9E-22995396A393}"/>
+						<Event Name="Play_Trees_Squeaking" ID="{2AD0B5C7-23D4-4FA0-B802-5A23A089146F}"/>
+						<Event Name="Play_Tree_Fall" ID="{4E359267-BA40-48BD-B797-B04254A49270}"/>
+						<Event Name="Play_Wolf_Howling" ID="{2E1EC5BC-ADC2-4DE7-8EB5-8ADF2B44D7E4}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Object" ID="{0B796F3F-4771-449B-A7AA-E87121C362B3}" ShortID="516657702">

@@ -1543,6 +1543,22 @@
 												</State>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
+												<State Name="" ID="{A92DEBAA-9FCC-43DB-8F56-07694E3A8578}" ShortID="686501580"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+												<State Name="" ID="{AB68EF39-FF01-40B9-A85E-9157D131FB29}" ShortID="1036229227"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
+												<State Name="" ID="{EE62BFB4-1368-4470-8019-8D6603E89412}" ShortID="119815589"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
+												<State Name="" ID="{93C9C276-E89B-409C-ABAD-7B594F661F71}" ShortID="979400166"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
 												<State Name="" ID="{4AFB1891-5C01-45B5-9E6F-2E5B3A7810C0}" ShortID="102318340">
 													<PropertyList>
@@ -1559,8 +1575,8 @@
 												</State>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-												<State Name="" ID="{FE441D17-90DE-4D93-A258-717BBA9E14FC}" ShortID="103599427"/>
+												<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
+												<State Name="" ID="{4BF3D7F5-838C-43DF-858D-94C0962E0CFA}" ShortID="424977035"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Lake" ID="{32D5000A-A0D1-47C3-BF87-70F5E8851C72}"/>
@@ -1571,32 +1587,28 @@
 												</State>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-												<State Name="" ID="{2DF7BDC3-4EBE-415F-A8CF-ACF2E2CEF7FB}" ShortID="1008352152">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
+												<State Name="" ID="{B261841D-C1A0-46A5-949E-97380D75DBD9}" ShortID="516931281"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Quiet" ID="{AAA809CB-B48F-4852-BB9F-E47CECAFD566}"/>
 												<State Name="" ID="{18181648-4CA6-4B1C-89FB-80F7D747547D}" ShortID="548214342"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-												<State Name="" ID="{4E67D619-5C23-4209-B637-3B3CE40A9D03}" ShortID="201275821">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+												<State Name="" ID="{4A076DE9-2707-4830-B963-A42275A57DE1}" ShortID="829223053"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-												<State Name="" ID="{771BA240-C8DE-410C-9742-868F65113B85}" ShortID="596941155">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+												<State Name="" ID="{1262DE8B-E99C-4CE8-B5C4-5561DC773E7C}" ShortID="743169914"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
+												<State Name="" ID="{A385AF0C-C86B-49CC-AC25-B24A89916AC6}" ShortID="549779801"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+												<State Name="" ID="{9DF4C526-C141-47CD-BC32-26E039EC6F78}" ShortID="620201515"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -1930,32 +1942,44 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-												<State Name="" ID="{C9FF28CF-658B-4697-AFAB-95DDCF8D319F}" ShortID="630531151">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
+												<State Name="" ID="{47ED5AA0-A1D5-4868-A989-A493DEEAA428}" ShortID="315381303"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-												<State Name="" ID="{B5FAD387-C895-43C1-BE3B-9648F947029F}" ShortID="662189650"/>
+												<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+												<State Name="" ID="{1A56B2F7-08B7-4884-89B3-AD0835F9DE26}" ShortID="1033250803"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-												<State Name="" ID="{9414D8EF-5771-4A7E-AF0A-ED948900EEB1}" ShortID="253736318">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
+												<State Name="" ID="{C1021834-3555-4405-B615-4B80FED184D7}" ShortID="503704400"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-												<State Name="" ID="{A66B5646-E820-47E2-A12F-20437F267B1D}" ShortID="204701381">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
+												<State Name="" ID="{C8FEFD7F-2DAB-4DA5-843D-5CB5BC80FEEC}" ShortID="223004877"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
+												<State Name="" ID="{6E056160-A6E2-4CA2-A054-1311A9A29B96}" ShortID="89072253"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
+												<State Name="" ID="{2039C48F-0971-415A-86F0-68510A62CBCE}" ShortID="1018687433"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+												<State Name="" ID="{E0BFC5EC-A65D-4236-B5E3-702C4F891197}" ShortID="353830357"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+												<State Name="" ID="{0A75C319-9771-4871-AD23-E08AF9528550}" ShortID="465832057"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
+												<State Name="" ID="{556D3A14-4E17-4428-B5EA-01ADD8F2228F}" ShortID="49852365"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+												<State Name="" ID="{F3CEC9EF-F612-4DF2-91B2-43428964FF8C}" ShortID="972101542"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -2021,6 +2045,7 @@
 								<Sound Name="Wind" ID="{C797D950-8A62-47B9-AD4E-91B9FC34D381}" ShortID="205882391">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>2</Value>
@@ -2033,6 +2058,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="fade" ID="{8E9B1061-741B-41FD-ABDA-CB59E69FCAD5}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -2049,32 +2077,44 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-												<State Name="" ID="{414F30F6-8883-482E-964C-29C8223E79F7}" ShortID="515163824">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
+												<State Name="" ID="{8D12EFE6-0610-4B6B-9B27-8E5E54CD53C8}" ShortID="158101513"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-												<State Name="" ID="{C7B621F8-A905-4758-9A60-152614B5B7CF}" ShortID="370253929">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+												<State Name="" ID="{5C77C293-8A14-447C-851D-5325839E7728}" ShortID="770071540"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-												<State Name="" ID="{5C3F00D0-B698-490A-885F-84C31794808F}" ShortID="244932377"/>
+												<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
+												<State Name="" ID="{D9230EDE-CDBD-49FB-9D4A-E515273055A1}" ShortID="755856249"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-												<State Name="" ID="{AB1A4291-3A09-43BF-81A0-E8748C5BB929}" ShortID="771660886">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
+												<State Name="" ID="{44467790-2886-4E57-8A53-A098ABF06332}" ShortID="238997577"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
+												<State Name="" ID="{B06A48BB-A034-4F05-ADAF-85BCCC70F7D9}" ShortID="390450002"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
+												<State Name="" ID="{640223C0-9854-4EC3-B62F-44D74661426B}" ShortID="906337110"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+												<State Name="" ID="{43C2955D-0A4B-4F35-B149-D31490905892}" ShortID="818217839"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+												<State Name="" ID="{221950AB-B7F5-4B94-A686-CA54E454F5CB}" ShortID="147671287"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
+												<State Name="" ID="{DA1A46F8-6765-4132-9F2A-F62536571B13}" ShortID="972724875"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+												<State Name="" ID="{47C524E8-F4F8-437D-B878-F8AB27406241}" ShortID="294152859"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -2178,32 +2218,44 @@
 										</StateGroupList>
 										<CustomStateList>
 											<CustomState>
-												<StateRef Name="Quiet" ID="{4B5D64ED-3D2D-4676-ADF0-B5CDB9F153AD}"/>
-												<State Name="" ID="{47D6BB18-4905-41B9-A376-25EECA13DFBF}" ShortID="371645147">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
+												<State Name="" ID="{7F83FFEC-0059-4F02-93CC-314B0CD3D881}" ShortID="529115007"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Forest" ID="{D3D75650-C961-47D9-8F15-75067BABFBFF}"/>
-												<State Name="" ID="{EE42D514-72E5-4622-98B7-886731E9CCE1}" ShortID="192389694">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+												<State Name="" ID="{6FD715F2-02FB-4F40-99E0-EAECA27412F3}" ShortID="582341347"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Wind" ID="{9CAF6A95-15D0-49A1-B279-95C49CD74282}"/>
-												<State Name="" ID="{2583332B-DECB-4568-BC9F-4625B209F9B7}" ShortID="108698191">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
+												<State Name="" ID="{2A168CBA-63AD-4787-B0A3-9BF7B7A36EE3}" ShortID="137090634"/>
 											</CustomState>
 											<CustomState>
-												<StateRef Name="Birds_Wind" ID="{2BC548F4-269D-4C60-AB82-32C623620412}"/>
-												<State Name="" ID="{917A5676-BE00-4F88-BF07-BB9844643DB6}" ShortID="954690379"/>
+												<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
+												<State Name="" ID="{6B9E0A6C-1EB0-4E53-A999-DCA0123B19C1}" ShortID="720282529"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
+												<State Name="" ID="{0E045FDD-3750-4ADA-AF08-73E8F6A3BCE1}" ShortID="105984121"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
+												<State Name="" ID="{BD80CBF0-E507-469B-969C-61BD9ACAA91F}" ShortID="34436145"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+												<State Name="" ID="{100DEBF6-BF29-4E57-8775-1606ABD301ED}" ShortID="750334682"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+												<State Name="" ID="{27C06CD3-DC0F-4CC6-9673-B7DFAC3FE31B}" ShortID="28746415"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
+												<State Name="" ID="{7CF14FFC-4676-458E-B64F-1A288A0AE273}" ShortID="55314121"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+												<State Name="" ID="{8356E960-7401-481B-9D2B-298BFFD7CA9F}" ShortID="258889191"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
