@@ -73,6 +73,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Interactions\\Play_YennShockwave"
      },
      {
+      "Id": "2551268862",
+      "Name": "Player_Fall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player_Interactions\\Player_Fall"
+     },
+     {
       "Id": "2453392179",
       "Name": "Player_Footstep",
       "ObjectPath": "\\Events\\Default Work Unit\\Player_Interactions\\Player_Footstep"
@@ -199,6 +204,12 @@
       "Path": "SFX\\yenndeath_1C9C67B2.wem"
      },
      {
+      "Id": "689276962",
+      "Language": "SFX",
+      "ShortName": "wood_footstep.wav",
+      "Path": "SFX\\wood_footstep_1C9C67B2.wem"
+     },
+     {
       "Id": "690941690",
       "Language": "SFX",
       "ShortName": "walking_mud3.wav",
@@ -262,7 +273,7 @@
       "Id": "970877176",
       "Language": "SFX",
       "ShortName": "heartbeat.wav",
-      "Path": "SFX\\heartbeat_1C9C67B2.wem"
+      "Path": "SFX\\heartbeat_F17FB28C.wem"
      },
      {
       "Id": "974381289",

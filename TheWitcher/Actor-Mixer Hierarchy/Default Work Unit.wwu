@@ -3288,9 +3288,101 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Wood" ID="{6014C615-E696-4C60-85E0-A7110B2E1742}" ShortID="839986764">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="wood_footstep" ID="{33B2D344-E728-495A-9F24-62A2CF1CEE19}" ShortID="1982654">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_footstep" ID="{E1DE771C-013A-4294-A2B6-B8FBB4F88F47}" ShortID="689276962">
+															<Language>SFX</Language>
+															<AudioFile>wood_footstep.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_footstep" ID="{E1DE771C-013A-4294-A2B6-B8FBB4F88F47}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_footstep_01" ID="{756FCF51-5790-46D1-8483-DECF470387B7}" ShortID="255413882">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>150</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_footstep" ID="{66B4A243-7C3F-4F8C-AFF3-66CB9820B977}" ShortID="455103764">
+															<Language>SFX</Language>
+															<AudioFile>wood_footstep.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="689276962"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_footstep" ID="{66B4A243-7C3F-4F8C-AFF3-66CB9820B977}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="wood_footstep_02" ID="{88373AFE-DEA1-4DB6-8390-20C5D9E99F6F}" ShortID="540864805">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-150</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_footstep" ID="{2D003AC9-1FDB-49C8-97E6-47F89E5D1CD4}" ShortID="1023941189">
+															<Language>SFX</Language>
+															<AudioFile>wood_footstep.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="689276962"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_footstep" ID="{2D003AC9-1FDB-49C8-97E6-47F89E5D1CD4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Wood" ID="{6014C615-E696-4C60-85E0-A7110B2E1742}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Sand" ID="{C3457622-A858-4371-994A-3D6609CB023A}"/>
 											</GroupingBehavior>
@@ -3309,6 +3401,12 @@
 												<SwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
 												<ItemList>
 													<ItemRef Name="Mud" ID="{9355959E-0D16-48C8-91E4-3BDE717EE247}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{9907AC5F-E50C-41AA-9D53-153F42DB5005}"/>
+												<ItemList>
+													<ItemRef Name="Wood" ID="{6014C615-E696-4C60-85E0-A7110B2E1742}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -3808,6 +3906,7 @@
 								</Sound>
 								<Sound Name="heartbeat" ID="{6398666E-CE9A-4E00-BBAE-E896D20DD28C}" ShortID="128884164">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<RTPCList>
 												<RTPC Name="" ID="{ADC2791C-09C9-48DC-811C-C6D82B69209C}" ShortID="182657504">
@@ -3893,6 +3992,546 @@
 										<ActiveSource Name="heartbeat" ID="{1C7097C8-0C37-44C6-BD21-08A511D149B1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<SwitchContainer Name="Fall" ID="{88CA4887-448A-4228-842C-C5AB12C35599}" ShortID="817430653">
+									<PropertyList>
+										<Property Name="EnablePositioning" Type="bool" Value="False"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Sand" ID="{C55D0771-EF04-418D-8C80-5466CE144BB1}" WorkUnitID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Material" ID="{429E3853-41F0-440C-B2D5-29BD437D0137}" WorkUnitID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Fall_Stone" ID="{B24AB6B6-4DA0-4187-BDBD-22A244C6511B}" ShortID="748197554">
+											<PropertyList>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="reverb_castle" ID="{EA25EE25-3FFB-46A9-9995-208D2977734F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="fall_stone1" ID="{0AE24DEA-9A49-4A67-8970-C56319DDF8FE}" ShortID="642947911">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walking_stone1" ID="{758CEFD7-193B-4372-B1A3-74C60CDE9B66}" ShortID="1052469191">
+															<Language>SFX</Language>
+															<AudioFile>walking_stone1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="342699556"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walking_stone1" ID="{758CEFD7-193B-4372-B1A3-74C60CDE9B66}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_stone2" ID="{FDBC642D-F7DE-49A3-88E5-C2207D29A3AD}" ShortID="96405883">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walking_stone2" ID="{3552BEEF-82A6-4F7C-84BB-E7FD17CB8E43}" ShortID="940143933">
+															<Language>SFX</Language>
+															<AudioFile>walking_stone2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="366365075"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walking_stone2" ID="{3552BEEF-82A6-4F7C-84BB-E7FD17CB8E43}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_stone3" ID="{17F292CA-B1FA-4AEB-9CB3-4780EAC01F23}" ShortID="278425542">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walking_stone3" ID="{08A00180-9223-4038-A1DD-8AF472EB571E}" ShortID="599885370">
+															<Language>SFX</Language>
+															<AudioFile>walking_stone3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="488418141"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walking_stone3" ID="{08A00180-9223-4038-A1DD-8AF472EB571E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Fall_Sand" ID="{D6915890-A697-4469-AD45-5AFF60B40228}" ShortID="653122806">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="fall_sand1" ID="{B3BB51DB-F854-4B41-830F-912BB91C7C46}" ShortID="984436790">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walking_sand1" ID="{2FB22C98-466C-41F1-B16D-816EF3674D61}" ShortID="452911892">
+															<Language>SFX</Language>
+															<AudioFile>walking_sand1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="93995469"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walking_sand1" ID="{2FB22C98-466C-41F1-B16D-816EF3674D61}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_sand2" ID="{FB740F92-AF83-4849-BE36-B0F2FC4619D1}" ShortID="598557984">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walking_sand2" ID="{46572E10-0C2A-45E1-92C0-EE7A840997BE}" ShortID="923848498">
+															<Language>SFX</Language>
+															<AudioFile>walking_sand2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="65317710"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walking_sand2" ID="{46572E10-0C2A-45E1-92C0-EE7A840997BE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_sand3" ID="{CFF6A6FF-82A9-4D07-90A9-9EC118A1AA79}" ShortID="315145385">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walking_sand3" ID="{8BB61495-B2A7-4C9A-A36E-56DBD6A63AAD}" ShortID="854761010">
+															<Language>SFX</Language>
+															<AudioFile>walking_sand3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="693467915"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walking_sand3" ID="{8BB61495-B2A7-4C9A-A36E-56DBD6A63AAD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Fall_Mud" ID="{9A673AEE-51C6-4E01-BB1A-EC3D16CB18D0}" ShortID="818812879">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="fall_mud2" ID="{BAED6A17-4A14-40C3-9B44-FBCC2D9F11C5}" ShortID="154133818">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walking_mud2" ID="{800E6FDB-ACDD-48F9-9F20-1C894E72F4DA}" ShortID="1042689997">
+															<Language>SFX</Language>
+															<AudioFile>walking_mud2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="808237431"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walking_mud2" ID="{800E6FDB-ACDD-48F9-9F20-1C894E72F4DA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_mud3" ID="{CC26CE8F-4932-4FEF-9012-79B1C2EBED9B}" ShortID="43236700">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walking_mud3" ID="{0018F7CB-6468-4BEF-B8DA-2C7B18226FEF}" ShortID="182021564">
+															<Language>SFX</Language>
+															<AudioFile>walking_mud3.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="690941690"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walking_mud3" ID="{0018F7CB-6468-4BEF-B8DA-2C7B18226FEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_mud1" ID="{7C371473-D6F4-4867-A9B8-137C9BA79DB1}" ShortID="51946142">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="walkig_mud1" ID="{F46B1F02-619D-4DC8-92D1-461F0CC42C48}" ShortID="783301891">
+															<Language>SFX</Language>
+															<AudioFile>walkig_mud1.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="418092558"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="walkig_mud1" ID="{F46B1F02-619D-4DC8-92D1-461F0CC42C48}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Fall_Vegetation" ID="{7738537D-43E2-4C6B-BEFA-7FC4EF628107}" ShortID="654593669">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="fall_vegetation1" ID="{6D2F87BD-6C8F-4DFC-AAEE-EFA1C0231D4A}" ShortID="328796392">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>50</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="vegetation_footstep" ID="{4F5795F5-4C8F-45B1-8FC2-82F27B3DD659}" ShortID="937660074">
+															<Language>SFX</Language>
+															<AudioFile>levels\Ravine\vegetation_footstep.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="699775253"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="vegetation_footstep" ID="{4F5795F5-4C8F-45B1-8FC2-82F27B3DD659}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_vegetation2" ID="{A58E43A5-7282-4F25-A063-28CBC095089F}" ShortID="277912797">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-50</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="vegetation_footstep" ID="{E81A80AC-CBD3-4C78-8718-A942662710C4}" ShortID="1005832464">
+															<Language>SFX</Language>
+															<AudioFile>levels\Ravine\vegetation_footstep.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="699775253"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="vegetation_footstep" ID="{E81A80AC-CBD3-4C78-8718-A942662710C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_vegetation3" ID="{B6D420AE-DB92-4400-A4B0-FD5BC625CCD2}" ShortID="546573951">
+													<PropertyList>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="vegetation_footstep" ID="{48243115-39B9-455A-AE9E-55FAD1F03893}" ShortID="803958440">
+															<Language>SFX</Language>
+															<AudioFile>levels\Ravine\vegetation_footstep.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="699775253"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="vegetation_footstep" ID="{48243115-39B9-455A-AE9E-55FAD1F03893}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Fall_Wood" ID="{EA93DDE2-2AB8-469C-AE70-935E05E7A9CD}" ShortID="744412692">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="fall_wood1" ID="{4DE82886-4985-4992-9685-68D06317428D}" ShortID="1022807764">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_footstep" ID="{91B20BF3-1E91-4867-BF78-56293922591E}" ShortID="239002124">
+															<Language>SFX</Language>
+															<AudioFile>wood_footstep.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="689276962"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_footstep" ID="{91B20BF3-1E91-4867-BF78-56293922591E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_wood2" ID="{A478BA9B-43DB-4C4B-BFBD-85AE5385E6D1}" ShortID="705449785">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>150</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_footstep" ID="{8EB46DC6-92B2-4D22-BCD9-827B5BC6FDD4}" ShortID="150653603">
+															<Language>SFX</Language>
+															<AudioFile>wood_footstep.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="689276962"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_footstep" ID="{8EB46DC6-92B2-4D22-BCD9-827B5BC6FDD4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fall_wood3" ID="{05600CFF-3B0C-47AB-99B3-4E0913AF19FD}" ShortID="874169975">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-150</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="wood_footstep" ID="{CBB0C5F6-94EF-4E8C-B094-E0C9E1C15A66}" ShortID="477596870">
+															<Language>SFX</Language>
+															<AudioFile>wood_footstep.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="689276962"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="wood_footstep" ID="{CBB0C5F6-94EF-4E8C-B094-E0C9E1C15A66}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Fall_Vegetation" ID="{7738537D-43E2-4C6B-BEFA-7FC4EF628107}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Fall_Sand" ID="{D6915890-A697-4469-AD45-5AFF60B40228}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Fall_Stone" ID="{B24AB6B6-4DA0-4187-BDBD-22A244C6511B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Fall_Wood" ID="{EA93DDE2-2AB8-469C-AE70-935E05E7A9CD}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Fall_Mud" ID="{9A673AEE-51C6-4E01-BB1A-EC3D16CB18D0}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+												<ItemList>
+													<ItemRef Name="Fall_Mud" ID="{9A673AEE-51C6-4E01-BB1A-EC3D16CB18D0}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{9907AC5F-E50C-41AA-9D53-153F42DB5005}"/>
+												<ItemList>
+													<ItemRef Name="Fall_Wood" ID="{EA93DDE2-2AB8-469C-AE70-935E05E7A9CD}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Sand" ID="{C55D0771-EF04-418D-8C80-5466CE144BB1}"/>
+												<ItemList>
+													<ItemRef Name="Fall_Sand" ID="{D6915890-A697-4469-AD45-5AFF60B40228}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Vegetation" ID="{928B2EA7-0339-403A-9A81-8CFD4742ACCE}"/>
+												<ItemList>
+													<ItemRef Name="Fall_Vegetation" ID="{7738537D-43E2-4C6B-BEFA-7FC4EF628107}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{C5CC37D8-B4F6-4B66-86AA-213C54F44C29}"/>
+												<ItemList>
+													<ItemRef Name="Fall_Stone" ID="{B24AB6B6-4DA0-4187-BDBD-22A244C6511B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

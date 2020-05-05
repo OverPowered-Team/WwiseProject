@@ -71,6 +71,7 @@
 						<ObjectRef Name="Play_GeraltJump" ID="{BD8E6503-0971-4A8E-9B5A-6FD0307B954D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_YennJump" ID="{053AE285-B4FF-4C4B-B3BE-47246B12ED85}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Roll" ID="{9D127D89-3A60-4CD3-AAE3-D4275EFE3B04}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Player_Fall" ID="{C2FF90EB-701A-4DF0-BAB8-588584C86233}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

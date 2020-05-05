@@ -10,7 +10,7 @@
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
 				<File Name="Music" Hash="1484853258" Timestamp="1588679884"/>
 				<File Name="Objects_SFX" Hash="196563955" Timestamp="1588679884"/>
-				<File Name="Player_SFX" Hash="2509284398" Timestamp="1588679884"/>
+				<File Name="Player_SFX" Hash="324899641" Timestamp="1588685258"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
 				<File Name="UI_SFX" Hash="3326886462" Timestamp="1588679884"/>
@@ -32,7 +32,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3344207675" Timestamp="1588679884"/>
+				<File Name="" Hash="2086723467" Timestamp="1588685258"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
