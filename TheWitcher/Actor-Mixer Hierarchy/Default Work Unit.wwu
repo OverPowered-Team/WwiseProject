@@ -2034,11 +2034,117 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Wood" ID="{41315A26-B7F1-44EB-9C60-6F4FC338CEE8}" ShortID="74998790">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="wood_footstep" ID="{EEBB0F57-FFE1-44C8-81F6-769E596FA7BB}" ShortID="76330437">
+											<PropertyList>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wood_footstep" ID="{063D1ECE-2B77-4088-A60F-D99180903E50}" ShortID="1006479095">
+													<Language>SFX</Language>
+													<AudioFile>wood_footstep.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wood_footstep" ID="{063D1ECE-2B77-4088-A60F-D99180903E50}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="wood_footstep_01" ID="{6FEBA21C-6FB2-418B-AE78-F2DD7BB4267E}" ShortID="337105439">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>150</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wood_footstep" ID="{3F843F49-FE27-41AA-B774-2B565C41EC6F}" ShortID="549010673">
+													<Language>SFX</Language>
+													<AudioFile>wood_footstep.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1006479095"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wood_footstep" ID="{3F843F49-FE27-41AA-B774-2B565C41EC6F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="wood_footstep_02" ID="{0A9FB4E6-62D0-45CF-9CE0-476FBCC7E440}" ShortID="833400151">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-150</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PositioningType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wood_footstep" ID="{79623DEE-7C14-495E-94E2-F1826322E93A}" ShortID="447558084">
+													<Language>SFX</Language>
+													<AudioFile>wood_footstep.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1006479095"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wood_footstep" ID="{79623DEE-7C14-495E-94E2-F1826322E93A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="Sand" ID="{C3457622-A858-4371-994A-3D6609CB023A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Wood" ID="{41315A26-B7F1-44EB-9C60-6F4FC338CEE8}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Vegetation" ID="{0DC0039D-1C52-4287-AE38-F4078F6F49FB}"/>
@@ -2055,6 +2161,12 @@
 										<SwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
 										<ItemList>
 											<ItemRef Name="Mud" ID="{9355959E-0D16-48C8-91E4-3BDE717EE247}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{9907AC5F-E50C-41AA-9D53-153F42DB5005}"/>
+										<ItemList>
+											<ItemRef Name="Wood" ID="{41315A26-B7F1-44EB-9C60-6F4FC338CEE8}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -3130,7 +3242,29 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Ravine" ID="{DCF8933A-13C4-4532-B566-73F76C31941F}" ShortID="194749497"/>
+								<Folder Name="Ravine" ID="{DCF8933A-13C4-4532-B566-73F76C31941F}" ShortID="194749497">
+									<ChildrenList>
+										<Sound Name="vegetation_hit" ID="{ED6A206C-DE2D-4651-9999-4CCA997AC647}" ShortID="521763040">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="vegetation_hit" ID="{E16DEF9C-9A00-4659-BB9C-3364E957C4B2}" ShortID="744122279">
+													<Language>SFX</Language>
+													<AudioFile>vegetation_hit.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="vegetation_hit" ID="{E16DEF9C-9A00-4659-BB9C-3364E957C4B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
