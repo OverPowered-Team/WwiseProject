@@ -1258,6 +1258,397 @@
 										<ActiveSource Name="soldierHit" ID="{FB3C163B-4763-491A-8D02-C94B0FE6651D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Folder Name="Drowner" ID="{CA0B0E8B-2639-4D74-9E36-219C3BE63EAB}" ShortID="152532425">
+									<ChildrenList>
+										<Sound Name="drowner_death" ID="{D8B1FC4C-1859-4B5B-92A8-EC0F2E2CF9EF}" ShortID="577916309">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="drowner_death" ID="{1B39A70D-A5DD-441A-AE06-815A1D821928}" ShortID="385293872">
+													<Language>SFX</Language>
+													<AudioFile>drowner_death.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="drowner_death" ID="{1B39A70D-A5DD-441A-AE06-815A1D821928}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="drowner_footstep" ID="{5F0F5A52-FEFB-485F-BAA9-695357BAFE41}" ShortID="957797002">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="drowner_footstep" ID="{484C0A45-610D-4E7A-BBC2-4DA0C3778BC4}" ShortID="742272358">
+													<Language>SFX</Language>
+													<AudioFile>drowner_footstep.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="drowner_footstep" ID="{484C0A45-610D-4E7A-BBC2-4DA0C3778BC4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="drowner_hit" ID="{786FE47C-BABB-4197-B845-A9FF93D20D5B}" ShortID="143846538">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="drowner_hit" ID="{D34C908B-E7C2-417F-8ECD-AFE0F5C6B91D}" ShortID="535572438">
+													<Language>SFX</Language>
+													<AudioFile>drowner_hit.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="drowner_hit" ID="{D34C908B-E7C2-417F-8ECD-AFE0F5C6B91D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="drowner_movement_water" ID="{083F8D9C-5234-4A49-9AFF-89F199A58661}" ShortID="630324673">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="drowner_movement_water" ID="{7B50B770-0A63-40B7-9CB5-948FF1149BC7}" ShortID="160447770">
+													<Language>SFX</Language>
+													<AudioFile>drowner_movement_water.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="drowner_movement_water" ID="{7B50B770-0A63-40B7-9CB5-948FF1149BC7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="drowner_shot_attack" ID="{BDF7101E-4F25-4CA9-AB2A-DF8DCCA00ACD}" ShortID="716806621">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="drowner_shot_attack" ID="{54CBA8CF-BEB2-4BF2-977A-9DED3A0D73E7}" ShortID="593406664">
+													<Language>SFX</Language>
+													<AudioFile>drowner_shot_attack.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="drowner_shot_attack" ID="{54CBA8CF-BEB2-4BF2-977A-9DED3A0D73E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="drowner_splash_water" ID="{87FD9C3B-AA35-47A6-BCFE-3EB52171E2E2}" ShortID="846242919">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="drowner_splash_water" ID="{F3CCCE06-6413-472F-8E46-8246A49B218F}" ShortID="149651852">
+													<Language>SFX</Language>
+													<AudioFile>drowner_splash_water.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="drowner_splash_water" ID="{F3CCCE06-6413-472F-8E46-8246A49B218F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Leshen" ID="{FD2C5698-920B-4068-A6AC-6D67545C06CA}" ShortID="1055468465">
+									<ChildrenList>
+										<Sound Name="leshen_death" ID="{2F90E596-9350-4DCC-AC81-748094288EFF}" ShortID="860685251">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="leshen_death" ID="{73E03BCE-B11A-4BB7-940F-79DC5D3D85BC}" ShortID="47010875">
+													<Language>SFX</Language>
+													<AudioFile>leshen_death.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="leshen_death" ID="{73E03BCE-B11A-4BB7-940F-79DC5D3D85BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="leshen_hit" ID="{3F1A2A6F-DB59-4E38-BFA8-D54F2E5BA401}" ShortID="284394093">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="leshen_hit" ID="{1E952F4D-971C-4E4B-B9A1-FFAE9E266E7C}" ShortID="279893819">
+													<Language>SFX</Language>
+													<AudioFile>leshen_hit.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="leshen_hit" ID="{1E952F4D-971C-4E4B-B9A1-FFAE9E266E7C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="leshen_melee_attack" ID="{65C5FDA7-6BCA-4FCD-AA27-6B849ED21F79}" ShortID="468722573">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="leshen_melee_attack" ID="{882817C0-1DCE-4BC1-BD54-A88BE839AEB4}" ShortID="612787848">
+													<Language>SFX</Language>
+													<AudioFile>leshen_melee_attack.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="leshen_melee_attack" ID="{882817C0-1DCE-4BC1-BD54-A88BE839AEB4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="leshen_raven_cloud" ID="{8351EC9B-D83E-4874-A5FD-78AE12D2D294}" ShortID="331075305">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="leshen_raven_cloud" ID="{CE28DDA0-5998-4D2B-ABDB-FFAC0362EC0B}" ShortID="521772631">
+													<Language>SFX</Language>
+													<AudioFile>leshen_raven_cloud.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="leshen_raven_cloud" ID="{CE28DDA0-5998-4D2B-ABDB-FFAC0362EC0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="leshen_raven_throw" ID="{82BE99AB-4B77-440F-B8EC-0728D2E0C6A9}" ShortID="57601403">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="leshen_raven_throw" ID="{39507A99-A148-491B-A041-F04AD7180AA0}" ShortID="251602365">
+													<Language>SFX</Language>
+													<AudioFile>leshen_raven_throw.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="leshen_raven_throw" ID="{39507A99-A148-491B-A041-F04AD7180AA0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="leshen_roots" ID="{C12235FE-A3DE-4A29-A564-11C3EEAD71AE}" ShortID="62095337">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="leshen_roots" ID="{D092EE65-0054-415C-BE3C-FC4A8B40C69A}" ShortID="518579957">
+													<Language>SFX</Language>
+													<AudioFile>leshen_roots.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="leshen_roots" ID="{D092EE65-0054-415C-BE3C-FC4A8B40C69A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="leshen_smoke_cloud" ID="{B3549D9A-B0B4-4394-82E0-529845C70606}" ShortID="777909933">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="leshen_smoke_cloud" ID="{39BD7507-A2A7-4DB9-97C7-83D540AFB511}" ShortID="171381778">
+													<Language>SFX</Language>
+													<AudioFile>leshen_smoke_cloud.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="leshen_smoke_cloud" ID="{39BD7507-A2A7-4DB9-97C7-83D540AFB511}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Sound Name="dizzy_enemy" ID="{F30D8C68-B1AA-4658-860C-3FE7A8D4C925}" ShortID="149856990">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dizzy_enemy" ID="{0C4C6FC0-5160-4F96-8424-7D807B2A9DD1}" ShortID="224532643">
+											<Language>SFX</Language>
+											<AudioFile>dizzy_enemy.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dizzy_enemy" ID="{0C4C6FC0-5160-4F96-8424-7D807B2A9DD1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="soldier_footstep" ID="{1DFC7F27-C3E8-4931-BF84-D4C83CD40F45}" ShortID="895506053">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="soldier_footstep" ID="{B8337133-2E19-44B1-8291-D2A3E382768C}" ShortID="888899837">
+											<Language>SFX</Language>
+											<AudioFile>soldier_footstep.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="soldier_footstep" ID="{B8337133-2E19-44B1-8291-D2A3E382768C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -3417,6 +3808,166 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="RockFalling" ID="{15154545-82F4-4793-A167-DDA25052B97E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Runestones" ID="{639C58EC-39CF-46BF-A1BD-04C9F410B069}" ShortID="669504280">
+							<ChildrenList>
+								<Sound Name="collect_runestone" ID="{849F3368-AD0B-4F02-80B3-EAFAE5150428}" ShortID="528877061">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="collect_runestone" ID="{CD0B3954-9A99-4BA5-B68C-D625BEBCC196}" ShortID="367052369">
+											<Language>SFX</Language>
+											<AudioFile>collect_runestone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="collect_runestone" ID="{CD0B3954-9A99-4BA5-B68C-D625BEBCC196}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="earth_runestone" ID="{4346BBDB-F294-402F-8C94-310080C04726}" ShortID="90837537">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="earth_runestone" ID="{A411BFC3-89D1-4E28-81B1-8D2EC65D4D60}" ShortID="368529329">
+											<Language>SFX</Language>
+											<AudioFile>earth_runestone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="earth_runestone" ID="{A411BFC3-89D1-4E28-81B1-8D2EC65D4D60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="fire_runestone" ID="{4FD1C449-8015-4364-8E6A-9458F94F585C}" ShortID="23773570">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="fire_runestone" ID="{C400ED8D-BA9B-4C9D-91EB-E3F7025D8427}" ShortID="264947119">
+											<Language>SFX</Language>
+											<AudioFile>fire_runestone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="fire_runestone" ID="{C400ED8D-BA9B-4C9D-91EB-E3F7025D8427}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ice_runestone" ID="{8DABE836-7FBE-445D-AFD9-13F4A4623B1A}" ShortID="219511037">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ice_runestone" ID="{10899F7C-A3EB-4821-848B-918A0DCA335D}" ShortID="586983686">
+											<Language>SFX</Language>
+											<AudioFile>ice_runestone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ice_runestone" ID="{10899F7C-A3EB-4821-848B-918A0DCA335D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="lightning_runestone" ID="{3CB589A8-7140-490A-8E61-7C6232439F2D}" ShortID="791022517">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lightning_runestone" ID="{485D6DDC-9E8E-4C38-B108-BECADA83AB8F}" ShortID="948641462">
+											<Language>SFX</Language>
+											<AudioFile>lightning_runestone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="lightning_runestone" ID="{485D6DDC-9E8E-4C38-B108-BECADA83AB8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="poison_runestone" ID="{BD6A27E1-1298-4EA9-B6B1-21C69D675FF9}" ShortID="803250841">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="poison_runestone" ID="{FF02E9D7-B3C9-44A1-B8E5-EE1FF2841505}" ShortID="401112432">
+											<Language>SFX</Language>
+											<AudioFile>poison_runestone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="poison_runestone" ID="{FF02E9D7-B3C9-44A1-B8E5-EE1FF2841505}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -1133,6 +1133,312 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Drowner" ID="{0DB631E1-ED3E-4574-8D4B-E9F1DCF9A2D7}" ShortID="288298128">
+							<ChildrenList>
+								<Event Name="Play_Drowner_Death" ID="{8AF01053-1291-4B4B-B2C8-702238A2EA5B}">
+									<ChildrenList>
+										<Action Name="" ID="{E2A41D9F-758B-4464-A71A-BC0B42A738D6}" ShortID="946277502">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="drowner_death" ID="{D8B1FC4C-1859-4B5B-92A8-EC0F2E2CF9EF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Drowner_Footstep" ID="{F5668068-2911-4EC5-9D1B-A0DB0A1EC0E3}">
+									<ChildrenList>
+										<Action Name="" ID="{FB18CBDF-7BC1-4A38-8F00-071F64718F7D}" ShortID="588047905">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="drowner_footstep" ID="{5F0F5A52-FEFB-485F-BAA9-695357BAFE41}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Drowner_Hit" ID="{CB380B45-61E2-43A8-B165-753C869D915E}">
+									<ChildrenList>
+										<Action Name="" ID="{19AF89C8-514D-443C-BB72-FADF9D8BCF32}" ShortID="213942428">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="drowner_hit" ID="{786FE47C-BABB-4197-B845-A9FF93D20D5B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Drowner_Movement_Water" ID="{63889C50-F7BB-40A3-A7A2-515565CC0B76}">
+									<ChildrenList>
+										<Action Name="" ID="{7E86B6FD-164C-40D1-8309-891D672D5161}" ShortID="222223220">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="drowner_movement_water" ID="{083F8D9C-5234-4A49-9AFF-89F199A58661}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Drowner_Shot_Attack" ID="{98850FF6-7936-4583-BE1B-C26D94E494B5}">
+									<ChildrenList>
+										<Action Name="" ID="{95BF75D4-706E-48B3-BED0-DEDC70614A1C}" ShortID="418342711">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="drowner_shot_attack" ID="{BDF7101E-4F25-4CA9-AB2A-DF8DCCA00ACD}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Drowner_Splash_Water" ID="{1D29F3E9-5C67-49D1-9246-F00E019D5C02}">
+									<ChildrenList>
+										<Action Name="" ID="{00408079-F4C0-4CDB-A671-BF6ACC107E8C}" ShortID="686494042">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="drowner_splash_water" ID="{87FD9C3B-AA35-47A6-BCFE-3EB52171E2E2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Leshen" ID="{EAD7DE2E-2F30-4AB3-B5DD-18CA37A743C2}" ShortID="576661342">
+							<ChildrenList>
+								<Event Name="Play_Leshen_Death" ID="{7F1C8885-5021-4245-A48F-C407E0596076}">
+									<ChildrenList>
+										<Action Name="" ID="{321CE570-6874-4A13-BFE0-F3EB8C53F9F7}" ShortID="693368046">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_death" ID="{2F90E596-9350-4DCC-AC81-748094288EFF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Leshen_Hit" ID="{6F3C0E4D-57FF-4B7E-A9F3-001B0998961D}">
+									<ChildrenList>
+										<Action Name="" ID="{A3999737-64AB-452F-AE4D-0EC2276E9D57}" ShortID="772856181">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_hit" ID="{3F1A2A6F-DB59-4E38-BFA8-D54F2E5BA401}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Leshen_Melee_Attack" ID="{B5D9478E-FF07-4DC8-8BF1-F1903AB32E70}">
+									<ChildrenList>
+										<Action Name="" ID="{436EADA7-EF35-4311-8E57-E83BB333478F}" ShortID="885858730">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_melee_attack" ID="{65C5FDA7-6BCA-4FCD-AA27-6B849ED21F79}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Leshen_Raven_Cloud" ID="{ECEA917C-063D-48D0-B121-B694EF20EB0A}">
+									<ChildrenList>
+										<Action Name="" ID="{C6BB83C5-574C-4547-998B-7555576E895F}" ShortID="996358057">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_raven_cloud" ID="{8351EC9B-D83E-4874-A5FD-78AE12D2D294}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Leshen_Raven_Throw" ID="{DC714114-A9DE-4316-9B9C-9D79A13DF689}">
+									<ChildrenList>
+										<Action Name="" ID="{F4624D18-8DA2-499E-848D-03E83BD3DB7A}" ShortID="1000851949">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_raven_throw" ID="{82BE99AB-4B77-440F-B8EC-0728D2E0C6A9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Leshen_Roots" ID="{C12AEEF7-E5B8-4CDF-984E-1A61593B32ED}">
+									<ChildrenList>
+										<Action Name="" ID="{C721DBDD-4886-4572-A41C-E5102082D959}" ShortID="716672103">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_roots" ID="{C12235FE-A3DE-4A29-A564-11C3EEAD71AE}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Leshen_Smoke_Cloud" ID="{B808B66E-F18F-43FB-959E-531350B45877}">
+									<ChildrenList>
+										<Action Name="" ID="{239800AE-AFA0-495C-AB77-6AB03F348070}" ShortID="734806040">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_smoke_cloud" ID="{B3549D9A-B0B4-4394-82E0-529845C70606}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_Dizzy_Enemy" ID="{B5BB7DC3-C600-48CA-870C-85B9D4521C24}">
+							<ChildrenList>
+								<Action Name="" ID="{C3385813-6767-4CE2-9339-8B6CAC0AD3F1}" ShortID="527357334">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dizzy_enemy" ID="{F30D8C68-B1AA-4658-860C-3FE7A8D4C925}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Soldier_footstep" ID="{78068777-EF2E-421D-B884-D6ACB2E5ACF9}">
+							<ChildrenList>
+								<Action Name="" ID="{AF60CCA6-21DA-41E1-AD16-5AE1D155E77D}" ShortID="85628001">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="soldier_footstep" ID="{1DFC7F27-C3E8-4931-BF84-D4C83CD40F45}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Runestone" ID="{B5A77364-8EC8-4865-AACF-FFC17D3F01CC}" ShortID="357610340">
+					<ChildrenList>
+						<Event Name="Play_Collect_Runestone" ID="{FD689538-9007-403C-904D-FF375972C807}">
+							<ChildrenList>
+								<Action Name="" ID="{A82EA12A-483C-4262-B6AC-2024FC62F890}" ShortID="260117867">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="collect_runestone" ID="{849F3368-AD0B-4F02-80B3-EAFAE5150428}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Earth_Runestone" ID="{4C19BCB1-E7AC-4B79-95BB-F97DE2014ABD}">
+							<ChildrenList>
+								<Action Name="" ID="{E58576C1-E864-4359-B905-21220FADE41E}" ShortID="805678900">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="earth_runestone" ID="{4346BBDB-F294-402F-8C94-310080C04726}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Lightning_Runestone" ID="{D3AF8A4D-5C26-4DD9-A480-160AB75C1475}">
+							<ChildrenList>
+								<Action Name="" ID="{BC927B4C-24D5-4794-ADCE-06493D66C148}" ShortID="228098024">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lightning_runestone" ID="{3CB589A8-7140-490A-8E61-7C6232439F2D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ice_Runestone" ID="{BE1CC294-F5EF-4459-B583-67B6EB47827F}">
+							<ChildrenList>
+								<Action Name="" ID="{189BABC9-B63D-40F1-BC8C-66FA1162FEBA}" ShortID="248753037">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ice_runestone" ID="{8DABE836-7FBE-445D-AFD9-13F4A4623B1A}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Poison_Runestone" ID="{F08B97A1-9801-4A28-A41D-4CA04FC5533D}">
+							<ChildrenList>
+								<Action Name="" ID="{C644B9AF-B9B3-49EC-B283-3841E293FDC8}" ShortID="626726693">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="poison_runestone" ID="{BD6A27E1-1298-4EA9-B6B1-21C69D675FF9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Fire_Runestone" ID="{E6D6BE91-E3B4-4512-849C-95CEBE86E6C2}">
+							<ChildrenList>
+								<Action Name="" ID="{CBE474FC-7BFE-4BA0-8BEC-FA0642871B16}" ShortID="305217123">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fire_runestone" ID="{4FD1C449-8015-4364-8E6A-9458F94F585C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
