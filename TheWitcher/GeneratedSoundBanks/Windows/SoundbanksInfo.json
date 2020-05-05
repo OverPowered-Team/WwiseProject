@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
-   "SourceFilesRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\jgher\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
+   "SourceFilesRoot": "C:\\Users\\jgher\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\jgher\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\jgher\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -705,17 +705,83 @@
     "Path": "Objects_SFX.bnk",
     "IncludedEvents": [
      {
+      "Id": "3145159334",
+      "Name": "Play_Collect_Runestone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Runestone\\Play_Collect_Runestone"
+     },
+     {
+      "Id": "3449845084",
+      "Name": "Play_Earth_Runestone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Runestone\\Play_Earth_Runestone"
+     },
+     {
       "Id": "2372531077",
       "Name": "Play_FenceDestroy",
       "ObjectPath": "\\Events\\Default Work Unit\\Object\\Play_FenceDestroy"
+     },
+     {
+      "Id": "3230728788",
+      "Name": "Play_Fire_Runestone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Runestone\\Play_Fire_Runestone"
+     },
+     {
+      "Id": "1709736977",
+      "Name": "Play_Ice_Runestone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Runestone\\Play_Ice_Runestone"
+     },
+     {
+      "Id": "928466002",
+      "Name": "Play_Lightning_Runestone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Runestone\\Play_Lightning_Runestone"
+     },
+     {
+      "Id": "1352529336",
+      "Name": "Play_Poison_Runestone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Runestone\\Play_Poison_Runestone"
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "264947119",
+      "Language": "SFX",
+      "ShortName": "fire_runestone.wav",
+      "Path": "SFX\\fire_runestone_1C9C67B2.wem"
+     },
+     {
+      "Id": "367052369",
+      "Language": "SFX",
+      "ShortName": "collect_runestone.wav",
+      "Path": "SFX\\collect_runestone_1C9C67B2.wem"
+     },
+     {
+      "Id": "368529329",
+      "Language": "SFX",
+      "ShortName": "earth_runestone.wav",
+      "Path": "SFX\\earth_runestone_1C9C67B2.wem"
+     },
+     {
+      "Id": "401112432",
+      "Language": "SFX",
+      "ShortName": "poison_runestone.wav",
+      "Path": "SFX\\poison_runestone_1C9C67B2.wem"
+     },
+     {
+      "Id": "586983686",
+      "Language": "SFX",
+      "ShortName": "ice_runestone.wav",
+      "Path": "SFX\\ice_runestone_1C9C67B2.wem"
+     },
      {
       "Id": "713490204",
       "Language": "SFX",
       "ShortName": "barrel_destroyed.wav",
       "Path": "SFX\\barrel_destroyed_1C9C67B2.wem"
+     },
+     {
+      "Id": "948641462",
+      "Language": "SFX",
+      "ShortName": "lightning_runestone.wav",
+      "Path": "SFX\\lightning_runestone_1C9C67B2.wem"
      }
     ]
    },
