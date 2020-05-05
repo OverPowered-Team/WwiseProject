@@ -20,8 +20,10 @@ namespace AK
         static const AkUniqueID GHOULHIT = 1866221083U;
         static const AkUniqueID INTRODIALOGUE = 1909520851U;
         static const AkUniqueID PLAY_BARD_MUSIC = 2011049715U;
-        static const AkUniqueID PLAY_BATTLE_BOSS = 1365115432U;
-        static const AkUniqueID PLAY_BIRDS_WIND = 1598323015U;
+        static const AkUniqueID PLAY_BATS = 1543750746U;
+        static const AkUniqueID PLAY_BIRDS = 3025897706U;
+        static const AkUniqueID PLAY_CAVE = 3602995889U;
+        static const AkUniqueID PLAY_CROWS = 639442158U;
         static const AkUniqueID PLAY_DIALOGUE1 = 4285197669U;
         static const AkUniqueID PLAY_DIALOGUE1_01 = 740533569U;
         static const AkUniqueID PLAY_DIALOGUE1_02 = 740533570U;
@@ -56,23 +58,28 @@ namespace AK
         static const AkUniqueID PLAY_DIALOGUE1_31 = 790866456U;
         static const AkUniqueID PLAY_END_MUSIC = 1635916389U;
         static const AkUniqueID PLAY_FENCEDESTROY = 2372531077U;
-        static const AkUniqueID PLAY_FOREST = 207755397U;
         static const AkUniqueID PLAY_GERALTDEATH = 2048623797U;
         static const AkUniqueID PLAY_GERALTGETDAMAGED = 219750196U;
         static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
+        static const AkUniqueID PLAY_GLOOMY = 2197695643U;
+        static const AkUniqueID PLAY_HEARTBEATS = 76267673U;
         static const AkUniqueID PLAY_IGNI = 511861945U;
+        static const AkUniqueID PLAY_INSECTS = 1213995237U;
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
         static const AkUniqueID PLAY_MUSIC_LVL1 = 4145153789U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
         static const AkUniqueID PLAY_ROCKS = 2052558220U;
         static const AkUniqueID PLAY_ROLL = 2719919427U;
-        static const AkUniqueID PLAY_SUSPENSE = 1099345086U;
+        static const AkUniqueID PLAY_SQUIRRELS = 701022914U;
+        static const AkUniqueID PLAY_TREE_FALL = 3560238346U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
         static const AkUniqueID PLAY_WINMENU_MUSIC = 3241038393U;
+        static const AkUniqueID PLAY_WOLF_HOWLING = 1297505753U;
         static const AkUniqueID PLAY_YENNDEATH = 149154610U;
         static const AkUniqueID PLAY_YENNGETDAMAGED = 831621349U;
         static const AkUniqueID PLAY_YENNJUMP = 4258364352U;
         static const AkUniqueID PLAY_YENNSHOCKWAVE = 527437U;
+        static const AkUniqueID PLAYER_FALL = 2551268862U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_SWORDHIT = 3070097383U;
         static const AkUniqueID PLAYGHOULS = 3184224717U;
@@ -91,10 +98,16 @@ namespace AK
 
             namespace STATE
             {
-                static const AkUniqueID BIRDS_WIND = 1295265788U;
-                static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID AFTER_BOSS = 1362486867U;
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID DROWNERS = 2358467699U;
+                static const AkUniqueID FORTRESS = 3565738319U;
+                static const AkUniqueID GHOUL_NESTS = 2427728260U;
+                static const AkUniqueID MIDDLE_AREA = 1908629550U;
+                static const AkUniqueID PRE_BOSS = 1258683828U;
                 static const AkUniqueID QUIET = 1565680351U;
-                static const AkUniqueID WIND = 1537061107U;
+                static const AkUniqueID RAVINE = 500935542U;
+                static const AkUniqueID SLOPE_TO_CAVE = 1665801306U;
             } // namespace STATE
         } // namespace ENV_LVL1
 
@@ -165,6 +178,7 @@ namespace AK
                 static const AkUniqueID SAND = 803837735U;
                 static const AkUniqueID STONE = 1216965916U;
                 static const AkUniqueID VEGETATION = 2932679629U;
+                static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace MATERIAL
 
@@ -174,7 +188,9 @@ namespace AK
     {
         static const AkUniqueID COMBATDISTANCE = 1193492672U;
         static const AkUniqueID DOPPLERROCKS = 442820407U;
+        static const AkUniqueID FADE = 2646605403U;
         static const AkUniqueID PITCHSLOWMO = 1799551114U;
+        static const AkUniqueID PLAYERLIFE = 444815956U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -196,7 +212,9 @@ namespace AK
 
     namespace AUX_BUSSES
     {
-        static const AkUniqueID REVERB = 348963605U;
+        static const AkUniqueID FADE = 2646605403U;
+        static const AkUniqueID REVERB_CASTLE = 987957292U;
+        static const AkUniqueID REVERB_CAVE = 323187407U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

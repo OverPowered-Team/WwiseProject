@@ -831,34 +831,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Forest" ID="{FD822737-B670-43C2-932A-DEF1B418ED53}">
-							<ChildrenList>
-								<Action Name="" ID="{0843FC39-5192-4F68-94E8-917F785EC4F7}" ShortID="984013346">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Forest" ID="{5BF864D8-32A4-43E0-AAC8-FF2BC3DBF321}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Battle_Boss" ID="{E0ED2777-F452-4103-AEF2-8EC6030D49B7}">
-							<ChildrenList>
-								<Action Name="" ID="{AA8B6ABB-9360-4358-8F2A-BD007C6D739F}" ShortID="728313616">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Intense" ID="{5B3A08B4-529F-4C1F-9736-99AC00FD384E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Wind" ID="{6EC1C5CE-6ABF-4349-896E-BC86F3120E57}">
 							<ChildrenList>
 								<Action Name="" ID="{ABB87902-A18F-4482-9DED-B1A7227D14EB}" ShortID="784474166">
@@ -901,16 +873,132 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Birds" ID="{A4E0EF87-54C8-4164-BE96-40679F97CA12}"/>
-						<Event Name="Play_Crows" ID="{B31414A4-F1EA-4877-A951-E04E7E6BCA3F}"/>
-						<Event Name="Play_Squirrels" ID="{791DCB92-7809-476E-A973-934D68FF6A4B}"/>
-						<Event Name="Play_Bats" ID="{73DC4792-2AA1-4C70-851E-42612D8AFD70}"/>
-						<Event Name="Play_Cave" ID="{952D26FE-FF90-4173-8DD1-2F16E8E1C9F1}"/>
-						<Event Name="Play_Gloomy" ID="{0A7144BC-C95C-4FC6-BCD1-023111500C72}"/>
-						<Event Name="Play_Insects" ID="{9881B2AE-0A42-4B76-9C9E-22995396A393}"/>
-						<Event Name="Play_Trees_Squeaking" ID="{2AD0B5C7-23D4-4FA0-B802-5A23A089146F}"/>
-						<Event Name="Play_Tree_Fall" ID="{4E359267-BA40-48BD-B797-B04254A49270}"/>
-						<Event Name="Play_Wolf_Howling" ID="{2E1EC5BC-ADC2-4DE7-8EB5-8ADF2B44D7E4}"/>
+						<Event Name="Play_Birds" ID="{A4E0EF87-54C8-4164-BE96-40679F97CA12}">
+							<ChildrenList>
+								<Action Name="" ID="{1A03C476-90EF-4102-BFF5-2441B4A96B38}" ShortID="304799420">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Birds_env" ID="{7D9F756C-0459-4E2D-B434-648D2DEE8A9D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Crows" ID="{B31414A4-F1EA-4877-A951-E04E7E6BCA3F}">
+							<ChildrenList>
+								<Action Name="" ID="{F1297C6C-C820-4FE6-B527-5F89B7F3AC5E}" ShortID="508087447">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Squirrels" ID="{791DCB92-7809-476E-A973-934D68FF6A4B}">
+							<ChildrenList>
+								<Action Name="" ID="{C06C5D13-DDC8-4E11-B897-B1DA5F6289EE}" ShortID="120253491">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Squirrel" ID="{96A5DA47-875B-4044-AA98-96CE03A6C1CD}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bats" ID="{73DC4792-2AA1-4C70-851E-42612D8AFD70}">
+							<ChildrenList>
+								<Action Name="" ID="{120E6801-C288-4C2B-8E2B-335082DE6B94}" ShortID="692701912">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bats_loop" ID="{CF1C048F-0606-4373-A95B-BE647C9CF9F9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Cave" ID="{952D26FE-FF90-4173-8DD1-2F16E8E1C9F1}">
+							<ChildrenList>
+								<Action Name="" ID="{F7315471-47AA-4553-A071-CF60000F9E0E}" ShortID="11297367">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cave_ambience_loop" ID="{A0FDA2BE-2501-421D-BB9D-40C6CCB6001C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Gloomy" ID="{0A7144BC-C95C-4FC6-BCD1-023111500C72}">
+							<ChildrenList>
+								<Action Name="" ID="{B61DCB9E-F9DF-4EDA-B013-C6DC782E28A2}" ShortID="787670952">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="gloomy_sfx" ID="{8FB20A8B-B96B-485F-801D-D0A97E45B108}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Insects" ID="{9881B2AE-0A42-4B76-9C9E-22995396A393}">
+							<ChildrenList>
+								<Action Name="" ID="{86AA367A-0CF0-461C-A715-C9332E058E67}" ShortID="472035363">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="insects_wind_loop" ID="{EFA29189-2824-48B6-86FA-F47903541830}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Tree_Fall" ID="{4E359267-BA40-48BD-B797-B04254A49270}">
+							<ChildrenList>
+								<Action Name="" ID="{BC25CF75-8667-4716-9B76-5778DE164355}" ShortID="1016823097">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="tree_fall" ID="{6BC67D69-7127-4240-84BA-2ADDAD40A2CC}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wolf_Howling" ID="{2E1EC5BC-ADC2-4DE7-8EB5-8ADF2B44D7E4}">
+							<ChildrenList>
+								<Action Name="" ID="{18889691-C6F4-49CB-921B-54EB607C13E9}" ShortID="263602455">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wolf" ID="{A55C988C-6ECD-4DD1-B70C-0208C56FE52B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Object" ID="{0B796F3F-4771-449B-A7AA-E87121C362B3}" ShortID="516657702">
