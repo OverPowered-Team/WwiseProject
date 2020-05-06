@@ -575,6 +575,76 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Random_Level1_Music" ID="{95B7EE75-C958-4328-97BA-6C4DAF819AE7}">
+							<ChildrenList>
+								<Action Name="" ID="{7709B6E4-8F62-40D7-B3A7-3DD229B2EB04}" ShortID="491571907">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RandomMusicLevel1" ID="{690BAD41-285A-4176-BD98-88F674CC5FD4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_KaerMorhen" ID="{F7ADF645-860F-4448-A75C-3E5EE969AAD4}">
+							<ChildrenList>
+								<Action Name="" ID="{F0D756A0-1EC2-4913-B24F-69240CF3CCB6}" ShortID="477629124">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Kaer Morhen (1)" ID="{DE03068C-352E-4598-8B3D-72A27298C7BF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ladies_of_the_Woods" ID="{7601D189-2A99-4415-9F52-20412D7B01CE}">
+							<ChildrenList>
+								<Action Name="" ID="{281CF1C6-5B39-446B-BA35-74D573CB28D1}" ShortID="1018955935">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ladies of the Woods" ID="{8DE38F95-F7E0-4CFD-8E2A-0D56F25CBB9D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Trial_Of_The_Grasses" ID="{092440D5-961F-4CE2-A42B-8481F25771A4}">
+							<ChildrenList>
+								<Action Name="" ID="{97910EB7-E484-4C87-BA28-6E47453AA8C1}" ShortID="138986750">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trial Of The Grasses" ID="{32149C0D-4BB2-4C57-B5CB-77BE45C3C747}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_No_Surrender" ID="{726BCFE7-C2EA-4487-857C-E2296C75B7C9}">
+							<ChildrenList>
+								<Action Name="" ID="{DB97EF08-1665-4D60-8017-47BEA4B8323D}" ShortID="788556320">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No Surrender" ID="{D87EBA93-1044-42A3-BD88-6FEB179596AA}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player_Interactions" ID="{342DC179-3248-4379-942D-DF0259F9C653}" ShortID="787945414">
@@ -892,6 +962,28 @@
 								<Action Name="" ID="{F1297C6C-C820-4FE6-B527-5F89B7F3AC5E}" ShortID="508087447">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{56ADBC5C-90E9-4E35-8E93-60DE0C32FF99}" ShortID="619998072">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3C86ABAE-6DB3-48A5-B755-CFB2B4F44EB8}" ShortID="411513242">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="4"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

@@ -2211,6 +2211,164 @@
 										<ActiveSource Name="music_calm_green_lake_serenade" ID="{457807B8-EC1D-4AF0-A8B2-04E67B62A797}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Folder Name="Level 1" ID="{5627E27E-AAEC-4C6B-8B22-42F3C93111F3}" ShortID="784750810">
+									<ChildrenList>
+										<RandomSequenceContainer Name="RandomMusicLevel1" ID="{690BAD41-285A-4176-BD98-88F674CC5FD4}" ShortID="940315605">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Another Round For Everyone" ID="{3575232C-F8DA-4BD1-B67A-5A0E4B4404F2}" ShortID="600659162">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Another Round For Everyone" ID="{3F6DFCA8-B296-4069-9C90-5BE56D08DC9D}" ShortID="368071403">
+															<Language>SFX</Language>
+															<AudioFile>Another Round For Everyone.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Another Round For Everyone" ID="{3F6DFCA8-B296-4069-9C90-5BE56D08DC9D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Go For It" ID="{C6DC5E73-9110-40DD-8362-4A655161013B}" ShortID="192115684">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Go For It" ID="{A5CF59BC-4D28-456D-A605-B79B389D7CCE}" ShortID="764766728">
+															<Language>SFX</Language>
+															<AudioFile>Go For It.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Go For It" ID="{A5CF59BC-4D28-456D-A605-B79B389D7CCE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Ladies of the Woods" ID="{A7F54157-C20C-459A-B927-EB29FD3290AA}" ShortID="636484398">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Ladies of the Woods" ID="{F14E6A1E-467D-49D2-B17F-109B4EBB6E61}" ShortID="112471914">
+															<Language>SFX</Language>
+															<AudioFile>Ladies of the Woods.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Ladies of the Woods" ID="{F14E6A1E-467D-49D2-B17F-109B4EBB6E61}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Kaer Morhen (1)" ID="{DE03068C-352E-4598-8B3D-72A27298C7BF}" ShortID="87922287">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kaer Morhen (1)" ID="{68415082-920B-4F6D-9B30-FFE187F27906}" ShortID="438170779">
+													<Language>SFX</Language>
+													<AudioFile>Kaer Morhen (1).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Kaer Morhen (1)" ID="{68415082-920B-4F6D-9B30-FFE187F27906}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ladies of the Woods" ID="{8DE38F95-F7E0-4CFD-8E2A-0D56F25CBB9D}" ShortID="727836604">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ladies of the Woods" ID="{07C6C046-61DD-437A-B827-6C991D148F38}" ShortID="247991330">
+													<Language>SFX</Language>
+													<AudioFile>Ladies of the Woods.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="112471914"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ladies of the Woods" ID="{07C6C046-61DD-437A-B827-6C991D148F38}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="No Surrender" ID="{D87EBA93-1044-42A3-BD88-6FEB179596AA}" ShortID="1067689396">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="No Surrender" ID="{2C9B9D8F-2026-49DE-8BF7-0497C48B10C8}" ShortID="546046929">
+													<Language>SFX</Language>
+													<AudioFile>No Surrender.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="No Surrender" ID="{2C9B9D8F-2026-49DE-8BF7-0497C48B10C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Trial Of The Grasses" ID="{32149C0D-4BB2-4C57-B5CB-77BE45C3C747}" ShortID="362709071">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Trial Of The Grasses" ID="{6093D6B1-5ABB-41D6-A70B-5955B0165C04}" ShortID="177647115">
+													<Language>SFX</Language>
+													<AudioFile>Trial Of The Grasses.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Trial Of The Grasses" ID="{6093D6B1-5ABB-41D6-A70B-5955B0165C04}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -2606,6 +2764,7 @@
 								<Sound Name="Birds_env" ID="{7D9F756C-0459-4E2D-B434-648D2DEE8A9D}" ShortID="1011639616">
 									<PropertyList>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>12</Value>
@@ -2613,6 +2772,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Close_Environment_Distance" ID="{8F5293D6-157F-44F5-8C5C-7D226B848C8A}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 										</Reference>
@@ -2756,8 +2918,13 @@
 												<Sound Name="bats_loop" ID="{CF1C048F-0606-4373-A95B-BE647C9CF9F9}" ShortID="335157229">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Close_Environment_Distance" ID="{8F5293D6-157F-44F5-8C5C-7D226B848C8A}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 														</Reference>
@@ -3243,6 +3410,9 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" ShortID="504525156">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -3455,6 +3625,8 @@
 														</Sound>
 														<Sound Name="Squirrel" ID="{96A5DA47-875B-4044-AA98-96CE03A6C1CD}" ShortID="878546469">
 															<PropertyList>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="PositioningType" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
 																		<Value>12</Value>
@@ -3462,6 +3634,9 @@
 																</Property>
 															</PropertyList>
 															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Close_Environment_Distance" ID="{8F5293D6-157F-44F5-8C5C-7D226B848C8A}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+																</Reference>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 																</Reference>
@@ -3560,6 +3735,8 @@
 											<ChildrenList>
 												<Sound Name="wolf" ID="{A55C988C-6ECD-4DD1-B70C-0208C56FE52B}" ShortID="292392420">
 													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="PositioningType" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>2</Value>
@@ -3567,6 +3744,9 @@
 														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Far_Environment" ID="{A85C947B-3370-4734-88A0-5A909A059576}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 														</Reference>
