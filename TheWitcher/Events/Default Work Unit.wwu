@@ -527,54 +527,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Music_Lvl1" ID="{FED32118-382C-4159-A8BF-00ED3ACA7D18}">
-							<ChildrenList>
-								<Action Name="" ID="{ED0F6231-5313-4448-BC78-557BB85D3B73}" ShortID="43036002">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="Delay" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="music_calm_green_lake_serenade_01" ID="{A1E45E2F-EE6B-4B14-892D-2D795D4A21F6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{284543FF-D1D9-4FB3-ABC4-B5258520F813}" ShortID="558192771">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="Delay" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="music_mountainous_journeyLoop" ID="{BC954DA2-2DF5-4ADC-A114-1694AD15C9D1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{4F82D4B4-5892-4D56-A132-F291A629A595}" ShortID="39464212">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="Delay" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="combatmusic" ID="{5304F8D9-8B7A-4EE1-AC1A-F928D0A622D3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{2AFA6DCF-D11A-43A1-AB37-B01E92FF650C}" ShortID="61377509">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="Delay" Type="Real64" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Quiet" ID="{3B79F349-6498-469C-98A6-98F8ED9B6C3E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Random_Level1_Music" ID="{95B7EE75-C958-4328-97BA-6C4DAF819AE7}">
 							<ChildrenList>
 								<Action Name="" ID="{7709B6E4-8F62-40D7-B3A7-3DD229B2EB04}" ShortID="491571907">
@@ -640,6 +592,34 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="No Surrender" ID="{D87EBA93-1044-42A3-BD88-6FEB179596AA}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Combat_Music" ID="{E026314E-FDCA-46A3-9AFE-E9AEC5A9412B}">
+							<ChildrenList>
+								<Action Name="" ID="{EA7EB644-5234-48FF-BD02-9FE08CFFCFEC}" ShortID="363186213">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="combatmusic" ID="{5304F8D9-8B7A-4EE1-AC1A-F928D0A622D3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bad_News_Ahead" ID="{BB75E199-0CA9-4D2C-8B60-FCEBEAEE68BB}">
+							<ChildrenList>
+								<Action Name="" ID="{5C3DC912-DBCF-4FCF-9E5A-D1F485F21F53}" ShortID="975220014">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bad News Ahead Full" ID="{B826BD07-D308-4351-A74C-768BF0D87384}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

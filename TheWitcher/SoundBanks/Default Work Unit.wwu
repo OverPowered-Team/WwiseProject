@@ -50,14 +50,9 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Bard_Music" ID="{4FEE8E0F-F7DA-406E-AE1C-C1632A425B47}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MainMenu_Music" ID="{9F7BDE6D-1BD9-40B9-A4C7-09E635E2A98B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Music_Lvl1" ID="{FED32118-382C-4159-A8BF-00ED3ACA7D18}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_End_Music" ID="{6F145182-6D4B-422A-A704-B711BCEA7D4F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Random_Level1_Music" ID="{95B7EE75-C958-4328-97BA-6C4DAF819AE7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Ladies_of_the_Woods" ID="{7601D189-2A99-4415-9F52-20412D7B01CE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_KaerMorhen" ID="{F7ADF645-860F-4448-A75C-3E5EE969AAD4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_No_Surrender" ID="{726BCFE7-C2EA-4487-857C-E2296C75B7C9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_WinMenu_Music" ID="{310276B1-8857-4509-B7B5-681D244A1F3A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Trial_Of_The_Grasses" ID="{092440D5-961F-4CE2-A42B-8481F25771A4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Combat_Music" ID="{E026314E-FDCA-46A3-9AFE-E9AEC5A9412B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -146,6 +141,23 @@
 						<ObjectRef Name="Play_Leshen_Melee_Attack" ID="{B5D9478E-FF07-4DC8-8BF1-F1903AB32E70}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Drowner_Footstep" ID="{F5668068-2911-4EC5-9D1B-A0DB0A1EC0E3}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SoldierHit" ID="{121C428A-88A5-4FA7-B900-B2185D13BF20}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music2" ID="{E5811D60-A0E3-433F-8041-04F77136759B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_KaerMorhen" ID="{F7ADF645-860F-4448-A75C-3E5EE969AAD4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_No_Surrender" ID="{726BCFE7-C2EA-4487-857C-E2296C75B7C9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Trial_Of_The_Grasses" ID="{092440D5-961F-4CE2-A42B-8481F25771A4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Bad_News_Ahead" ID="{BB75E199-0CA9-4D2C-8B60-FCEBEAEE68BB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music3" ID="{FACA11A4-8162-4344-AD20-E9605CC791ED}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Random_Level1_Music" ID="{95B7EE75-C958-4328-97BA-6C4DAF819AE7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

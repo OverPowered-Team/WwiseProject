@@ -20,11 +20,18 @@ State	ID	Name	State Group			Notes
 	3565738319	Fortress	Env_Lvl1			
 	4122393694	Cave	Env_Lvl1			
 	0	None	Interactive_Music_Lvl1			
-	513139656	Mountain	Interactive_Music_Lvl1			
-	624189772	Lake	Interactive_Music_Lvl1			
-	1160234136	Normal	Interactive_Music_Lvl1			
+	500935542	Ravine	Interactive_Music_Lvl1			
+	1258683828	Pre_Boss	Interactive_Music_Lvl1			
+	1362486867	After_Boss	Interactive_Music_Lvl1			
+	1560169506	Boss	Interactive_Music_Lvl1			
 	1565680351	Quiet	Interactive_Music_Lvl1			
+	1665801306	Slope_To_Cave	Interactive_Music_Lvl1			
+	1908629550	Middle_Area	Interactive_Music_Lvl1			
+	2358467699	Drowners	Interactive_Music_Lvl1			
+	2427728260	Ghoul_Nests	Interactive_Music_Lvl1			
 	2764240573	Combat	Interactive_Music_Lvl1			
+	3565738319	Fortress	Interactive_Music_Lvl1			
+	4122393694	Cave	Interactive_Music_Lvl1			
 	0	None	GameVolumes			
 	1229948536	Environment	GameVolumes			
 	1551306167	UI	GameVolumes			
