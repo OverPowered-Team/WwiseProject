@@ -1042,7 +1042,7 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1698,7 +1698,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-13</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2262,7 +2262,11 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
-														<State Name="" ID="{B7E6A74F-29FF-435B-94D8-107BDC3DE980}" ShortID="479477699"/>
+														<State Name="" ID="{B7E6A74F-29FF-435B-94D8-107BDC3DE980}" ShortID="479477699">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Boss" ID="{F1FFA02D-552A-46A2-B302-FA885D5564DB}"/>
@@ -4705,6 +4709,11 @@
 				<ActorMixer Name="Actor_Players" ID="{1DBE6CD9-F523-4B50-B9B9-D9DB4371C382}" ShortID="503873929">
 					<PropertyList>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

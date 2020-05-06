@@ -162,6 +162,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="One_Events_SFX" ID="{9CCBA450-1C65-4CA1-8715-238A81ACB0C6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Tree_Fall" ID="{4E359267-BA40-48BD-B797-B04254A49270}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

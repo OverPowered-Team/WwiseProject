@@ -236,6 +236,7 @@ namespace AK
         static const AkUniqueID MUSIC2 = 1730564816U;
         static const AkUniqueID MUSIC3 = 1730564817U;
         static const AkUniqueID OBJECTS_SFX = 3698921875U;
+        static const AkUniqueID ONE_EVENTS_SFX = 2412939073U;
         static const AkUniqueID PLAYER_SFX = 817096458U;
         static const AkUniqueID UI_SFX = 3563481019U;
     } // namespace BANKS
