@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="929034382">
+<IncrementalBankBuild Version="6" Flags="4208174439">
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dialogues" Hash="2140351336" Timestamp="1588762123"/>
-				<File Name="Enemy_Interaction" Hash="2409563931" Timestamp="1588785594"/>
-				<File Name="Environment_Lvl1" Hash="3322027563" Timestamp="1588846800"/>
-				<File Name="Init" Hash="217239110" Timestamp="1588777876"/>
+				<File Name="Dialogues" Hash="2420687825" Timestamp="1588858914"/>
+				<File Name="Enemy_Interaction" Hash="3918977970" Timestamp="1588859521"/>
+				<File Name="Environment_Lvl1" Hash="391278627" Timestamp="1588858914"/>
+				<File Name="Init" Hash="217239110" Timestamp="1588858914"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="3215674246" Timestamp="1588785598"/>
+				<File Name="Music" Hash="3822252863" Timestamp="1588858914"/>
 				<File Name="Music2" Hash="2259071661" Timestamp="1588785605"/>
 				<File Name="Music3" Hash="3557495899" Timestamp="1588785612"/>
-				<File Name="Objects_SFX" Hash="1655744173" Timestamp="1588840549"/>
+				<File Name="Objects_SFX" Hash="1495900759" Timestamp="1588858914"/>
 				<File Name="One_Events_SFX" Hash="3451393731" Timestamp="1588842685"/>
-				<File Name="Player_SFX" Hash="2999798212" Timestamp="1588785619"/>
+				<File Name="Player_SFX" Hash="2229508254" Timestamp="1588858914"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
-				<File Name="UI_SFX" Hash="464187479" Timestamp="1588762130"/>
+				<File Name="UI_SFX" Hash="902895334" Timestamp="1588858914"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585845378"/>
 			</Language>
 		</Banks>
@@ -35,7 +35,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2172317027" Timestamp="1588846800"/>
+				<File Name="" Hash="1583178494" Timestamp="1588859521"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
