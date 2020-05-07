@@ -2875,7 +2875,7 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -3293,11 +3293,7 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
-												<State Name="" ID="{BD80CBF0-E507-469B-969C-61BD9ACAA91F}" ShortID="34436145">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<State Name="" ID="{BD80CBF0-E507-469B-969C-61BD9ACAA91F}" ShortID="34436145"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
@@ -3325,11 +3321,7 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
-												<State Name="" ID="{8356E960-7401-481B-9D2B-298BFFD7CA9F}" ShortID="258889191">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-96"/>
-													</PropertyList>
-												</State>
+												<State Name="" ID="{8356E960-7401-481B-9D2B-298BFFD7CA9F}" ShortID="258889191"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -3373,8 +3365,8 @@
 											<ChildrenList>
 												<Sound Name="bats_loop" ID="{CF1C048F-0606-4373-A95B-BE647C9CF9F9}" ShortID="335157229">
 													<PropertyList>
+														<Property Name="EnablePositioning" Type="bool" Value="False"/>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -3867,9 +3859,13 @@
 														</Sound>
 														<Sound Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" ShortID="504525156">
 															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="PositioningType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Far_Environment" ID="{A85C947B-3370-4734-88A0-5A909A059576}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+																</Reference>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 																</Reference>
@@ -3916,11 +3912,7 @@
 																	</CustomState>
 																	<CustomState>
 																		<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
-																		<State Name="" ID="{C8A7A9E9-7886-420E-BB21-2514B9B235A7}" ShortID="246457740">
-																			<PropertyList>
-																				<Property Name="Volume" Type="Real64" Value="-96"/>
-																			</PropertyList>
-																		</State>
+																		<State Name="" ID="{C8A7A9E9-7886-420E-BB21-2514B9B235A7}" ShortID="246457740"/>
 																	</CustomState>
 																	<CustomState>
 																		<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
@@ -4509,7 +4501,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>9</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4535,7 +4527,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4561,7 +4553,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4587,7 +4579,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>7</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4613,7 +4605,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4639,7 +4631,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>8</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

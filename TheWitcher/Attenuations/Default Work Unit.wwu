@@ -160,7 +160,7 @@
 				</Attenuation>
 				<Attenuation Name="Close_Environment_Distance" ID="{8F5293D6-157F-44F5-8C5C-7D226B848C8A}" ShortID="106035587">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="25"/>
+						<Property Name="RadiusMax" Type="Real64" Value="40"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -176,7 +176,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>25</XPos>
+											<XPos>40</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
