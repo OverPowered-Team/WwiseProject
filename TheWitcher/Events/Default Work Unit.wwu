@@ -949,28 +949,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{56ADBC5C-90E9-4E35-8E93-60DE0C32FF99}" ShortID="619998072">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="Delay" Type="Real64" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{3C86ABAE-6DB3-48A5-B755-CFB2B4F44EB8}" ShortID="411513242">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="Delay" Type="Real64" Value="4"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Squirrels" ID="{791DCB92-7809-476E-A973-934D68FF6A4B}">
@@ -1406,16 +1384,6 @@
 								</Event>
 								<Event Name="Play_Leshen_Cloud_Disapears" ID="{07648483-D917-4D6F-BE2E-F40C4D57FCAC}">
 									<ChildrenList>
-										<Action Name="" ID="{783C9B94-47E8-4B8E-B918-FDEF0FC15012}" ShortID="753687375">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="leshen_appears" ID="{4CD14822-F79E-46E0-8512-556B18871308}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
 										<Action Name="" ID="{4DF7FB55-4791-40E7-83E6-75F38B460110}" ShortID="619912283">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
@@ -1423,6 +1391,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="leshen_smoke_cloud" ID="{B3549D9A-B0B4-4394-82E0-529845C70606}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{783C9B94-47E8-4B8E-B918-FDEF0FC15012}" ShortID="753687375">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_appears" ID="{4CD14822-F79E-46E0-8512-556B18871308}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

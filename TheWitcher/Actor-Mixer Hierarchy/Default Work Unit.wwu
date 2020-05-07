@@ -1571,6 +1571,7 @@
 										</Sound>
 										<Sound Name="leshen_smoke_cloud" ID="{B3549D9A-B0B4-4394-82E0-529845C70606}" ShortID="777909933">
 											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-2</Value>
@@ -2316,7 +2317,11 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Slope_To_Cave" ID="{5DAB0BC9-C33E-4C99-8E00-D8E8426F6282}"/>
-														<State Name="" ID="{23DC53C6-A7FC-4AB0-A6A8-95820091DF7A}" ShortID="510059437"/>
+														<State Name="" ID="{23DC53C6-A7FC-4AB0-A6A8-95820091DF7A}" ShortID="510059437">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Quiet" ID="{79FFCFD9-E0D8-4EB7-9A8C-5B3C993BE217}"/>
@@ -2805,11 +2810,7 @@
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Slope_To_Cave" ID="{5DAB0BC9-C33E-4C99-8E00-D8E8426F6282}"/>
-														<State Name="" ID="{21552EF1-9DF6-4450-8D28-8CE02C41543F}" ShortID="682413489">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-96"/>
-															</PropertyList>
-														</State>
+														<State Name="" ID="{21552EF1-9DF6-4450-8D28-8CE02C41543F}" ShortID="682413489"/>
 													</CustomState>
 													<CustomState>
 														<StateRef Name="Quiet" ID="{79FFCFD9-E0D8-4EB7-9A8C-5B3C993BE217}"/>
@@ -3035,7 +3036,7 @@
 												<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
 												<State Name="" ID="{8D12EFE6-0610-4B6B-9B27-8E5E54CD53C8}" ShortID="158101513">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-12"/>
+														<Property Name="Volume" Type="Real64" Value="-10"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3043,7 +3044,7 @@
 												<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
 												<State Name="" ID="{5C77C293-8A14-447C-851D-5325839E7728}" ShortID="770071540">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-8"/>
+														<Property Name="Volume" Type="Real64" Value="-15"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3067,7 +3068,7 @@
 												<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
 												<State Name="" ID="{B06A48BB-A034-4F05-ADAF-85BCCC70F7D9}" ShortID="390450002">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-8"/>
+														<Property Name="Volume" Type="Real64" Value="-15"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3075,7 +3076,7 @@
 												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
 												<State Name="" ID="{640223C0-9854-4EC3-B62F-44D74661426B}" ShortID="906337110">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-8"/>
+														<Property Name="Volume" Type="Real64" Value="-14"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3091,7 +3092,7 @@
 												<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
 												<State Name="" ID="{221950AB-B7F5-4B94-A686-CA54E454F5CB}" ShortID="147671287">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-8"/>
+														<Property Name="Volume" Type="Real64" Value="-15"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3105,7 +3106,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
-												<State Name="" ID="{47C524E8-F4F8-437D-B878-F8AB27406241}" ShortID="294152859"/>
+												<State Name="" ID="{47C524E8-F4F8-437D-B878-F8AB27406241}" ShortID="294152859">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -3145,7 +3150,7 @@
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3185,7 +3190,7 @@
 												<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
 												<State Name="" ID="{3823073A-2B75-4794-BCC4-8D7E82DCDEA4}" ShortID="818937561">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-10"/>
+														<Property Name="Volume" Type="Real64" Value="-18"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3193,7 +3198,7 @@
 												<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
 												<State Name="" ID="{86CE9509-FF53-48A7-8EB5-E017DA268D41}" ShortID="488071654">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-10"/>
+														<Property Name="Volume" Type="Real64" Value="-18"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3217,7 +3222,7 @@
 												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
 												<State Name="" ID="{FCC18836-75BA-409E-9F84-7D8E41C04759}" ShortID="472579071">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-25"/>
+														<Property Name="Volume" Type="Real64" Value="-34"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3249,7 +3254,7 @@
 												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
 												<State Name="" ID="{BCF295D0-5C27-4704-872C-9075D7AC39ED}" ShortID="928981312">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-16"/>
+														<Property Name="Volume" Type="Real64" Value="-26"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3665,7 +3670,11 @@
 														<CustomStateList>
 															<CustomState>
 																<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
-																<State Name="" ID="{9F98520A-6A1B-4BD1-A08D-F00E125997D3}" ShortID="700003848"/>
+																<State Name="" ID="{9F98520A-6A1B-4BD1-A08D-F00E125997D3}" ShortID="700003848">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-96"/>
+																	</PropertyList>
+																</State>
 															</CustomState>
 															<CustomState>
 																<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
@@ -3897,109 +3906,6 @@
 															</ChildrenList>
 															<ActiveSourceList>
 																<ActiveSource Name="nifiglardsoldier_Wonder" ID="{5B5D3799-2071-400A-9572-0CAB4E908284}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" ShortID="504525156">
-															<PropertyList>
-																<Property Name="OverridePositioning" Type="bool" Value="True"/>
-																<Property Name="PositioningType" Type="int16" Value="1"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<ObjectRef Name="Far_Environment" ID="{A85C947B-3370-4734-88A0-5A909A059576}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
-																</Reference>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="raven_wings" ID="{477B341F-CD97-4297-B068-F3201A80F641}" ShortID="437446785">
-																	<Language>SFX</Language>
-																	<AudioFile>levels\Fortress\Enviroment sounds\raven_wings.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<StateInfo>
-																<StateGroupList>
-																	<StateGroupInfo>
-																		<StateGroupRef Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}"/>
-																	</StateGroupInfo>
-																</StateGroupList>
-																<CustomStateList>
-																	<CustomState>
-																		<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
-																		<State Name="" ID="{8BFEC479-20DB-4B8B-AB4C-9F64D7C54205}" ShortID="67874227">
-																			<PropertyList>
-																				<Property Name="Volume" Type="Real64" Value="-96"/>
-																			</PropertyList>
-																		</State>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
-																		<State Name="" ID="{BF1B8BD2-44AE-484D-8A7C-8929658A8705}" ShortID="708242138">
-																			<PropertyList>
-																				<Property Name="Volume" Type="Real64" Value="-96"/>
-																			</PropertyList>
-																		</State>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
-																		<State Name="" ID="{0247A326-A5CC-43C9-AAA7-DDAE94A70C37}" ShortID="943609051">
-																			<PropertyList>
-																				<Property Name="Volume" Type="Real64" Value="-96"/>
-																			</PropertyList>
-																		</State>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
-																		<State Name="" ID="{C8A7A9E9-7886-420E-BB21-2514B9B235A7}" ShortID="246457740"/>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
-																		<State Name="" ID="{EF6BFBD5-44EB-4F0C-A583-0543BD93EFC9}" ShortID="88057062"/>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
-																		<State Name="" ID="{B30A954F-AE83-4A27-B8E4-F4C720B0B005}" ShortID="73259307">
-																			<PropertyList>
-																				<Property Name="Volume" Type="Real64" Value="-96"/>
-																			</PropertyList>
-																		</State>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
-																		<State Name="" ID="{0DC5CB88-602B-4592-BCF9-FDEDE55BA789}" ShortID="663114061">
-																			<PropertyList>
-																				<Property Name="Volume" Type="Real64" Value="-96"/>
-																			</PropertyList>
-																		</State>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
-																		<State Name="" ID="{9119D950-EC38-44AE-BF1D-4F0D62658690}" ShortID="380074080"/>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
-																		<State Name="" ID="{8BF4ADDE-C8DA-4C16-A780-586093A761F6}" ShortID="175802283">
-																			<PropertyList>
-																				<Property Name="Volume" Type="Real64" Value="-96"/>
-																			</PropertyList>
-																		</State>
-																	</CustomState>
-																	<CustomState>
-																		<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
-																		<State Name="" ID="{A911A86C-3B4A-4B64-AB22-79ACB8BE4DF9}" ShortID="36077811">
-																			<PropertyList>
-																				<Property Name="Volume" Type="Real64" Value="-96"/>
-																			</PropertyList>
-																		</State>
-																	</CustomState>
-																</CustomStateList>
-															</StateInfo>
-															<ActiveSourceList>
-																<ActiveSource Name="raven_wings" ID="{477B341F-CD97-4297-B068-F3201A80F641}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="tree_fall" ID="{6BC67D69-7127-4240-84BA-2ADDAD40A2CC}" ShortID="186673478">
@@ -4333,6 +4239,160 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+						<RandomSequenceContainer Name="Crows" ID="{FF849C29-0AA4-4D84-A46D-F902405B6A01}" ShortID="907065227">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Raven cawing x3 in the distance with natural reverb" ID="{45B37B93-E133-41EC-98FF-4E5FF241AA21}" ShortID="196740708">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Raven cawing x3 in the distance with natural reverb" ID="{6838257D-42BF-44BB-BC59-159DABF97B13}" ShortID="232472011">
+											<Language>SFX</Language>
+											<AudioFile>Raven cawing x3 in the distance with natural reverb.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Raven cawing x3 in the distance with natural reverb" ID="{6838257D-42BF-44BB-BC59-159DABF97B13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crow caw multiple short 01_SFXBible_ss00163" ID="{B11590BA-8906-4171-8F50-D10DDB61246C}" ShortID="781345402">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crow caw multiple short 01_SFXBible_ss00163" ID="{F3E9E42A-7A31-4040-819D-53816FB04133}" ShortID="732543048">
+											<Language>SFX</Language>
+											<AudioFile>Crow caw multiple short 01_SFXBible_ss00163.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crow caw multiple short 01_SFXBible_ss00163" ID="{F3E9E42A-7A31-4040-819D-53816FB04133}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="raven_wings" ID="{060B1F48-63AB-47BF-BC74-1D027C270D17}" ShortID="504525156">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Far_Environment" ID="{A85C947B-3370-4734-88A0-5A909A059576}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="raven_wings" ID="{477B341F-CD97-4297-B068-F3201A80F641}" ShortID="437446785">
+											<Language>SFX</Language>
+											<AudioFile>levels\Fortress\Enviroment sounds\raven_wings.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
+												<State Name="" ID="{8BFEC479-20DB-4B8B-AB4C-9F64D7C54205}" ShortID="67874227">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+												<State Name="" ID="{BF1B8BD2-44AE-484D-8A7C-8929658A8705}" ShortID="708242138">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
+												<State Name="" ID="{0247A326-A5CC-43C9-AAA7-DDAE94A70C37}" ShortID="943609051">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
+												<State Name="" ID="{C8A7A9E9-7886-420E-BB21-2514B9B235A7}" ShortID="246457740"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
+												<State Name="" ID="{EF6BFBD5-44EB-4F0C-A583-0543BD93EFC9}" ShortID="88057062"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
+												<State Name="" ID="{B30A954F-AE83-4A27-B8E4-F4C720B0B005}" ShortID="73259307">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+												<State Name="" ID="{0DC5CB88-602B-4592-BCF9-FDEDE55BA789}" ShortID="663114061">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+												<State Name="" ID="{9119D950-EC38-44AE-BF1D-4F0D62658690}" ShortID="380074080"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
+												<State Name="" ID="{8BF4ADDE-C8DA-4C16-A780-586093A761F6}" ShortID="175802283">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+												<State Name="" ID="{A911A86C-3B4A-4B64-AB22-79ACB8BE4DF9}" ShortID="36077811">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="raven_wings" ID="{477B341F-CD97-4297-B068-F3201A80F641}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
