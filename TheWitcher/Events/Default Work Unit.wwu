@@ -1379,9 +1379,58 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Leshen_Smoke_Cloud" ID="{B808B66E-F18F-43FB-959E-531350B45877}">
+								<Event Name="Play_Leshen_Cloud_Appears" ID="{436AF2E7-9021-46A8-8DB2-3ECB843C821A}">
 									<ChildrenList>
-										<Action Name="" ID="{239800AE-AFA0-495C-AB77-6AB03F348070}" ShortID="734806040">
+										<Action Name="" ID="{852E1C90-2C2A-4D5F-841E-7E4E196D9F62}" ShortID="6946440">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_appears" ID="{4CD14822-F79E-46E0-8512-556B18871308}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7843F3FE-8192-4DB2-ABA6-388D69DC6E8F}" ShortID="899182825">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_smoke_cloud" ID="{B3549D9A-B0B4-4394-82E0-529845C70606}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Leshen_Cloud_Disapears" ID="{07648483-D917-4D6F-BE2E-F40C4D57FCAC}">
+									<ChildrenList>
+										<Action Name="" ID="{783C9B94-47E8-4B8E-B918-FDEF0FC15012}" ShortID="753687375">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_appears" ID="{4CD14822-F79E-46E0-8512-556B18871308}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{4DF7FB55-4791-40E7-83E6-75F38B460110}" ShortID="619912283">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="leshen_smoke_cloud" ID="{B3549D9A-B0B4-4394-82E0-529845C70606}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Leshen_Cloud" ID="{F4A117BB-F712-4D7B-9CE6-EEAF3A20E249}">
+									<ChildrenList>
+										<Action Name="" ID="{F3910611-F39C-4BE3-9F5A-C2299DBBB530}" ShortID="887474452">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="1"/>
 											</PropertyList>
