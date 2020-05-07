@@ -79,13 +79,15 @@ namespace AK
         static const AkUniqueID PLAY_IGNI = 511861945U;
         static const AkUniqueID PLAY_INSECTS = 1213995237U;
         static const AkUniqueID PLAY_KAERMORHEN = 2997715096U;
+        static const AkUniqueID PLAY_LESHEN_CLOUD = 1224400269U;
+        static const AkUniqueID PLAY_LESHEN_CLOUD_APPEARS = 3186651586U;
+        static const AkUniqueID PLAY_LESHEN_CLOUD_DISAPEARS = 4142666928U;
         static const AkUniqueID PLAY_LESHEN_DEATH = 890332400U;
         static const AkUniqueID PLAY_LESHEN_HIT = 3936739521U;
         static const AkUniqueID PLAY_LESHEN_MELEE_ATTACK = 3930890845U;
         static const AkUniqueID PLAY_LESHEN_RAVEN_CLOUD = 3931950402U;
         static const AkUniqueID PLAY_LESHEN_RAVEN_THROW = 115571181U;
         static const AkUniqueID PLAY_LESHEN_ROOTS = 1023174917U;
-        static const AkUniqueID PLAY_LESHEN_SMOKE_CLOUD = 3095980519U;
         static const AkUniqueID PLAY_LIGHTNING_RUNESTONE = 928466002U;
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
         static const AkUniqueID PLAY_NO_SURRENDER = 818563156U;

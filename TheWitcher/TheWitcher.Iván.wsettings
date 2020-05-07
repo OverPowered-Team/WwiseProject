@@ -9,6 +9,7 @@
 				<Property Name="Event Action List\{0A38E665-80C2-4694-B228-04B1604E350D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0A7144BC-C95C-4FC6-BCD1-023111500C72}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0FF391E4-2018-4D3F-805D-28D48871AB8B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{108E7DA2-0963-4096-A7F1-7563C5CD00D9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{121C428A-88A5-4FA7-B900-B2185D13BF20}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{13E4E853-E69A-4542-94A7-5DF2A7D01D51}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{166E9FCF-6080-404F-9E41-2602BD9EC8B9}\x64_Expand States" Type="string" Value=""/>
@@ -113,9 +114,9 @@
 				<Property Name="PluginUserAcknowledge\iZotope Hybrid Reverb" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
-				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
-				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{79E59374-FE1F-429F-AA71-701113C5345D}"/>
+				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{78068777-EF2E-421D-B884-D6ACB2E5ACF9}"/>
+				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{C5CC37D8-B4F6-4B66-86AA-213C54F44C29}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>

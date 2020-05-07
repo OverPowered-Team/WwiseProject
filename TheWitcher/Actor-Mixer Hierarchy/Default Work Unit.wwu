@@ -2901,7 +2901,7 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -3035,7 +3035,7 @@
 												<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
 												<State Name="" ID="{8D12EFE6-0610-4B6B-9B27-8E5E54CD53C8}" ShortID="158101513">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-8"/>
+														<Property Name="Volume" Type="Real64" Value="-12"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3043,13 +3043,17 @@
 												<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
 												<State Name="" ID="{5C77C293-8A14-447C-851D-5325839E7728}" ShortID="770071540">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-5"/>
+														<Property Name="Volume" Type="Real64" Value="-8"/>
 													</PropertyList>
 												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
-												<State Name="" ID="{D9230EDE-CDBD-49FB-9D4A-E515273055A1}" ShortID="755856249"/>
+												<State Name="" ID="{D9230EDE-CDBD-49FB-9D4A-E515273055A1}" ShortID="755856249">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
@@ -3061,11 +3065,19 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
-												<State Name="" ID="{B06A48BB-A034-4F05-ADAF-85BCCC70F7D9}" ShortID="390450002"/>
+												<State Name="" ID="{B06A48BB-A034-4F05-ADAF-85BCCC70F7D9}" ShortID="390450002">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
-												<State Name="" ID="{640223C0-9854-4EC3-B62F-44D74661426B}" ShortID="906337110"/>
+												<State Name="" ID="{640223C0-9854-4EC3-B62F-44D74661426B}" ShortID="906337110">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
@@ -3077,7 +3089,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
-												<State Name="" ID="{221950AB-B7F5-4B94-A686-CA54E454F5CB}" ShortID="147671287"/>
+												<State Name="" ID="{221950AB-B7F5-4B94-A686-CA54E454F5CB}" ShortID="147671287">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
@@ -3089,11 +3105,7 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
-												<State Name="" ID="{47C524E8-F4F8-437D-B878-F8AB27406241}" ShortID="294152859">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="3"/>
-													</PropertyList>
-												</State>
+												<State Name="" ID="{47C524E8-F4F8-437D-B878-F8AB27406241}" ShortID="294152859"/>
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
@@ -3179,7 +3191,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
-												<State Name="" ID="{86CE9509-FF53-48A7-8EB5-E017DA268D41}" ShortID="488071654"/>
+												<State Name="" ID="{86CE9509-FF53-48A7-8EB5-E017DA268D41}" ShortID="488071654">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-10"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
@@ -3201,7 +3217,7 @@
 												<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
 												<State Name="" ID="{FCC18836-75BA-409E-9F84-7D8E41C04759}" ShortID="472579071">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-18"/>
+														<Property Name="Volume" Type="Real64" Value="-25"/>
 													</PropertyList>
 												</State>
 											</CustomState>
@@ -3233,7 +3249,7 @@
 												<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
 												<State Name="" ID="{BCF295D0-5C27-4704-872C-9075D7AC39ED}" ShortID="928981312">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-8"/>
+														<Property Name="Volume" Type="Real64" Value="-16"/>
 													</PropertyList>
 												</State>
 											</CustomState>
