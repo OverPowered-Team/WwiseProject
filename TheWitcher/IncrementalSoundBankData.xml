@@ -5,7 +5,7 @@
 			<Language ID="393239870">
 				<File Name="Dialogues" Hash="2140351336" Timestamp="1588861373"/>
 				<File Name="Enemy_Interaction" Hash="3353444231" Timestamp="1588868981"/>
-				<File Name="Environment_Lvl1" Hash="3049583699" Timestamp="1588868693"/>
+				<File Name="Environment_Lvl1" Hash="3154967377" Timestamp="1588870461"/>
 				<File Name="Init" Hash="217239110" Timestamp="1588861378"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
 				<File Name="Music" Hash="3215674246" Timestamp="1588861375"/>
@@ -35,7 +35,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="283509938" Timestamp="1588868981"/>
+				<File Name="" Hash="1803392112" Timestamp="1588870462"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
