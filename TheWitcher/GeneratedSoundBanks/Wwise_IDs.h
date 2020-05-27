@@ -60,6 +60,7 @@ namespace AK
         static const AkUniqueID PLAY_DIALOGUE1_30 = 790866457U;
         static const AkUniqueID PLAY_DIALOGUE1_31 = 790866456U;
         static const AkUniqueID PLAY_DIZZY_ENEMY = 3766237789U;
+        static const AkUniqueID PLAY_DRIPPING = 2771949083U;
         static const AkUniqueID PLAY_DROWNER_DEATH = 2893240346U;
         static const AkUniqueID PLAY_DROWNER_FOOTSTEP = 3482939622U;
         static const AkUniqueID PLAY_DROWNER_HIT = 807714347U;
@@ -74,7 +75,6 @@ namespace AK
         static const AkUniqueID PLAY_GERALTGETDAMAGED = 219750196U;
         static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
         static const AkUniqueID PLAY_GLOOMY = 2197695643U;
-        static const AkUniqueID PLAY_HEARTBEATS = 76267673U;
         static const AkUniqueID PLAY_ICE_RUNESTONE = 1709736977U;
         static const AkUniqueID PLAY_IGNI = 511861945U;
         static const AkUniqueID PLAY_INSECTS = 1213995237U;

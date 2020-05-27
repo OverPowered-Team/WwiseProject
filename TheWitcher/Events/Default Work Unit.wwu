@@ -535,7 +535,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="RandomMusicLevel1" ID="{690BAD41-285A-4176-BD98-88F674CC5FD4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="bensound-theduel" ID="{29070AD2-56D3-4EFF-AF8B-C225061BA5D8}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -549,21 +549,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Kaer Morhen (1)" ID="{DE03068C-352E-4598-8B3D-72A27298C7BF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Ladies_of_the_Woods" ID="{7601D189-2A99-4415-9F52-20412D7B01CE}">
-							<ChildrenList>
-								<Action Name="" ID="{281CF1C6-5B39-446B-BA35-74D573CB28D1}" ShortID="1018955935">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ladies of the Woods" ID="{8DE38F95-F7E0-4CFD-8E2A-0D56F25CBB9D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="Twin Musicom - Honor of Days" ID="{DBF546E6-CCEE-487B-B34F-94DF6808A666}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -577,7 +563,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Trial Of The Grasses" ID="{32149C0D-4BB2-4C57-B5CB-77BE45C3C747}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="Twin Musicom - Video Game Soldiers" ID="{15896CF4-6FD6-42E8-BE1D-AC6C6DBAA3E0}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -591,7 +577,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="No Surrender" ID="{D87EBA93-1044-42A3-BD88-6FEB179596AA}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="bensound-epic" ID="{071238D2-8310-4620-9AC0-24B2844D6E85}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -619,7 +605,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Bad News Ahead Full" ID="{B826BD07-D308-4351-A74C-768BF0D87384}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="bensound-ofeliasdream" ID="{78F562D7-B341-4A4D-BE77-200990482AB6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -798,20 +784,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Shockwave" ID="{BD6AA8B0-31C6-4896-B85D-3B032837145D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Heartbeats" ID="{108E7DA2-0963-4096-A7F1-7563C5CD00D9}">
-							<ChildrenList>
-								<Action Name="" ID="{F1F94FEB-1654-4BDA-852B-309DE7969A15}" ShortID="576288355">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="heartbeat" ID="{6398666E-CE9A-4E00-BBAE-E896D20DD28C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1043,7 +1015,21 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="wolf" ID="{A55C988C-6ECD-4DD1-B70C-0208C56FE52B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="Wolves" ID="{336F74FA-F3E9-4019-B850-23BB7CCA7D40}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Dripping" ID="{9E1F9220-4C1B-4E81-AD12-7FF805BB7C4B}">
+							<ChildrenList>
+								<Action Name="" ID="{D04E4552-97E5-487E-B5DA-238AA39B8AC3}" ShortID="847856456">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BGMineCavewaterdripsINT01-MS" ID="{FAE28079-294E-4E39-9930-78201A4FC71E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
