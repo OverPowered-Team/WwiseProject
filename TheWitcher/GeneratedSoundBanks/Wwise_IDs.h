@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_BATS = 1543750746U;
         static const AkUniqueID PLAY_BIRDS = 3025897706U;
         static const AkUniqueID PLAY_CAVE = 3602995889U;
+        static const AkUniqueID PLAY_COAL_MINE_MUSIC = 1353593527U;
         static const AkUniqueID PLAY_COLLECT_RUNESTONE = 3145159334U;
         static const AkUniqueID PLAY_COMBAT_MUSIC = 3155474038U;
         static const AkUniqueID PLAY_CROWS = 639442158U;
@@ -90,11 +91,13 @@ namespace AK
         static const AkUniqueID PLAY_LESHEN_ROOTS = 1023174917U;
         static const AkUniqueID PLAY_LIGHTNING_RUNESTONE = 928466002U;
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
+        static const AkUniqueID PLAY_MINECART = 2061508693U;
         static const AkUniqueID PLAY_NO_SURRENDER = 818563156U;
         static const AkUniqueID PLAY_POISON_RUNESTONE = 1352529336U;
         static const AkUniqueID PLAY_RANDOM_LEVEL1_MUSIC = 1570292205U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
         static const AkUniqueID PLAY_ROCKS = 2052558220U;
+        static const AkUniqueID PLAY_ROCKSFALLING = 592172441U;
         static const AkUniqueID PLAY_ROLL = 2719919427U;
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEP = 1718791025U;
         static const AkUniqueID PLAY_SQUIRRELS = 701022914U;

@@ -53,6 +53,7 @@
 						<ObjectRef Name="Play_End_Music" ID="{6F145182-6D4B-422A-A704-B711BCEA7D4F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_WinMenu_Music" ID="{310276B1-8857-4509-B7B5-681D244A1F3A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Combat_Music" ID="{E026314E-FDCA-46A3-9AFE-E9AEC5A9412B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Coal_Mine_Music" ID="{5B23D682-4B5D-486C-95E5-59828BC58446}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -79,7 +80,9 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Birds" ID="{A4E0EF87-54C8-4164-BE96-40679F97CA12}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Cave" ID="{952D26FE-FF90-4173-8DD1-2F16E8E1C9F1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_RocksFalling" ID="{3BF536C9-E18E-4289-A561-10A35CB2370D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wind" ID="{6EC1C5CE-6ABF-4349-896E-BC86F3120E57}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Minecart" ID="{636DBDA7-FB86-44F4-80A9-2A4B6CAD1238}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_River" ID="{0A38E665-80C2-4694-B228-04B1604E350D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Squirrels" ID="{791DCB92-7809-476E-A973-934D68FF6A4B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crows" ID="{B31414A4-F1EA-4877-A951-E04E7E6BCA3F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>

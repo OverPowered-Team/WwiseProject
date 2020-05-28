@@ -611,6 +611,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Coal_Mine_Music" ID="{5B23D682-4B5D-486C-95E5-59828BC58446}">
+							<ChildrenList>
+								<Action Name="" ID="{FC830952-4630-4358-9DD2-C2B0B58C6EC0}" ShortID="935124854">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Twin Musicom - The Coal Mine" ID="{3CC6E3C0-B436-4131-9C30-9E5FA558CFAD}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player_Interactions" ID="{342DC179-3248-4379-942D-DF0259F9C653}" ShortID="787945414">
@@ -1030,6 +1044,34 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="BGMineCavewaterdripsINT01-MS" ID="{FAE28079-294E-4E39-9930-78201A4FC71E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_RocksFalling" ID="{3BF536C9-E18E-4289-A561-10A35CB2370D}">
+							<ChildrenList>
+								<Action Name="" ID="{19CF2019-D421-4F53-90AB-3FBF1BBB4FA4}" ShortID="91377041">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RocksFalling" ID="{FFFB1AE5-D9A0-4815-8686-D09412150AF5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Minecart" ID="{636DBDA7-FB86-44F4-80A9-2A4B6CAD1238}">
+							<ChildrenList>
+								<Action Name="" ID="{72A6D1D5-881F-4D86-8D8D-F5403AF15891}" ShortID="1043721483">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wooden_Cart" ID="{432EDD24-D814-4ED3-AFE7-DBB7DB4FADA1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
