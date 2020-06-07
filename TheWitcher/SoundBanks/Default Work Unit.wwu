@@ -111,6 +111,7 @@
 						<ObjectRef Name="Play_Ice_Runestone" ID="{BE1CC294-F5EF-4459-B583-67B6EB47827F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fire_Runestone" ID="{E6D6BE91-E3B4-4512-849C-95CEBE86E6C2}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FenceDestroy" ID="{13E4E853-E69A-4542-94A7-5DF2A7D01D51}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="WoodImpact" ID="{EEF0981A-0868-4986-8B4D-255025E2D5BB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Poison_Runestone" ID="{F08B97A1-9801-4A28-A41D-4CA04FC5533D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Earth_Runestone" ID="{4C19BCB1-E7AC-4B79-95BB-F97DE2014ABD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lightning_Runestone" ID="{D3AF8A4D-5C26-4DD9-A480-160AB75C1475}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>

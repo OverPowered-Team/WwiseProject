@@ -1095,6 +1095,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="WoodImpact" ID="{EEF0981A-0868-4986-8B4D-255025E2D5BB}">
+							<ChildrenList>
+								<Action Name="" ID="{09EE42EC-F6E5-4863-9815-7E71EFEBD491}" ShortID="29617210">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SMALL_WOOD_IMPACT" ID="{160160E0-1449-4011-BA25-7BFA1CE913D2}" WorkUnitID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy_Interaction" ID="{B8C7B5ED-1177-4B97-9C38-43DACC882595}" ShortID="165262274">
