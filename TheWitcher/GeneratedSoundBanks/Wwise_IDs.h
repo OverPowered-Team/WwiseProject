@@ -172,6 +172,7 @@ namespace AK
                 static const AkUniqueID FORTRESS = 3565738319U;
                 static const AkUniqueID GHOUL_NESTS = 2427728260U;
                 static const AkUniqueID MIDDLE_AREA = 1908629550U;
+                static const AkUniqueID MINE = 2609527548U;
                 static const AkUniqueID PRE_BOSS = 1258683828U;
                 static const AkUniqueID QUIET = 1565680351U;
                 static const AkUniqueID RAVINE = 500935542U;

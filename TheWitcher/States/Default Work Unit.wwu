@@ -386,6 +386,7 @@
 						<State Name="Middle_Area" ID="{24BAF098-B5C1-47B8-AAAD-31F3BBCA64B3}"/>
 						<State Name="Cave" ID="{3C3A244F-EF34-4C7C-B97E-0110582D1DB2}"/>
 						<State Name="Boss" ID="{F1FFA02D-552A-46A2-B302-FA885D5564DB}"/>
+						<State Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -853,6 +854,84 @@
 						<Transition>
 							<StartState Name="Cave" ID="{3C3A244F-EF34-4C7C-B97E-0110582D1DB2}"/>
 							<EndState Name="Boss" ID="{F1FFA02D-552A-46A2-B302-FA885D5564DB}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B0D02366-CB34-475B-8B3E-77F5FE95DEDC}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Combat" ID="{D4C13C43-00BB-4582-981C-A05310885046}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{79FFCFD9-E0D8-4EB7-9A8C-5B3C993BE217}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Slope_To_Cave" ID="{5DAB0BC9-C33E-4C99-8E00-D8E8426F6282}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{80EC3753-B692-4F60-A400-1B19A97BE746}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ravine" ID="{1CF02348-9CD8-4EBF-A4D7-3BAA7D293220}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Drowners" ID="{C18ABF01-C717-450E-8BE2-B249C089D342}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Pre_Boss" ID="{1A8E2F10-FBAB-4041-AC06-71D0004A7B0E}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="After_Boss" ID="{5EEE53F9-759C-4F65-A619-236DD5A7FA3F}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Middle_Area" ID="{24BAF098-B5C1-47B8-AAAD-31F3BBCA64B3}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Cave" ID="{3C3A244F-EF34-4C7C-B97E-0110582D1DB2}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Boss" ID="{F1FFA02D-552A-46A2-B302-FA885D5564DB}"/>
+							<EndState Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>
