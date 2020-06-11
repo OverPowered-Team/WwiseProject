@@ -110,6 +110,7 @@
 						<ObjectRef Name="Play_RocksFalling" ID="{3BF536C9-E18E-4289-A561-10A35CB2370D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wind" ID="{6EC1C5CE-6ABF-4349-896E-BC86F3120E57}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Minecart" ID="{636DBDA7-FB86-44F4-80A9-2A4B6CAD1238}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Explosion" ID="{E339B718-4570-4547-A299-0F94FEC8026C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_River" ID="{0A38E665-80C2-4694-B228-04B1604E350D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Squirrels" ID="{791DCB92-7809-476E-A973-934D68FF6A4B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crows" ID="{B31414A4-F1EA-4877-A951-E04E7E6BCA3F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -119,6 +120,7 @@
 						<ObjectRef Name="Play_Rocks" ID="{52F061FD-7F4D-4C96-B803-D3A9BF92F34D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wolf_Howling" ID="{2E1EC5BC-ADC2-4DE7-8EB5-8ADF2B44D7E4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Dripping" ID="{9E1F9220-4C1B-4E81-AD12-7FF805BB7C4B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_PreExplosion" ID="{461C0F8A-1D94-4FB2-BCBF-8CFB2450BAB3}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Gloomy" ID="{0A7144BC-C95C-4FC6-BCD1-023111500C72}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

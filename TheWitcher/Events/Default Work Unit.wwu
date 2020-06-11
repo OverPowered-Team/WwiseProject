@@ -1551,6 +1551,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_PreExplosion" ID="{461C0F8A-1D94-4FB2-BCBF-8CFB2450BAB3}">
+							<ChildrenList>
+								<Action Name="" ID="{1E63B138-6356-4979-A7D1-25C2D21B7020}" ShortID="997151137">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="explosion mid woody_04" ID="{473C8B01-A05E-4B2D-AF53-94DB075259F1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Explosion" ID="{E339B718-4570-4547-A299-0F94FEC8026C}">
+							<ChildrenList>
+								<Action Name="" ID="{7EE9BDE7-6B7F-4F0E-A966-CCE6734BB9C0}" ShortID="670108831">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sinematic - Complex Tech Hits - 06" ID="{C5F01EF5-FD09-46F3-9A9F-4B908F2FFCC0}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Object" ID="{0B796F3F-4771-449B-A7AA-E87121C362B3}" ShortID="516657702">

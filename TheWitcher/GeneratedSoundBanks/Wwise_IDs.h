@@ -24,8 +24,10 @@ namespace AK
         static const AkUniqueID PLAY_BATS = 1543750746U;
         static const AkUniqueID PLAY_BIRDS = 3025897706U;
         static const AkUniqueID PLAY_CAVE = 3602995889U;
+        static const AkUniqueID PLAY_CIRI = 3266163657U;
         static const AkUniqueID PLAY_COAL_MINE_MUSIC = 1353593527U;
         static const AkUniqueID PLAY_COLLECT_RUNESTONE = 3145159334U;
+        static const AkUniqueID PLAY_COMBAT_LEVEL2 = 2955221517U;
         static const AkUniqueID PLAY_COMBAT_MUSIC = 3155474038U;
         static const AkUniqueID PLAY_CROWS = 639442158U;
         static const AkUniqueID PLAY_DIALOGUE1 = 4285197669U;
@@ -70,8 +72,19 @@ namespace AK
         static const AkUniqueID PLAY_DROWNER_SPLASH_WATER = 19954417U;
         static const AkUniqueID PLAY_EARTH_RUNESTONE = 3449845084U;
         static const AkUniqueID PLAY_END_MUSIC = 1635916389U;
+        static const AkUniqueID PLAY_EXPLOSION = 4030404899U;
         static const AkUniqueID PLAY_FENCEDESTROY = 2372531077U;
         static const AkUniqueID PLAY_FIRE_RUNESTONE = 3230728788U;
+        static const AkUniqueID PLAY_GERALT_BOSS = 1390225335U;
+        static const AkUniqueID PLAY_GERALT_ENTRYZONE = 2868403938U;
+        static const AkUniqueID PLAY_GERALT_FIRSTBONFIRE = 2508136719U;
+        static const AkUniqueID PLAY_GERALT_LV2_CIRIBEGIN = 2324703199U;
+        static const AkUniqueID PLAY_GERALT_LV2_CIRIFINAL = 1180713728U;
+        static const AkUniqueID PLAY_GERALT_LV2_DEADBODY = 607946285U;
+        static const AkUniqueID PLAY_GERALT_LV2_MINECARTSA = 3350876508U;
+        static const AkUniqueID PLAY_GERALT_LV2_MINECARTSB = 3350876511U;
+        static const AkUniqueID PLAY_GERALT_PREBOSS = 1817882324U;
+        static const AkUniqueID PLAY_GERALT_ROCKS = 1907787566U;
         static const AkUniqueID PLAY_GERALTDEATH = 2048623797U;
         static const AkUniqueID PLAY_GERALTGETDAMAGED = 219750196U;
         static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
@@ -79,6 +92,17 @@ namespace AK
         static const AkUniqueID PLAY_ICE_RUNESTONE = 1709736977U;
         static const AkUniqueID PLAY_IGNI = 511861945U;
         static const AkUniqueID PLAY_INSECTS = 1213995237U;
+        static const AkUniqueID PLAY_JASKIER_AFTERROCKS = 2822939804U;
+        static const AkUniqueID PLAY_JASKIER_FINAL = 1293741004U;
+        static const AkUniqueID PLAY_JASKIER_INICIO_1 = 4049404049U;
+        static const AkUniqueID PLAY_JASKIER_INICIO_2 = 4049404050U;
+        static const AkUniqueID PLAY_JASKIER_INICIO_3 = 4049404051U;
+        static const AkUniqueID PLAY_JASKIER_LV2_1 = 2525078316U;
+        static const AkUniqueID PLAY_JASKIER_LV2_BRIDGE = 2311590088U;
+        static const AkUniqueID PLAY_JASKIER_LV2_MINECARTSEND = 570668310U;
+        static const AkUniqueID PLAY_JASKIER_MEDIO = 1758950158U;
+        static const AkUniqueID PLAY_JASKIER_PATHTOGHOULS = 2603363552U;
+        static const AkUniqueID PLAY_JASKIER_PATHTOSWAMP = 698599938U;
         static const AkUniqueID PLAY_KAERMORHEN = 2997715096U;
         static const AkUniqueID PLAY_LESHEN_CLOUD = 1224400269U;
         static const AkUniqueID PLAY_LESHEN_CLOUD_APPEARS = 3186651586U;
@@ -89,11 +113,19 @@ namespace AK
         static const AkUniqueID PLAY_LESHEN_RAVEN_CLOUD = 3931950402U;
         static const AkUniqueID PLAY_LESHEN_RAVEN_THROW = 115571181U;
         static const AkUniqueID PLAY_LESHEN_ROOTS = 1023174917U;
+        static const AkUniqueID PLAY_LEVEL2_BRIDGE = 1300525922U;
+        static const AkUniqueID PLAY_LEVEL2_GHOULS = 977029623U;
+        static const AkUniqueID PLAY_LEVEL2_HALL = 4055756772U;
+        static const AkUniqueID PLAY_LEVEL2_START = 1800273759U;
         static const AkUniqueID PLAY_LIGHTNING_RUNESTONE = 928466002U;
         static const AkUniqueID PLAY_MAINMENU_MUSIC = 166541076U;
         static const AkUniqueID PLAY_MINECART = 2061508693U;
+        static const AkUniqueID PLAY_MINECARTS = 3285378492U;
         static const AkUniqueID PLAY_NO_SURRENDER = 818563156U;
         static const AkUniqueID PLAY_POISON_RUNESTONE = 1352529336U;
+        static const AkUniqueID PLAY_POSTCIRI = 2466158391U;
+        static const AkUniqueID PLAY_PRECIRI = 3265400070U;
+        static const AkUniqueID PLAY_PREEXPLOSION = 3889052930U;
         static const AkUniqueID PLAY_RANDOM_LEVEL1_MUSIC = 1570292205U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
         static const AkUniqueID PLAY_ROCKS = 2052558220U;
@@ -101,6 +133,7 @@ namespace AK
         static const AkUniqueID PLAY_ROLL = 2719919427U;
         static const AkUniqueID PLAY_SOLDIER_FOOTSTEP = 1718791025U;
         static const AkUniqueID PLAY_SQUIRRELS = 701022914U;
+        static const AkUniqueID PLAY_STOPPER = 3884839695U;
         static const AkUniqueID PLAY_TREE_FALL = 3560238346U;
         static const AkUniqueID PLAY_TRIAL_OF_THE_GRASSES = 352239193U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
@@ -119,6 +152,7 @@ namespace AK
         static const AkUniqueID SOLDIERHIT = 4199645896U;
         static const AkUniqueID SOLDIERSHOOT = 1115497702U;
         static const AkUniqueID SOLDIERSWORD = 2142965948U;
+        static const AkUniqueID WOODIMPACT = 1007768684U;
     } // namespace EVENTS
 
     namespace STATES
@@ -236,11 +270,16 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID DIALOGUES = 1669749310U;
+        static const AkUniqueID DIALOGUESGOLD = 3820168600U;
         static const AkUniqueID ENEMY_INTERACTION = 4070387514U;
         static const AkUniqueID ENVIRONMENT_LVL1 = 4139483824U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID MUSIC_456999454QQ364 = 4227465959U;
         static const AkUniqueID MUSIC2 = 1730564816U;
         static const AkUniqueID MUSIC3 = 1730564817U;
+        static const AkUniqueID MUSICLEVEL2_1 = 3094366186U;
+        static const AkUniqueID MUSICLEVEL2_2 = 3094366185U;
+        static const AkUniqueID MUSICLEVEL2_FUCKING3 = 3029907775U;
         static const AkUniqueID OBJECTS_SFX = 3698921875U;
         static const AkUniqueID ONE_EVENTS_SFX = 2412939073U;
         static const AkUniqueID PLAYER_SFX = 817096458U;
