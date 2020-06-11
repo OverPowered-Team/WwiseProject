@@ -1035,6 +1035,456 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Gold Dialogues" ID="{C79D206A-2281-4793-8AB4-3FB07E8AFFFA}" ShortID="988257643">
+							<ChildrenList>
+								<Folder Name="Jaskier_inicio_medio_fin" ID="{F5F3FE6C-9CA9-41C1-84BD-33D96D224FF0}" ShortID="705006064">
+									<ChildrenList>
+										<Sound Name="Jaskier_Final" ID="{E576EC18-097B-48BE-8C58-B18CF077EBCA}" ShortID="1024773907">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jaskier_Final" ID="{C29BC961-DDBB-4F8D-AD5D-ADD915A00EA0}" ShortID="141485195">
+													<Language>SFX</Language>
+													<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_Final.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Jaskier_Final" ID="{C29BC961-DDBB-4F8D-AD5D-ADD915A00EA0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Jaskier_inicio_1" ID="{625D6B81-FBB7-46B0-94EE-EC6E21619D24}" ShortID="751303270">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jaskier_inicio_1" ID="{8D290038-75A0-4185-B885-57543C74AFDB}" ShortID="936646874">
+													<Language>SFX</Language>
+													<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Jaskier_inicio_1" ID="{8D290038-75A0-4185-B885-57543C74AFDB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Jaskier_inicio_2" ID="{7B2471F0-3523-4E18-B124-32536E7E34D7}" ShortID="81027050">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jaskier_inicio_2" ID="{2B0CB879-3E4E-44BF-B06B-DFFFDF5AC364}" ShortID="84238038">
+													<Language>SFX</Language>
+													<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Jaskier_inicio_2" ID="{2B0CB879-3E4E-44BF-B06B-DFFFDF5AC364}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Jaskier_inicio_3" ID="{DC965304-AE32-4511-AAFE-0EC12449F31C}" ShortID="294305539">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jaskier_inicio_3" ID="{2BC9466D-C1AA-4D24-AFD2-91577E8152E8}" ShortID="220019294">
+													<Language>SFX</Language>
+													<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Jaskier_inicio_3" ID="{2BC9466D-C1AA-4D24-AFD2-91577E8152E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Jaskier_Medio" ID="{CE840AF2-F0D5-4DB5-88B3-0C612FB82B27}" ShortID="371132333">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Jaskier_Medio" ID="{7DE4412F-E739-4C70-8747-8BFECFECDCCA}" ShortID="506611892">
+													<Language>SFX</Language>
+													<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_Medio.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Jaskier_Medio" ID="{7DE4412F-E739-4C70-8747-8BFECFECDCCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Level_1" ID="{4B1A550D-98CA-4EFF-A486-BC466082E8C4}" ShortID="297366234">
+									<ChildrenList>
+										<Folder Name="Geralt" ID="{506C46B9-84DE-4372-BFAA-DE8119E48D5A}" ShortID="127317793">
+											<ChildrenList>
+												<Sound Name="Geralt_Boss" ID="{30A85E8E-0609-4EA5-8AB2-58E8B7DBC93C}" ShortID="261241909">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_Boss" ID="{7471191E-CADE-48EC-8421-CB30E0D762EC}" ShortID="992251465">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_1\Geralt\Geralt_Boss.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_Boss" ID="{7471191E-CADE-48EC-8421-CB30E0D762EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Geralt_entryZone" ID="{60EC0325-5688-48DF-8943-ADA8791F104E}" ShortID="96613484">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_entryZone" ID="{90F919C4-FCC8-41D2-9644-3A861E5B34AF}" ShortID="315932248">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_1\Geralt\Geralt_entryZone.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_entryZone" ID="{90F919C4-FCC8-41D2-9644-3A861E5B34AF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Geralt_FirstBonfire" ID="{31BA9AF3-FCCB-42C4-BC7F-2D5C861CF5CD}" ShortID="389566123">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_FirstBonfire" ID="{0D3CF160-236D-4834-890C-CD59C335C1B1}" ShortID="96200301">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_1\Geralt\Geralt_FirstBonfire.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_FirstBonfire" ID="{0D3CF160-236D-4834-890C-CD59C335C1B1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Geralt_PreBoss" ID="{37484F61-36F4-4011-897C-4AD96C70F72F}" ShortID="969150528">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_PreBoss" ID="{1A0032E3-CDF6-4A14-AF6A-666F09B4D0AC}" ShortID="392731391">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_1\Geralt\Geralt_PreBoss.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_PreBoss" ID="{1A0032E3-CDF6-4A14-AF6A-666F09B4D0AC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Geralt_Rocks" ID="{2A5EA643-9368-4627-9650-42AFC5120FAB}" ShortID="521059245">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_Rocks" ID="{779F5632-C2BF-40F4-A03E-EB53AE2083D9}" ShortID="1071346811">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_1\Geralt\Geralt_Rocks.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_Rocks" ID="{779F5632-C2BF-40F4-A03E-EB53AE2083D9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Jaskier" ID="{7A81987D-6F12-4F53-8A7D-5158590016F6}" ShortID="325068519">
+											<ChildrenList>
+												<Sound Name="Jaskier_AfterRocks" ID="{9167A87A-FAC8-4C43-B295-BBFBD6FC83B2}" ShortID="30075912">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_AfterRocks" ID="{8205B71E-4CC1-4F2D-8F68-E3187F9D64BA}" ShortID="563468514">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_1\Jaskier\Jaskier_AfterRocks.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_AfterRocks" ID="{8205B71E-4CC1-4F2D-8F68-E3187F9D64BA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jaskier_PathToGhouls" ID="{9DBCDDB9-2C5B-4C5E-B8D9-361E94933D27}" ShortID="322902590">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_PathToGhouls" ID="{15E4F31F-DEEF-4812-A20B-EF3A6D868538}" ShortID="89412300">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_1\Jaskier\Jaskier_PathToGhouls.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_PathToGhouls" ID="{15E4F31F-DEEF-4812-A20B-EF3A6D868538}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jaskier_PathToSwamp" ID="{087119F9-3B90-412A-9085-EE600F6A6E0B}" ShortID="28696915">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_PathToSwamp" ID="{131E7B00-4F4C-4340-B6E4-4CFF9D9D7A5C}" ShortID="577008872">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_1\Jaskier\Jaskier_PathToSwamp.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_PathToSwamp" ID="{131E7B00-4F4C-4340-B6E4-4CFF9D9D7A5C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Sound Name="Stopper" ID="{D9AC8E87-B9C6-441B-8C1B-8BA8DAB2B3B0}" ShortID="909772214">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Stopper" ID="{9BE31FC8-648C-491C-89C9-36B35EF5F908}" ShortID="237961784">
+													<Language>SFX</Language>
+													<AudioFile>Gold Dialogues\Level_1\Stopper.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Stopper" ID="{9BE31FC8-648C-491C-89C9-36B35EF5F908}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Level_2" ID="{D97C6AAD-2E8A-401E-8572-D24CE1260E7C}" ShortID="586960115">
+									<ChildrenList>
+										<Folder Name="Geralt_lv2" ID="{A070CD8B-1C48-4FC7-9840-5557056EE353}" ShortID="92099704">
+											<ChildrenList>
+												<Sound Name="Geralt_lv2_CiriBegin" ID="{13209687-3B32-45F9-B042-4A649B0A97AD}" ShortID="449424556">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_lv2_CiriBegin" ID="{45B8D3C8-590E-40DE-840D-D757CBAAACFC}" ShortID="572290426">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_2\Geralt_lv2\Geralt_lv2_CiriBegin.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_lv2_CiriBegin" ID="{45B8D3C8-590E-40DE-840D-D757CBAAACFC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Geralt_lv2_CiriFinal" ID="{AC538042-A54C-463C-94AA-41EA8E93265C}" ShortID="465485531">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_lv2_CiriFinal" ID="{39FDCE02-6E24-4CB3-ABA2-705364CDDE73}" ShortID="442147696">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_2\Geralt_lv2\Geralt_lv2_CiriFinal.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_lv2_CiriFinal" ID="{39FDCE02-6E24-4CB3-ABA2-705364CDDE73}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Geralt_lv2_DeadBody" ID="{33B450F0-EA31-4D21-8CE6-5243B13F3C29}" ShortID="390161093">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_lv2_DeadBody" ID="{7C782340-FF9B-4312-A522-0CEF2E7F3064}" ShortID="382019528">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_2\Geralt_lv2\Geralt_lv2_DeadBody.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_lv2_DeadBody" ID="{7C782340-FF9B-4312-A522-0CEF2E7F3064}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Geralt_lv2_MinecartsA" ID="{EB04C828-C376-4BE5-9516-4DEE691A6B6D}" ShortID="12964953">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_lv2_MinecartsA" ID="{A981FD27-69CE-4068-9721-B44401DE369D}" ShortID="892125431">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_2\Geralt_lv2\Geralt_lv2_MinecartsA.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_lv2_MinecartsA" ID="{A981FD27-69CE-4068-9721-B44401DE369D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Geralt_lv2_MinecartsB" ID="{95C363F0-3287-4450-A396-AAA8188D523E}" ShortID="839524659">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Geralt_lv2_MinecartsB" ID="{0DC55D73-F865-436D-B904-FA1292DB1ABA}" ShortID="1005899567">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_2\Geralt_lv2\Geralt_lv2_MinecartsB.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Geralt_lv2_MinecartsB" ID="{0DC55D73-F865-436D-B904-FA1292DB1ABA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Jaskier_lv2" ID="{8A3059CC-8A7E-48DF-8FEB-C3E2D619AB87}" ShortID="785243701">
+											<ChildrenList>
+												<Sound Name="Jaskier_lv2_1" ID="{B70AF716-7879-46CE-8FD0-4032EA968651}" ShortID="686789958">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_lv2_1" ID="{1013892E-68CF-47EE-9891-C2C5760C24CF}" ShortID="354755393">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_2\Jaskier_lv2\Jaskier_lv2_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_lv2_1" ID="{1013892E-68CF-47EE-9891-C2C5760C24CF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jaskier_lv2_bridge" ID="{5A9D9117-4980-4F59-B989-2EDEA22AEFA1}" ShortID="692923438">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_lv2_bridge" ID="{523260D0-ED88-419B-82F8-01C0FD53EF58}" ShortID="81439509">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_2\Jaskier_lv2\Jaskier_lv2_bridge.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_lv2_bridge" ID="{523260D0-ED88-419B-82F8-01C0FD53EF58}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jaskier_lv2_MinecartsEnd" ID="{8404E0C7-7A14-433A-A69C-0866B931480F}" ShortID="329038467">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_lv2_MinecartsEnd" ID="{836A9C1E-9104-4D00-9983-00C3044956FC}" ShortID="276842891">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Level_2\Jaskier_lv2\Jaskier_lv2_MinecartsEnd.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_lv2_MinecartsEnd" ID="{836A9C1E-9104-4D00-9983-00C3044956FC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Actor_Enemies" ID="{65D04EB3-3D95-4777-AA8D-A3C24FDE29B8}" ShortID="349546495">
