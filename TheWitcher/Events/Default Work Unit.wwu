@@ -625,6 +625,136 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Level 2" ID="{A1CFFA74-EF0F-45CE-8F36-C1FDD1CDED11}" ShortID="536699021">
+							<ChildrenList>
+								<Event Name="Play_Level2_Start" ID="{1F544542-6E74-468D-8808-8CF8AA7822C3}">
+									<ChildrenList>
+										<Action Name="" ID="{99698238-7EB3-4A42-8821-3C549EBC56D4}" ShortID="340016276">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Start" ID="{8D3483CA-A0B9-4819-8EA1-C6733BEC3617}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Level2_Ghouls" ID="{159636EE-AEF2-4C68-9045-193ADAB8E232}">
+									<ChildrenList>
+										<Action Name="" ID="{C2D8209F-5B03-4D69-9547-405E0C4A778D}" ShortID="303989969">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Big Tree - Ghouls" ID="{7204E488-695F-4829-A7C7-7461177D0F2D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Level2_Bridge" ID="{4794BC68-80CE-46CA-8CE4-85B0ACAA7859}">
+									<ChildrenList>
+										<Action Name="" ID="{F93399AD-FB3A-4B0B-AE98-2889ED0D4FD9}" ShortID="679225082">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bridge" ID="{8E882EA3-7DDC-4CA7-932B-75C38DD8C200}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Level2_Hall" ID="{0133F55C-7ABE-48F3-A0E0-04437F5B192F}">
+									<ChildrenList>
+										<Action Name="" ID="{45BE8013-59AD-438F-857A-F45183330606}" ShortID="476436093">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Hall - Cave Entrance" ID="{B7D6FD24-C4D5-44BB-BF71-85DBE468D4E3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Minecarts" ID="{344C217A-C5CD-4A35-91E3-4E3AE0262270}">
+									<ChildrenList>
+										<Action Name="" ID="{D3DF6D25-09C7-4C84-9232-062416E8520C}" ShortID="538938285">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Minecarts" ID="{11B6D54E-0EFC-4265-8561-D0048DDDE908}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Combat_Level2" ID="{DE644B61-EF11-4B3D-A342-9B0076E95637}">
+									<ChildrenList>
+										<Action Name="" ID="{A4B3B16D-EF6D-47BA-B65B-A754C54822D6}" ShortID="604951822">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Combat Level 2" ID="{B4054BC3-F804-4987-AFC7-1355930CC31B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PreCiri" ID="{E4CD887E-A92D-49D7-8F1C-138DEF6861FF}">
+									<ChildrenList>
+										<Action Name="" ID="{8DF2DDFF-D04C-45F4-975C-B2492E4DAD44}" ShortID="541926304">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Before Ciri" ID="{C3700FDB-F97C-41F9-932D-55E7FE2A9FEC}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Ciri" ID="{6CDA5813-9F8E-4220-B488-2D816EF6CD5A}">
+									<ChildrenList>
+										<Action Name="" ID="{0D710470-054A-4038-8053-AE246EE23EBE}" ShortID="258121418">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri Boss" ID="{A4666067-C237-44AD-9FF6-18D8126E254A}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_PostCiri" ID="{2CC47B22-4A97-4E3E-B49D-4A83A19D30D7}">
+									<ChildrenList>
+										<Action Name="" ID="{FEFBBF76-5809-4355-ADDD-E51E5DDBA7CC}" ShortID="593256803">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="After Ciri" ID="{F0FF0AA4-0011-4A31-BC40-4C6E156CA18A}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player_Interactions" ID="{342DC179-3248-4379-942D-DF0259F9C653}" ShortID="787945414">

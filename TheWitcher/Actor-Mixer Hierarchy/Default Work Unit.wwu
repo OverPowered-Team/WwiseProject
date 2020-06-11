@@ -1891,6 +1891,10 @@
 												</State>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{662D6286-271D-4776-AABC-470A3F04F475}" ShortID="586596078"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
 												<State Name="" ID="{94380348-AC74-4F26-806C-437C2353D288}" ShortID="28225249">
 													<PropertyList>
@@ -2011,6 +2015,10 @@
 											<CustomState>
 												<StateRef Name="Pre_Boss" ID="{1A8E2F10-FBAB-4041-AC06-71D0004A7B0E}"/>
 												<State Name="" ID="{F74851BE-234D-499C-AB6F-6572DD63C173}" ShortID="977715361"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{FEF5157A-7E6C-403B-B6F0-E9B5B5351BFD}" ShortID="760955590"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
@@ -2202,6 +2210,10 @@
 												</State>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{1027F305-D7AC-4FF1-8A50-99FF6533CA72}" ShortID="764476229"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
 												<State Name="" ID="{46448F59-6FEA-4AC6-AF81-AAC0AF5C9798}" ShortID="395878762">
 													<PropertyList>
@@ -2307,6 +2319,10 @@
 														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>
 												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{1C69E9A3-8EBD-4AF9-9C33-905047C59CB5}" ShortID="1035561039"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
@@ -2435,6 +2451,10 @@
 														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>
 												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{7E971B8B-C74D-43B6-9467-9AD81E42E3C3}" ShortID="358495615"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
@@ -2592,6 +2612,10 @@
 												</State>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{59CEBD61-F09D-45CD-B6BE-E39280420646}" ShortID="795219754"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
 												<State Name="" ID="{43D38EB3-E2DF-4FFC-ADFE-D9167C6CE172}" ShortID="2146833"/>
 											</CustomState>
@@ -2710,6 +2734,10 @@
 											<CustomState>
 												<StateRef Name="Pre_Boss" ID="{1A8E2F10-FBAB-4041-AC06-71D0004A7B0E}"/>
 												<State Name="" ID="{C699B863-2668-4F90-8D2F-F976A3CAD163}" ShortID="304510304"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{9B64C3E6-CB6B-46AF-98D4-5EA9817201D7}" ShortID="709978949"/>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
@@ -2844,6 +2872,10 @@
 												</State>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{6C6A0259-1D99-495A-8133-49D62060C264}" ShortID="1021900067"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
 												<State Name="" ID="{573F31A9-E08E-482F-89BC-A9D496958572}" ShortID="26459839">
 													<PropertyList>
@@ -2933,6 +2965,251 @@
 										<ActiveSource Name="Twin Musicom - The Coal Mine" ID="{D39730D6-1264-4F17-9D34-C6014A04792D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Folder Name="Level2 Music" ID="{2B1ED235-A23D-4A5B-A08A-5BBCEDC54E28}" ShortID="854648377">
+									<ChildrenList>
+										<Sound Name="After Ciri" ID="{F0FF0AA4-0011-4A31-BC40-4C6E156CA18A}" ShortID="911420087">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="After Ciri" ID="{9CD61CAB-8689-41D4-9820-B25985641B66}" ShortID="715475659">
+													<Language>SFX</Language>
+													<AudioFile>Level2 Music\After Ciri.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="After Ciri" ID="{9CD61CAB-8689-41D4-9820-B25985641B66}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Before Ciri" ID="{C3700FDB-F97C-41F9-932D-55E7FE2A9FEC}" ShortID="968815675">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Before Ciri" ID="{0D1C2DA4-3BA9-457F-B13B-181F870DF25F}" ShortID="830804940">
+													<Language>SFX</Language>
+													<AudioFile>Level2 Music\Before Ciri.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Before Ciri" ID="{0D1C2DA4-3BA9-457F-B13B-181F870DF25F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big Tree - Ghouls" ID="{7204E488-695F-4829-A7C7-7461177D0F2D}" ShortID="292437675">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big Tree - Ghouls" ID="{4DB9CEED-BB68-4E58-8567-911C0D0E466F}" ShortID="1037349772">
+													<Language>SFX</Language>
+													<AudioFile>Level2 Music\Big Tree - Ghouls.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big Tree - Ghouls" ID="{4DB9CEED-BB68-4E58-8567-911C0D0E466F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bridge" ID="{8E882EA3-7DDC-4CA7-932B-75C38DD8C200}" ShortID="658815796">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bridge" ID="{AD95A5BE-8499-4A3B-8EB1-655C3893957F}" ShortID="493202849">
+													<Language>SFX</Language>
+													<AudioFile>Level2 Music\Bridge.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bridge" ID="{AD95A5BE-8499-4A3B-8EB1-655C3893957F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ciri Boss" ID="{A4666067-C237-44AD-9FF6-18D8126E254A}" ShortID="677644915">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ciri Boss" ID="{6FBB5DE7-6C2E-4CCC-93A0-9EA3FC5C837B}" ShortID="880628954">
+													<Language>SFX</Language>
+													<AudioFile>Level2 Music\Ciri Boss.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ciri Boss" ID="{6FBB5DE7-6C2E-4CCC-93A0-9EA3FC5C837B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hall - Cave Entrance" ID="{B7D6FD24-C4D5-44BB-BF71-85DBE468D4E3}" ShortID="447883713">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hall - Cave Entrance" ID="{B89550BE-D33E-4910-A06D-FCBC05AF4CD5}" ShortID="10394996">
+													<Language>SFX</Language>
+													<AudioFile>Level2 Music\Hall - Cave Entrance.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hall - Cave Entrance" ID="{B89550BE-D33E-4910-A06D-FCBC05AF4CD5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Start" ID="{8D3483CA-A0B9-4819-8EA1-C6733BEC3617}" ShortID="585711366">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Start" ID="{2BA7335E-70FA-4F91-95D5-EF73EA26B930}" ShortID="103399598">
+													<Language>SFX</Language>
+													<AudioFile>Level2 Music\Start.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Start" ID="{2BA7335E-70FA-4F91-95D5-EF73EA26B930}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Minecarts" ID="{11B6D54E-0EFC-4265-8561-D0048DDDE908}" ShortID="583664818">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Minecarts 1" ID="{C9E3077E-565B-4309-9AC3-03EF1D92D51C}" ShortID="704091512">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Minecarts 1" ID="{FEAAD2A1-A9D6-4288-8A24-4B4E90E02A10}" ShortID="921009144">
+															<Language>SFX</Language>
+															<AudioFile>Level2 Music\Minecarts 1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Minecarts 1" ID="{FEAAD2A1-A9D6-4288-8A24-4B4E90E02A10}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Minecarts 2" ID="{8D928E59-3D06-4795-B71F-418E806DB864}" ShortID="147445972">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Minecarts 2" ID="{DAD52CEA-0E0A-43F1-8AB3-D44E31735BBC}" ShortID="718864773">
+															<Language>SFX</Language>
+															<AudioFile>Level2 Music\Minecarts 2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Minecarts 2" ID="{DAD52CEA-0E0A-43F1-8AB3-D44E31735BBC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Combat Level 2" ID="{B4054BC3-F804-4987-AFC7-1355930CC31B}" ShortID="917408538">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Combat 1" ID="{AD90E2D6-1DB9-499D-B05C-3DA73661A2B0}" ShortID="286548406">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Combat 1" ID="{9ABA403B-5788-4029-B4BF-5315B01D37B6}" ShortID="536290749">
+															<Language>SFX</Language>
+															<AudioFile>Level2 Music\Combat 1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Combat 1" ID="{9ABA403B-5788-4029-B4BF-5315B01D37B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Combat 2" ID="{1A16AB91-475A-48EB-9D25-9DB36B8F5F41}" ShortID="502339757">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Combat 2" ID="{2F263B45-6A31-4791-AF76-D8C280A32996}" ShortID="78140361">
+															<Language>SFX</Language>
+															<AudioFile>Level2 Music\Combat 2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Combat 2" ID="{2F263B45-6A31-4791-AF76-D8C280A32996}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -4688,6 +4965,10 @@
 												</State>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+												<State Name="" ID="{0C59EAF9-723A-44B3-B49F-82D33EF80D15}" ShortID="187496488"/>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
 												<State Name="" ID="{7A04AD43-3433-416C-8F1C-9BD8BB1E9987}" ShortID="704528420">
 													<PropertyList>
@@ -4949,6 +5230,10 @@
 							<CustomState>
 								<StateRef Name="Pre_Boss" ID="{1A8E2F10-FBAB-4041-AC06-71D0004A7B0E}"/>
 								<State Name="" ID="{C8137D4A-E97C-4881-BA99-FD656ED17C6E}" ShortID="279500314"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
+								<State Name="" ID="{22036266-12B8-4CA0-BC2A-1D0E2F535546}" ShortID="558535291"/>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Objects" ID="{B42D5927-BE9C-40FB-AD21-2364BE6345E4}"/>
@@ -7196,6 +7481,9 @@
 						<AudioFileSource Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{B817009F-D333-4BAA-9016-F43F9351F05F}" ShortID="673986145">
 							<Language>SFX</Language>
 							<AudioFile>443_wood- impact- small- fast- debris- destruction- smash- splinters 024.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="81725165"/>
+							</ConvertedFileIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>

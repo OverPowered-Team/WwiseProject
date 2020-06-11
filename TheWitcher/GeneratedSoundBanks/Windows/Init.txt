@@ -29,6 +29,7 @@ State	ID	Name	State Group			Notes
 	1908629550	Middle_Area	Interactive_Music_Lvl1			
 	2358467699	Drowners	Interactive_Music_Lvl1			
 	2427728260	Ghoul_Nests	Interactive_Music_Lvl1			
+	2609527548	Mine	Interactive_Music_Lvl1			
 	2764240573	Combat	Interactive_Music_Lvl1			
 	3565738319	Fortress	Interactive_Music_Lvl1			
 	4122393694	Cave	Interactive_Music_Lvl1			
