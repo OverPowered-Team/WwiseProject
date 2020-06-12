@@ -869,6 +869,120 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Yennefer" ID="{8AA4ABCA-19CC-46AD-8591-53E411F4FE4E}" ShortID="492871142">
+									<ChildrenList>
+										<Folder Name="Tutorial" ID="{7C62DD0B-0C71-4D2F-A065-CB26E1AB6401}" ShortID="336868216">
+											<ChildrenList>
+												<Event Name="Play_YenTutorial" ID="{FE2C2504-3712-4D55-A417-72167FDDC05C}">
+													<ChildrenList>
+														<Action Name="" ID="{80EAA517-4F64-4CA9-A1B2-0925D902F752}" ShortID="321920781">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="YenTutorial" ID="{F9E2EAFA-7056-40B8-8C32-D065F0BB3260}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Level1" ID="{794FE377-4575-4490-AD39-41B4FFF601A2}" ShortID="765240440">
+											<ChildrenList>
+												<Event Name="Play_YenLevel1_1" ID="{D882F5EF-E14C-4AE1-8B26-3FA3EA1647A0}">
+													<ChildrenList>
+														<Action Name="" ID="{14E184EA-9245-4EBE-B827-09BEB11DA03E}" ShortID="123826991">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="YenLevel1_1" ID="{2609A1F1-38A2-4BC1-AAA2-83154DD0AA3B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Play_YenLevel1_2" ID="{6028C85E-2388-45FB-AAEA-C1E8BCE4D4B0}">
+													<ChildrenList>
+														<Action Name="" ID="{EC777BA7-080C-4410-A339-E22123756703}" ShortID="344381663">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="YenLevel1_2" ID="{96AE5E1D-10F6-474D-B747-629CFAAB3213}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Play_YenLevel1_3" ID="{5C68B7EE-B11A-42B3-9892-1B91D4012CD2}">
+													<ChildrenList>
+														<Action Name="" ID="{02B1D23B-F328-4680-AC2C-E5AA2C28F88B}" ShortID="723187360">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="YenLevel1_3" ID="{94557F3A-D0D2-48CF-86B5-20EA1F52CA3F}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Level2" ID="{BD283986-59B2-447D-BBED-8A7B4CFBE522}" ShortID="374856603">
+											<ChildrenList>
+												<Event Name="Play_YenLevel2_1" ID="{FDE9D997-8AFC-4A15-B4BC-72022C46F231}">
+													<ChildrenList>
+														<Action Name="" ID="{A5EC633F-4C46-429F-91EC-786884646616}" ShortID="778565466">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="YenLevel2_1" ID="{5A9484AC-BE21-430F-A820-8CEF58FB326E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Play_YenLevel2_2" ID="{26C71A61-00BB-4E18-80BC-0F58F2A41956}">
+													<ChildrenList>
+														<Action Name="" ID="{58AE6ADC-D63A-4025-BBEB-0CE473AC414A}" ShortID="792648964">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="YenLevel2_2" ID="{2CC2C340-1A82-4822-B879-7A7BB6965F00}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Play_YenLevel2_3" ID="{936C275F-F6A2-4BED-AEA2-BF1635E1FDD1}">
+													<ChildrenList>
+														<Action Name="" ID="{35B3658C-4409-4E1E-9609-48AD6C113D5D}" ShortID="842172529">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="YenLevel2_3" ID="{4E87A014-8AEB-46F5-8E61-8C6A8ABA39AC}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

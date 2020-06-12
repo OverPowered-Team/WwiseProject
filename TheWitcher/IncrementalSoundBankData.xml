@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="929034382">
+<IncrementalBankBuild Version="6" Flags="4208174439">
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Dialogues" Hash="2140351336" Timestamp="1591891790"/>
-				<File Name="DialoguesGOLD" Hash="3244861898" Timestamp="1591959831"/>
+				<File Name="DialoguesGOLD" Hash="3775355338" Timestamp="1591979725"/>
 				<File Name="Enemy_Interaction" Hash="3353444231" Timestamp="1591891795"/>
 				<File Name="Environment_Lvl1" Hash="4208224767" Timestamp="1591892052"/>
-				<File Name="Init" Hash="2087834513" Timestamp="1591975992"/>
+				<File Name="Init" Hash="2087834513" Timestamp="1591979725"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
 				<File Name="Music" Hash="1670461949" Timestamp="1591891806"/>
 				<File Name="Music2" Hash="3620654436" Timestamp="1591891809"/>
@@ -41,7 +41,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="585970461" Timestamp="1591975992"/>
+				<File Name="" Hash="3031569934" Timestamp="1591979725"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

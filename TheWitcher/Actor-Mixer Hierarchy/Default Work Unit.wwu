@@ -1563,6 +1563,155 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Yennefer" ID="{C3FA73B3-85EE-4D63-AF4F-57527C4A14B7}" ShortID="264101360">
+									<ChildrenList>
+										<Folder Name="Level1" ID="{07DC5B65-2EB5-444D-81B1-999BB175C3F2}" ShortID="362691454">
+											<ChildrenList>
+												<Sound Name="YenLevel1_1" ID="{2609A1F1-38A2-4BC1-AAA2-83154DD0AA3B}" ShortID="613217949">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="YenLevel1_1" ID="{6EECBDD9-39A3-4173-BEBE-74BFB161B675}" ShortID="1038288943">
+															<Language>SFX</Language>
+															<AudioFile>Yennefer\Level1\YenLevel1_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="YenLevel1_1" ID="{6EECBDD9-39A3-4173-BEBE-74BFB161B675}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="YenLevel1_2" ID="{96AE5E1D-10F6-474D-B747-629CFAAB3213}" ShortID="717218897">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="YenLevel1_2" ID="{41D03435-2BE8-491A-8BD5-CF7B4807EEDB}" ShortID="545677226">
+															<Language>SFX</Language>
+															<AudioFile>Yennefer\Level1\YenLevel1_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="YenLevel1_2" ID="{41D03435-2BE8-491A-8BD5-CF7B4807EEDB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="YenLevel1_3" ID="{94557F3A-D0D2-48CF-86B5-20EA1F52CA3F}" ShortID="615642764">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="YenLevel1_3" ID="{4280BC45-D6AA-4BAC-A19D-5E1C3671E566}" ShortID="960586524">
+															<Language>SFX</Language>
+															<AudioFile>Yennefer\Level1\YenLevel1_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="YenLevel1_3" ID="{4280BC45-D6AA-4BAC-A19D-5E1C3671E566}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Level2" ID="{0B1E1EE0-3310-4FB2-A0C4-085B08262C35}" ShortID="480018153">
+											<ChildrenList>
+												<Sound Name="YenLevel2_1" ID="{5A9484AC-BE21-430F-A820-8CEF58FB326E}" ShortID="295027645">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="YenLevel2_1" ID="{8723034C-AD22-486A-8D7C-7C5650522575}" ShortID="436132304">
+															<Language>SFX</Language>
+															<AudioFile>Yennefer\Level2\YenLevel2_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="YenLevel2_1" ID="{8723034C-AD22-486A-8D7C-7C5650522575}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="YenLevel2_2" ID="{2CC2C340-1A82-4822-B879-7A7BB6965F00}" ShortID="30604073">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="YenLevel2_2" ID="{D6C15E3C-EC07-4417-B032-10DD2256AF75}" ShortID="677574474">
+															<Language>SFX</Language>
+															<AudioFile>Yennefer\Level2\YenLevel2_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="YenLevel2_2" ID="{D6C15E3C-EC07-4417-B032-10DD2256AF75}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="YenLevel2_3" ID="{4E87A014-8AEB-46F5-8E61-8C6A8ABA39AC}" ShortID="475571174">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="YenLevel2_3" ID="{E29449D8-1B82-4E68-9F3C-35E41ABE3A3F}" ShortID="996396872">
+															<Language>SFX</Language>
+															<AudioFile>Yennefer\Level2\YenLevel2_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="YenLevel2_3" ID="{E29449D8-1B82-4E68-9F3C-35E41ABE3A3F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Tutorial" ID="{5ADD3976-CB4C-4DBD-A27A-08375784754D}" ShortID="898407356">
+											<ChildrenList>
+												<Sound Name="YenTutorial" ID="{F9E2EAFA-7056-40B8-8C32-D065F0BB3260}" ShortID="942275282">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="YenTutorial" ID="{F215C481-EDCA-4E21-8730-3E8076A2F2E9}" ShortID="581797958">
+															<Language>SFX</Language>
+															<AudioFile>Yennefer\Tutorial\YenTutorial.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="YenTutorial" ID="{F215C481-EDCA-4E21-8730-3E8076A2F2E9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
