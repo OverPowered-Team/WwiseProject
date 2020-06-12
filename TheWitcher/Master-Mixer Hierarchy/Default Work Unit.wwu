@@ -5,15 +5,15 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<PropertyList>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="BusVolume" Type="Real64">
 							<RTPCList>
-								<RTPC Name="" ID="{E2A0A818-984B-4330-88D1-57ED370B6CBD}" ShortID="308852308">
+								<RTPC Name="" ID="{6D151EFD-C07A-4F58-B68C-127583BD9EBE}" ShortID="954636376">
 									<ReferenceList>
 										<Reference Name="ControlInput">
 											<ObjectRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
 										</Reference>
 									</ReferenceList>
-									<Curve Name="" ID="{8B4F0AD4-1BD6-4554-B39C-88CD76435F1C}">
+									<Curve Name="" ID="{351CD426-459F-44F5-B6F8-F64EAD719EBD}">
 										<PropertyList>
 											<Property Name="Flags" Type="int32" Value="3"/>
 										</PropertyList>
@@ -25,7 +25,7 @@
 											</Point>
 											<Point>
 												<XPos>100</XPos>
-												<YPos>25.97221</YPos>
+												<YPos>17.09826</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
