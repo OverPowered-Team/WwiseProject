@@ -42,9 +42,6 @@ State	ID	Name	State Group			Notes
 	2242381963	Enemies	GameVolumes			
 	3991942870	Music	GameVolumes			
 
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	421429125	GeneralVolume			\Default Work Unit\GeneralVolume	
-
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

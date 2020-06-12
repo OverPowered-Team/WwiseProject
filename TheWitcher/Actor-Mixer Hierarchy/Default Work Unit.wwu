@@ -4,6 +4,36 @@
 		<WorkUnit Name="Default Work Unit" ID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="Actor_Dialogues" ID="{077B9058-D5A3-45CC-8664-B3AE07B9D512}" ShortID="312531150">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{7E5FAA36-8F53-4A79-8B0F-D74A0890E1FC}" ShortID="177748624">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{EE751F31-C51E-4D51-813D-CE0A67C5BBA2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>19</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -1718,6 +1748,34 @@
 				</ActorMixer>
 				<ActorMixer Name="Actor_Enemies" ID="{65D04EB3-3D95-4777-AA8D-A3C24FDE29B8}" ShortID="349546495">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{9E6A8A76-EE33-46AA-8C95-16EBAC3899AF}" ShortID="870630051">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{022DA3A9-6918-429E-98CB-329B880BC16A}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>19</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2402,6 +2460,34 @@
 				</ActorMixer>
 				<ActorMixer Name="Actor_Music" ID="{5EF4B099-D7B0-4D2D-B1D6-581987E8D1E9}" ShortID="69565275">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{ECE50493-12F8-4729-AD06-6D22F0E13167}" ShortID="545615215">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6F7D116C-AE75-4384-8090-AB7CBF34D1F9}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>19</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-13</Value>
@@ -3936,6 +4022,34 @@
 				</ActorMixer>
 				<ActorMixer Name="Actor_Environment" ID="{EC6D9288-0773-4078-828D-51AAD1D894A0}" ShortID="794325202">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{359EA005-64B6-4820-8498-6ABC1C118A94}" ShortID="96337863">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2FABF788-3A94-4300-931D-20E630E56813}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>19</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -6037,6 +6151,34 @@
 				</ActorMixer>
 				<ActorMixer Name="Actor_Objects" ID="{ED717C71-499B-42D2-9BE5-8D6C1B11D7D8}" ShortID="593227920">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{D800E117-9995-402D-8EDF-281465384B23}" ShortID="336730362">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5038A7DE-D7F5-4FD3-ABCC-EC46BDACAFFE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>19</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>
@@ -6301,6 +6443,28 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{536C5FAD-A613-421C-9EF2-6B10CBA25C68}" ShortID="179092033">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{B817009F-D333-4BAA-9016-F43F9351F05F}" ShortID="673986145">
+									<Language>SFX</Language>
+									<AudioFile>443_wood- impact- small- fast- debris- destruction- smash- splinters 024.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="81725165"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{B817009F-D333-4BAA-9016-F43F9351F05F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
@@ -6346,6 +6510,34 @@
 				</ActorMixer>
 				<ActorMixer Name="Actor_Players" ID="{1DBE6CD9-F523-4B50-B9B9-D9DB4371C382}" ShortID="503873929">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{D7F1242E-049D-4E56-A5A0-F4FD5CAE8D4D}" ShortID="345745457">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B3450B5A-E004-4EE7-A77A-81DDD6E86532}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>19</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -8088,6 +8280,36 @@
 					</StateInfo>
 				</ActorMixer>
 				<ActorMixer Name="Actor_UI" ID="{0CB61DE7-23F9-4D59-9C70-DE38013608FE}" ShortID="388932737">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{0EF5A709-9AAB-4D7D-8889-D1D15A8C36B1}" ShortID="654121083">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{57A8865C-F01E-4C18-B8D1-D77447B16D8F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>19</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -8185,28 +8407,6 @@
 						</CustomStateList>
 					</StateInfo>
 				</ActorMixer>
-				<Sound Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{536C5FAD-A613-421C-9EF2-6B10CBA25C68}" ShortID="179092033">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{B817009F-D333-4BAA-9016-F43F9351F05F}" ShortID="673986145">
-							<Language>SFX</Language>
-							<AudioFile>443_wood- impact- small- fast- debris- destruction- smash- splinters 024.wav</AudioFile>
-							<ConvertedFileIDList>
-								<File ID="81725165"/>
-							</ConvertedFileIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{B817009F-D333-4BAA-9016-F43F9351F05F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

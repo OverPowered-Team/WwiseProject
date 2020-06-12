@@ -143,10 +143,17 @@ namespace AK
         static const AkUniqueID PLAY_WIND = 1020223172U;
         static const AkUniqueID PLAY_WINMENU_MUSIC = 3241038393U;
         static const AkUniqueID PLAY_WOLF_HOWLING = 1297505753U;
+        static const AkUniqueID PLAY_YENLEVEL1_1 = 2430924965U;
+        static const AkUniqueID PLAY_YENLEVEL1_2 = 2430924966U;
+        static const AkUniqueID PLAY_YENLEVEL1_3 = 2430924967U;
+        static const AkUniqueID PLAY_YENLEVEL2_1 = 2431072026U;
+        static const AkUniqueID PLAY_YENLEVEL2_2 = 2431072025U;
+        static const AkUniqueID PLAY_YENLEVEL2_3 = 2431072024U;
         static const AkUniqueID PLAY_YENNDEATH = 149154610U;
         static const AkUniqueID PLAY_YENNGETDAMAGED = 831621349U;
         static const AkUniqueID PLAY_YENNJUMP = 4258364352U;
         static const AkUniqueID PLAY_YENNSHOCKWAVE = 527437U;
+        static const AkUniqueID PLAY_YENTUTORIAL = 4273097660U;
         static const AkUniqueID PLAYER_FALL = 2551268862U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_SWORDHIT = 3070097383U;
