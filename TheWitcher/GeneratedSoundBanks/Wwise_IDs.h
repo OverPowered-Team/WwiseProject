@@ -75,7 +75,9 @@ namespace AK
         static const AkUniqueID PLAY_EXPLOSION = 4030404899U;
         static const AkUniqueID PLAY_FENCEDESTROY = 2372531077U;
         static const AkUniqueID PLAY_FIRE_RUNESTONE = 3230728788U;
+        static const AkUniqueID PLAY_GERALT_BEGIN = 1703805387U;
         static const AkUniqueID PLAY_GERALT_BOSS = 1390225335U;
+        static const AkUniqueID PLAY_GERALT_ENEMIES = 16290812U;
         static const AkUniqueID PLAY_GERALT_ENTRYZONE = 2868403938U;
         static const AkUniqueID PLAY_GERALT_FIRSTBONFIRE = 2508136719U;
         static const AkUniqueID PLAY_GERALT_LV2_CIRIBEGIN = 2324703199U;
@@ -83,6 +85,8 @@ namespace AK
         static const AkUniqueID PLAY_GERALT_LV2_DEADBODY = 607946285U;
         static const AkUniqueID PLAY_GERALT_LV2_MINECARTSA = 3350876508U;
         static const AkUniqueID PLAY_GERALT_LV2_MINECARTSB = 3350876511U;
+        static const AkUniqueID PLAY_GERALT_PENDULUMSA = 2223359158U;
+        static const AkUniqueID PLAY_GERALT_PENDULUMSB = 2223359157U;
         static const AkUniqueID PLAY_GERALT_PREBOSS = 1817882324U;
         static const AkUniqueID PLAY_GERALT_ROCKS = 1907787566U;
         static const AkUniqueID PLAY_GERALTDEATH = 2048623797U;
@@ -262,6 +266,7 @@ namespace AK
         static const AkUniqueID COMBATDISTANCE = 1193492672U;
         static const AkUniqueID DOPPLERROCKS = 442820407U;
         static const AkUniqueID FADE = 2646605403U;
+        static const AkUniqueID GENERALVOLUME = 421429125U;
         static const AkUniqueID PITCHSLOWMO = 1799551114U;
         static const AkUniqueID PLAYERLIFE = 444815956U;
     } // namespace GAME_PARAMETERS
