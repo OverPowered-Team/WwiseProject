@@ -50,6 +50,7 @@
 								<ObjectRef Name="Play_Geralt_FirstBonfire" ID="{519AF835-6277-419F-BBAE-332475D010DE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_lv2_CiriFinal" ID="{3D3ADF06-D796-4337-8635-1D0B7B08F1C9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_lv2_MinecartsB" ID="{29E0E4E4-951D-43E2-81E2-44F196CFF47E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="Play_Geralt_enemies" ID="{F8C6ADCD-D2B7-43F1-9C04-5CF09079484F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_lv2_DeadBody" ID="{20A7C737-9E0C-4406-B43A-9A813ABE98AB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_Rocks" ID="{836F6195-C663-440C-9CA8-6136AAD20B1F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Stopper" ID="{58B8AF02-63BD-4481-B33F-111F0C0B8C0D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -59,10 +60,13 @@
 								<ObjectRef Name="Play_Jaskier_PathToGhouls" ID="{9B3937FD-15AE-45ED-9279-8624DC0084EB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_AfterRocks" ID="{2E8A99D1-F484-46B1-9681-4527049C9B10}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_inicio_1" ID="{25AEE641-8AD8-471C-8B24-F907C72CA4A6}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="Play_Geralt_PendulumsA" ID="{0AABDB75-D164-4832-9E1B-C4AEF0335E02}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_inicio_2" ID="{A2C921FF-EEC5-4ACE-8D86-5410444325D1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_lv2_CiriBegin" ID="{1FA502F1-1306-4BF3-B0A5-73B5602EE748}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="Play_Geralt_Begin" ID="{E7A35AE4-CCBC-4C0F-B2CF-B75143B1E351}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_Final" ID="{8C4EDCCC-1192-4C99-97AC-5281865B0A5B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_lv2_1" ID="{B334578C-EA55-4D79-8530-BE51DB4B59A1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="Play_Geralt_PendulumsB" ID="{68A5894B-6646-4DAE-AFD1-13E816D5B056}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_PathToSwamp" ID="{5BB7CA17-A2BA-4DEB-A75A-8F2DBD601A7E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_PreBoss" ID="{C8EB89DA-7631-4E87-B62E-148AAEF365CF}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_entryZone" ID="{68958C75-9093-4E88-B229-A04C2B162853}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>

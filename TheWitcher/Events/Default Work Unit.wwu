@@ -809,6 +809,66 @@
 										</Folder>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Tutorial" ID="{EDCA43EE-BFDB-4D4F-B829-2C69049EFEBC}" ShortID="678499446">
+									<ChildrenList>
+										<Event Name="Play_Geralt_Begin" ID="{E7A35AE4-CCBC-4C0F-B2CF-B75143B1E351}">
+											<ChildrenList>
+												<Action Name="" ID="{ED936119-D088-420A-81F8-9F3B1484C78F}" ShortID="113156489">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Geralt_Begin" ID="{FD5F9DB9-9A8E-4C07-81D3-6EE6227EC969}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Geralt_enemies" ID="{F8C6ADCD-D2B7-43F1-9C04-5CF09079484F}">
+											<ChildrenList>
+												<Action Name="" ID="{4A916A50-3AB9-46B0-978E-A360D8F63C41}" ShortID="336290491">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Geralt_enemies" ID="{34033354-C505-4CBD-BAA4-CB3448816761}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Geralt_PendulumsA" ID="{0AABDB75-D164-4832-9E1B-C4AEF0335E02}">
+											<ChildrenList>
+												<Action Name="" ID="{7133B9C8-29E5-42A2-8DD4-D88D0B249215}" ShortID="648568606">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Geralt_PendulumsA" ID="{09E45BFE-B05E-4781-8C77-69006A5841AA}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Geralt_PendulumsB" ID="{68A5894B-6646-4DAE-AFD1-13E816D5B056}">
+											<ChildrenList>
+												<Action Name="" ID="{0E33E082-BFEE-4FF6-873B-C871F5AEB80A}" ShortID="863765405">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Geralt_PendulumsB" ID="{4CD00B66-BB55-4D68-BEC7-08D5E759EC12}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -1483,6 +1483,86 @@
 										</Folder>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Tutorial" ID="{3D49979E-CAE1-416B-9131-EE3A4D4306BD}" ShortID="210204567">
+									<ChildrenList>
+										<Sound Name="Geralt_Begin" ID="{FD5F9DB9-9A8E-4C07-81D3-6EE6227EC969}" ShortID="469355532">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Geralt_Begin" ID="{DD0BB159-6394-4C00-8468-FE3FADC4CF57}" ShortID="947644115">
+													<Language>SFX</Language>
+													<AudioFile>Tutorial\Geralt_Begin.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Geralt_Begin" ID="{DD0BB159-6394-4C00-8468-FE3FADC4CF57}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Geralt_enemies" ID="{34033354-C505-4CBD-BAA4-CB3448816761}" ShortID="302627028">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Geralt_enemies" ID="{B8FD9E14-7EF3-4B2E-AA26-5167DE0AB0BC}" ShortID="185013148">
+													<Language>SFX</Language>
+													<AudioFile>Tutorial\Geralt_enemies.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Geralt_enemies" ID="{B8FD9E14-7EF3-4B2E-AA26-5167DE0AB0BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Geralt_PendulumsA" ID="{09E45BFE-B05E-4781-8C77-69006A5841AA}" ShortID="56124001">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Geralt_PendulumsA" ID="{D67E56B5-FC72-4A13-A375-9BD1B0C5903E}" ShortID="986657844">
+													<Language>SFX</Language>
+													<AudioFile>Tutorial\Geralt_PendulumsA.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Geralt_PendulumsA" ID="{D67E56B5-FC72-4A13-A375-9BD1B0C5903E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Geralt_PendulumsB" ID="{4CD00B66-BB55-4D68-BEC7-08D5E759EC12}" ShortID="842574315">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Geralt_PendulumsB" ID="{1BA2CDD8-0253-46DB-93EE-CC6D04EA92FF}" ShortID="266878497">
+													<Language>SFX</Language>
+													<AudioFile>Tutorial\Geralt_PendulumsB.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Geralt_PendulumsB" ID="{1BA2CDD8-0253-46DB-93EE-CC6D04EA92FF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
