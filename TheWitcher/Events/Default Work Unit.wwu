@@ -1789,206 +1789,6 @@
 				</Folder>
 				<Folder Name="Enemy_Interaction" ID="{B8C7B5ED-1177-4B97-9C38-43DACC882595}" ShortID="165262274">
 					<ChildrenList>
-						<Event Name="SoldierBlock" ID="{166E9FCF-6080-404F-9E41-2602BD9EC8B9}">
-							<ChildrenList>
-								<Action Name="" ID="{EA699EAC-9B60-4FBF-8C83-01F3E6FD1E44}" ShortID="433349871">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="shieldblock" ID="{DF1E8EF1-BB9C-420E-BBEA-3381841DF048}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="GhoulDeath" ID="{BCC6CC98-FFD1-4499-B275-272E20D8D91D}">
-							<ChildrenList>
-								<Action Name="" ID="{DB425770-1AE7-4B8F-BDF8-4FEDF2231BCC}" ShortID="360646764">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ghoulDeath" ID="{E12671B9-DEAD-4240-867B-3BA9CF9766D4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="GhoulAttack" ID="{55E2D1AB-F2C1-4B15-B95D-911A91375F5E}">
-							<ChildrenList>
-								<Action Name="" ID="{A5CE40E8-35D2-4EEA-B9BE-81A24C3316C1}" ShortID="828495127">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ghoulAttack" ID="{9B1C8549-A543-4D19-9DFA-D9DF2F439EC0}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="SoldierSword" ID="{81C3AC75-8502-4368-B7C8-25335C8F129C}">
-							<ChildrenList>
-								<Action Name="" ID="{78DD5788-7FCD-4363-9077-E8EC218D9395}" ShortID="111964737">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="enemySwordSwing" ID="{BFF90958-010C-4338-AE22-7FBC29FAE7CA}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="SoldierDeath" ID="{E339A166-C39B-4C02-8419-08045A4D4BDD}">
-							<ChildrenList>
-								<Action Name="" ID="{055171FA-390A-4D51-9FFB-DB0CB351A5DE}" ShortID="76030345">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="soldierDeath" ID="{7B8901D6-B382-481A-A0A8-CBFAC5C322D2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="GhoulHit" ID="{F812DD4E-AE57-4758-BE1C-C63FA6AD3D0C}">
-							<ChildrenList>
-								<Action Name="" ID="{565093D6-0A9A-4E35-B69B-5A842E30BA84}" ShortID="750397651">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ghoulHit" ID="{24C6A089-23F6-42E8-9619-20AB4C4C3378}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="SoldierShoot" ID="{B4E08CEC-245B-42BD-A097-E1D1C8979ABD}">
-							<ChildrenList>
-								<Action Name="" ID="{A4E466C4-65B9-4738-8D0E-8597C082D582}" ShortID="830481272">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="shootArrow" ID="{5F24CFC7-341B-427C-BEB3-741147AEECC3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="SoldierHit" ID="{121C428A-88A5-4FA7-B900-B2185D13BF20}">
-							<ChildrenList>
-								<Action Name="" ID="{537CBF30-9815-4452-A3C3-EA9A73B96224}" ShortID="613340372">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="soldierHit" ID="{CD18E49D-E50F-4AFF-BC31-C1E0FF1D20B2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Folder Name="Drowner" ID="{0DB631E1-ED3E-4574-8D4B-E9F1DCF9A2D7}" ShortID="288298128">
-							<ChildrenList>
-								<Event Name="Play_Drowner_Death" ID="{8AF01053-1291-4B4B-B2C8-702238A2EA5B}">
-									<ChildrenList>
-										<Action Name="" ID="{E2A41D9F-758B-4464-A71A-BC0B42A738D6}" ShortID="946277502">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="drowner_death" ID="{D8B1FC4C-1859-4B5B-92A8-EC0F2E2CF9EF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_Drowner_Footstep" ID="{F5668068-2911-4EC5-9D1B-A0DB0A1EC0E3}">
-									<ChildrenList>
-										<Action Name="" ID="{FB18CBDF-7BC1-4A38-8F00-071F64718F7D}" ShortID="588047905">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="drowner_footstep" ID="{5F0F5A52-FEFB-485F-BAA9-695357BAFE41}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_Drowner_Hit" ID="{CB380B45-61E2-43A8-B165-753C869D915E}">
-									<ChildrenList>
-										<Action Name="" ID="{19AF89C8-514D-443C-BB72-FADF9D8BCF32}" ShortID="213942428">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="drowner_hit" ID="{786FE47C-BABB-4197-B845-A9FF93D20D5B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_Drowner_Movement_Water" ID="{63889C50-F7BB-40A3-A7A2-515565CC0B76}">
-									<ChildrenList>
-										<Action Name="" ID="{7E86B6FD-164C-40D1-8309-891D672D5161}" ShortID="222223220">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="drowner_movement_water" ID="{083F8D9C-5234-4A49-9AFF-89F199A58661}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_Drowner_Shot_Attack" ID="{98850FF6-7936-4583-BE1B-C26D94E494B5}">
-									<ChildrenList>
-										<Action Name="" ID="{95BF75D4-706E-48B3-BED0-DEDC70614A1C}" ShortID="418342711">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="drowner_shot_attack" ID="{BDF7101E-4F25-4CA9-AB2A-DF8DCCA00ACD}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_Drowner_Splash_Water" ID="{1D29F3E9-5C67-49D1-9246-F00E019D5C02}">
-									<ChildrenList>
-										<Action Name="" ID="{00408079-F4C0-4CDB-A671-BF6ACC107E8C}" ShortID="686494042">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="1"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="drowner_splash_water" ID="{87FD9C3B-AA35-47A6-BCFE-3EB52171E2E2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
 						<Folder Name="Leshen" ID="{EAD7DE2E-2F30-4AB3-B5DD-18CA37A743C2}" ShortID="576661342">
 							<ChildrenList>
 								<Event Name="Play_Leshen_Death" ID="{7F1C8885-5021-4245-A48F-C407E0596076}">
@@ -2140,7 +1940,7 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Event Name="Play_Dizzy_Enemy" ID="{B5BB7DC3-C600-48CA-870C-85B9D4521C24}">
+						<Event Name="Enemy_Dizzy" ID="{B5BB7DC3-C600-48CA-870C-85B9D4521C24}">
 							<ChildrenList>
 								<Action Name="" ID="{C3385813-6767-4CE2-9339-8B6CAC0AD3F1}" ShortID="527357334">
 									<PropertyList>
@@ -2148,21 +1948,229 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="dizzy_enemy" ID="{F30D8C68-B1AA-4658-860C-3FE7A8D4C925}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="Dizzy" ID="{6218E8FB-D875-411D-9CC0-75D87EF87DB1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Soldier_footstep" ID="{78068777-EF2E-421D-B884-D6ACB2E5ACF9}">
+						<Folder Name="NilfgaardSoldier" ID="{2025396D-90F7-403D-B739-1B190FB08BC5}" ShortID="880600240">
 							<ChildrenList>
-								<Action Name="" ID="{AF60CCA6-21DA-41E1-AD16-5AE1D155E77D}" ShortID="85628001">
+								<Event Name="Soldier_Block" ID="{166E9FCF-6080-404F-9E41-2602BD9EC8B9}">
+									<ChildrenList>
+										<Action Name="" ID="{EA699EAC-9B60-4FBF-8C83-01F3E6FD1E44}" ShortID="433349871">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Soldier_Block" ID="{DF1E8EF1-BB9C-420E-BBEA-3381841DF048}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Ghoul" ID="{D142D724-FB1F-42DB-8473-58EB840E4E5F}" ShortID="322754635">
+							<ChildrenList>
+								<Event Name="Ghoul_Jump" ID="{892DA59B-7BD0-4FA4-8067-E424E0DE69B6}">
+									<ChildrenList>
+										<Action Name="" ID="{BF89A6AF-3E76-4DF7-A798-86EB76B0A5E8}" ShortID="581512756">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ghoul_Jump" ID="{09A9C21E-8A76-4990-8B14-DC5B59B5E74C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Ghoul_JumpFall" ID="{8CD30C2B-4909-4646-B102-176E7BCED889}">
+									<ChildrenList>
+										<Action Name="" ID="{58FF3D51-3167-4182-8E9F-05858EE66457}" ShortID="215736149">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ghoul_JumpFall" ID="{99575305-C5F9-4751-8EA7-0D880C0B7442}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Enemy_FallBody" ID="{56E98F26-DEA1-4A63-A4C1-BE8BBC3101D2}">
+							<ChildrenList>
+								<Action Name="" ID="{314DE91C-9B93-4951-825E-807802DDE3CA}" ShortID="364494449">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="soldier_footstep" ID="{1DFC7F27-C3E8-4931-BF84-D4C83CD40F45}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="Body_Fall" ID="{36AB22AD-6D10-46F0-BFC5-684B8EDCC5CE}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_FallHead" ID="{3B585959-09FB-4ED7-B65A-A07619645177}">
+							<ChildrenList>
+								<Action Name="" ID="{45ADFF0D-9183-4A75-97A8-D069E00CEF86}" ShortID="949950238">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Head_Drop" ID="{AFD24C23-CC06-42B0-A727-BC8E6A05616A}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_Attack" ID="{FD535FBD-CA9F-4335-A6AF-70B8DB40B8FA}">
+							<ChildrenList>
+								<Action Name="" ID="{C5676D6C-1C51-4674-A43B-CC62715BBE6A}" ShortID="934342147">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack" ID="{52A4CCBE-98DD-498B-8E8E-D74DC9DAB4FA}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_GetHit" ID="{20EA732C-B50C-4B5F-A968-CDBEE4B02BBD}">
+							<ChildrenList>
+								<Action Name="" ID="{A1165AC7-AD5B-4DCA-8D84-7834C274E8AE}" ShortID="482913433">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_Death" ID="{2F451CC8-AED9-4A2C-BDDD-15FB878974C9}">
+							<ChildrenList>
+								<Action Name="" ID="{85CF96B1-2060-4713-934E-F8732A7FF424}" ShortID="407099824">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Death" ID="{A0F4294A-7FA9-4A12-B648-A188E1C78D5B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Drowned" ID="{28222455-E095-4642-959A-114D805852A1}" ShortID="329896127">
+							<ChildrenList>
+								<Event Name="Drowned_Dig" ID="{15F057ED-B596-4F94-A3F3-6C8285160C7F}">
+									<ChildrenList>
+										<Action Name="" ID="{275BB3D6-645D-4465-90AC-B3AD2EA40DB5}" ShortID="593566741">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Drowned_DigGround" ID="{BDC62BB0-4A86-45D3-B004-A0D4911E8585}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BlockerObstacle" ID="{15B5B38C-F13C-438A-B25F-E33789DC7700}" ShortID="323329710">
+							<ChildrenList>
+								<Event Name="BlockerObstacle_Vanish" ID="{683BF926-7E51-4761-A7A2-FD29B60249BC}">
+									<ChildrenList>
+										<Action Name="" ID="{04A54AA6-38A8-443D-8714-9196E2D69367}" ShortID="713001095">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BlockerObstacle_Vanish" ID="{61DF823E-F5A0-46C4-A0A6-8011B34B2278}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Enemy_CutHead" ID="{C3EFD284-7DB3-4722-8518-589758D19B5D}">
+							<ChildrenList>
+								<Action Name="" ID="{A1A87BF4-4B4B-4BEF-857C-83F7B2D35CBD}" ShortID="816188337">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HeadCut" ID="{3EADD9DF-FB35-416D-96D1-F88278699361}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_GetHitMagic" ID="{EEDF75CA-BAC3-464E-8CA6-C2DBEC9B069C}">
+							<ChildrenList>
+								<Action Name="" ID="{ACE53A34-F80C-44C3-A499-DD9CFDBC16FE}" ShortID="11709824">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_GetHit" ID="{9E7F857C-0D07-4BA7-987E-AF2A07FAE64F}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_FireSpell" ID="{4205DB0B-E74B-46AF-99F3-D251CCE3A7AE}">
+							<ChildrenList>
+								<Action Name="" ID="{B0FDDE86-004A-4CBB-BA02-EB3A1B79A2AE}" ShortID="920233432">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireSpell_GetHit" ID="{916B670D-8A0D-4A95-874F-333EFD029B69}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_IceSpell" ID="{4AE95FB5-855E-488D-8C2F-35FCC0381854}">
+							<ChildrenList>
+								<Action Name="" ID="{FF6310D6-3A92-4D3E-8EFF-EC781ADD507A}" ShortID="759910166">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IceSpell_GetHit" ID="{0B404021-71D3-4B7E-B421-B1DF3C0D99FB}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_Footstep" ID="{7FBD8188-460F-4CE0-9A93-91E5B49B41E8}">
+							<ChildrenList>
+								<Action Name="" ID="{989CA9FB-7A08-489E-BA9A-ACD1AF7A63EA}" ShortID="905746144">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep" ID="{476EAEE8-ACF8-454E-9375-95C9BD564BD6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

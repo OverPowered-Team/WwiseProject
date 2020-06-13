@@ -19,6 +19,15 @@
 						<Switch Name="Quiet" ID="{30C2C65E-37EB-4AD6-810E-6F453D2DF080}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="EnemyType" ID="{5E266DD4-110F-4D38-B5F9-E2838AFCD8C9}">
+					<ChildrenList>
+						<Switch Name="Ghoul" ID="{3BC69F1F-9286-494E-9966-19BE24B494B2}"/>
+						<Switch Name="Drowned" ID="{E9E4FD51-482A-4356-8C3A-9E2599CFE918}"/>
+						<Switch Name="Nilfgaard_Melee" ID="{0D5A8B0D-864B-4427-9484-0345F3EF351A}"/>
+						<Switch Name="BlockerObstacle" ID="{3621C95A-1D3B-47BC-9616-1E5DC265C3FA}"/>
+						<Switch Name="Nilfgaard_Range" ID="{06766BE0-74A4-4440-A768-4F22F67A333C}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
