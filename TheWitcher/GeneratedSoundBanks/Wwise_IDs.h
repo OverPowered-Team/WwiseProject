@@ -305,6 +305,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID FADE = 2646605403U;
         static const AkUniqueID REVERB_CASTLE = 987957292U;
         static const AkUniqueID REVERB_CAVE = 323187407U;
     } // namespace AUX_BUSSES

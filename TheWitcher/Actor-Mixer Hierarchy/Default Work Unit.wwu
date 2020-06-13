@@ -36,7 +36,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Foley" ID="{293E81C7-A4EC-460A-8238-4C4173395D85}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
@@ -1785,7 +1785,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Foley" ID="{293E81C7-A4EC-460A-8238-4C4173395D85}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
@@ -2496,7 +2496,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Foley" ID="{293E81C7-A4EC-460A-8238-4C4173395D85}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
@@ -4059,14 +4059,14 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Foley" ID="{293E81C7-A4EC-460A-8238-4C4173395D85}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Folder Name="Environment" ID="{F9AD9558-1706-4275-A9A9-621E215213F5}" ShortID="163571110">
+						<Folder Name="EnvironmentLVL1" ID="{F9AD9558-1706-4275-A9A9-621E215213F5}" ShortID="163571110">
 							<ChildrenList>
 								<Sound Name="Ghoul2" ID="{33E705D3-9D02-43FA-830F-6CA0EDE64F31}" ShortID="362396900">
 									<PropertyList>
@@ -4165,6 +4165,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="fade" ID="{8E9B1061-741B-41FD-ABDA-CB59E69FCAD5}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -6184,7 +6187,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Foley" ID="{293E81C7-A4EC-460A-8238-4C4173395D85}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
@@ -6453,6 +6456,9 @@
 								<AudioFileSource Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{B817009F-D333-4BAA-9016-F43F9351F05F}" ShortID="673986145">
 									<Language>SFX</Language>
 									<AudioFile>443_wood- impact- small- fast- debris- destruction- smash- splinters 024.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="81725165"/>
+									</ConvertedFileIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
@@ -6541,7 +6547,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Foley" ID="{293E81C7-A4EC-460A-8238-4C4173395D85}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
@@ -8306,7 +8312,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Foley" ID="{293E81C7-A4EC-460A-8238-4C4173395D85}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>

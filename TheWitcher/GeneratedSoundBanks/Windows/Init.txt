@@ -51,6 +51,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	323187407	reverb_cave			\Default Work Unit\Master Audio Bus\reverb_cave	
 	987957292	reverb_castle			\Default Work Unit\Master Audio Bus\reverb_castle	
+	2646605403	fade			\Default Work Unit\Master Audio Bus\fade	
 
 Effect plug-ins	ID	Name	Type				Notes
 	602546716	Room_Large	Wwise RoomVerb			
