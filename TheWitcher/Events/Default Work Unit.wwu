@@ -2052,7 +2052,11 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
-									<ReferenceList/>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GetHit" ID="{4A3D808A-FC37-4511-B1B8-C4FF3A494798}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>

@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
-   "SourceFilesRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "F:\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
+   "SourceFilesRoot": "F:\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
+   "SoundBanksRoot": "F:\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "F:\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -1125,54 +1125,79 @@
     "Path": "Enemy_Interaction.bnk",
     "IncludedEvents": [
      {
-      "Id": "3827515080",
-      "Name": "GhoulAttack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\GhoulAttack"
+      "Id": "2596989396",
+      "Name": "BlockerObstacle_Vanish",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\BlockerObstacle\\BlockerObstacle_Vanish"
      },
      {
-      "Id": "2611108682",
-      "Name": "GhoulDeath",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\GhoulDeath"
+      "Id": "519466295",
+      "Name": "Drowned_Dig",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Drowned\\Drowned_Dig"
      },
      {
-      "Id": "1866221083",
-      "Name": "GhoulHit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\GhoulHit"
+      "Id": "1781417190",
+      "Name": "Enemy_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_Attack"
      },
      {
-      "Id": "3766237789",
-      "Name": "Play_Dizzy_Enemy",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Play_Dizzy_Enemy"
+      "Id": "1608732904",
+      "Name": "Enemy_CutHead",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_CutHead"
      },
      {
-      "Id": "2893240346",
-      "Name": "Play_Drowner_Death",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Drowner\\Play_Drowner_Death"
+      "Id": "1205999388",
+      "Name": "Enemy_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_Death"
      },
      {
-      "Id": "3482939622",
-      "Name": "Play_Drowner_Footstep",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Drowner\\Play_Drowner_Footstep"
+      "Id": "1662825268",
+      "Name": "Enemy_Dizzy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_Dizzy"
      },
      {
-      "Id": "807714347",
-      "Name": "Play_Drowner_Hit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Drowner\\Play_Drowner_Hit"
+      "Id": "986584281",
+      "Name": "Enemy_FallBody",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_FallBody"
      },
      {
-      "Id": "3215858775",
-      "Name": "Play_Drowner_Movement_Water",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Drowner\\Play_Drowner_Movement_Water"
+      "Id": "2407835091",
+      "Name": "Enemy_FallHead",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_FallHead"
      },
      {
-      "Id": "986423755",
-      "Name": "Play_Drowner_Shot_Attack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Drowner\\Play_Drowner_Shot_Attack"
+      "Id": "2231218860",
+      "Name": "Enemy_FireSpell",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_FireSpell"
      },
      {
-      "Id": "19954417",
-      "Name": "Play_Drowner_Splash_Water",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Drowner\\Play_Drowner_Splash_Water"
+      "Id": "2548627868",
+      "Name": "Enemy_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_Footstep"
+     },
+     {
+      "Id": "924165345",
+      "Name": "Enemy_GetHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_GetHit"
+     },
+     {
+      "Id": "2462776898",
+      "Name": "Enemy_GetHitMagic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_GetHitMagic"
+     },
+     {
+      "Id": "547915195",
+      "Name": "Enemy_IceSpell",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Enemy_IceSpell"
+     },
+     {
+      "Id": "2009167307",
+      "Name": "Ghoul_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Ghoul\\Ghoul_Jump"
+     },
+     {
+      "Id": "1012083452",
+      "Name": "Ghoul_JumpFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Ghoul\\Ghoul_JumpFall"
      },
      {
       "Id": "1224400269",
@@ -1220,37 +1245,24 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Roots"
      },
      {
-      "Id": "1718791025",
-      "Name": "Play_Soldier_footstep",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Play_Soldier_footstep"
-     },
-     {
-      "Id": "192287144",
-      "Name": "SoldierBlock",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\SoldierBlock"
-     },
-     {
-      "Id": "962204745",
-      "Name": "SoldierDeath",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\SoldierDeath"
-     },
-     {
-      "Id": "4199645896",
-      "Name": "SoldierHit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\SoldierHit"
-     },
-     {
-      "Id": "1115497702",
-      "Name": "SoldierShoot",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\SoldierShoot"
-     },
-     {
-      "Id": "2142965948",
-      "Name": "SoldierSword",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\SoldierSword"
+      "Id": "886195715",
+      "Name": "Soldier_Block",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\NilfgaardSoldier\\Soldier_Block"
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "757763",
+      "Language": "SFX",
+      "ShortName": "Soldier_Death.wav",
+      "Path": "SFX\\Soldier_Death_1C9C67B2.wem"
+     },
+     {
+      "Id": "6165677",
+      "Language": "SFX",
+      "ShortName": "Magic_GetHit_03.wav",
+      "Path": "SFX\\Magic_GetHit_03_1C9C67B2.wem"
+     },
      {
       "Id": "47010875",
       "Language": "SFX",
@@ -1258,16 +1270,46 @@
       "Path": "SFX\\leshen_death_1C9C67B2.wem"
      },
      {
-      "Id": "149651852",
+      "Id": "59607739",
       "Language": "SFX",
-      "ShortName": "drowner_splash_water.wav",
-      "Path": "SFX\\drowner_splash_water_1C9C67B2.wem"
+      "ShortName": "Soldier_Footstep_02.wav",
+      "Path": "SFX\\Soldier_Footstep_02_1C9C67B2.wem"
      },
      {
-      "Id": "160447770",
+      "Id": "62323023",
       "Language": "SFX",
-      "ShortName": "drowner_movement_water.wav",
-      "Path": "SFX\\drowner_movement_water_1C9C67B2.wem"
+      "ShortName": "Magic_GetHit_01.wav",
+      "Path": "SFX\\Magic_GetHit_01_1C9C67B2.wem"
+     },
+     {
+      "Id": "99471847",
+      "Language": "SFX",
+      "ShortName": "Ghoul_Attack_03.wav",
+      "Path": "SFX\\Ghoul_Attack_03_1C9C67B2.wem"
+     },
+     {
+      "Id": "121846163",
+      "Language": "SFX",
+      "ShortName": "Drowned_Shoot_02.wav",
+      "Path": "SFX\\Drowned_Shoot_02_1C9C67B2.wem"
+     },
+     {
+      "Id": "130369126",
+      "Language": "SFX",
+      "ShortName": "Ghoul_Foot_01.wav",
+      "Path": "SFX\\Ghoul_Foot_01_1C9C67B2.wem"
+     },
+     {
+      "Id": "135567191",
+      "Language": "SFX",
+      "ShortName": "Dizzy_02.wav",
+      "Path": "SFX\\Dizzy_02_1C9C67B2.wem"
+     },
+     {
+      "Id": "169822714",
+      "Language": "SFX",
+      "ShortName": "Soldier_Death_03.wav",
+      "Path": "SFX\\Soldier_Death_03_1C9C67B2.wem"
      },
      {
       "Id": "171381778",
@@ -1288,6 +1330,12 @@
       "Path": "SFX\\dizzy_enemy_1C9C67B2.wem"
      },
      {
+      "Id": "237450039",
+      "Language": "SFX",
+      "ShortName": "Soldier_GetHit_04.wav",
+      "Path": "SFX\\Soldier_GetHit_04_1C9C67B2.wem"
+     },
+     {
       "Id": "251602365",
       "Language": "SFX",
       "ShortName": "leshen_raven_throw.wav",
@@ -1300,6 +1348,30 @@
       "Path": "SFX\\leshen_hit_1C9C67B2.wem"
      },
      {
+      "Id": "299098983",
+      "Language": "SFX",
+      "ShortName": "Ghoul_Jump.wav",
+      "Path": "SFX\\Ghoul_Jump_1C9C67B2.wem"
+     },
+     {
+      "Id": "299234245",
+      "Language": "SFX",
+      "ShortName": "Ghoul_Attack_02.wav",
+      "Path": "SFX\\Ghoul_Attack_02_1C9C67B2.wem"
+     },
+     {
+      "Id": "342610880",
+      "Language": "SFX",
+      "ShortName": "Ghoul_Foot_03.wav",
+      "Path": "SFX\\Ghoul_Foot_03_1C9C67B2.wem"
+     },
+     {
+      "Id": "361472299",
+      "Language": "SFX",
+      "ShortName": "Sword_Attack_02.wav",
+      "Path": "SFX\\Sword_Attack_02_1C9C67B2.wem"
+     },
+     {
       "Id": "385293872",
       "Language": "SFX",
       "ShortName": "drowner_death.wav",
@@ -1310,6 +1382,42 @@
       "Language": "SFX",
       "ShortName": "ghoulDeath.wav",
       "Path": "SFX\\ghoulDeath_1C9C67B2.wem"
+     },
+     {
+      "Id": "435245625",
+      "Language": "SFX",
+      "ShortName": "Body_Fall.wav",
+      "Path": "SFX\\Body_Fall_1C9C67B2.wem"
+     },
+     {
+      "Id": "437386054",
+      "Language": "SFX",
+      "ShortName": "Magic_GetHit_04.wav",
+      "Path": "SFX\\Magic_GetHit_04_1C9C67B2.wem"
+     },
+     {
+      "Id": "444896159",
+      "Language": "SFX",
+      "ShortName": "Soldier_ShootArrow_02.wav",
+      "Path": "SFX\\Soldier_ShootArrow_02_1C9C67B2.wem"
+     },
+     {
+      "Id": "462581178",
+      "Language": "SFX",
+      "ShortName": "Ghoul_Attack_01.wav",
+      "Path": "SFX\\Ghoul_Attack_01_1C9C67B2.wem"
+     },
+     {
+      "Id": "482785303",
+      "Language": "SFX",
+      "ShortName": "Head_Drop.wav",
+      "Path": "SFX\\Head_Drop_1C9C67B2.wem"
+     },
+     {
+      "Id": "486672248",
+      "Language": "SFX",
+      "ShortName": "FireSpell_GetHit.wav",
+      "Path": "SFX\\FireSpell_GetHit_1C9C67B2.wem"
      },
      {
       "Id": "518579957",
@@ -1336,16 +1444,28 @@
       "Path": "SFX\\drowner_hit_1C9C67B2.wem"
      },
      {
+      "Id": "537191656",
+      "Language": "SFX",
+      "ShortName": "HeadCut_02.wav",
+      "Path": "SFX\\HeadCut_02_1C9C67B2.wem"
+     },
+     {
+      "Id": "538198781",
+      "Language": "SFX",
+      "ShortName": "BlockerObstacle_Vanish.wav",
+      "Path": "SFX\\BlockerObstacle_Vanish_1C9C67B2.wem"
+     },
+     {
       "Id": "547647646",
       "Language": "SFX",
       "ShortName": "ghoulHit.wav",
       "Path": "SFX\\ghoulHit_1C9C67B2.wem"
      },
      {
-      "Id": "593406664",
+      "Id": "594045695",
       "Language": "SFX",
-      "ShortName": "drowner_shot_attack.wav",
-      "Path": "SFX\\drowner_shot_attack_1C9C67B2.wem"
+      "ShortName": "Drowned_DigGround.wav",
+      "Path": "SFX\\Drowned_DigGround_1C9C67B2.wem"
      },
      {
       "Id": "612787848",
@@ -1354,28 +1474,40 @@
       "Path": "SFX\\leshen_melee_attack_1C9C67B2.wem"
      },
      {
-      "Id": "682751301",
+      "Id": "613619000",
       "Language": "SFX",
-      "ShortName": "soldierHit.wav",
-      "Path": "SFX\\soldierHit_1C9C67B2.wem"
+      "ShortName": "BlockerObstacle_GetHit.wav",
+      "Path": "SFX\\BlockerObstacle_GetHit_1C9C67B2.wem"
      },
      {
-      "Id": "742272358",
+      "Id": "656607634",
       "Language": "SFX",
-      "ShortName": "drowner_footstep.wav",
-      "Path": "SFX\\drowner_footstep_1C9C67B2.wem"
+      "ShortName": "Sword_Attack_01.wav",
+      "Path": "SFX\\Sword_Attack_01_1C9C67B2.wem"
      },
      {
-      "Id": "852443415",
+      "Id": "794643426",
       "Language": "SFX",
-      "ShortName": "shootArrow.wav",
-      "Path": "SFX\\shootArrow_1C9C67B2.wem"
+      "ShortName": "Ghoul_JumpFall.wav",
+      "Path": "SFX\\Ghoul_JumpFall_1C9C67B2.wem"
      },
      {
-      "Id": "882909606",
+      "Id": "824889556",
       "Language": "SFX",
-      "ShortName": "ghoulAttack.wav",
-      "Path": "SFX\\ghoulAttack_1C9C67B2.wem"
+      "ShortName": "Soldier_Footstep_03.wav",
+      "Path": "SFX\\Soldier_Footstep_03_1C9C67B2.wem"
+     },
+     {
+      "Id": "836132537",
+      "Language": "SFX",
+      "ShortName": "IceSpell_GetHit.wav",
+      "Path": "SFX\\IceSpell_GetHit_1C9C67B2.wem"
+     },
+     {
+      "Id": "839403535",
+      "Language": "SFX",
+      "ShortName": "Magic_GetHit_02.wav",
+      "Path": "SFX\\Magic_GetHit_02_1C9C67B2.wem"
      },
      {
       "Id": "888899837",
@@ -1384,16 +1516,64 @@
       "Path": "SFX\\soldier_footstep_1C9C67B2.wem"
      },
      {
+      "Id": "911329820",
+      "Language": "SFX",
+      "ShortName": "Ghoul_Foot_04.wav",
+      "Path": "SFX\\Ghoul_Foot_04_1C9C67B2.wem"
+     },
+     {
+      "Id": "944903508",
+      "Language": "SFX",
+      "ShortName": "Soldier_ShootArrow_01.wav",
+      "Path": "SFX\\Soldier_ShootArrow_01_1C9C67B2.wem"
+     },
+     {
+      "Id": "954073473",
+      "Language": "SFX",
+      "ShortName": "Soldier_Death_02.wav",
+      "Path": "SFX\\Soldier_Death_02_1C9C67B2.wem"
+     },
+     {
+      "Id": "955494249",
+      "Language": "SFX",
+      "ShortName": "Ghoul_Foot_02.wav",
+      "Path": "SFX\\Ghoul_Foot_02_1C9C67B2.wem"
+     },
+     {
+      "Id": "989818675",
+      "Language": "SFX",
+      "ShortName": "Soldier_GetHit_01.wav",
+      "Path": "SFX\\Soldier_GetHit_01_1C9C67B2.wem"
+     },
+     {
       "Id": "990442094",
       "Language": "SFX",
       "ShortName": "enemySwordSwing.wav",
       "Path": "SFX\\enemySwordSwing_1C9C67B2.wem"
      },
      {
+      "Id": "1003284817",
+      "Language": "SFX",
+      "ShortName": "Soldier_Footstep_04.wav",
+      "Path": "SFX\\Soldier_Footstep_04_1C9C67B2.wem"
+     },
+     {
+      "Id": "1029463512",
+      "Language": "SFX",
+      "ShortName": "Soldier_GetHit_02.wav",
+      "Path": "SFX\\Soldier_GetHit_02_1C9C67B2.wem"
+     },
+     {
       "Id": "1049390434",
       "Language": "SFX",
       "ShortName": "soldierDeath.wav",
       "Path": "SFX\\soldierDeath_1C9C67B2.wem"
+     },
+     {
+      "Id": "1062584411",
+      "Language": "SFX",
+      "ShortName": "BlockerObstacle_Death.wav",
+      "Path": "SFX\\BlockerObstacle_Death_1C9C67B2.wem"
      }
     ]
    },
