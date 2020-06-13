@@ -4370,6 +4370,71 @@
 													<AudioFile>Level2 Music\Big Tree - Ghouls.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Lvl2_and_wagons" ID="{8856EA7F-C73C-4D95-8B63-483106443FCA}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+														<State Name="" ID="{59FEB2A0-70EE-455A-92F7-9658A6E2DC6C}" ShortID="686112422">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+														<State Name="" ID="{E21AB475-8F60-4316-ADC6-66C1F8BADB23}" ShortID="920582625">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+														<State Name="" ID="{95547EDE-BD0D-4402-8EE1-9647261320CB}" ShortID="97964485">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+														<State Name="" ID="{B3AA581D-A83A-4A4A-8E8E-EDB69B58A0F6}" ShortID="237537794"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+														<State Name="" ID="{848C3BC5-F0A0-44A2-BC8A-7501975081CC}" ShortID="209328973">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+														<State Name="" ID="{11C73001-48B1-49C8-A764-1CD28C573C4F}" ShortID="394977473">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+														<State Name="" ID="{C6841420-9A7F-4A16-AB45-9F8F713AF301}" ShortID="620491044">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+														<State Name="" ID="{FC0724AA-65B7-4E3A-877A-CA2E5553154D}" ShortID="910768825"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="Big Tree - Ghouls" ID="{4DB9CEED-BB68-4E58-8567-911C0D0E466F}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -4389,6 +4454,75 @@
 													<AudioFile>Level2 Music\Bridge.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Lvl2_and_wagons" ID="{8856EA7F-C73C-4D95-8B63-483106443FCA}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+														<State Name="" ID="{61E8F177-65AD-4886-B137-4EAA61A6E980}" ShortID="25271447">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+														<State Name="" ID="{4D08A49E-EB8E-4F84-81A8-07248A3DC8F4}" ShortID="1055301169">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+														<State Name="" ID="{537D3106-F0B2-4ABC-88A6-F127B71F7772}" ShortID="449767962">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+														<State Name="" ID="{4A689E1A-8067-406E-B00C-02FC2628CF1E}" ShortID="614488807">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+														<State Name="" ID="{80D9EA76-517A-4366-9485-FA098D4445CB}" ShortID="695161041">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+														<State Name="" ID="{685EA3D6-84D5-4621-AFD1-9D005F501D81}" ShortID="64244470"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+														<State Name="" ID="{4848E636-CA56-4C51-9FBF-67C5F61C55EF}" ShortID="409431085">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+														<State Name="" ID="{BA92ECA7-1AFC-4A94-B413-951FCF49F0DE}" ShortID="951978353">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="Bridge" ID="{AD95A5BE-8499-4A3B-8EB1-655C3893957F}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -4408,6 +4542,75 @@
 													<AudioFile>Level2 Music\Hall - Cave Entrance.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Lvl2_and_wagons" ID="{8856EA7F-C73C-4D95-8B63-483106443FCA}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+														<State Name="" ID="{7E63AA67-FDBC-4FB8-AE57-A80ED9F3E401}" ShortID="994176343"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+														<State Name="" ID="{01C23938-2A7E-4494-ABF1-7C8C345F2906}" ShortID="13603140">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+														<State Name="" ID="{AE754104-36BD-483F-9112-43278B238729}" ShortID="1013443752">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+														<State Name="" ID="{32CBE09A-5D4D-4421-A8FE-DD22F528182B}" ShortID="370560465">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+														<State Name="" ID="{0AA953FF-9608-4DD3-B2C1-C870A83300E6}" ShortID="473274496">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+														<State Name="" ID="{D0B14641-C482-4593-ABDD-7739F9C1EF99}" ShortID="1019366529">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+														<State Name="" ID="{B8717E60-009B-41D5-89CA-B1A020FF4B4A}" ShortID="937509156">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+														<State Name="" ID="{C70286EF-D7B2-49C5-AAF2-DE1D63A2FF8A}" ShortID="106305097">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="Hall - Cave Entrance" ID="{B89550BE-D33E-4910-A06D-FCBC05AF4CD5}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -4427,6 +4630,75 @@
 													<AudioFile>Level2 Music\Start.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Lvl2_and_wagons" ID="{8856EA7F-C73C-4D95-8B63-483106443FCA}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+														<State Name="" ID="{D716D976-644D-497B-BB1A-5AB6D278C3D7}" ShortID="782321278">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+														<State Name="" ID="{2FDF2BAF-1EAF-4DFA-B087-F7D7A82DC01C}" ShortID="653186789"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+														<State Name="" ID="{AA4EC90F-DA96-440F-9C27-361500E74038}" ShortID="439694669">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+														<State Name="" ID="{330A9116-08E8-4643-BA9E-4B402027E273}" ShortID="668161644">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+														<State Name="" ID="{C18A342B-CAE5-4E20-9A6C-CE82483D8BA4}" ShortID="172119192">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+														<State Name="" ID="{B17643A5-D27C-4F07-902D-02057DB35D7E}" ShortID="1023225955">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+														<State Name="" ID="{DF26C16C-7D70-461B-8BDD-78CEE570149D}" ShortID="239867075">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+														<State Name="" ID="{7B7FDCEF-A534-42D0-AF65-0B28990C926A}" ShortID="4575983">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="Start" ID="{2BA7335E-70FA-4F91-95D5-EF73EA26B930}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -4480,6 +4752,75 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Lvl2_and_wagons" ID="{8856EA7F-C73C-4D95-8B63-483106443FCA}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+														<State Name="" ID="{D1F22694-C1DC-42C4-9914-26F865917815}" ShortID="58824093">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+														<State Name="" ID="{B3FB49E6-8A21-4B3A-A965-B6B91A82D0A0}" ShortID="387318506">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+														<State Name="" ID="{EDBC165D-53C7-4B55-B091-30C48B1708CF}" ShortID="513814891">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+														<State Name="" ID="{807502B6-A863-40E1-95CD-4BEE686D00FB}" ShortID="571166912">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+														<State Name="" ID="{5613B755-ACF4-4C1B-A3A0-66E7A0F4A86D}" ShortID="142870918">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+														<State Name="" ID="{6366C5A9-9BBC-461B-AE6B-B4FF3896F91A}" ShortID="676722249">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+														<State Name="" ID="{4945C36E-B666-4FD7-8BE8-D9BFD222FA82}" ShortID="274852877"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+														<State Name="" ID="{A3DF9B2F-45E8-4FB2-AFFA-BF861930ED1D}" ShortID="684238069">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Combat Level 2" ID="{B4054BC3-F804-4987-AFC7-1355930CC31B}" ShortID="917408538">
 											<PropertyList>
@@ -4538,6 +4879,75 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Lvl2_and_wagons" ID="{8856EA7F-C73C-4D95-8B63-483106443FCA}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+														<State Name="" ID="{A522A381-46B9-41C0-8227-75484A034AFB}" ShortID="174704468">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+														<State Name="" ID="{8E18C406-DB70-44C0-BAD2-3531C8C81719}" ShortID="292397359">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+														<State Name="" ID="{9027DB7F-ADA4-4C5E-BAA9-2F7524F66EFD}" ShortID="93441490"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+														<State Name="" ID="{C28EC368-06D6-4313-8E1D-A2ABD75E2757}" ShortID="557569303">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+														<State Name="" ID="{80F0E883-BE1D-4360-A5B0-2082EC8B528F}" ShortID="481439048">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+														<State Name="" ID="{439B8772-71AD-4AF5-BDCB-A72754825196}" ShortID="254870352">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+														<State Name="" ID="{446C1337-24EA-4BDF-8E51-D0EEDE5F50CC}" ShortID="814636425">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+														<State Name="" ID="{8A9DEFB5-ADEB-4CAB-9D05-BD01F9C179DD}" ShortID="659040179">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>

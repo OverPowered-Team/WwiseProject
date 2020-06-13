@@ -996,6 +996,237 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Music_Lvl2_and_wagons" ID="{8856EA7F-C73C-4D95-8B63-483106443FCA}">
+					<ChildrenList>
+						<State Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+						<State Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+						<State Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+						<State Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+						<State Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+						<State Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+						<State Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+						<State Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+						<State Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+							<EndState Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+							<EndState Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+							<EndState Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+							<EndState Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+							<EndState Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+							<EndState Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+							<EndState Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+							<EndState Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+							<EndState Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+							<EndState Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+							<EndState Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+							<EndState Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+							<EndState Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+							<EndState Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+							<EndState Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+							<EndState Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+							<EndState Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+							<EndState Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+							<EndState Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+							<EndState Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+							<EndState Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+							<EndState Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+							<EndState Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+							<EndState Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+							<EndState Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+							<EndState Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+							<EndState Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+							<EndState Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{5DDDEF4B-0077-4F5F-90A5-073A5EC37FC4}"/>
+							<EndState Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{FCCBC84C-A1E2-4230-8F9A-350FB63B78D1}"/>
+							<EndState Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Da_Big_Trunk" ID="{888D0859-DF92-4FE4-AAFF-701487CA42B8}"/>
+							<EndState Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{3E654AC5-5FB6-47F7-ABFB-F264FD70C25C}"/>
+							<EndState Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Bridge" ID="{0940691A-1435-4B32-9C42-9B216596FB89}"/>
+							<EndState Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Hall" ID="{E69670BD-7CA3-4028-B11D-55111D126A29}"/>
+							<EndState Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Minecarts_cave" ID="{08475386-235A-4BC8-A536-46EFC9BBFF4D}"/>
+							<EndState Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{DFD6199A-FD7C-4837-AC9A-5FA7F452BE5A}"/>
+							<EndState Name="Combat" ID="{65F8F119-D520-454D-BB92-B90E1B358D93}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
