@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B00E7B86-D4FA-4B63-BA33-362992FFBCF2}" SchemaVersion="85">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{B00E7B86-D4FA-4B63-BA33-362992FFBCF2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B00E7B86-D4FA-4B63-BA33-362992FFBCF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Leshen" ID="{473C2025-1AE1-4DA3-971B-3CF4C973EA01}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Leshen_Cloud_Appears" ID="{436AF2E7-9021-46A8-8DB2-3ECB843C821A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leshen_Death" ID="{7F1C8885-5021-4245-A48F-C407E0596076}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leshen_Roots" ID="{C12AEEF7-E5B8-4CDF-984E-1A61593B32ED}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leshen_Raven_Throw" ID="{DC714114-A9DE-4316-9B9C-9D79A13DF689}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leshen_Raven_Cloud" ID="{ECEA917C-063D-48D0-B121-B694EF20EB0A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leshen_Hit" ID="{6F3C0E4D-57FF-4B7E-A9F3-001B0998961D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leshen_Cloud_Disapears" ID="{07648483-D917-4D6F-BE2E-F40C4D57FCAC}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leshen_Melee_Attack" ID="{B5D9478E-FF07-4DC8-8BF1-F1903AB32E70}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Fade" ID="{C35AAFE0-A634-402C-BD30-2BC09FE0BF8A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PitchSlowMo" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatDistance" ID="{050E8684-1A60-43F7-9FB3-C33AA80B6629}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerRocks" ID="{0F73C3E4-E7C3-4472-8009-6785D71B5AD2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Forest" ID="{C4FF6980-256C-4E0B-9F46-A81569CC7EFC}"/>
+						<CurrentSwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -3,6 +3,15 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{5B18C2ED-ABFE-411F-97DC-07725C102657}">
 			<PropertyList>
+				<Property Name="Event Action List\{07648483-D917-4D6F-BE2E-F40C4D57FCAC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{436AF2E7-9021-46A8-8DB2-3ECB843C821A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6F3C0E4D-57FF-4B7E-A9F3-001B0998961D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7F1C8885-5021-4245-A48F-C407E0596076}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B5D9478E-FF07-4DC8-8BF1-F1903AB32E70}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C12AEEF7-E5B8-4CDF-984E-1A61593B32ED}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DC714114-A9DE-4316-9B9C-9D79A13DF689}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{ECEA917C-063D-48D0-B121-B694EF20EB0A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F4A117BB-F712-4D7B-9CE6-EEAF3A20E249}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -22,7 +31,7 @@
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
-				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Mixing Desk\LastSession" Type="string" Value="{B5AE8EB2-A1C8-4763-9D66-2B5E8157BBC4}"/>
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="6"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
@@ -46,7 +55,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="s07QZZU9d0eqjaPCT94puKRl3cRQ0uRIpYjGqKQMImlF2PgnkwfxS4vSCwe5I12+"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="mFYs/QuSaECmrG1nVFwGyrNO0GWVPXdHqo2jwk/eKbikZd3EUNLkSKWIxqikDCJpRdj4J5MH8UuL0gsHuSNdvg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
@@ -86,6 +95,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{473C2025-1AE1-4DA3-971B-3CF4C973EA01}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>
