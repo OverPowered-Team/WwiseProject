@@ -2233,6 +2233,36 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="scream_ciri" ID="{47237439-851A-4A6C-A9B4-A5A79EB9D3ED}" ShortID="959892739">
+											<PropertyList>
+												<Property Name="Priority" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{9F90B303-5329-474E-896D-842341DFD1F7}" ShortID="532295395">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Ciri_Combat_Scream" ID="{329568BD-E158-4260-9A06-CA976A38E59E}" WorkUnitID="{7AF84E23-AF34-4336-AED9-298C27C8AD43}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{E76EFA86-17EE-4C02-9757-B4398488CEC1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>

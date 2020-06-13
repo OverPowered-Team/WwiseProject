@@ -27,6 +27,7 @@
 				</GameParameter>
 				<GameParameter Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}"/>
 				<GameParameter Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}"/>
+				<GameParameter Name="Ciri_Combat_Scream" ID="{329568BD-E158-4260-9A06-CA976A38E59E}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
