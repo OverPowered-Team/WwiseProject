@@ -19,6 +19,13 @@
 						<Switch Name="Quiet" ID="{30C2C65E-37EB-4AD6-810E-6F453D2DF080}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Ciri_Boss" ID="{4CA7FC63-BC25-4D41-A6EB-22B438C084CD}">
+					<ChildrenList>
+						<Switch Name="Pre_Fight" ID="{388A01F2-B812-4792-934D-55B0DA9075C3}"/>
+						<Switch Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
+						<Switch Name="Post_Fight" ID="{ACC1666F-2140-49B1-B211-41397E3D2E5D}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

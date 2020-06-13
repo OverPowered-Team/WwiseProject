@@ -1989,6 +1989,126 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_Dizzy_Enemy" ID="{B5BB7DC3-C600-48CA-870C-85B9D4521C24}">
+							<ChildrenList>
+								<Action Name="" ID="{C3385813-6767-4CE2-9339-8B6CAC0AD3F1}" ShortID="527357334">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dizzy_enemy" ID="{F30D8C68-B1AA-4658-860C-3FE7A8D4C925}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Soldier_footstep" ID="{78068777-EF2E-421D-B884-D6ACB2E5ACF9}">
+							<ChildrenList>
+								<Action Name="" ID="{AF60CCA6-21DA-41E1-AD16-5AE1D155E77D}" ShortID="85628001">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="soldier_footstep" ID="{1DFC7F27-C3E8-4931-BF84-D4C83CD40F45}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Runestone" ID="{B5A77364-8EC8-4865-AACF-FFC17D3F01CC}" ShortID="357610340">
+					<ChildrenList>
+						<Event Name="Play_Collect_Runestone" ID="{FD689538-9007-403C-904D-FF375972C807}">
+							<ChildrenList>
+								<Action Name="" ID="{A82EA12A-483C-4262-B6AC-2024FC62F890}" ShortID="260117867">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="collect_runestone" ID="{849F3368-AD0B-4F02-80B3-EAFAE5150428}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Earth_Runestone" ID="{4C19BCB1-E7AC-4B79-95BB-F97DE2014ABD}">
+							<ChildrenList>
+								<Action Name="" ID="{E58576C1-E864-4359-B905-21220FADE41E}" ShortID="805678900">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="earth_runestone" ID="{4346BBDB-F294-402F-8C94-310080C04726}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Lightning_Runestone" ID="{D3AF8A4D-5C26-4DD9-A480-160AB75C1475}">
+							<ChildrenList>
+								<Action Name="" ID="{BC927B4C-24D5-4794-ADCE-06493D66C148}" ShortID="228098024">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lightning_runestone" ID="{3CB589A8-7140-490A-8E61-7C6232439F2D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ice_Runestone" ID="{BE1CC294-F5EF-4459-B583-67B6EB47827F}">
+							<ChildrenList>
+								<Action Name="" ID="{189BABC9-B63D-40F1-BC8C-66FA1162FEBA}" ShortID="248753037">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ice_runestone" ID="{8DABE836-7FBE-445D-AFD9-13F4A4623B1A}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Poison_Runestone" ID="{F08B97A1-9801-4A28-A41D-4CA04FC5533D}">
+							<ChildrenList>
+								<Action Name="" ID="{C644B9AF-B9B3-49EC-B283-3841E293FDC8}" ShortID="626726693">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="poison_runestone" ID="{BD6A27E1-1298-4EA9-B6B1-21C69D675FF9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Fire_Runestone" ID="{E6D6BE91-E3B4-4512-849C-95CEBE86E6C2}">
+							<ChildrenList>
+								<Action Name="" ID="{CBE474FC-7BFE-4BA0-8BEC-FA0642871B16}" ShortID="305217123">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fire_runestone" ID="{4FD1C449-8015-4364-8E6A-9458F94F585C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Bosses" ID="{518443E2-8050-409D-A2EA-B595BC24F73B}" ShortID="222609479">
+					<ChildrenList>
 						<Folder Name="Leshen" ID="{EAD7DE2E-2F30-4AB3-B5DD-18CA37A743C2}" ShortID="576661342">
 							<ChildrenList>
 								<Event Name="Play_Leshen_Death" ID="{7F1C8885-5021-4245-A48F-C407E0596076}">
@@ -2140,122 +2260,24 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Event Name="Play_Dizzy_Enemy" ID="{B5BB7DC3-C600-48CA-870C-85B9D4521C24}">
+						<Folder Name="Ciri" ID="{5239A54D-5096-40DA-831D-A0AFC5224635}" ShortID="1000725519">
 							<ChildrenList>
-								<Action Name="" ID="{C3385813-6767-4CE2-9339-8B6CAC0AD3F1}" ShortID="527357334">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="dizzy_enemy" ID="{F30D8C68-B1AA-4658-860C-3FE7A8D4C925}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_Ciri_Music" ID="{8D155355-01CF-4069-93C1-4AA94299B4FE}">
+									<ChildrenList>
+										<Action Name="" ID="{7F948F82-8A68-4AAB-973F-088D79D7E886}" ShortID="549571959">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri_Boss_MusicSwitch" ID="{8C36A07B-132E-45A3-B837-CA916720273B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_Soldier_footstep" ID="{78068777-EF2E-421D-B884-D6ACB2E5ACF9}">
-							<ChildrenList>
-								<Action Name="" ID="{AF60CCA6-21DA-41E1-AD16-5AE1D155E77D}" ShortID="85628001">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="soldier_footstep" ID="{1DFC7F27-C3E8-4931-BF84-D4C83CD40F45}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Runestone" ID="{B5A77364-8EC8-4865-AACF-FFC17D3F01CC}" ShortID="357610340">
-					<ChildrenList>
-						<Event Name="Play_Collect_Runestone" ID="{FD689538-9007-403C-904D-FF375972C807}">
-							<ChildrenList>
-								<Action Name="" ID="{A82EA12A-483C-4262-B6AC-2024FC62F890}" ShortID="260117867">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="collect_runestone" ID="{849F3368-AD0B-4F02-80B3-EAFAE5150428}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Earth_Runestone" ID="{4C19BCB1-E7AC-4B79-95BB-F97DE2014ABD}">
-							<ChildrenList>
-								<Action Name="" ID="{E58576C1-E864-4359-B905-21220FADE41E}" ShortID="805678900">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="earth_runestone" ID="{4346BBDB-F294-402F-8C94-310080C04726}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Lightning_Runestone" ID="{D3AF8A4D-5C26-4DD9-A480-160AB75C1475}">
-							<ChildrenList>
-								<Action Name="" ID="{BC927B4C-24D5-4794-ADCE-06493D66C148}" ShortID="228098024">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="lightning_runestone" ID="{3CB589A8-7140-490A-8E61-7C6232439F2D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Ice_Runestone" ID="{BE1CC294-F5EF-4459-B583-67B6EB47827F}">
-							<ChildrenList>
-								<Action Name="" ID="{189BABC9-B63D-40F1-BC8C-66FA1162FEBA}" ShortID="248753037">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="ice_runestone" ID="{8DABE836-7FBE-445D-AFD9-13F4A4623B1A}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Poison_Runestone" ID="{F08B97A1-9801-4A28-A41D-4CA04FC5533D}">
-							<ChildrenList>
-								<Action Name="" ID="{C644B9AF-B9B3-49EC-B283-3841E293FDC8}" ShortID="626726693">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="poison_runestone" ID="{BD6A27E1-1298-4EA9-B6B1-21C69D675FF9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Fire_Runestone" ID="{E6D6BE91-E3B4-4512-849C-95CEBE86E6C2}">
-							<ChildrenList>
-								<Action Name="" ID="{CBE474FC-7BFE-4BA0-8BEC-FA0642871B16}" ShortID="305217123">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="fire_runestone" ID="{4FD1C449-8015-4364-8E6A-9458F94F585C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

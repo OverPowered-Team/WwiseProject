@@ -208,6 +208,7 @@
 				</SoundBank>
 				<SoundBank Name="Music_456999454qq364" ID="{8090C1D3-158D-4D21-8924-2A79583C7537}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Ciri_Music" ID="{8D155355-01CF-4069-93C1-4AA94299B4FE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_No_Surrender" ID="{726BCFE7-C2EA-4487-857C-E2296C75B7C9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
