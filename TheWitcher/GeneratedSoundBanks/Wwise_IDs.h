@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_BIRDS = 3025897706U;
         static const AkUniqueID PLAY_CAVE = 3602995889U;
         static const AkUniqueID PLAY_CIRI = 3266163657U;
+        static const AkUniqueID PLAY_CIRI_MUSIC = 1140170877U;
         static const AkUniqueID PLAY_COAL_MINE_MUSIC = 1353593527U;
         static const AkUniqueID PLAY_COLLECT_RUNESTONE = 3145159334U;
         static const AkUniqueID PLAY_COMBAT_LEVEL2 = 2955221517U;
@@ -75,6 +76,7 @@ namespace AK
         static const AkUniqueID PLAY_JASKIER_MEDIO = 1758950158U;
         static const AkUniqueID PLAY_JASKIER_PATHTOGHOULS = 2603363552U;
         static const AkUniqueID PLAY_JASKIER_PATHTOSWAMP = 698599938U;
+        static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_KAERMORHEN = 2997715096U;
         static const AkUniqueID PLAY_LESHEN_CLOUD = 1224400269U;
         static const AkUniqueID PLAY_LESHEN_CLOUD_APPEARS = 3186651586U;
@@ -208,6 +210,18 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace CIRI_BOSS
+        {
+            static const AkUniqueID GROUP = 3624371098U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID IN_FIGHT = 499703095U;
+                static const AkUniqueID POST_FIGHT = 1040998876U;
+                static const AkUniqueID PRE_FIGHT = 1926697571U;
+            } // namespace SWITCH
+        } // namespace CIRI_BOSS
+
         namespace ENV_LVL1
         {
             static const AkUniqueID GROUP = 2478762362U;
@@ -234,10 +248,22 @@ namespace AK
             } // namespace SWITCH
         } // namespace MATERIAL
 
+        namespace PLAYER
+        {
+            static const AkUniqueID GROUP = 1069431850U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GERALT = 47710518U;
+                static const AkUniqueID YENNEFER = 913499343U;
+            } // namespace SWITCH
+        } // namespace PLAYER
+
     } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID CIRI_COMBAT_SCREAM = 4181727963U;
         static const AkUniqueID COMBATDISTANCE = 1193492672U;
         static const AkUniqueID DOPPLERROCKS = 442820407U;
         static const AkUniqueID FADE = 2646605403U;
@@ -275,6 +301,7 @@ namespace AK
         static const AkUniqueID FADE = 2646605403U;
         static const AkUniqueID REVERB_CASTLE = 987957292U;
         static const AkUniqueID REVERB_CAVE = 323187407U;
+        static const AkUniqueID REVERB_CIRI_CAVE = 320273873U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

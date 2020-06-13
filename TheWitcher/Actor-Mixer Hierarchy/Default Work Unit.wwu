@@ -7795,111 +7795,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="JumpingYenn" ID="{5FEAFA19-0853-48BA-9299-0FA939C2F504}" ShortID="239272394">
-									<PropertyList>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="jumping_scream_female" ID="{CDDB2E28-A8BA-4737-8332-830A3A509500}" ShortID="670821110">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>1</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="jumping_scream_female" ID="{D168290C-145C-47BA-983F-2E90DFA98904}" ShortID="974381289">
-													<Language>SFX</Language>
-													<AudioFile>jumping_scream_female.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="jumping_scream_female" ID="{D168290C-145C-47BA-983F-2E90DFA98904}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EMOTE_Chloe-_Teen-_Jump_01" ID="{1D705702-B8A7-42C3-B506-4B1FB94D10B7}" ShortID="511055002">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EMOTE_Chloe-_Teen-_Jump_01" ID="{C17AC2ED-E7F0-492C-AF70-90B67900EFDE}" ShortID="741369655">
-													<Language>SFX</Language>
-													<AudioFile>EMOTE_Chloe-_Teen-_Jump_01.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EMOTE_Chloe-_Teen-_Jump_01" ID="{C17AC2ED-E7F0-492C-AF70-90B67900EFDE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EMOTE_Nora-_Woman-_Jump" ID="{6B85C981-156B-4538-BCF9-409949A69B4F}" ShortID="800711220">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EMOTE_Nora-_Woman-_Jump" ID="{6ABC0C3B-2E28-4029-9E2A-FFDAD93D5B57}" ShortID="846556793">
-													<Language>SFX</Language>
-													<AudioFile>EMOTE_Nora-_Woman-_Jump.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EMOTE_Nora-_Woman-_Jump" ID="{6ABC0C3B-2E28-4029-9E2A-FFDAD93D5B57}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02" ID="{6A9BC7AC-EE1D-4DB7-90C7-B3867066C17F}" ShortID="257877790">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02" ID="{7C5DE522-FE34-494B-8895-801C5369C49F}" ShortID="906940100">
-													<Language>SFX</Language>
-													<AudioFile>EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02" ID="{7C5DE522-FE34-494B-8895-801C5369C49F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<Sound Name="yenndeath" ID="{CFD6D607-C197-4594-8408-3B929693248C}" ShortID="774293980">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
@@ -7926,67 +7821,6 @@
 										<ActiveSource Name="yenndeath" ID="{9E56FB84-2A6C-43A8-90DF-14076944F7DB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<RandomSequenceContainer Name="JumpingGeralt" ID="{000C1A11-425A-41F9-8F11-7C35095C078E}" ShortID="230392301">
-									<PropertyList>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-7</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-										</Reference>
-										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="reverb_cave" ID="{BE9D3645-7F9D-4FE8-8777-C1B83013225F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_02_-003047-" ID="{F1919B32-1D40-438A-AF01-923C4636CCA0}" ShortID="75162032">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_02_-003047-" ID="{6B5FE157-B337-46A2-ACD2-FD8BBC05F049}" ShortID="1043047497">
-													<Language>SFX</Language>
-													<AudioFile>COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_02_-003047-.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_02_-003047-" ID="{6B5FE157-B337-46A2-ACD2-FD8BBC05F049}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-" ID="{0C017DC8-0424-44FA-AE2E-E32376297A0C}" ShortID="673434716">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-" ID="{ABBAE2B9-CB1B-4C25-8D65-63B13AE4E771}" ShortID="55246812">
-													<Language>SFX</Language>
-													<AudioFile>COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-" ID="{ABBAE2B9-CB1B-4C25-8D65-63B13AE4E771}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<Sound Name="Vocalization_-_death_pain_-_grunting_1 (1)" ID="{58F47A18-EF8B-43E3-87C7-4E94B0436A82}" ShortID="825729243">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
@@ -8652,6 +8486,216 @@
 												<SwitchRef Name="Stone" ID="{C5CC37D8-B4F6-4B66-86AA-213C54F44C29}"/>
 												<ItemList>
 													<ItemRef Name="Fall_Stone" ID="{B24AB6B6-4DA0-4187-BDBD-22A244C6511B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Jump" ID="{BE81C8CC-80A9-42C3-B204-E7CED9BEAE0D}" ShortID="879402470">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}" WorkUnitID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Player" ID="{EC642177-8A32-493D-B010-FC35943442FA}" WorkUnitID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="JumpingYenn" ID="{5FEAFA19-0853-48BA-9299-0FA939C2F504}" ShortID="239272394">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="jumping_scream_female" ID="{CDDB2E28-A8BA-4737-8332-830A3A509500}" ShortID="670821110">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="jumping_scream_female" ID="{D168290C-145C-47BA-983F-2E90DFA98904}" ShortID="974381289">
+															<Language>SFX</Language>
+															<AudioFile>jumping_scream_female.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="jumping_scream_female" ID="{D168290C-145C-47BA-983F-2E90DFA98904}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EMOTE_Chloe-_Teen-_Jump_01" ID="{1D705702-B8A7-42C3-B506-4B1FB94D10B7}" ShortID="511055002">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EMOTE_Chloe-_Teen-_Jump_01" ID="{C17AC2ED-E7F0-492C-AF70-90B67900EFDE}" ShortID="741369655">
+															<Language>SFX</Language>
+															<AudioFile>EMOTE_Chloe-_Teen-_Jump_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EMOTE_Chloe-_Teen-_Jump_01" ID="{C17AC2ED-E7F0-492C-AF70-90B67900EFDE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EMOTE_Nora-_Woman-_Jump" ID="{6B85C981-156B-4538-BCF9-409949A69B4F}" ShortID="800711220">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EMOTE_Nora-_Woman-_Jump" ID="{6ABC0C3B-2E28-4029-9E2A-FFDAD93D5B57}" ShortID="846556793">
+															<Language>SFX</Language>
+															<AudioFile>EMOTE_Nora-_Woman-_Jump.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EMOTE_Nora-_Woman-_Jump" ID="{6ABC0C3B-2E28-4029-9E2A-FFDAD93D5B57}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02" ID="{6A9BC7AC-EE1D-4DB7-90C7-B3867066C17F}" ShortID="257877790">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02" ID="{7C5DE522-FE34-494B-8895-801C5369C49F}" ShortID="906940100">
+															<Language>SFX</Language>
+															<AudioFile>EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02" ID="{7C5DE522-FE34-494B-8895-801C5369C49F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="JumpingGeralt" ID="{000C1A11-425A-41F9-8F11-7C35095C078E}" ShortID="230392301">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="reverb_cave" ID="{BE9D3645-7F9D-4FE8-8777-C1B83013225F}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_02_-003047-" ID="{F1919B32-1D40-438A-AF01-923C4636CCA0}" ShortID="75162032">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_02_-003047-" ID="{6B5FE157-B337-46A2-ACD2-FD8BBC05F049}" ShortID="1043047497">
+															<Language>SFX</Language>
+															<AudioFile>COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_02_-003047-.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_02_-003047-" ID="{6B5FE157-B337-46A2-ACD2-FD8BBC05F049}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-" ID="{0C017DC8-0424-44FA-AE2E-E32376297A0C}" ShortID="673434716">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-" ID="{ABBAE2B9-CB1B-4C25-8D65-63B13AE4E771}" ShortID="55246812">
+															<Language>SFX</Language>
+															<AudioFile>COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-" ID="{ABBAE2B9-CB1B-4C25-8D65-63B13AE4E771}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="JumpingGeralt" ID="{000C1A11-425A-41F9-8F11-7C35095C078E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="JumpingYenn" ID="{5FEAFA19-0853-48BA-9299-0FA939C2F504}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Yennefer" ID="{1DFDA7BC-B89E-4743-BEEC-BE21FE1C9D51}"/>
+												<ItemList>
+													<ItemRef Name="JumpingYenn" ID="{5FEAFA19-0853-48BA-9299-0FA939C2F504}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}"/>
+												<ItemList>
+													<ItemRef Name="JumpingGeralt" ID="{000C1A11-425A-41F9-8F11-7C35095C078E}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
