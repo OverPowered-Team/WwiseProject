@@ -4358,6 +4358,18 @@
 										<Sound Name="Big Tree - Ghouls" ID="{7204E488-695F-4829-A7C7-7461177D0F2D}" ShortID="292437675">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{52641589-F421-4822-BA0E-E5856000A9AF}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="152"/>
+																	<Property Name="Min" Type="Real64" Value="-152"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">

@@ -75,6 +75,70 @@
 						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Lvl2" ID="{0307297F-A33C-45C0-ADBB-BB72504F160A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Combat Level 2" ID="{B4054BC3-F804-4987-AFC7-1355930CC31B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Start" ID="{8D3483CA-A0B9-4819-8EA1-C6733BEC3617}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Minecarts" ID="{11B6D54E-0EFC-4265-8561-D0048DDDE908}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Big Tree - Ghouls" ID="{7204E488-695F-4829-A7C7-7461177D0F2D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Bridge" ID="{8E882EA3-7DDC-4CA7-932B-75C38DD8C200}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hall - Cave Entrance" ID="{B7D6FD24-C4D5-44BB-BF71-85DBE468D4E3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Fade" ID="{C35AAFE0-A634-402C-BD30-2BC09FE0BF8A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PitchSlowMo" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ciri_Combat_Scream" ID="{329568BD-E158-4260-9A06-CA976A38E59E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatDistance" ID="{050E8684-1A60-43F7-9FB3-C33AA80B6629}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerRocks" ID="{0F73C3E4-E7C3-4472-8009-6785D71B5AD2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Forest" ID="{C4FF6980-256C-4E0B-9F46-A81569CC7EFC}"/>
+						<CurrentSwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

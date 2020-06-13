@@ -15,6 +15,16 @@
 						<ObjectRef Name="leshen_smoke_cloud" ID="{B3549D9A-B0B4-4394-82E0-529845C70606}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Lvl2" ID="{B0372A6D-A753-4CF0-BB78-52EB4B2C3DF8}">
+					<ObjectList>
+						<ObjectRef Name="Combat Level 2" ID="{B4054BC3-F804-4987-AFC7-1355930CC31B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Minecarts" ID="{11B6D54E-0EFC-4265-8561-D0048DDDE908}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Big Tree - Ghouls" ID="{7204E488-695F-4829-A7C7-7461177D0F2D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Bridge" ID="{8E882EA3-7DDC-4CA7-932B-75C38DD8C200}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Hall - Cave Entrance" ID="{B7D6FD24-C4D5-44BB-BF71-85DBE468D4E3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Start" ID="{8D3483CA-A0B9-4819-8EA1-C6733BEC3617}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>
