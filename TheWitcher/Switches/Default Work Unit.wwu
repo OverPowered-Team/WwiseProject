@@ -10,6 +10,7 @@
 						<Switch Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
 						<Switch Name="Vegetation" ID="{928B2EA7-0339-403A-9A81-8CFD4742ACCE}"/>
 						<Switch Name="Wood" ID="{9907AC5F-E50C-41AA-9D53-153F42DB5005}"/>
+						<Switch Name="Snow" ID="{AC8CA1C9-44AF-43F3-9775-6C995DC6665F}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Env_Lvl1" ID="{66E19EDD-FDB1-4060-A6F5-F0945F956C79}">
