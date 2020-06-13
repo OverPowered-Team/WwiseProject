@@ -37,6 +37,10 @@
 						<State Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
 						<State Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
 						<State Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+						<State Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+						<State Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
+						<State Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+						<State Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -366,6 +370,114 @@
 						<Transition>
 							<StartState Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
 							<EndState Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<EndState Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<EndState Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<EndState Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{B506FFA0-DE67-4A3A-AFC1-A8CFF60A929C}"/>
+							<EndState Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+							<EndState Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+							<EndState Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+							<EndState Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+							<EndState Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+							<EndState Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
+							<EndState Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+							<EndState Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
+							<EndState Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+							<EndState Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
+							<EndState Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+							<EndState Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+							<EndState Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
+							<EndState Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+							<EndState Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
 							<Time>1</Time>
 							<IsShared>true</IsShared>
 						</Transition>

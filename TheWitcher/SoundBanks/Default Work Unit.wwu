@@ -86,6 +86,7 @@
 						<ObjectRef Name="Play_Cave" ID="{952D26FE-FF90-4173-8DD1-2F16E8E1C9F1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_RocksFalling" ID="{3BF536C9-E18E-4289-A561-10A35CB2370D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wind" ID="{6EC1C5CE-6ABF-4349-896E-BC86F3120E57}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_dwarfs_singing" ID="{F8EE4329-475E-4475-BD66-2C08D521589B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Minecart" ID="{636DBDA7-FB86-44F4-80A9-2A4B6CAD1238}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Explosion" ID="{E339B718-4570-4547-A299-0F94FEC8026C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_River" ID="{0A38E665-80C2-4694-B228-04B1604E350D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>

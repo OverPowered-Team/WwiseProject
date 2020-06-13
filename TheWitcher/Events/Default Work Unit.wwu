@@ -1753,6 +1753,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_dwarfs_singing" ID="{F8EE4329-475E-4475-BD66-2C08D521589B}">
+							<ChildrenList>
+								<Action Name="" ID="{697C7A9B-ED91-44E4-AEFC-84AA6E54F092}" ShortID="1056368458">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HUMAN_VOICE_CROWD_SING_FOR_HE-S_A_JOLLY_GOOD_FELLOW_01" ID="{1626F4FF-8D23-4FB3-86BF-BEB226281081}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Object" ID="{0B796F3F-4771-449B-A7AA-E87121C362B3}" ShortID="516657702">
