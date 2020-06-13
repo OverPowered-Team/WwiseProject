@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592059929" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592063332" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1592059929" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Attenuations\Default Work Unit.wwu" DateLow="1592059929" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Attenuations\Default Work Unit.wwu" DateLow="1592066556" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Audio Devices\Default Work Unit.wwu" DateLow="1592059929" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Control Surface Sessions\Default Work Unit.wwu" DateLow="1592059929" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Conversion Settings\Default Work Unit.wwu" DateLow="1592059929" DateHigh="0"/>
@@ -14,15 +14,16 @@
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Game Parameters\Default Work Unit.wwu" DateLow="1592059929" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1592059929" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592059930" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Mixing Sessions\Default Work Unit.wwu" DateLow="1592059930" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Mixing Sessions\Default Work Unit.wwu" DateLow="1592066556" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Modulators\Default Work Unit.wwu" DateLow="1592059930" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Presets\Default Work Unit.wwu" DateLow="1592059946" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Queries\Default Work Unit.wwu" DateLow="1592059946" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Queries\Factory Queries.wwu" DateLow="1592059946" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\SoundBanks\Default Work Unit.wwu" DateLow="1592059946" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1592059946" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1592066556" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\States\Default Work Unit.wwu" DateLow="1592059946" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Switches\Default Work Unit.wwu" DateLow="1592059946" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\TheWitcher.marc_.wsettings" DateLow="1592066569" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\TheWitcher.wproj" DateLow="1592059946" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Triggers\Default Work Unit.wwu" DateLow="1592059946" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHubRepositories\WwiseProject\TheWitcher\Virtual Acoustics\Default Work Unit.wwu" DateLow="1592059946" DateHigh="0"/>

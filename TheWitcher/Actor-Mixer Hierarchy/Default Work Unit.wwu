@@ -2177,13 +2177,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="leshen_hit" ID="{3F1A2A6F-DB59-4E38-BFA8-D54F2E5BA401}" ShortID="284394093">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>8</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -2413,7 +2406,259 @@
 										<ActiveSource Name="soldier_footstep" ID="{B8337133-2E19-44B1-8291-D2A3E382768C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Folder Name="Ciri" ID="{B6F78176-1478-4F2A-9049-6A0E24BB6EFC}" ShortID="830930371"/>
+								<Folder Name="Ciri" ID="{B6F78176-1478-4F2A-9049-6A0E24BB6EFC}" ShortID="830930371">
+									<ChildrenList>
+										<Sound Name="dash_ciri_clone" ID="{502AA7DD-5F79-4872-94CA-705F47FA8E98}" ShortID="80444007">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dash_ciri_clone" ID="{4AB949F7-2734-4851-BF9C-18E750492C6B}" ShortID="737431109">
+													<Language>SFX</Language>
+													<AudioFile>dash_ciri_clone.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dash_ciri_clone" ID="{4AB949F7-2734-4851-BF9C-18E750492C6B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="scream_ciri" ID="{47237439-851A-4A6C-A9B4-A5A79EB9D3ED}" ShortID="959892739">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="scream_ciri" ID="{DE811081-D597-49FF-A933-1DA8D3FC30AF}" ShortID="66836490">
+													<Language>SFX</Language>
+													<AudioFile>scream_ciri.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="scream_ciri" ID="{DE811081-D597-49FF-A933-1DA8D3FC30AF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="death_ciri_clone" ID="{D84A900D-848C-4BF2-8900-A9D20E31BF6A}" ShortID="268625687">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="death_ciri_clone" ID="{E1560FC3-0A32-4226-9C60-A9F829C51D4A}" ShortID="662962467">
+													<Language>SFX</Language>
+													<AudioFile>death_ciri_clone.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="death_ciri_clone" ID="{E1560FC3-0A32-4226-9C60-A9F829C51D4A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="scream_ciri_clone" ID="{B8EBF394-9295-4DF9-A3FD-FD3DA65199F3}" ShortID="843047721">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="scream_ciri_clone" ID="{E3C92AA0-9D7A-488C-9290-D45A8B1C133E}" ShortID="432216799">
+													<Language>SFX</Language>
+													<AudioFile>scream_ciri_clone.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="scream_ciri_clone" ID="{E3C92AA0-9D7A-488C-9290-D45A8B1C133E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="throwrock_ciri" ID="{2D74B873-BFB6-48C0-B01A-AFAA5D19A5C0}" ShortID="401199912">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="throwrock_ciri" ID="{C0E03070-301D-4CA7-8946-F63B8684C026}" ShortID="255113123">
+													<Language>SFX</Language>
+													<AudioFile>throwrock_ciri.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="throwrock_ciri" ID="{C0E03070-301D-4CA7-8946-F63B8684C026}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="combo_3_ciri_clone" ID="{60F6C2AA-EEF6-4F5F-9BD0-75EBF06FDB84}" ShortID="77374100">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="combo_3_ciri_clone" ID="{2ADB3B9A-54C6-4FAB-8220-0F4B25F19EFB}" ShortID="635355429">
+													<Language>SFX</Language>
+													<AudioFile>combo_3_ciri_clone.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="combo_3_ciri_clone" ID="{2ADB3B9A-54C6-4FAB-8220-0F4B25F19EFB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="rocks_ambient_ciri" ID="{B18E5C31-5567-4B9E-89AC-DF839FA7DB41}" ShortID="608190305">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="rocks_ambient_ciri" ID="{6D3C2A84-0899-4C16-8540-EE423D9F26C9}" ShortID="809132736">
+													<Language>SFX</Language>
+													<AudioFile>rocks_ambient_ciri.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="rocks_ambient_ciri" ID="{6D3C2A84-0899-4C16-8540-EE423D9F26C9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="combo_1_ciri_clone" ID="{08BC40AC-7378-40C0-B173-8D88236D3429}" ShortID="997334058">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="combo_1_ciri_clone" ID="{504D7CCC-2E4B-4462-8465-E5B03FF009EA}" ShortID="125951772">
+													<Language>SFX</Language>
+													<AudioFile>combo_1_ciri_clone.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="combo_1_ciri_clone" ID="{504D7CCC-2E4B-4462-8465-E5B03FF009EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="combo_2_ciri_clone" ID="{8C64562A-83C6-4864-BF3F-EEA1425A41A8}" ShortID="701767335">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="combo_2_ciri_clone" ID="{69375D37-1DFE-4507-8DCC-4E9C101E94A4}" ShortID="319218661">
+													<Language>SFX</Language>
+													<AudioFile>combo_2_ciri_clone.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="combo_2_ciri_clone" ID="{69375D37-1DFE-4507-8DCC-4E9C101E94A4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Ciri_Clones_OnHit" ID="{DC8352F4-5C0B-41D7-8441-C50AB35B6AB3}" ShortID="119640874">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="damage_received_scream3_ciri_clone" ID="{470F76D4-55FB-42A7-8C18-A6ED7C443778}" ShortID="619989654">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream3_ciri_clone" ID="{EF4A2AA7-D306-4A6B-B772-9D428D298193}" ShortID="316745092">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream3_ciri_clone.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream3_ciri_clone" ID="{EF4A2AA7-D306-4A6B-B772-9D428D298193}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="damage_received_scream2_ciri_clone" ID="{FB5412DD-3AE9-4CAF-AFCF-1FC702F36EDB}" ShortID="931494296">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream2_ciri_clone" ID="{E5E459AE-27AC-4818-BFDD-0E76ED466DF7}" ShortID="192875882">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream2_ciri_clone.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream2_ciri_clone" ID="{E5E459AE-27AC-4818-BFDD-0E76ED466DF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="damage_received_scream1_ciri_clone" ID="{13CD0257-1F5D-4FF1-A2E4-B5F194080CF6}" ShortID="798860124">
+													<PropertyList>
+														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream1_ciri_clone" ID="{B0DF0761-C5F1-43E2-AD4A-15FF2D784D3B}" ShortID="968922889">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream1_ciri_clone.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream1_ciri_clone" ID="{B0DF0761-C5F1-43E2-AD4A-15FF2D784D3B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
