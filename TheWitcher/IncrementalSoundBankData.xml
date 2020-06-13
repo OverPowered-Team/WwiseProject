@@ -4,7 +4,7 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Dialogues" Hash="2943164332" Timestamp="1592038134"/>
-				<File Name="DialoguesGOLD" Hash="3744729733" Timestamp="1592038138"/>
+				<File Name="DialoguesGOLD" Hash="2051524440" Timestamp="1592039183"/>
 				<File Name="Enemy_Interaction" Hash="3474375208" Timestamp="1592038139"/>
 				<File Name="Environment_Lvl1" Hash="896590616" Timestamp="1592038143"/>
 				<File Name="Init" Hash="3288422618" Timestamp="1592038165"/>
@@ -41,7 +41,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="683151944" Timestamp="1592038165"/>
+				<File Name="" Hash="1962833004" Timestamp="1592039183"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

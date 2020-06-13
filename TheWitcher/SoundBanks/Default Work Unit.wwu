@@ -5,46 +5,6 @@
 			<ChildrenList>
 				<Folder Name="Dialogues" ID="{E780F208-E39D-4EF6-B15C-0D52C7D02B05}" ShortID="420547915">
 					<ChildrenList>
-						<SoundBank Name="Dialogues" ID="{8E7FD2B3-043A-408E-8791-E19B05C7D500}">
-							<ObjectInclusionList>
-								<ObjectRef Name="IntroDialogue" ID="{AF2DB777-1688-40F4-98EE-8ED96510406C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_09" ID="{D1852D92-BF17-41B2-829B-515C4B48276D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_27" ID="{2A5CF26F-3E12-420F-ADF2-401EF516AC2E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_30" ID="{99CAA403-1E7B-427F-8A61-5F02CBEF44D8}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_28" ID="{69992E4B-35F4-42E2-B149-045B23203D9C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_03" ID="{6FA9C99B-262D-4344-B165-F7EC0CA0098D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_24" ID="{A5976E01-44DE-436D-9A09-FB919892590D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_07" ID="{804B33FF-1DED-4380-B4AF-1427E1E52637}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1" ID="{90368010-406B-4381-808B-3482DFD574F5}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_31" ID="{CC4FD249-86FD-4454-A88B-9F36E702F680}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_29" ID="{ADA01FE2-BC9F-45D5-9199-8937C2F30165}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_19" ID="{63D65F3B-9371-4649-A592-C897939932C8}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_20" ID="{C9686C2A-2CE3-46CC-A0D4-2CDEBE0BA3EE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_08" ID="{A4A89E51-5F39-46E1-9B13-8A1CA96D8E38}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_18" ID="{F77F0720-AE25-4781-943B-722065721596}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_02" ID="{03319661-4C64-4812-BCBC-2DE0EC2C503E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_01" ID="{7AE9EABF-0C8E-483A-A24B-0C3E33B883F1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_11" ID="{04C39AC8-E3EB-48EF-9507-7526EE92A9DD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_14" ID="{D0CE2A02-9016-494F-A72D-BDBD6BB3A224}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_15" ID="{EA949251-8D9F-49B8-85EC-19BF7034BBFF}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_21" ID="{4214B0D1-316A-4A2A-8DDE-C9A01C320F7F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_12" ID="{90FF1BFC-1F84-4AB9-A602-55C884D54B76}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_10" ID="{7CE5C712-B920-4AFF-870F-2D1A5885D193}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_26" ID="{8954709C-CDED-4B15-B52A-41B3CD78438E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_05" ID="{ECCE5E41-AA3E-4B32-9238-358F1AED6F93}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_22" ID="{EB73F336-DCF1-4B85-A2A9-5A714AC09CD0}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_17" ID="{8E54730C-DE4D-4C57-878E-1FCCE63A0555}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_25" ID="{5F709A83-7C93-4C71-9887-5C02406A1A10}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_16" ID="{455D6536-3A4A-4C86-86FC-DB3DCDCB7BA8}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_13" ID="{4A5C73AF-4704-4CD5-96D6-B0FAB09A2D14}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_04" ID="{77CC0F09-585A-4E1C-B1B3-32FA18F4BA5D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_23" ID="{68794C5E-72B7-4E33-A974-6AFE3B495E7B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-								<ObjectRef Name="Play_Dialogue1_06" ID="{EAB16142-6121-4FC7-93EC-566F560E7541}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-							</ObjectInclusionList>
-							<ObjectExclusionList/>
-							<GameSyncExclusionList/>
-						</SoundBank>
 						<SoundBank Name="DialoguesGOLD" ID="{2C3B2E6C-D45D-419C-ABA1-26914C09E241}">
 							<ObjectInclusionList>
 								<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
@@ -62,6 +22,7 @@
 								<ObjectRef Name="Play_Jaskier_lv2_bridge" ID="{0E65BA80-F05B-45BE-9D6F-E32F26A7F9AC}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_PathToGhouls" ID="{9B3937FD-15AE-45ED-9279-8624DC0084EB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_YenLevel1_2" ID="{6028C85E-2388-45FB-AAEA-C1E8BCE4D4B0}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="Play_Dialogue1_19" ID="{63D65F3B-9371-4649-A592-C897939932C8}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_AfterRocks" ID="{2E8A99D1-F484-46B1-9681-4527049C9B10}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_inicio_1" ID="{25AEE641-8AD8-471C-8B24-F907C72CA4A6}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_PendulumsA" ID="{0AABDB75-D164-4832-9E1B-C4AEF0335E02}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
