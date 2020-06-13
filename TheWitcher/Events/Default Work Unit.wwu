@@ -1767,6 +1767,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_dead_soldier_scream" ID="{7B06CFD7-A2AC-4214-B9C9-F53389C2CC64}">
+							<ChildrenList>
+								<Action Name="" ID="{9318CFE9-36B6-4175-B1EA-C76B2C6E0951}" ShortID="791612194">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Male_vocalization_-_screaming_-_intense_pain_from_torture_3" ID="{F4CBBCE1-1848-4E66-BBD2-804BBF0BB9FF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_wood_cracking" ID="{3BCCC259-5CBF-4854-B210-D1CF7503D6A8}">
+							<ChildrenList>
+								<Action Name="" ID="{008C579E-FB13-447C-B569-1E3B3ED44156}" ShortID="304479863">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Woods_cracking" ID="{4A37905E-AD84-4259-BCA4-DC9AADBFF9DD}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Object" ID="{0B796F3F-4771-449B-A7AA-E87121C362B3}" ShortID="516657702">

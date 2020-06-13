@@ -7348,7 +7348,14 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="HUMAN_VOICE_CROWD_SING_FOR_HE-S_A_JOLLY_GOOD_FELLOW_01" ID="{1626F4FF-8D23-4FB3-86BF-BEB226281081}" ShortID="499469436">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Close_Environment_Distance" ID="{8F5293D6-157F-44F5-8C5C-7D226B848C8A}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
 								</Reference>
@@ -7458,6 +7465,299 @@
 								<ActiveSource Name="HUMAN_VOICE_CROWD_SING_FOR_HE-S_A_JOLLY_GOOD_FELLOW_01" ID="{90A165EA-36DC-473A-B76A-B0F20DCDB299}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Male_vocalization_-_screaming_-_intense_pain_from_torture_3" ID="{F4CBBCE1-1848-4E66-BBD2-804BBF0BB9FF}" ShortID="637873432">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Close_Environment_Distance" ID="{8F5293D6-157F-44F5-8C5C-7D226B848C8A}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Male_vocalization_-_screaming_-_intense_pain_from_torture_3" ID="{84902B17-DC60-4095-AC76-3444C078DA9A}" ShortID="193792624">
+									<Language>SFX</Language>
+									<AudioFile>Male_vocalization_-_screaming_-_intense_pain_from_torture_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+										<State Name="" ID="{46CCE16B-7DB6-4AC5-A1C2-6FD5F283CB9E}" ShortID="632229158">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
+										<State Name="" ID="{437B6B02-EC5B-4388-9305-D258EB8392F0}" ShortID="930576838">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+										<State Name="" ID="{74AAB4F3-A695-435E-8FF9-219FEF51C550}" ShortID="328160697">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
+										<State Name="" ID="{CBF60A6B-3A7E-4FAD-AD74-E1C6D06E317A}" ShortID="567814546">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
+										<State Name="" ID="{417B708D-0A38-4226-A7A2-F57B7EAD507C}" ShortID="109693893">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
+										<State Name="" ID="{CDE048B8-9CF5-468D-BDC4-D932C47E8BD4}" ShortID="772272433">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
+										<State Name="" ID="{45616FCD-6C3A-4D96-B230-11F6DB8336C4}" ShortID="224936558">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
+										<State Name="" ID="{72999721-B27A-4602-92D9-9EBFC95D1351}" ShortID="401039722">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+										<State Name="" ID="{772BF33C-C527-43B1-88AA-C330FC0AF52C}" ShortID="117199260">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+										<State Name="" ID="{8783DEE8-69C4-463C-A745-98BEC0AE5959}" ShortID="55678030"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+										<State Name="" ID="{5B1CAA94-A60A-4B7E-B34B-EA35F779D3A9}" ShortID="445001006">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
+										<State Name="" ID="{AB22FF5E-8DF3-4279-BB31-EA0B52783E1B}" ShortID="296807843">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+										<State Name="" ID="{D2D46D80-8A8C-408B-A5A7-09E5E8559557}" ShortID="634667317">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
+										<State Name="" ID="{81A90035-1484-45BD-AD21-9E60C18CD2EF}" ShortID="557281566">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Male_vocalization_-_screaming_-_intense_pain_from_torture_3" ID="{84902B17-DC60-4095-AC76-3444C078DA9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Woods_cracking" ID="{4A37905E-AD84-4259-BCA4-DC9AADBFF9DD}" ShortID="1036652405">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="wood_break_3_" ID="{28231ACF-878B-4F8B-A701-C289C17C75CA}" ShortID="374417041">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="wood_break_3_" ID="{19C5EEE5-CDA2-46A7-8931-922D3E878369}" ShortID="253942143">
+											<Language>SFX</Language>
+											<AudioFile>wood_break_3..wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="wood_break_3_" ID="{19C5EEE5-CDA2-46A7-8931-922D3E878369}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="wood_break_2" ID="{08FBCA7D-C7C2-4720-8C37-5D502DF66845}" ShortID="39430559">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="wood_break_2" ID="{FB0DC616-84ED-486A-828B-49A4A7BBE937}" ShortID="455388102">
+											<Language>SFX</Language>
+											<AudioFile>wood_break_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="wood_break_2" ID="{FB0DC616-84ED-486A-828B-49A4A7BBE937}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="wood_break_1" ID="{4E648EBC-A2BF-47C6-8037-661D1CAC28F1}" ShortID="304588908">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="wood_break_1" ID="{7CC0711C-3473-4094-B1E9-6D7247AB0470}" ShortID="80207898">
+											<Language>SFX</Language>
+											<AudioFile>wood_break_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="wood_break_1" ID="{7CC0711C-3473-4094-B1E9-6D7247AB0470}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Env_Lvl1" ID="{6DA7038F-0002-439F-8276-C0F9A79F982F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Bridge" ID="{A5DB0619-B6D9-40FB-91BE-1801E98706DC}"/>
+										<State Name="" ID="{90986F9A-0178-4978-9FB1-7A12AA512D01}" ShortID="248645954"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Slope_To_Cave" ID="{4B14AE57-C050-4360-8951-1126A65F6D80}"/>
+										<State Name="" ID="{23B35E11-9D4B-4363-BC3A-D0324D54A880}" ShortID="1073522053"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ghoul_Nests" ID="{D197CDE7-584E-4382-9A25-2B3E32B73BCB}"/>
+										<State Name="" ID="{C28ABC3C-6949-4781-8960-1854F2355311}" ShortID="667481007"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Middle_Area" ID="{1CADEE50-D7D7-4408-8BC2-643CF13820BC}"/>
+										<State Name="" ID="{F712B1AD-FA05-4D89-8641-56568A7F196B}" ShortID="487907903"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Drowners" ID="{36571A81-59B0-4451-BBE9-DA0989FCC5E6}"/>
+										<State Name="" ID="{63AD91B2-766B-4D80-BE0A-AD95AD173D79}" ShortID="1018782487"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pre_Boss" ID="{3F645F25-FF1F-46F8-9B0D-E610EA7EA8F3}"/>
+										<State Name="" ID="{E8F0FC78-19B9-414B-AE04-CB5983E8DEE7}" ShortID="496638036"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fortress" ID="{DFAD6EAD-DCB3-47F3-94DB-16EB6071C184}"/>
+										<State Name="" ID="{EB8B3FFC-E4FF-4C57-995B-BB660B5AA143}" ShortID="624591897"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Entry_zone" ID="{B929B6ED-C113-480A-BF68-6E65F042F340}"/>
+										<State Name="" ID="{87D68C4A-A3DB-452D-B350-10EA6848638B}" ShortID="857400920"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Quiet" ID="{2EB7BE9B-8F8F-48C2-BD4F-B460A48732EB}"/>
+										<State Name="" ID="{80A7A2FF-7ACD-4738-ADDF-CF489378E048}" ShortID="599503474"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Da_Big_Trunk" ID="{D1CF3438-0007-49B1-8FEF-F517C199783C}"/>
+										<State Name="" ID="{48A9A867-0172-4AF5-A01D-4A637F118484}" ShortID="1061380139"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="After_Boss" ID="{7F381503-0AD7-4B68-B115-A859F65F0290}"/>
+										<State Name="" ID="{8CDECC40-50A8-4665-BDF2-DEB142C98BB0}" ShortID="640998127"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cave" ID="{09E644CF-EA68-4D0F-B6E6-320F93969A9E}"/>
+										<State Name="" ID="{A696B9B6-362C-4C6D-BD06-FC0D77C4E77E}" ShortID="494502230"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ravine" ID="{601BEF3A-7BB8-4E45-AF9E-82BCDF6A48EE}"/>
+										<State Name="" ID="{951021C4-64B5-430C-A435-13BC3B95C669}" ShortID="700697547"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hall" ID="{7D32B2C9-4F7A-4FD0-8154-15B2A6FCBC1C}"/>
+										<State Name="" ID="{AF2FC150-8B85-4034-A9AF-13A45CA2D28F}" ShortID="174528730"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
