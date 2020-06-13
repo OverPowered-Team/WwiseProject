@@ -1343,29 +1343,15 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_GeraltDeath" ID="{BFDF4691-C7FF-442F-90F6-D8483A6747ED}">
+						<Event Name="Play_Death" ID="{BFDF4691-C7FF-442F-90F6-D8483A6747ED}">
 							<ChildrenList>
-								<Action Name="" ID="{A4FBBEFD-1AD4-4388-8A0B-17EF22889308}" ShortID="625437158">
+								<Action Name="" ID="{4B85558E-30D9-4CCA-A984-8F9ED46AA919}" ShortID="995876056">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Vocalization_-_death_pain_-_grunting_1 (1)" ID="{58F47A18-EF8B-43E3-87C7-4E94B0436A82}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_YennDeath" ID="{D1DD9447-896C-42BC-8665-70FA4FE8AC45}">
-							<ChildrenList>
-								<Action Name="" ID="{63D8389C-7155-4B9F-8779-C3A5AC6EF28B}" ShortID="873535002">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="yenndeath" ID="{CFD6D607-C197-4594-8408-3B929693248C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="Death" ID="{26DDF9B6-C1D9-4C42-BCF2-5E3764EE8597}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

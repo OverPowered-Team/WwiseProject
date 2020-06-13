@@ -65,9 +65,8 @@
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_SwordHit" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_Footstep" ID="{D3F5639F-0013-423F-B9FA-758B0A3C0DB4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_YennDeath" ID="{D1DD9447-896C-42BC-8665-70FA4FE8AC45}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_YennShockwave" ID="{EE70C539-B135-42CE-ACC3-31D0934F77AE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_GeraltDeath" ID="{BFDF4691-C7FF-442F-90F6-D8483A6747ED}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Death" ID="{BFDF4691-C7FF-442F-90F6-D8483A6747ED}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Jump" ID="{CB1A1F94-67D6-4585-ADDB-11DE1F13B2F6}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_GetDamaged" ID="{51661839-A4FD-467E-A1F7-C44D2826A22B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Igni" ID="{1750555E-727C-474F-82E0-42C177545320}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
