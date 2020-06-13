@@ -9259,6 +9259,46 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sword_hit_rock_1" ID="{4FD0D414-C309-4CD4-8E1F-E0488AA82363}" ShortID="930370155">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sword_hit_rock_1" ID="{B65E96E6-1F97-4BCD-BF7C-1AA0885D736A}" ShortID="567676566">
+																	<Language>SFX</Language>
+																	<AudioFile>sword_hit_rock_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sword_hit_rock_1" ID="{B65E96E6-1F97-4BCD-BF7C-1AA0885D736A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sword_hit_rock" ID="{37FBDE48-7798-4B96-9CD7-2BDA353D4E99}" ShortID="45201482">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sword_hit_rock" ID="{5EB4858A-2CC9-47BD-80D3-DE36101BCDE5}" ShortID="1011840931">
+																	<Language>SFX</Language>
+																	<AudioFile>sword_hit_rock.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sword_hit_rock" ID="{5EB4858A-2CC9-47BD-80D3-DE36101BCDE5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Flesh" ID="{35759429-2FFF-4808-B218-F322AD2C0928}" ShortID="247377839">
 													<ReferenceList>
@@ -9269,6 +9309,65 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sword_hit_flesh_1" ID="{D2F48D1D-5F3F-4E77-B2D8-AA1A9C88A8D5}" ShortID="299153433">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sword_hit_flesh_1" ID="{40F95B6D-C866-42B0-8A6A-1A779EA77B23}" ShortID="491465529">
+																	<Language>SFX</Language>
+																	<AudioFile>sword_hit_flesh_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sword_hit_flesh_1" ID="{40F95B6D-C866-42B0-8A6A-1A779EA77B23}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sword_hit_flesh_2" ID="{5D72B2B8-019D-4E3A-BD7F-EB9361148DA9}" ShortID="668785244">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sword_hit_flesh_2" ID="{8C9A13E7-51EA-4FFB-BCF6-928B25A5EA50}" ShortID="388679075">
+																	<Language>SFX</Language>
+																	<AudioFile>sword_hit_flesh_2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sword_hit_flesh_2" ID="{8C9A13E7-51EA-4FFB-BCF6-928B25A5EA50}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sword_hit_flesh" ID="{8D859772-0E41-4C3D-8B62-895998B949CC}" ShortID="508711854">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sword_hit_flesh" ID="{A837E3C4-2C8A-4CE3-AE6E-AAE39B3E08CA}" ShortID="504155879">
+																	<Language>SFX</Language>
+																	<AudioFile>sword_hit_flesh.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sword_hit_flesh" ID="{A837E3C4-2C8A-4CE3-AE6E-AAE39B3E08CA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Vegetation" ID="{A1E10F65-B11A-4559-85F3-4331F291BD17}" ShortID="390555743">
 													<ReferenceList>
@@ -9289,6 +9388,65 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sword_hit_wood_1" ID="{576BAB60-2997-4A86-8BEA-1644862C172A}" ShortID="202939080">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sword_hit_wood_1" ID="{C06DEF4E-E621-4DD6-9071-FA13101733F2}" ShortID="1019716230">
+																	<Language>SFX</Language>
+																	<AudioFile>sword_hit_wood_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sword_hit_wood_1" ID="{C06DEF4E-E621-4DD6-9071-FA13101733F2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sword_hit_wood_2" ID="{E9B6EE43-F99E-48A9-AF9C-885268C089EA}" ShortID="119908175">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sword_hit_wood_2" ID="{C7FCD933-E5B1-4EB3-ABFF-D551583187A5}" ShortID="725888260">
+																	<Language>SFX</Language>
+																	<AudioFile>sword_hit_wood_2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sword_hit_wood_2" ID="{C7FCD933-E5B1-4EB3-ABFF-D551583187A5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sword_hit_wood" ID="{BAC9DFCD-9BC8-439E-95B6-F85A52C074DF}" ShortID="363116388">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sword_hit_wood" ID="{00F51021-1C7F-4837-B901-7F237E19CC58}" ShortID="822166234">
+																	<Language>SFX</Language>
+																	<AudioFile>sword_hit_wood.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sword_hit_wood" ID="{00F51021-1C7F-4837-B901-7F237E19CC58}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Snow" ID="{2D50978F-2829-44DC-B348-60B7DBEE8409}" ShortID="613183756">
 													<ReferenceList>
