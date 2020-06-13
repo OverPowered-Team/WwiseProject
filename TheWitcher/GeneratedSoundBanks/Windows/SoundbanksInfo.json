@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
-   "SourceFilesRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\Peter\\Documents\\GitHub\\WwiseProject\\TheWitcher\\",
+   "SourceFilesRoot": "C:\\Users\\Peter\\Documents\\GitHub\\WwiseProject\\TheWitcher\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Peter\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Iván\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Peter\\Documents\\GitHub\\WwiseProject\\TheWitcher\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -418,7 +418,7 @@
       "Id": "103399598",
       "Language": "SFX",
       "ShortName": "Level2 Music\\Start.wav",
-      "Path": "SFX\\Level2 Music\\Start_1C9C67B2.wem"
+      "Path": "SFX\\Level2 Music\\Start_F17FB28C.wem"
      },
      {
       "Id": "715475659",
@@ -457,25 +457,25 @@
       "Id": "78140361",
       "Language": "SFX",
       "ShortName": "Level2 Music\\Combat 2.wav",
-      "Path": "SFX\\Level2 Music\\Combat 2_1C9C67B2.wem"
+      "Path": "SFX\\Level2 Music\\Combat 2_F17FB28C.wem"
      },
      {
       "Id": "536290749",
       "Language": "SFX",
       "ShortName": "Level2 Music\\Combat 1.wav",
-      "Path": "SFX\\Level2 Music\\Combat 1_1C9C67B2.wem"
+      "Path": "SFX\\Level2 Music\\Combat 1_F17FB28C.wem"
      },
      {
       "Id": "718864773",
       "Language": "SFX",
       "ShortName": "Level2 Music\\Minecarts 2.wav",
-      "Path": "SFX\\Level2 Music\\Minecarts 2_1C9C67B2.wem"
+      "Path": "SFX\\Level2 Music\\Minecarts 2_F17FB28C.wem"
      },
      {
       "Id": "921009144",
       "Language": "SFX",
       "ShortName": "Level2 Music\\Minecarts 1.wav",
-      "Path": "SFX\\Level2 Music\\Minecarts 1_1C9C67B2.wem"
+      "Path": "SFX\\Level2 Music\\Minecarts 1_F17FB28C.wem"
      }
     ]
    },
@@ -512,13 +512,13 @@
       "Id": "10394996",
       "Language": "SFX",
       "ShortName": "Level2 Music\\Hall - Cave Entrance.wav",
-      "Path": "SFX\\Level2 Music\\Hall - Cave Entrance_1C9C67B2.wem"
+      "Path": "SFX\\Level2 Music\\Hall - Cave Entrance_F17FB28C.wem"
      },
      {
       "Id": "493202849",
       "Language": "SFX",
       "ShortName": "Level2 Music\\Bridge.wav",
-      "Path": "SFX\\Level2 Music\\Bridge_1C9C67B2.wem"
+      "Path": "SFX\\Level2 Music\\Bridge_F17FB28C.wem"
      },
      {
       "Id": "880628954",
@@ -530,7 +530,7 @@
       "Id": "1037349772",
       "Language": "SFX",
       "ShortName": "Level2 Music\\Big Tree - Ghouls.wav",
-      "Path": "SFX\\Level2 Music\\Big Tree - Ghouls_1C9C67B2.wem"
+      "Path": "SFX\\Level2 Music\\Big Tree - Ghouls_F17FB28C.wem"
      }
     ]
    },
@@ -1177,47 +1177,47 @@
      {
       "Id": "1224400269",
       "Name": "Play_Leshen_Cloud",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Cloud"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Cloud"
      },
      {
       "Id": "3186651586",
       "Name": "Play_Leshen_Cloud_Appears",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Cloud_Appears"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Cloud_Appears"
      },
      {
       "Id": "4142666928",
       "Name": "Play_Leshen_Cloud_Disapears",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Cloud_Disapears"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Cloud_Disapears"
      },
      {
       "Id": "890332400",
       "Name": "Play_Leshen_Death",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Death"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Death"
      },
      {
       "Id": "3936739521",
       "Name": "Play_Leshen_Hit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Hit"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Hit"
      },
      {
       "Id": "3930890845",
       "Name": "Play_Leshen_Melee_Attack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Melee_Attack"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Melee_Attack"
      },
      {
       "Id": "3931950402",
       "Name": "Play_Leshen_Raven_Cloud",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Raven_Cloud"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Raven_Cloud"
      },
      {
       "Id": "115571181",
       "Name": "Play_Leshen_Raven_Throw",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Raven_Throw"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Raven_Throw"
      },
      {
       "Id": "1023174917",
       "Name": "Play_Leshen_Roots",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemy_Interaction\\Leshen\\Play_Leshen_Roots"
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Leshen\\Play_Leshen_Roots"
      },
      {
       "Id": "1718791025",
@@ -1633,6 +1633,11 @@
     "Path": "Music_456999454qq364.bnk",
     "IncludedEvents": [
      {
+      "Id": "1140170877",
+      "Name": "Play_Ciri_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Bosses\\Ciri\\Play_Ciri_Music"
+     },
+     {
       "Id": "818563156",
       "Name": "Play_No_Surrender",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_No_Surrender"
@@ -1644,6 +1649,24 @@
       "Language": "SFX",
       "ShortName": "bensound-epic.wav",
       "Path": "SFX\\bensound-epic_F17FB28C.wem"
+     },
+     {
+      "Id": "715475659",
+      "Language": "SFX",
+      "ShortName": "Level2 Music\\After Ciri.wav",
+      "Path": "SFX\\Level2 Music\\After Ciri_1C9C67B2.wem"
+     },
+     {
+      "Id": "830804940",
+      "Language": "SFX",
+      "ShortName": "Level2 Music\\Before Ciri.wav",
+      "Path": "SFX\\Level2 Music\\Before Ciri_1C9C67B2.wem"
+     },
+     {
+      "Id": "880628954",
+      "Language": "SFX",
+      "ShortName": "Level2 Music\\Ciri Boss.wav",
+      "Path": "SFX\\Level2 Music\\Ciri Boss_1C9C67B2.wem"
      }
     ]
    }

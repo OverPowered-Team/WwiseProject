@@ -4356,6 +4356,9 @@
 								<Folder Name="Level2 Music" ID="{2B1ED235-A23D-4A5B-A08A-5BBCEDC54E28}" ShortID="854648377">
 									<ChildrenList>
 										<Sound Name="Big Tree - Ghouls" ID="{7204E488-695F-4829-A7C7-7461177D0F2D}" ShortID="292437675">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -4440,6 +4443,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Bridge" ID="{8E882EA3-7DDC-4CA7-932B-75C38DD8C200}" ShortID="658815796">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -4528,6 +4534,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Hall - Cave Entrance" ID="{B7D6FD24-C4D5-44BB-BF71-85DBE468D4E3}" ShortID="447883713">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -4616,6 +4625,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Start" ID="{8D3483CA-A0B9-4819-8EA1-C6733BEC3617}" ShortID="585711366">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -4714,6 +4726,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Minecarts 1" ID="{C9E3077E-565B-4309-9AC3-03EF1D92D51C}" ShortID="704091512">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -4733,6 +4748,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Minecarts 2" ID="{8D928E59-3D06-4795-B71F-418E806DB864}" ShortID="147445972">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -4841,6 +4859,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Combat 1" ID="{AD90E2D6-1DB9-499D-B05C-3DA73661A2B0}" ShortID="286548406">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -4860,6 +4881,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Combat 2" ID="{1A16AB91-475A-48EB-9D25-9DB36B8F5F41}" ShortID="502339757">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>

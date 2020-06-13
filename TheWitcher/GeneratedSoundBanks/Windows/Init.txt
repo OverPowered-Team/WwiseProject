@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	1676498605	Music_Lvl2_and_wagons			\Default Work Unit\Music_Lvl2_and_wagons	
 	2478762362	Env_Lvl1			\Default Work Unit\Env_Lvl1	
 	3197359073	Interactive_Music_Lvl1			\Default Work Unit\Interactive_Music_Lvl1	
 	3295242124	GameVolumes			\Default Work Unit\GameVolumes	
@@ -8,6 +9,15 @@ State	ID	Name	State Group			Notes
 	0	None	PlayerLife			
 	655265632	Alive	PlayerLife			
 	2044049779	Dead	PlayerLife			
+	0	None	Music_Lvl2_and_wagons			
+	235418643	Minecarts_cave	Music_Lvl2_and_wagons			
+	291834496	Da_Big_Trunk	Music_Lvl2_and_wagons			
+	1565680351	Quiet	Music_Lvl2_and_wagons			
+	2068062714	Bridge	Music_Lvl2_and_wagons			
+	2427728260	Ghoul_Nests	Music_Lvl2_and_wagons			
+	2440592884	Entry_zone	Music_Lvl2_and_wagons			
+	2764240573	Combat	Music_Lvl2_and_wagons			
+	3633416828	Hall	Music_Lvl2_and_wagons			
 	0	None	Env_Lvl1			
 	500935542	Ravine	Env_Lvl1			
 	1258683828	Pre_Boss	Env_Lvl1			
@@ -49,6 +59,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	320273873	reverb_Ciri_Cave			\Default Work Unit\Master Audio Bus\reverb_Ciri_Cave	
 	323187407	reverb_cave			\Default Work Unit\Master Audio Bus\reverb_cave	
 	987957292	reverb_castle			\Default Work Unit\Master Audio Bus\reverb_castle	
 	2646605403	fade			\Default Work Unit\Master Audio Bus\fade	
@@ -56,6 +67,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	602546716	Room_Large	Wwise RoomVerb			
 	1990128658	Room_Medium	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
