@@ -9702,6 +9702,20 @@
 												<ItemRef Name="GeraltImpacts" ID="{30EDC25B-E965-44C1-BE13-6E40BBC6307E}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Yennefer" ID="{1DFDA7BC-B89E-4743-BEEC-BE21FE1C9D51}"/>
+												<ItemList>
+													<ItemRef Name="YenneferImpacts" ID="{6C93410B-9D33-4487-8A6A-42636A60953B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}"/>
+												<ItemList>
+													<ItemRef Name="GeraltImpacts" ID="{30EDC25B-E965-44C1-BE13-6E40BBC6307E}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="Dodge" ID="{A7199FA0-6A60-401A-9A69-17E6A716ED76}" ShortID="824052227">
