@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{305147A9-89AB-40BB-B16A-F17C7EDE1FBF}" SchemaVersion="85">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{305147A9-89AB-40BB-B16A-F17C7EDE1FBF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{305147A9-89AB-40BB-B16A-F17C7EDE1FBF}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Environment" ID="{B52A9E91-6FD8-48F1-9F96-8B9B043752E9}">
+					<ObjectList>
+						<ObjectRef Name="RocksFalling" ID="{FFFB1AE5-D9A0-4815-8686-D09412150AF5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Wolves" ID="{336F74FA-F3E9-4019-B850-23BB7CCA7D40}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Wooden_Cart" ID="{432EDD24-D814-4ED3-AFE7-DBB7DB4FADA1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Squirrel" ID="{96A5DA47-875B-4044-AA98-96CE03A6C1CD}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="insects_wind_loop" ID="{EFA29189-2824-48B6-86FA-F47903541830}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>
