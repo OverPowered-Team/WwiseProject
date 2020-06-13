@@ -6979,83 +6979,6 @@
 					<ChildrenList>
 						<Folder Name="Player_Interaction" ID="{D6CDBA8F-540D-46F9-9E7E-A32CB28494EB}" ShortID="659011433">
 							<ChildrenList>
-								<RandomSequenceContainer Name="DamageReceivedVoiceGeralt" ID="{0D245C8F-B1BD-451E-BDC0-016C2CF35E2B}" ShortID="351015718">
-									<PropertyList>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-7</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="damage_received_scream3" ID="{552F748B-213E-42D9-AA0F-6C9DBC51EAF4}" ShortID="436692401">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="damage_received_scream3" ID="{2813C7EB-BBD2-4635-9D84-E15D0BC1F25A}" ShortID="377958498">
-													<Language>SFX</Language>
-													<AudioFile>damage_received_scream3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="damage_received_scream3" ID="{2813C7EB-BBD2-4635-9D84-E15D0BC1F25A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="damage_received_scream1" ID="{CEA9ED9F-0097-4FF3-85CA-2C7339BD8026}" ShortID="31797752">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="damage_received_scream1" ID="{AC7849AB-B3F1-4098-B2D9-40F14C4E1C87}" ShortID="200899405">
-													<Language>SFX</Language>
-													<AudioFile>damage_received_scream1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="damage_received_scream1" ID="{AC7849AB-B3F1-4098-B2D9-40F14C4E1C87}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="damage_received_scream2" ID="{63D20E44-A107-4489-B15F-871E9819B28A}" ShortID="106526238">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="damage_received_scream2" ID="{BF0411E3-89D9-4C4A-BE3D-5F0914A13702}" ShortID="300773176">
-													<Language>SFX</Language>
-													<AudioFile>damage_received_scream2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="damage_received_scream2" ID="{BF0411E3-89D9-4C4A-BE3D-5F0914A13702}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="DamageReceivedNoVoice" ID="{8B9F54DA-26C7-4570-B6E5-33497CF63951}" ShortID="925752419">
 									<PropertyList>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
@@ -7719,78 +7642,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="swordswing4" ID="{31E9C82C-4CCC-41ED-BBF9-1B089E20711D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="DamageReceivedVoiceYenn" ID="{27B0F011-645F-45CD-8698-31C1B1809A19}" ShortID="510769376">
-									<PropertyList>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="damage_received_scream2_yennefer" ID="{5889B663-BFA4-4B93-B87F-B9EB546BED46}" ShortID="1026185328">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="damage_received_scream2_yennefer" ID="{D78D6367-9FC4-4B62-96BD-A55A08BE53B5}" ShortID="1030992422">
-													<Language>SFX</Language>
-													<AudioFile>damage_received_scream2_yennefer.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="damage_received_scream2_yennefer" ID="{D78D6367-9FC4-4B62-96BD-A55A08BE53B5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="damage_received_scream1_yennefer" ID="{C6D1444A-DC41-48D9-9684-CE31A94D402F}" ShortID="101164455">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="damage_received_scream1_yennefer" ID="{CAB0CE97-9546-4922-ADD8-DF2C6036F853}" ShortID="175002814">
-													<Language>SFX</Language>
-													<AudioFile>damage_received_scream1_yennefer.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="damage_received_scream1_yennefer" ID="{CAB0CE97-9546-4922-ADD8-DF2C6036F853}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="damage_received_scream3_yennefer" ID="{BE7BA1DD-3A5C-44C5-9CC6-B34D6ACE8DEC}" ShortID="367705360">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="damage_received_scream3_yennefer" ID="{03C27816-D912-41A4-B906-1EC4862B5654}" ShortID="69587374">
-													<Language>SFX</Language>
-													<AudioFile>damage_received_scream3_yennefer.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="damage_received_scream3_yennefer" ID="{03C27816-D912-41A4-B906-1EC4862B5654}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -8503,7 +8354,7 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 										</Reference>
 										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Player" ID="{EC642177-8A32-493D-B010-FC35943442FA}" WorkUnitID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}"/>
+											<ObjectRef Name="PlayerType" ID="{EC642177-8A32-493D-B010-FC35943442FA}" WorkUnitID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -8696,6 +8547,199 @@
 												<SwitchRef Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}"/>
 												<ItemList>
 													<ItemRef Name="JumpingGeralt" ID="{000C1A11-425A-41F9-8F11-7C35095C078E}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="ReceiveDamage" ID="{14FF1AAC-7A35-4152-935F-81680CA3CD6E}" ShortID="698515286">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}" WorkUnitID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="PlayerType" ID="{EC642177-8A32-493D-B010-FC35943442FA}" WorkUnitID="{E24C0543-8BEB-4D77-AFDD-90F3290FCA7D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="DamageReceivedVoiceGeralt" ID="{0D245C8F-B1BD-451E-BDC0-016C2CF35E2B}" ShortID="351015718">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="damage_received_scream3" ID="{552F748B-213E-42D9-AA0F-6C9DBC51EAF4}" ShortID="436692401">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream3" ID="{2813C7EB-BBD2-4635-9D84-E15D0BC1F25A}" ShortID="377958498">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream3" ID="{2813C7EB-BBD2-4635-9D84-E15D0BC1F25A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="damage_received_scream1" ID="{CEA9ED9F-0097-4FF3-85CA-2C7339BD8026}" ShortID="31797752">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream1" ID="{AC7849AB-B3F1-4098-B2D9-40F14C4E1C87}" ShortID="200899405">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream1" ID="{AC7849AB-B3F1-4098-B2D9-40F14C4E1C87}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="damage_received_scream2" ID="{63D20E44-A107-4489-B15F-871E9819B28A}" ShortID="106526238">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream2" ID="{BF0411E3-89D9-4C4A-BE3D-5F0914A13702}" ShortID="300773176">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream2" ID="{BF0411E3-89D9-4C4A-BE3D-5F0914A13702}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="DamageReceivedVoiceYenn" ID="{27B0F011-645F-45CD-8698-31C1B1809A19}" ShortID="510769376">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="damage_received_scream2_yennefer" ID="{5889B663-BFA4-4B93-B87F-B9EB546BED46}" ShortID="1026185328">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream2_yennefer" ID="{D78D6367-9FC4-4B62-96BD-A55A08BE53B5}" ShortID="1030992422">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream2_yennefer.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream2_yennefer" ID="{D78D6367-9FC4-4B62-96BD-A55A08BE53B5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="damage_received_scream1_yennefer" ID="{C6D1444A-DC41-48D9-9684-CE31A94D402F}" ShortID="101164455">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream1_yennefer" ID="{CAB0CE97-9546-4922-ADD8-DF2C6036F853}" ShortID="175002814">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream1_yennefer.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream1_yennefer" ID="{CAB0CE97-9546-4922-ADD8-DF2C6036F853}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="damage_received_scream3_yennefer" ID="{BE7BA1DD-3A5C-44C5-9CC6-B34D6ACE8DEC}" ShortID="367705360">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="damage_received_scream3_yennefer" ID="{03C27816-D912-41A4-B906-1EC4862B5654}" ShortID="69587374">
+															<Language>SFX</Language>
+															<AudioFile>damage_received_scream3_yennefer.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="damage_received_scream3_yennefer" ID="{03C27816-D912-41A4-B906-1EC4862B5654}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="DamageReceivedVoiceYenn" ID="{27B0F011-645F-45CD-8698-31C1B1809A19}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DamageReceivedVoiceGeralt" ID="{0D245C8F-B1BD-451E-BDC0-016C2CF35E2B}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Yennefer" ID="{1DFDA7BC-B89E-4743-BEEC-BE21FE1C9D51}"/>
+												<ItemList>
+													<ItemRef Name="DamageReceivedVoiceYenn" ID="{27B0F011-645F-45CD-8698-31C1B1809A19}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}"/>
+												<ItemList>
+													<ItemRef Name="DamageReceivedVoiceGeralt" ID="{0D245C8F-B1BD-451E-BDC0-016C2CF35E2B}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>

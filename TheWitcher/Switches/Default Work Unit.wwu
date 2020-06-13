@@ -26,12 +26,17 @@
 						<Switch Name="Post_Fight" ID="{ACC1666F-2140-49B1-B211-41397E3D2E5D}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="Player" ID="{EC642177-8A32-493D-B010-FC35943442FA}">
+				<Folder Name="Player" ID="{80395D62-18E3-4C01-A510-79A0974C2AC5}" ShortID="484101939">
 					<ChildrenList>
-						<Switch Name="Yennefer" ID="{1DFDA7BC-B89E-4743-BEEC-BE21FE1C9D51}"/>
-						<Switch Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}"/>
+						<SwitchGroup Name="PlayerType" ID="{EC642177-8A32-493D-B010-FC35943442FA}">
+							<ChildrenList>
+								<Switch Name="Yennefer" ID="{1DFDA7BC-B89E-4743-BEEC-BE21FE1C9D51}"/>
+								<Switch Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}"/>
+							</ChildrenList>
+						</SwitchGroup>
+						<SwitchGroup Name="AttackString" ID="{DDB44FDB-40A9-4C40-B38A-B768C00E2103}"/>
 					</ChildrenList>
-				</SwitchGroup>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

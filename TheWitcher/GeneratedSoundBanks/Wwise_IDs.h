@@ -59,8 +59,7 @@ namespace AK
         static const AkUniqueID PLAY_GERALT_PREBOSS = 1817882324U;
         static const AkUniqueID PLAY_GERALT_ROCKS = 1907787566U;
         static const AkUniqueID PLAY_GERALTDEATH = 2048623797U;
-        static const AkUniqueID PLAY_GERALTGETDAMAGED = 219750196U;
-        static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
+        static const AkUniqueID PLAY_GETDAMAGED = 2767564667U;
         static const AkUniqueID PLAY_GLOOMY = 2197695643U;
         static const AkUniqueID PLAY_ICE_RUNESTONE = 1709736977U;
         static const AkUniqueID PLAY_IGNI = 511861945U;
@@ -120,8 +119,6 @@ namespace AK
         static const AkUniqueID PLAY_YENLEVEL2_2 = 2431072025U;
         static const AkUniqueID PLAY_YENLEVEL2_3 = 2431072024U;
         static const AkUniqueID PLAY_YENNDEATH = 149154610U;
-        static const AkUniqueID PLAY_YENNGETDAMAGED = 831621349U;
-        static const AkUniqueID PLAY_YENNJUMP = 4258364352U;
         static const AkUniqueID PLAY_YENNSHOCKWAVE = 527437U;
         static const AkUniqueID PLAY_YENTUTORIAL = 4273097660U;
         static const AkUniqueID PLAYER_FALL = 2551268862U;
@@ -210,6 +207,15 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace ATTACKSTRING
+        {
+            static const AkUniqueID GROUP = 4220694966U;
+
+            namespace SWITCH
+            {
+            } // namespace SWITCH
+        } // namespace ATTACKSTRING
+
         namespace CIRI_BOSS
         {
             static const AkUniqueID GROUP = 3624371098U;
@@ -248,16 +254,16 @@ namespace AK
             } // namespace SWITCH
         } // namespace MATERIAL
 
-        namespace PLAYER
+        namespace PLAYERTYPE
         {
-            static const AkUniqueID GROUP = 1069431850U;
+            static const AkUniqueID GROUP = 3046950122U;
 
             namespace SWITCH
             {
                 static const AkUniqueID GERALT = 47710518U;
                 static const AkUniqueID YENNEFER = 913499343U;
             } // namespace SWITCH
-        } // namespace PLAYER
+        } // namespace PLAYERTYPE
 
     } // namespace SWITCHES
 
