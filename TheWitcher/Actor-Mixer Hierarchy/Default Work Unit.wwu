@@ -2657,7 +2657,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
-												<State Name="" ID="{662D6286-271D-4776-AABC-470A3F04F475}" ShortID="586596078"/>
+												<State Name="" ID="{662D6286-271D-4776-AABC-470A3F04F475}" ShortID="586596078">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
@@ -2976,7 +2980,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
-												<State Name="" ID="{1027F305-D7AC-4FF1-8A50-99FF6533CA72}" ShortID="764476229"/>
+												<State Name="" ID="{1027F305-D7AC-4FF1-8A50-99FF6533CA72}" ShortID="764476229">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
@@ -3087,7 +3095,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
-												<State Name="" ID="{1C69E9A3-8EBD-4AF9-9C33-905047C59CB5}" ShortID="1035561039"/>
+												<State Name="" ID="{1C69E9A3-8EBD-4AF9-9C33-905047C59CB5}" ShortID="1035561039">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
@@ -3219,7 +3231,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
-												<State Name="" ID="{7E971B8B-C74D-43B6-9467-9AD81E42E3C3}" ShortID="358495615"/>
+												<State Name="" ID="{7E971B8B-C74D-43B6-9467-9AD81E42E3C3}" ShortID="358495615">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
@@ -3378,7 +3394,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
-												<State Name="" ID="{59CEBD61-F09D-45CD-B6BE-E39280420646}" ShortID="795219754"/>
+												<State Name="" ID="{59CEBD61-F09D-45CD-B6BE-E39280420646}" ShortID="795219754">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
@@ -3502,7 +3522,11 @@
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Mine" ID="{B19176A2-5414-407B-8AD4-E510EC070A38}"/>
-												<State Name="" ID="{9B64C3E6-CB6B-46AF-98D4-5EA9817201D7}" ShortID="709978949"/>
+												<State Name="" ID="{9B64C3E6-CB6B-46AF-98D4-5EA9817201D7}" ShortID="709978949">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</State>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Fortress" ID="{0EA17E9C-F1D5-4372-BFCF-AF30AB876898}"/>
