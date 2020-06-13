@@ -1277,20 +1277,6 @@
 				</Folder>
 				<Folder Name="Player_Interactions" ID="{342DC179-3248-4379-942D-DF0259F9C653}" ShortID="787945414">
 					<ChildrenList>
-						<Event Name="Player_SwordHit" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}">
-							<ChildrenList>
-								<Action Name="" ID="{018C26EC-DDD3-4850-A994-06D05C03E9A6}" ShortID="561404702">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Swings" ID="{966956F7-A115-4E04-9CAD-81B06C8039ED}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_GetDamaged" ID="{51661839-A4FD-467E-A1F7-C44D2826A22B}">
 							<ChildrenList>
 								<Action Name="" ID="{85C67E6E-CB47-422C-8E14-160B9E272B9F}" ShortID="320872929">
@@ -1315,15 +1301,15 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Roll" ID="{9D127D89-3A60-4CD3-AAE3-D4275EFE3B04}">
+						<Event Name="Play_Dodge" ID="{9D127D89-3A60-4CD3-AAE3-D4275EFE3B04}">
 							<ChildrenList>
-								<Action Name="" ID="{91CBC73A-601D-4F1E-ACB5-5D61162A6BB9}" ShortID="491942357">
+								<Action Name="" ID="{F63C9B5B-1269-4CB9-BD04-0620FFBC59DB}" ShortID="873142298">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="roll" ID="{5A8972E2-3AC1-4B80-8C52-94CD228B3DC6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="Dodge" ID="{A7199FA0-6A60-401A-9A69-17E6A716ED76}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1357,15 +1343,15 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Igni" ID="{1750555E-727C-474F-82E0-42C177545320}">
+						<Event Name="Play_Spell" ID="{1750555E-727C-474F-82E0-42C177545320}">
 							<ChildrenList>
-								<Action Name="" ID="{CF618761-39E6-4BA5-A6AA-30010B803115}" ShortID="560668254">
+								<Action Name="" ID="{1CF71561-C372-4AD2-A2CC-2347C9964049}" ShortID="183427554">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Fire_Spell_Flame_Breath_02_16_441" ID="{59EF8979-6C05-46FC-97A4-2F4912FB5E0B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+											<ObjectRef Name="SpellAttacks" ID="{D00E1FB4-98EB-45D9-9CF5-3B96278C17BF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1422,6 +1408,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ComboAttacks" ID="{0ADEFCC6-8CF7-4166-B91B-95FBCEB6A2B2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Impact" ID="{E51B02F3-A530-4AD9-9B2B-F75F987744F6}">
+							<ChildrenList>
+								<Action Name="" ID="{6A5A0BD8-683C-4511-82E8-A78C0057F2FA}" ShortID="873745471">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impacts" ID="{42484DC9-8F98-4DA5-9687-782A2719CD3D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -7,7 +7,7 @@
 				<File Name="DialoguesGOLD" Hash="2051524440" Timestamp="1592039183"/>
 				<File Name="Enemy_Interaction" Hash="3474375208" Timestamp="1592038139"/>
 				<File Name="Environment_Lvl1" Hash="1132558963" Timestamp="1592039571"/>
-				<File Name="Init" Hash="2622116256" Timestamp="1592079967"/>
+				<File Name="Init" Hash="2622116256" Timestamp="1592085482"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
 				<File Name="Music" Hash="3302291904" Timestamp="1592042461"/>
 				<File Name="Music2" Hash="3218940173" Timestamp="1592042463"/>
@@ -19,7 +19,7 @@
 				<File Name="New_SoundBank" Hash="1659116742" Timestamp="1591874903"/>
 				<File Name="Objects_SFX" Hash="3674505800" Timestamp="1592038164"/>
 				<File Name="One_Events_SFX" Hash="2717369298" Timestamp="1592038164"/>
-				<File Name="Player_SFX" Hash="2914408336" Timestamp="1592079967"/>
+				<File Name="Player_SFX" Hash="1219449114" Timestamp="1592085482"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
 				<File Name="UI_SFX" Hash="690798736" Timestamp="1592038165"/>
@@ -41,7 +41,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="467978453" Timestamp="1592079967"/>
+				<File Name="" Hash="3879705699" Timestamp="1592085482"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
