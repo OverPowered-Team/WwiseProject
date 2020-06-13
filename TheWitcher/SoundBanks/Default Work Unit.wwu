@@ -62,6 +62,7 @@
 				</SoundBank>
 				<SoundBank Name="Player_SFX" ID="{293DCC5F-B0AE-42FF-AB34-70E99CFBBA60}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_ComboAttack" ID="{BB53F457-07F4-4011-A27F-3372EB84BD25}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_SwordHit" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_Footstep" ID="{D3F5639F-0013-423F-B9FA-758B0A3C0DB4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>

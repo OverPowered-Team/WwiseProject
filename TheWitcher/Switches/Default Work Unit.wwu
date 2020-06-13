@@ -34,7 +34,20 @@
 								<Switch Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}"/>
 							</ChildrenList>
 						</SwitchGroup>
-						<SwitchGroup Name="AttackString" ID="{DDB44FDB-40A9-4C40-B38A-B768C00E2103}"/>
+						<SwitchGroup Name="AttackString" ID="{DDB44FDB-40A9-4C40-B38A-B768C00E2103}">
+							<ChildrenList>
+								<Switch Name="L" ID="{AC19D914-F9EF-4B0D-8BAF-303E8E15FC8E}"/>
+								<Switch Name="LL" ID="{7A5C59AE-34D3-409E-A794-2BA7C90A0EF3}"/>
+								<Switch Name="LLL" ID="{EFA8C99F-E6BA-4A1E-A3AA-4C218CC022DB}"/>
+								<Switch Name="LH" ID="{59DF54F1-881E-40F2-BD1E-7895767485B0}"/>
+								<Switch Name="LHL" ID="{0F30181C-447C-48E6-9E0C-1A4133393788}"/>
+								<Switch Name="H" ID="{7EC2519C-0F5E-4F7A-B373-1E7FB473D34D}"/>
+								<Switch Name="HH" ID="{C3C5A4D5-C4B2-4DE5-9E53-F42EA3D56C75}"/>
+								<Switch Name="HHH" ID="{431752D6-7ABC-4A40-8BED-BC3F27494F8F}"/>
+								<Switch Name="HL" ID="{C74FD665-4464-4B2E-9DCA-FB1030441975}"/>
+								<Switch Name="HLH" ID="{D639C5F5-697A-4F14-B15D-7ED52298BC3F}"/>
+							</ChildrenList>
+						</SwitchGroup>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -29,7 +29,9 @@ namespace AK
         static const AkUniqueID PLAY_COLLECT_RUNESTONE = 3145159334U;
         static const AkUniqueID PLAY_COMBAT_LEVEL2 = 2955221517U;
         static const AkUniqueID PLAY_COMBAT_MUSIC = 3155474038U;
+        static const AkUniqueID PLAY_COMBOATTACK = 1307987412U;
         static const AkUniqueID PLAY_CROWS = 639442158U;
+        static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DIALOGUE1_19 = 757311290U;
         static const AkUniqueID PLAY_DIZZY_ENEMY = 3766237789U;
         static const AkUniqueID PLAY_DRIPPING = 2771949083U;
@@ -58,7 +60,6 @@ namespace AK
         static const AkUniqueID PLAY_GERALT_PENDULUMSB = 2223359157U;
         static const AkUniqueID PLAY_GERALT_PREBOSS = 1817882324U;
         static const AkUniqueID PLAY_GERALT_ROCKS = 1907787566U;
-        static const AkUniqueID PLAY_GERALTDEATH = 2048623797U;
         static const AkUniqueID PLAY_GETDAMAGED = 2767564667U;
         static const AkUniqueID PLAY_GLOOMY = 2197695643U;
         static const AkUniqueID PLAY_ICE_RUNESTONE = 1709736977U;
@@ -118,7 +119,6 @@ namespace AK
         static const AkUniqueID PLAY_YENLEVEL2_1 = 2431072026U;
         static const AkUniqueID PLAY_YENLEVEL2_2 = 2431072025U;
         static const AkUniqueID PLAY_YENLEVEL2_3 = 2431072024U;
-        static const AkUniqueID PLAY_YENNDEATH = 149154610U;
         static const AkUniqueID PLAY_YENNSHOCKWAVE = 527437U;
         static const AkUniqueID PLAY_YENTUTORIAL = 4273097660U;
         static const AkUniqueID PLAYER_FALL = 2551268862U;
@@ -213,6 +213,16 @@ namespace AK
 
             namespace SWITCH
             {
+                static const AkUniqueID H = 84696439U;
+                static const AkUniqueID HH = 1769415229U;
+                static const AkUniqueID HHH = 1133176431U;
+                static const AkUniqueID HL = 1769415225U;
+                static const AkUniqueID HLH = 1066065875U;
+                static const AkUniqueID L = 84696435U;
+                static const AkUniqueID LH = 1702304865U;
+                static const AkUniqueID LHL = 461483231U;
+                static const AkUniqueID LL = 1702304869U;
+                static const AkUniqueID LLL = 528593555U;
             } // namespace SWITCH
         } // namespace ATTACKSTRING
 
