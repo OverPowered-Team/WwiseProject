@@ -2180,7 +2180,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-14</Value>
+														<Value>8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2413,6 +2413,7 @@
 										<ActiveSource Name="soldier_footstep" ID="{B8337133-2E19-44B1-8291-D2A3E382768C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Folder Name="Ciri" ID="{B6F78176-1478-4F2A-9049-6A0E24BB6EFC}" ShortID="830930371"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
