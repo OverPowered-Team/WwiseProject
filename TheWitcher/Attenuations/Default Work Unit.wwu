@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" ShortID="1000369274">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="5"/>
+						<Property Name="RadiusMax" Type="Real64" Value="30"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,17 +21,17 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1.00793666666667</XPos>
+											<XPos>6.04762000000002</XPos>
 											<YPos>-2.67325</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>3.420635</XPos>
+											<XPos>20.52381</XPos>
 											<YPos>-11.61331</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>5</XPos>
+											<XPos>30</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
