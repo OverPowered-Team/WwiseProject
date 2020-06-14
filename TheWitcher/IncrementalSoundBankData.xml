@@ -22,7 +22,7 @@
 				<File Name="Player_SFX" Hash="2820738546" Timestamp="1592159978"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
-				<File Name="UI_SFX" Hash="1718240746" Timestamp="1592159978"/>
+				<File Name="UI_SFX" Hash="2722333084" Timestamp="1592161465"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585845378"/>
 			</Language>
 		</Banks>
@@ -41,7 +41,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="2161555833" Timestamp="1592159978"/>
+				<File Name="" Hash="297899403" Timestamp="1592161465"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

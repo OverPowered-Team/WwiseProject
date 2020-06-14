@@ -14930,7 +14930,6 @@
 								</Sound>
 								<Sound Name="music_balance" ID="{AC775FA3-23C3-4196-AD02-B2B7A8C867B2}" ShortID="331220828">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-12</Value>
