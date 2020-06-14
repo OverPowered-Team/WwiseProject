@@ -116,20 +116,20 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Collect_Runestone" ID="{FD689538-9007-403C-904D-FF375972C807}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Poison_Oil" ID="{D44DDC7C-F8FB-41B3-9AA6-6A59B506772D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Poison_Trail" ID="{D44DDC7C-F8FB-41B3-9AA6-6A59B506772D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ice_Runestone" ID="{BE1CC294-F5EF-4459-B583-67B6EB47827F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fire_Runestone" ID="{E6D6BE91-E3B4-4512-849C-95CEBE86E6C2}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FenceDestroy" ID="{13E4E853-E69A-4542-94A7-5DF2A7D01D51}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ambient_Runestone" ID="{61790863-A529-48DA-81A7-8B351D4DE9A3}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="WoodImpact" ID="{EEF0981A-0868-4986-8B4D-255025E2D5BB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Poison_Runestone" ID="{F08B97A1-9801-4A28-A41D-4CA04FC5533D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Ice_Oil" ID="{61A66C43-99F7-4A33-B815-936B8E2EBE82}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ice_Trail" ID="{61A66C43-99F7-4A33-B815-936B8E2EBE82}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Coin" ID="{33BDB0B1-9DAD-4AD6-865A-30DC43D60B06}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Earth_Oil" ID="{978D223A-76F3-4AED-9D93-5794F7677D7D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Earth_Trail" ID="{978D223A-76F3-4AED-9D93-5794F7677D7D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Earth_Runestone" ID="{4C19BCB1-E7AC-4B79-95BB-F97DE2014ABD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Orb" ID="{FB1A8752-D831-4BCA-BCF7-483714C15A8A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lightning_Runestone" ID="{D3AF8A4D-5C26-4DD9-A480-160AB75C1475}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Fire_Oil" ID="{DBA1822D-AE42-4FB4-99F6-9D6E01F84AB0}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Fire_Trail" ID="{DBA1822D-AE42-4FB4-99F6-9D6E01F84AB0}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

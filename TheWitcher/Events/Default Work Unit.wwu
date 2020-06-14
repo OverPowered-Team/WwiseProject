@@ -2147,7 +2147,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Fire_Oil" ID="{DBA1822D-AE42-4FB4-99F6-9D6E01F84AB0}">
+						<Event Name="Play_Fire_Trail" ID="{DBA1822D-AE42-4FB4-99F6-9D6E01F84AB0}">
 							<ChildrenList>
 								<Action Name="" ID="{55275D98-C97D-49BB-B3B5-3212D3FD6D66}" ShortID="363599218">
 									<PropertyList>
@@ -2183,7 +2183,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Poison_Oil" ID="{D44DDC7C-F8FB-41B3-9AA6-6A59B506772D}">
+						<Event Name="Play_Poison_Trail" ID="{D44DDC7C-F8FB-41B3-9AA6-6A59B506772D}">
 							<ChildrenList>
 								<Action Name="" ID="{016C56B3-761C-4D89-95EC-B9AB2BAF28D1}" ShortID="440381408">
 									<PropertyList>
@@ -2219,7 +2219,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Ice_Oil" ID="{61A66C43-99F7-4A33-B815-936B8E2EBE82}">
+						<Event Name="Play_Ice_Trail" ID="{61A66C43-99F7-4A33-B815-936B8E2EBE82}">
 							<ChildrenList>
 								<Action Name="" ID="{EEF9DF20-3F2B-4906-81D5-F99E2BA53879}" ShortID="613292502">
 									<PropertyList>
@@ -2255,7 +2255,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Earth_Oil" ID="{978D223A-76F3-4AED-9D93-5794F7677D7D}">
+						<Event Name="Play_Earth_Trail" ID="{978D223A-76F3-4AED-9D93-5794F7677D7D}">
 							<ChildrenList>
 								<Action Name="" ID="{CA5CB1F6-B590-4695-BCB3-AE6ED2AE6BA1}" ShortID="1005140322">
 									<PropertyList>

@@ -7249,6 +7249,9 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{7BCFC79E-C004-4E81-949D-1F398F259022}"/>
@@ -7278,6 +7281,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="fire_trail" ID="{D0F18EE7-5106-4046-8225-4A57AF5C0BBE}" ShortID="912546063">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -7347,6 +7357,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="poison_trail" ID="{1271FC4B-97D8-4021-A40B-31B0F8F96B3D}" ShortID="199911580">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -7416,6 +7433,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="earth_trail" ID="{B3EC9577-CFB2-4179-BEE9-2A565880D334}" ShortID="435507167">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -7491,6 +7515,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="ice_trail" ID="{1924953D-0AEF-4524-A0F1-129F97848DBB}" ShortID="659232891">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
