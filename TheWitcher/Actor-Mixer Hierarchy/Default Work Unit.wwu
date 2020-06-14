@@ -9596,9 +9596,31 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<Sound Name="Yrden" ID="{60902642-3E5D-42E0-8486-3AFEC5AF5FF1}" ShortID="519721307">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Yrden" ID="{6706A013-C039-4642-8BE6-043361FEDF2A}" ShortID="782126617">
+													<Language>SFX</Language>
+													<AudioFile>Yrden.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Yrden" ID="{6706A013-C039-4642-8BE6-043361FEDF2A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Yrden" ID="{60902642-3E5D-42E0-8486-3AFEC5AF5FF1}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Aard" ID="{57BF6E43-7CE4-4BF7-BB36-98BED48A87C4}"/>
 											</GroupingBehavior>
@@ -9629,6 +9651,12 @@
 												<SwitchRef Name="Quen" ID="{7EB8C83E-4BFF-4FCD-AEF9-4F1788F3E79A}"/>
 												<ItemList>
 													<ItemRef Name="QuenAppear" ID="{A7F819A6-6D2D-4018-9A7D-B39AB636D549}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Yrden" ID="{11914269-2668-4EA6-AC08-5FC19C9E60A6}"/>
+												<ItemList>
+													<ItemRef Name="Yrden" ID="{60902642-3E5D-42E0-8486-3AFEC5AF5FF1}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
