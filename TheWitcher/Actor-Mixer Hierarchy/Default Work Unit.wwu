@@ -9634,6 +9634,56 @@
 												<ActiveSource Name="IceNova" ID="{5CF594AA-5D9D-4DD6-8F6A-E1ADFEDB2E3A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="RockImpact" ID="{F63776EB-92BE-41B7-9F40-54E20000355B}" ShortID="905963303">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>26</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>26</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RockImpact" ID="{97221017-FF8E-4D43-B89F-4BEBADDCFB1B}" ShortID="289801022">
+													<Language>SFX</Language>
+													<AudioFile>RockImpact.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RockImpact" ID="{97221017-FF8E-4D43-B89F-4BEBADDCFB1B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FormRock" ID="{3A6970B2-AFE0-4DAA-919C-9507ED9295E1}" ShortID="478610061">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FormRock" ID="{60E5A431-1832-4079-9B7A-39BCAC7EC402}" ShortID="713021582">
+													<Language>SFX</Language>
+													<AudioFile>FormRock.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FormRock" ID="{60E5A431-1832-4079-9B7A-39BCAC7EC402}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -9656,10 +9706,16 @@
 												<ItemRef Name="QuenAppear" ID="{A7F819A6-6D2D-4018-9A7D-B39AB636D549}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
+												<ItemRef Name="FormRock" ID="{3A6970B2-AFE0-4DAA-919C-9507ED9295E1}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
 												<ItemRef Name="Chain" ID="{474A43C2-45A5-4C14-9F44-E1E6C5CF30FC}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Flamethrower" ID="{0B63B1D8-4D1B-4D2E-89CD-C183C4CE5B1D}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RockImpact" ID="{F63776EB-92BE-41B7-9F40-54E20000355B}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
@@ -9703,6 +9759,12 @@
 												<SwitchRef Name="Fthrower" ID="{7ACBFF8F-06CF-4A63-A88A-6CC742226732}"/>
 												<ItemList>
 													<ItemRef Name="Flamethrower" ID="{0B63B1D8-4D1B-4D2E-89CD-C183C4CE5B1D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Rock_Throw" ID="{EE3C5AE1-49E5-4EE1-9FE7-3B4DE47AF77E}"/>
+												<ItemList>
+													<ItemRef Name="FormRock" ID="{3A6970B2-AFE0-4DAA-919C-9507ED9295E1}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
