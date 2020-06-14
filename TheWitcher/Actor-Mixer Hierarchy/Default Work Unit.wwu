@@ -8227,32 +8227,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="jumping_scream_female" ID="{CDDB2E28-A8BA-4737-8332-830A3A509500}" ShortID="670821110">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>1</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="jumping_scream_female" ID="{D168290C-145C-47BA-983F-2E90DFA98904}" ShortID="974381289">
-															<Language>SFX</Language>
-															<AudioFile>jumping_scream_female.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="jumping_scream_female" ID="{D168290C-145C-47BA-983F-2E90DFA98904}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="EMOTE_Chloe-_Teen-_Jump_01" ID="{1D705702-B8A7-42C3-B506-4B1FB94D10B7}" ShortID="511055002">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64">
@@ -8317,6 +8291,25 @@
 														<ActiveSource Name="EMOTE_Jane-_Woman-_Pain_Effort_Grunt_Jump_02" ID="{7C5DE522-FE34-494B-8895-801C5369C49F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="voice_female_c_effort_jump_01" ID="{01E30C4D-1980-4FFA-BADE-8B511D141D83}" ShortID="820653089">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="voice_female_c_effort_jump_01" ID="{900B90F8-0714-415B-8765-2C5919C043BC}" ShortID="84673027">
+															<Language>SFX</Language>
+															<AudioFile>voice_female_c_effort_jump_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="voice_female_c_effort_jump_01" ID="{900B90F8-0714-415B-8765-2C5919C043BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="JumpingGeralt" ID="{000C1A11-425A-41F9-8F11-7C35095C078E}" ShortID="230392301">
@@ -8377,6 +8370,44 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="COWBOY_VOICE_-_Grunt_-_Jump-_Fight-_Attack_or_Hurt_Shout_-_05_-003050-" ID="{ABBAE2B9-CB1B-4C25-8D65-63B13AE4E771}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="voice_male_d_attack_groan_02" ID="{0A8E9125-7578-45E3-9038-C801078D3F39}" ShortID="851315282">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="voice_male_d_attack_groan_02" ID="{3A7D248F-F197-431D-B499-2194FD1B6A7C}" ShortID="192364781">
+															<Language>SFX</Language>
+															<AudioFile>voice_male_d_attack_groan_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="voice_male_d_attack_groan_02" ID="{3A7D248F-F197-431D-B499-2194FD1B6A7C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="voice_male_c_attack_10" ID="{5DD2E7FF-46D7-4FEA-8BFF-B9B5C12DC92B}" ShortID="418801289">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="voice_male_c_attack_10" ID="{C0E66740-B06F-41BD-8C1E-4F927B4F5111}" ShortID="938062506">
+															<Language>SFX</Language>
+															<AudioFile>voice_male_c_attack_10.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="voice_male_c_attack_10" ID="{C0E66740-B06F-41BD-8C1E-4F927B4F5111}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -8653,6 +8684,44 @@
 														<ActiveSource Name="Vocalization_-_death_pain_-_grunting_1 (1)" ID="{48ED93A1-9FAC-42AC-A728-8735FB26E631}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="voice_male_d_death_06" ID="{8041C514-371D-417D-A475-5C4E256AAC77}" ShortID="644233586">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="voice_male_d_death_06" ID="{1C0E8030-D625-4FC4-8BA1-38005DEDB08C}" ShortID="281623948">
+															<Language>SFX</Language>
+															<AudioFile>voice_male_d_death_06.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="voice_male_d_death_06" ID="{1C0E8030-D625-4FC4-8BA1-38005DEDB08C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="voice_male_d_death_09" ID="{DB9CEAF3-07C2-4C92-B591-B24A2B8ADF00}" ShortID="887462032">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="voice_male_d_death_09" ID="{05C2BFF1-D97C-44DC-BB5E-FF0094201A16}" ShortID="197713690">
+															<Language>SFX</Language>
+															<AudioFile>voice_male_d_death_09.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="voice_male_d_death_09" ID="{05C2BFF1-D97C-44DC-BB5E-FF0094201A16}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Yennefer_Death" ID="{080D82E2-EFE7-4BD3-A771-942617CA93E9}" ShortID="734315739">
@@ -8665,15 +8734,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="yenndeath" ID="{CFD6D607-C197-4594-8408-3B929693248C}" ShortID="774293980">
-													<PropertyList>
-														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
+												<Sound Name="yenndeath" ID="{02637551-B1FC-4531-8AFB-BFF5FD2B9665}" ShortID="1042305278">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -8683,13 +8744,51 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="yenndeath" ID="{9E56FB84-2A6C-43A8-90DF-14076944F7DB}" ShortID="678904462">
+														<AudioFileSource Name="voice_female_a_death_03" ID="{825C54D1-5039-47FF-B9B1-1512E46A8193}" ShortID="516725330">
 															<Language>SFX</Language>
-															<AudioFile>yenndeath.wav</AudioFile>
+															<AudioFile>voice_female_a_death_03.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="yenndeath" ID="{9E56FB84-2A6C-43A8-90DF-14076944F7DB}" Platform="Linked"/>
+														<ActiveSource Name="voice_female_a_death_03" ID="{825C54D1-5039-47FF-B9B1-1512E46A8193}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="yenndeath2" ID="{CC31BD8A-D714-4EF9-B482-528EA436ABBC}" ShortID="811201178">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="voice_female_a_death_05" ID="{E5F48365-E8CD-4D25-A40F-022A57A223D6}" ShortID="85370027">
+															<Language>SFX</Language>
+															<AudioFile>voice_female_a_death_05.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="voice_female_a_death_05" ID="{E5F48365-E8CD-4D25-A40F-022A57A223D6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="yenndeath3" ID="{319EC678-3663-4717-AF25-4AC2A7D1375A}" ShortID="728074053">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="voice_female_a_death_13" ID="{8D22B47B-9C63-41DF-BDF9-16B964FD7B11}" ShortID="1015705062">
+															<Language>SFX</Language>
+															<AudioFile>voice_female_a_death_13.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="voice_female_a_death_13" ID="{8D22B47B-9C63-41DF-BDF9-16B964FD7B11}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
