@@ -2462,6 +2462,118 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_CiriClone_Dash" ID="{FCF6B1A8-2641-49FE-9DF6-34921C904EA7}">
+									<ChildrenList>
+										<Action Name="" ID="{89B12610-F19E-4C26-A92F-1763B7EB161D}" ShortID="514765791">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri_Clone_Dash" ID="{502AA7DD-5F79-4872-94CA-705F47FA8E98}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_CiriClone_Death" ID="{58484A87-9AE3-40C5-AB8A-8C268B6BA770}">
+									<ChildrenList>
+										<Action Name="" ID="{DDED9797-B1D8-420F-B5D8-55DEE9252FB7}" ShortID="23565409">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri_Clone_Death" ID="{D84A900D-848C-4BF2-8900-A9D20E31BF6A}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_CiriClone_Scream" ID="{6E1C74C3-FF15-45A2-8EFD-A77063DD1612}">
+									<ChildrenList>
+										<Action Name="" ID="{A5EF8435-8974-4D8D-B030-DD9A6A81897F}" ShortID="1028176418">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri_Clone_Scream" ID="{B8EBF394-9295-4DF9-A3FD-FD3DA65199F3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Ciri_Rock" ID="{0D81C72A-3AC3-4434-9572-309643717313}">
+									<ChildrenList>
+										<Action Name="" ID="{C4DA9CB7-9AF8-4341-A444-57A9C9001388}" ShortID="832554861">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri_RockThrow" ID="{2D74B873-BFB6-48C0-B01A-AFAA5D19A5C0}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Ciri_Scream" ID="{365E9FB6-9B55-47C3-A314-C565776D38FA}">
+									<ChildrenList>
+										<Action Name="" ID="{760AC7B2-C125-4C4D-A316-D3ACC6F1D61A}" ShortID="866707080">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri_Scream" ID="{47237439-851A-4A6C-A9B4-A5A79EB9D3ED}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_CiriClone_Attack" ID="{CC3AB5E2-5BDA-4BCC-A64E-75C0ED5F7872}">
+									<ChildrenList>
+										<Action Name="" ID="{BF67F254-2B4D-4476-955E-3BF0FA6E0D44}" ShortID="271887487">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri_Clone_OnAttack" ID="{DF7825F0-E08C-4DEB-97AA-6CE42B257B8D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_CiriClone_OnHit" ID="{26980ED9-AE83-42EA-A792-38D09A98C3B1}">
+									<ChildrenList>
+										<Action Name="" ID="{0E000DF8-BF07-4F47-9638-6BDB90AB4A11}" ShortID="1023383480">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ciri_Clones_OnHit" ID="{DC8352F4-5C0B-41D7-8441-C50AB35B6AB3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Ciri_Tornado" ID="{B03D14FA-D628-4D3D-B493-173DC5792D42}">
+									<ChildrenList>
+										<Action Name="" ID="{78D9122F-6849-4549-934C-0C61E9DBB3F5}" ShortID="21012790">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Tornado_Ciri_Attenuation" ID="{B3EC87CB-D598-4CC3-9C3C-0ADBF5FE7B4F}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
