@@ -30,6 +30,18 @@
 						<ObjectRef Name="poison_trail" ID="{1271FC4B-97D8-4021-A40B-31B0F8F96B3D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Lvl2" ID="{2C366460-0401-4DC8-B6A9-37459979EF5A}">
+					<ObjectList>
+						<ObjectRef Name="Hall - Cave Entrance" ID="{B7D6FD24-C4D5-44BB-BF71-85DBE468D4E3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Combat Level 2" ID="{B4054BC3-F804-4987-AFC7-1355930CC31B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Minecarts" ID="{11B6D54E-0EFC-4265-8561-D0048DDDE908}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Big Tree - Ghouls" ID="{7204E488-695F-4829-A7C7-7461177D0F2D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Bridge" ID="{8E882EA3-7DDC-4CA7-932B-75C38DD8C200}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Male_vocalization_-_screaming_-_intense_pain_from_torture_3" ID="{AEB1F700-778E-46FD-8681-7B5BEBA5C285}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Start" ID="{8D3483CA-A0B9-4819-8EA1-C6733BEC3617}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="HUMAN_VOICE_CROWD_SING_FOR_HE-S_A_JOLLY_GOOD_FELLOW_01" ID="{759DB405-930F-4547-B1B3-52510DA1F926}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>
