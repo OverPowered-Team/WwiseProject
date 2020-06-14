@@ -231,6 +231,150 @@
 						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Lvl1" ID="{AFF706BE-1E16-47CB-8EB3-7DAA2AC14F23}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="gloomy_sfx" ID="{8FB20A8B-B96B-485F-801D-D0A97E45B108}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ShortSuspense" ID="{702019D7-4C7B-468D-9EB2-A49E80543EB9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Squirrel" ID="{96A5DA47-875B-4044-AA98-96CE03A6C1CD}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wind" ID="{C797D950-8A62-47B9-AD4E-91B9FC34D381}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="tree_fall" ID="{6BC67D69-7127-4240-84BA-2ADDAD40A2CC}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Crows" ID="{FF849C29-0AA4-4D84-A46D-F902405B6A01}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RocksFalling" ID="{FFFB1AE5-D9A0-4815-8686-D09412150AF5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Sinematic - Complex Tech Hits - 06" ID="{C5F01EF5-FD09-46F3-9A9F-4B908F2FFCC0}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wolves" ID="{336F74FA-F3E9-4019-B850-23BB7CCA7D40}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Fade" ID="{C35AAFE0-A634-402C-BD30-2BC09FE0BF8A}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PitchSlowMo" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ciri_Combat_Scream" ID="{329568BD-E158-4260-9A06-CA976A38E59E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatDistance" ID="{050E8684-1A60-43F7-9FB3-C33AA80B6629}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerRocks" ID="{0F73C3E4-E7C3-4472-8009-6785D71B5AD2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Forest" ID="{C4FF6980-256C-4E0B-9F46-A81569CC7EFC}"/>
+						<CurrentSwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="UI" ID="{3DE88E1E-6EB7-45F6-9B0C-EEC395A27F10}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="damage_count_divisible" ID="{AFE29582-E571-45CE-AB86-00330FF39723}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ENTER" ID="{4F192E28-FF3E-445D-93A9-3AEEED71A601}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="balance_hit" ID="{2C00C340-7401-4005-A02D-E7268A1862C8}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="head_fall" ID="{E0C67C11-58F6-4675-A547-EDEADA9E66B4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="bubbles" ID="{7B9B4D68-80EC-476D-B7C9-426AB56A27EF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CLICK" ID="{1A04081D-7BC3-478A-8876-9F1BE58B3734}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="damage_counts" ID="{159AF1CE-ADB2-4855-A8AA-83BB5000816B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Fade" ID="{C35AAFE0-A634-402C-BD30-2BC09FE0BF8A}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PitchSlowMo" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ciri_Combat_Scream" ID="{329568BD-E158-4260-9A06-CA976A38E59E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatDistance" ID="{050E8684-1A60-43F7-9FB3-C33AA80B6629}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerRocks" ID="{0F73C3E4-E7C3-4472-8009-6785D71B5AD2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Forest" ID="{C4FF6980-256C-4E0B-9F46-A81569CC7EFC}"/>
+						<CurrentSwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

@@ -7,7 +7,6 @@
 					<ChildrenList>
 						<SoundBank Name="DialoguesGOLD" ID="{2C3B2E6C-D45D-419C-ABA1-26914C09E241}">
 							<ObjectInclusionList>
-								<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_Boss" ID="{2138EC21-525B-4147-AE9F-8F7BF3A9B4F6}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Geralt_FirstBonfire" ID="{519AF835-6277-419F-BBAE-332475D010DE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_YenLevel1_3" ID="{5C68B7EE-B11A-42B3-9892-1B91D4012CD2}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -52,7 +51,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Bard_Music" ID="{4FEE8E0F-F7DA-406E-AE1C-C1632A425B47}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_MainMenu_Music" ID="{9F7BDE6D-1BD9-40B9-A4C7-09E635E2A98B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_End_Music" ID="{6F145182-6D4B-422A-A704-B711BCEA7D4F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Combat_Music" ID="{E026314E-FDCA-46A3-9AFE-E9AEC5A9412B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Coal_Mine_Music" ID="{5B23D682-4B5D-486C-95E5-59828BC58446}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -62,7 +60,6 @@
 				</SoundBank>
 				<SoundBank Name="Player_SFX" ID="{293DCC5F-B0AE-42FF-AB34-70E99CFBBA60}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_SwordHit" ID="{36B202EB-A1E1-41AB-A613-84468D2A01A7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_Footstep" ID="{D3F5639F-0013-423F-B9FA-758B0A3C0DB4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_YennDeath" ID="{D1DD9447-896C-42BC-8665-70FA4FE8AC45}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -107,9 +104,17 @@
 				</SoundBank>
 				<SoundBank Name="UI_SFX" ID="{563DC89C-8525-439B-8992-910987B0AC73}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="No_Mana" ID="{4BC29199-4F5D-4303-AB45-963D254D2D70}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Damage_Divisible" ID="{324BFD74-167B-4409-867B-1BA4EFD74013}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Balance_Hit" ID="{B092D81F-E901-442D-BEBE-A36E2375C947}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game_Over" ID="{68AA086F-362E-44F6-B770-C475933E880B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Revive" ID="{9113FEED-5953-4875-9F39-249D49E4BF88}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bubble" ID="{2F33B63D-DE45-498F-B8FE-3BE05216FCA1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music_Balance" ID="{90564E48-B4F9-4B3A-9E8E-3F73B5F0A2E1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Head_Fall" ID="{E477AE92-6FBE-4CEE-9894-1F338D279B75}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CLICK" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ENTER" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Damage_Count" ID="{0F5C0B78-ED66-4FFC-81E9-716FCB1183DA}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -117,7 +122,6 @@
 				<SoundBank Name="Objects_SFX" ID="{DF3F8A72-B5E7-48C1-A821-7028826866A3}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Collect_Runestone" ID="{FD689538-9007-403C-904D-FF375972C807}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Poison_Trail" ID="{D44DDC7C-F8FB-41B3-9AA6-6A59B506772D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wagon_Wood" ID="{59D6C150-1CD7-420A-B88E-464F55C4BF6E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wagon_BigRock" ID="{86103336-90E9-42EF-BB47-E355D591D608}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -144,7 +148,6 @@
 						<ObjectRef Name="SoldierBlock" ID="{166E9FCF-6080-404F-9E41-2602BD9EC8B9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Drowner_Movement_Water" ID="{63889C50-F7BB-40A3-A7A2-515565CC0B76}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_CiriClone_Death" ID="{58484A87-9AE3-40C5-AB8A-8C268B6BA770}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soldier_footstep" ID="{78068777-EF2E-421D-B884-D6ACB2E5ACF9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Death" ID="{7F1C8885-5021-4245-A48F-C407E0596076}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SoldierShoot" ID="{B4E08CEC-245B-42BD-A097-E1D1C8979ABD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -181,7 +184,6 @@
 				</SoundBank>
 				<SoundBank Name="MusicLevel2_1" ID="{E5811D60-A0E3-433F-8041-04F77136759B}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Level2_Bridge" ID="{4794BC68-80CE-46CA-8CE4-85B0ACAA7859}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Level2_Hall" ID="{0133F55C-7ABE-48F3-A0E0-04437F5B192F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Level2_Ghouls" ID="{159636EE-AEF2-4C68-9045-193ADAB8E232}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -191,7 +193,6 @@
 				</SoundBank>
 				<SoundBank Name="Music3" ID="{FACA11A4-8162-4344-AD20-E9605CC791ED}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_KaerMorhen" ID="{F7ADF645-860F-4448-A75C-3E5EE969AAD4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Bad_News_Ahead" ID="{BB75E199-0CA9-4D2C-8B60-FCEBEAEE68BB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
@@ -200,7 +201,6 @@
 				</SoundBank>
 				<SoundBank Name="One_Events_SFX" ID="{9CCBA450-1C65-4CA1-8715-238A81ACB0C6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Tree_Fall" ID="{4E359267-BA40-48BD-B797-B04254A49270}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -208,7 +208,6 @@
 				</SoundBank>
 				<SoundBank Name="MusicLevel2_2" ID="{72AB7415-4D51-4D8B-8603-7F613E7AB341}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Minecarts" ID="{344C217A-C5CD-4A35-91E3-4E3AE0262270}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Combat_Level2" ID="{DE644B61-EF11-4B3D-A342-9B0076E95637}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
@@ -217,7 +216,6 @@
 				</SoundBank>
 				<SoundBank Name="Music2" ID="{A06FB219-6D4C-435C-860E-329367D6CC7B}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Random_Level1_Music" ID="{95B7EE75-C958-4328-97BA-6C4DAF819AE7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_No_Surrender" ID="{726BCFE7-C2EA-4487-857C-E2296C75B7C9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_WinMenu_Music" ID="{310276B1-8857-4509-B7B5-681D244A1F3A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -229,14 +227,12 @@
 				<SoundBank Name="Music_456999454qq364" ID="{8090C1D3-158D-4D21-8924-2A79583C7537}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Ciri_Music" ID="{8D155355-01CF-4069-93C1-4AA94299B4FE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="MusicLevel2_Fucking3" ID="{2EBAF089-D7B9-4896-AB97-37C956A7C10E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Level2_Start" ID="{1F544542-6E74-468D-8808-8CF8AA7822C3}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

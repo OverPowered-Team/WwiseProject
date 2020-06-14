@@ -1497,6 +1497,146 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Balance_Hit" ID="{B092D81F-E901-442D-BEBE-A36E2375C947}">
+							<ChildrenList>
+								<Action Name="" ID="{EAFF728D-2F87-41AE-A578-3204671CFCA7}" ShortID="466898929">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="balance_hit" ID="{2C00C340-7401-4005-A02D-E7268A1862C8}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Bubble" ID="{2F33B63D-DE45-498F-B8FE-3BE05216FCA1}">
+							<ChildrenList>
+								<Action Name="" ID="{E60BF601-B7A8-4ACB-9D18-2445A8675D0D}" ShortID="493257944">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bubbles" ID="{7B9B4D68-80EC-476D-B7C9-426AB56A27EF}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Damage_Count" ID="{0F5C0B78-ED66-4FFC-81E9-716FCB1183DA}">
+							<ChildrenList>
+								<Action Name="" ID="{0318A07B-BB8C-4D18-9337-9996CF1E770C}" ShortID="1059429034">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="damage_counts" ID="{159AF1CE-ADB2-4855-A8AA-83BB5000816B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Damage_Divisible" ID="{324BFD74-167B-4409-867B-1BA4EFD74013}">
+							<ChildrenList>
+								<Action Name="" ID="{46519D21-218E-4689-80AE-BCB72646391B}" ShortID="899633368">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="damage_count_divisible" ID="{AFE29582-E571-45CE-AB86-00330FF39723}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Game_Over" ID="{68AA086F-362E-44F6-B770-C475933E880B}">
+							<ChildrenList>
+								<Action Name="" ID="{22583244-9D79-4C2F-B356-CE3BB6133F29}" ShortID="728171836">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game_Overs" ID="{59B97B16-185F-4E55-B5B2-88CD26A4CA94}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Head_Fall" ID="{E477AE92-6FBE-4CEE-9894-1F338D279B75}">
+							<ChildrenList>
+								<Action Name="" ID="{A1A28965-6A1E-4880-A5E1-E8890367E946}" ShortID="314720201">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="head_fall" ID="{E0C67C11-58F6-4675-A547-EDEADA9E66B4}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Balance" ID="{90564E48-B4F9-4B3A-9E8E-3F73B5F0A2E1}">
+							<ChildrenList>
+								<Action Name="" ID="{C2326208-34CF-496B-ACC2-C19DCCBF9DC6}" ShortID="621481106">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_balance" ID="{AC775FA3-23C3-4196-AD02-B2B7A8C867B2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="No_Mana" ID="{4BC29199-4F5D-4303-AB45-963D254D2D70}">
+							<ChildrenList>
+								<Action Name="" ID="{9C6D7F86-C144-477D-8A2D-10A3E1DE80E2}" ShortID="740009837">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="no_mana" ID="{525F4B45-A356-42F6-8B14-88BF5FA2FD6B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Revive" ID="{9113FEED-5953-4875-9F39-249D49E4BF88}">
+							<ChildrenList>
+								<Action Name="" ID="{614AA669-7D85-4BA5-A6C0-3090D01DB292}" ShortID="246398383">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="revive_player" ID="{7A99F3FF-C2AC-4F6D-B0C6-14544994F1E6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Victory" ID="{52C79004-E630-4AC1-8298-A03E4CFD8D04}">
+							<ChildrenList>
+								<Action Name="" ID="{4D391B74-885C-4B82-9AC4-1389D8617008}" ShortID="240665817">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="victory" ID="{170BB9BA-8804-436C-950B-759EA2664A00}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment Lvl1" ID="{F9D64ECC-F58B-41CF-9085-935B7C6F7334}" ShortID="192520777">

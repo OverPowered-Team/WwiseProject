@@ -4,25 +4,25 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Dialogues" Hash="2943164332" Timestamp="1592038134"/>
-				<File Name="DialoguesGOLD" Hash="2691742534" Timestamp="1592123876"/>
-				<File Name="Enemy_Interaction" Hash="2552604041" Timestamp="1592123876"/>
-				<File Name="Environment_Lvl1" Hash="4261639943" Timestamp="1592124530"/>
-				<File Name="Init" Hash="732779374" Timestamp="1592123906"/>
+				<File Name="DialoguesGOLD" Hash="1318234592" Timestamp="1592130452"/>
+				<File Name="Enemy_Interaction" Hash="3641990113" Timestamp="1592130452"/>
+				<File Name="Environment_Lvl1" Hash="1204729556" Timestamp="1592130453"/>
+				<File Name="Init" Hash="3310889657" Timestamp="1592130456"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
-				<File Name="Music" Hash="2779855927" Timestamp="1592123878"/>
-				<File Name="Music2" Hash="2320760200" Timestamp="1592123888"/>
-				<File Name="Music3" Hash="4174586180" Timestamp="1592123891"/>
-				<File Name="MusicLevel2_1" Hash="2626441008" Timestamp="1592124185"/>
-				<File Name="MusicLevel2_2" Hash="3699746053" Timestamp="1592123900"/>
-				<File Name="MusicLevel2_Fucking3" Hash="2022480548" Timestamp="1592124186"/>
-				<File Name="Music_456999454qq364" Hash="203440890" Timestamp="1592123885"/>
+				<File Name="Music" Hash="1440615478" Timestamp="1592130454"/>
+				<File Name="Music2" Hash="3499127094" Timestamp="1592130455"/>
+				<File Name="Music3" Hash="839201461" Timestamp="1592130456"/>
+				<File Name="MusicLevel2_1" Hash="3462237974" Timestamp="1592130456"/>
+				<File Name="MusicLevel2_2" Hash="1232322960" Timestamp="1592130456"/>
+				<File Name="MusicLevel2_Fucking3" Hash="3305360373" Timestamp="1592130456"/>
+				<File Name="Music_456999454qq364" Hash="3404047581" Timestamp="1592130455"/>
 				<File Name="New_SoundBank" Hash="1659116742" Timestamp="1591874903"/>
-				<File Name="Objects_SFX" Hash="345454002" Timestamp="1592126208"/>
-				<File Name="One_Events_SFX" Hash="3934985899" Timestamp="1592123905"/>
-				<File Name="Player_SFX" Hash="949985209" Timestamp="1592123906"/>
+				<File Name="Objects_SFX" Hash="1558432067" Timestamp="1592130456"/>
+				<File Name="One_Events_SFX" Hash="792867390" Timestamp="1592130456"/>
+				<File Name="Player_SFX" Hash="532249429" Timestamp="1592130456"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
-				<File Name="UI_SFX" Hash="3319941425" Timestamp="1592123906"/>
+				<File Name="UI_SFX" Hash="248201834" Timestamp="1592130456"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585845378"/>
 			</Language>
 		</Banks>
@@ -41,7 +41,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="1906476924" Timestamp="1592126208"/>
+				<File Name="" Hash="2810587190" Timestamp="1592130456"/>
 			</Language>
 		</JSONInfo>
 	</Platform>
