@@ -1455,6 +1455,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_RockThrow" ID="{A74C71DA-D9A3-4F5B-AFA4-FEE2BDADBA76}">
+							<ChildrenList>
+								<Action Name="" ID="{F17C808F-6D5B-4CF6-9BB0-F5C6872297FC}" ShortID="479551138">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RockImpact" ID="{9E580FDD-C706-4ED3-9CD4-FD9C082521D7}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{5BB40668-A1E7-463E-978A-61B07C5C8801}" ShortID="537841474">

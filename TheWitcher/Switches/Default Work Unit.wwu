@@ -67,7 +67,6 @@
 								<Switch Name="Ice_Nova" ID="{5FC45777-CF4E-46AC-98E8-99367AB35F70}"/>
 								<Switch Name="Igni" ID="{BC874F73-A576-4F2E-A8AA-3250EEF30679}"/>
 								<Switch Name="Quen" ID="{E71E9C78-B628-4978-B918-89DC8BF2D668}"/>
-								<Switch Name="Rock_Throw" ID="{1D8D1B61-36ED-43AC-AA30-00D40D89EFE2}"/>
 								<Switch Name="Yrden" ID="{C993413A-ACCF-485F-99D4-F2EB3B0B3574}"/>
 							</ChildrenList>
 						</SwitchGroup>
