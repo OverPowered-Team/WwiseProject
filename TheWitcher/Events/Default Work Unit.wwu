@@ -1641,6 +1641,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Credits" ID="{10B8C3C6-CA2B-481B-8C39-663818E9EDF7}">
+							<ChildrenList>
+								<Action Name="" ID="{B0150EFC-FFCD-4147-A314-A2548D7EE448}" ShortID="296572410">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Credits" ID="{E16168C0-A6E1-4712-8E8C-0158EFFF715F}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Skip_button" ID="{1D0C3E43-EDDA-40C9-9105-6CDD140D6D3B}">
+							<ChildrenList>
+								<Action Name="" ID="{F7D57A85-6B60-4699-B441-C6E8D57AB7E2}" ShortID="674258748">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Skip_button" ID="{7646697D-E670-4EF3-ABE3-695326983BC9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment Lvl1" ID="{F9D64ECC-F58B-41CF-9085-935B7C6F7334}" ShortID="192520777">

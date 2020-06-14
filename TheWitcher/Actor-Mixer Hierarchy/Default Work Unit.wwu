@@ -14946,13 +14946,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="music_balance" ID="{699E387C-A80F-4FCD-B56B-B0097A8FAB9D}" ShortID="663785659">
+										<AudioFileSource Name="music_cinematic_reveal" ID="{AC471804-4739-4D93-90C6-03891C7910DF}" ShortID="19407659">
 											<Language>SFX</Language>
-											<AudioFile>music_balance.wav</AudioFile>
+											<AudioFile>music_cinematic_reveal.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="music_balance" ID="{699E387C-A80F-4FCD-B56B-B0097A8FAB9D}" Platform="Linked"/>
+										<ActiveSource Name="music_cinematic_reveal" ID="{AC471804-4739-4D93-90C6-03891C7910DF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="no_mana" ID="{525F4B45-A356-42F6-8B14-88BF5FA2FD6B}" ShortID="284473093">
@@ -15097,6 +15097,47 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Credits" ID="{E16168C0-A6E1-4712-8E8C-0158EFFF715F}" ShortID="453988578">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="credits_music" ID="{F9E5ED30-D818-4D19-9C9A-AA739451D4AB}" ShortID="774618287">
+											<Language>SFX</Language>
+											<AudioFile>credits_music.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="credits_music" ID="{F9E5ED30-D818-4D19-9C9A-AA739451D4AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skip_button" ID="{7646697D-E670-4EF3-ABE3-695326983BC9}" ShortID="664149255">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skip_button" ID="{8537A5BE-B7EC-47C7-BF71-A8F013D8D8A2}" ShortID="452908455">
+											<Language>SFX</Language>
+											<AudioFile>skip_button.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skip_button" ID="{8537A5BE-B7EC-47C7-BF71-A8F013D8D8A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

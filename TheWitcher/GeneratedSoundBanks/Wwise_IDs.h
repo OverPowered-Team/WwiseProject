@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID BLOCKEROBSTACLE_VANISH = 2596989396U;
         static const AkUniqueID BUBBLE = 3835649095U;
         static const AkUniqueID CLICK = 1584507803U;
+        static const AkUniqueID CREDITS = 2201105581U;
         static const AkUniqueID DAMAGE_COUNT = 3223035574U;
         static const AkUniqueID DAMAGE_DIVISIBLE = 3706943362U;
         static const AkUniqueID DROWNER_DIG = 3087022689U;
@@ -158,7 +159,9 @@ namespace AK
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYGHOULS = 3184224717U;
         static const AkUniqueID REVIVE = 282544866U;
+        static const AkUniqueID SKIP_BUTTON = 2206031799U;
         static const AkUniqueID SOLDIER_BLOCK = 886195715U;
+        static const AkUniqueID VICTORY = 2716678721U;
         static const AkUniqueID WOODIMPACT = 1007768684U;
     } // namespace EVENTS
 
