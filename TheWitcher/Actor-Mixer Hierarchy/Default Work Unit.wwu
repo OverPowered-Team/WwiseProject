@@ -12696,6 +12696,13 @@
 											</GroupingInfo>
 										</SwitchContainer>
 										<SwitchContainer Name="YenneferCombos" ID="{BCD9DACE-A417-4B44-A4F6-D6CCB77A423C}" ShortID="791954438">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -14984,6 +14991,12 @@
 												<SwitchRef Name="Chain" ID="{9BF018BA-3C72-48D1-B64C-FF8730035A4A}"/>
 												<ItemList>
 													<ItemRef Name="Chain" ID="{CDEAC5F2-2AC4-419F-B3A3-C50F0FC85C2B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Rock_Throw" ID="{0CEB15C4-0FF5-4C66-ACE4-0C82546EC58C}"/>
+												<ItemList>
+													<ItemRef Name="FormRock" ID="{9B829453-10BC-40A7-AAF1-15FB7F682E14}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>

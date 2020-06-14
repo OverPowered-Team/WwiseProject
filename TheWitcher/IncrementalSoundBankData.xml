@@ -19,7 +19,7 @@
 				<File Name="New_SoundBank" Hash="1659116742" Timestamp="1591874903"/>
 				<File Name="Objects_SFX" Hash="2009640207" Timestamp="1592165615"/>
 				<File Name="One_Events_SFX" Hash="792867390" Timestamp="1592152838"/>
-				<File Name="Player_SFX" Hash="206149597" Timestamp="1592165617"/>
+				<File Name="Player_SFX" Hash="3963402164" Timestamp="1592167490"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
 				<File Name="UI_SFX" Hash="894122273" Timestamp="1592165618"/>
@@ -41,7 +41,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3556743462" Timestamp="1592165618"/>
+				<File Name="" Hash="261128068" Timestamp="1592167490"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

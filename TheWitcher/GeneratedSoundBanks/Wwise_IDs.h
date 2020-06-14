@@ -345,6 +345,7 @@ namespace AK
                 static const AkUniqueID ICE_NOVA = 949450511U;
                 static const AkUniqueID IGNI = 1874141802U;
                 static const AkUniqueID QUEN = 3997904982U;
+                static const AkUniqueID ROCK_THROW = 4064012791U;
                 static const AkUniqueID YRDEN = 771405733U;
             } // namespace SWITCH
         } // namespace SPELLSTRING
