@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592083943" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592139134" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1592079005" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Attenuations\Default Work Unit.wwu" DateLow="1592083943" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Audio Devices\Default Work Unit.wwu" DateLow="1592079005" DateHigh="0"/>
@@ -10,7 +10,7 @@
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1592079005" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Effects\Default Work Unit.wwu" DateLow="1592079005" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Effects\Factory Effects.wwu" DateLow="1592079005" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Events\Default Work Unit.wwu" DateLow="1592132633" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Events\Default Work Unit.wwu" DateLow="1592134790" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Game Parameters\Default Work Unit.wwu" DateLow="1592083943" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1592079005" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592083943" DateHigh="0"/>
@@ -23,7 +23,7 @@
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1592083943" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\States\Default Work Unit.wwu" DateLow="1592079052" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Switches\Default Work Unit.wwu" DateLow="1592083943" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\TheWitcher.jaume.wsettings" DateLow="1592132641" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\TheWitcher.jaume.wsettings" DateLow="1592139202" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\TheWitcher.wproj" DateLow="1592079052" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Triggers\Default Work Unit.wwu" DateLow="1592079052" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Users\custom\Desktop\uni_repos\WwiseProject\TheWitcher\Virtual Acoustics\Default Work Unit.wwu" DateLow="1592079052" DateHigh="0"/>
