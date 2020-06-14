@@ -77,6 +77,23 @@
 						<ObjectRef Name="GetHit" ID="{6EFABA47-3577-431D-8A10-75589AA2968E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Geralt" ID="{7301121B-AD3D-47E5-9EA5-FB2BFDD23987}">
+					<ObjectList>
+						<ObjectRef Name="GeraltCombos" ID="{0CD6BCE3-0B5A-4F66-A75F-1CB9DFF79513}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Geralt_Death" ID="{1676D684-0DCA-4DD3-80FD-E978D0B7DC20}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="JumpingGeralt" ID="{000C1A11-425A-41F9-8F11-7C35095C078E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="DamageReceivedVoiceGeralt" ID="{0D245C8F-B1BD-451E-BDC0-016C2CF35E2B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="QuenHit" ID="{C1C805C2-623E-4E31-92BD-D33F6879668E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="Yennefer" ID="{6CF62BDB-F7AD-4178-B1A8-A8455F3E0A98}">
+					<ObjectList>
+						<ObjectRef Name="DamageReceivedVoiceYenn" ID="{27B0F011-645F-45CD-8698-31C1B1809A19}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="YenneferCombos" ID="{BCD9DACE-A417-4B44-A4F6-D6CCB77A423C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="Yennefer_Death" ID="{DCF5A120-876E-42C0-8235-F090B5A855C5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="YenneferImpacts" ID="{BA6DB562-4191-49E3-A92F-EBB75FB63312}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>

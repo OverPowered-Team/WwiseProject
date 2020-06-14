@@ -445,6 +445,154 @@
 						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Geralt" ID="{792E07E5-C829-4E72-BEEE-2CFECE86E874}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="DamageReceivedVoiceGeralt" ID="{0D245C8F-B1BD-451E-BDC0-016C2CF35E2B}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="roll" ID="{5A8972E2-3AC1-4B80-8C52-94CD228B3DC6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GeraltCombos" ID="{0CD6BCE3-0B5A-4F66-A75F-1CB9DFF79513}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fall" ID="{88CA4887-448A-4228-842C-C5AB12C35599}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Geralt_Death" ID="{1676D684-0DCA-4DD3-80FD-E978D0B7DC20}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{05AD6DB5-4AC5-4753-B85D-2B2FDCC8FC31}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GeraltImpacts" ID="{07B87FC6-063D-455C-BC0A-899DABE00BA1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Fade" ID="{C35AAFE0-A634-402C-BD30-2BC09FE0BF8A}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PitchSlowMo" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ciri_Combat_Scream" ID="{329568BD-E158-4260-9A06-CA976A38E59E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatDistance" ID="{050E8684-1A60-43F7-9FB3-C33AA80B6629}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerRocks" ID="{0F73C3E4-E7C3-4472-8009-6785D71B5AD2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Forest" ID="{C4FF6980-256C-4E0B-9F46-A81569CC7EFC}"/>
+						<CurrentSwitchRef Name="BlockerObstacle" ID="{8E6C24CA-F7DC-4FD2-9D18-1AF40520821B}"/>
+						<CurrentSwitchRef Name="H" ID="{4442933A-DCF8-4275-A930-AB358E3E851E}"/>
+						<CurrentSwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+						<CurrentSwitchRef Name="Geralt" ID="{5FF1067B-5D3A-4E9B-85BE-2ADA09F6EA57}"/>
+						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
+						<CurrentSwitchRef Name="Aard" ID="{B4C8E9F0-480B-47C0-9E50-A5953A0214ED}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Yennefer" ID="{47FE32B3-99CD-4A90-8E28-F50B85C6454F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="DamageReceivedVoiceYenn" ID="{27B0F011-645F-45CD-8698-31C1B1809A19}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fall" ID="{88CA4887-448A-4228-842C-C5AB12C35599}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YenneferCombos" ID="{BCD9DACE-A417-4B44-A4F6-D6CCB77A423C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Dodge" ID="{CE0447C0-FAA2-404B-8830-C667E1E7D1E1}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Yennefer_Death" ID="{DCF5A120-876E-42C0-8235-F090B5A855C5}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DamageReceivedNoVoice" ID="{8B9F54DA-26C7-4570-B6E5-33497CF63951}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="YenneferImpacts" ID="{BA6DB562-4191-49E3-A92F-EBB75FB63312}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SpellAttacks" ID="{CE74CD87-62B8-423B-9A55-2AFBB0698BE6}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Fade" ID="{C35AAFE0-A634-402C-BD30-2BC09FE0BF8A}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PitchSlowMo" ID="{4561CC64-B7A3-410B-B439-88DED005BD61}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ciri_Combat_Scream" ID="{329568BD-E158-4260-9A06-CA976A38E59E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CombatDistance" ID="{050E8684-1A60-43F7-9FB3-C33AA80B6629}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DopplerRocks" ID="{0F73C3E4-E7C3-4472-8009-6785D71B5AD2}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerLife" ID="{BE4B7DEB-2BF8-4931-AB2B-C16442EF21C2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GeneralVolume" ID="{FE9E64EB-74FE-4C69-A251-41C9DA0072F2}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Forest" ID="{C4FF6980-256C-4E0B-9F46-A81569CC7EFC}"/>
+						<CurrentSwitchRef Name="BlockerObstacle" ID="{8E6C24CA-F7DC-4FD2-9D18-1AF40520821B}"/>
+						<CurrentSwitchRef Name="H" ID="{4442933A-DCF8-4275-A930-AB358E3E851E}"/>
+						<CurrentSwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
+						<CurrentSwitchRef Name="Geralt" ID="{5FF1067B-5D3A-4E9B-85BE-2ADA09F6EA57}"/>
+						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
+						<CurrentSwitchRef Name="Aard" ID="{B4C8E9F0-480B-47C0-9E50-A5953A0214ED}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

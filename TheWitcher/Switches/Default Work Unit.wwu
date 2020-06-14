@@ -10,6 +10,8 @@
 						<Switch Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
 						<Switch Name="Vegetation" ID="{928B2EA7-0339-403A-9A81-8CFD4742ACCE}"/>
 						<Switch Name="Wood" ID="{9907AC5F-E50C-41AA-9D53-153F42DB5005}"/>
+						<Switch Name="Snow" ID="{A84ACB91-A2AC-4BBC-B927-9FABD1310C17}"/>
+						<Switch Name="Flesh" ID="{2EDF6192-A63F-475B-A594-FEE5FF283FFE}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Env_Lvl1" ID="{66E19EDD-FDB1-4060-A6F5-F0945F956C79}">
@@ -35,6 +37,42 @@
 						<Switch Name="Nilfgard_Range" ID="{A4C6CEA8-9FA7-4751-BBC7-5EC8E4248A7D}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<Folder Name="Player" ID="{920D93EB-B8FC-4C32-A6A7-5A34BE6EEF06}" ShortID="947785386">
+					<ChildrenList>
+						<SwitchGroup Name="AttackString" ID="{C59A93A9-2AF0-4218-98F4-864C9F480B0F}">
+							<ChildrenList>
+								<Switch Name="H" ID="{4442933A-DCF8-4275-A930-AB358E3E851E}"/>
+								<Switch Name="HH" ID="{C48122DB-0D7E-401C-93EC-0069E5B2256F}"/>
+								<Switch Name="HHH" ID="{42B09D1F-4E1A-467C-B8C8-55E4FE9BF200}"/>
+								<Switch Name="HL" ID="{A53632E6-A651-4C3E-83E5-22734F94E4EB}"/>
+								<Switch Name="HLH" ID="{02D49363-2BA1-40C2-B13C-66E313C9F83D}"/>
+								<Switch Name="L" ID="{77EBAB87-5053-4DE9-BCCC-A914F13DD003}"/>
+								<Switch Name="LH" ID="{A700D6FB-09A6-4CFC-B635-16F91404CFED}"/>
+								<Switch Name="LHL" ID="{2EFFCA0C-0D73-43D4-BD1F-4E1BF4CDA3BB}"/>
+								<Switch Name="LL" ID="{4C125DA9-AAF8-44EE-891F-2F02D729DBC8}"/>
+								<Switch Name="LLL" ID="{4ADA17E3-E66B-4E3D-82BF-D215CAD429D1}"/>
+							</ChildrenList>
+						</SwitchGroup>
+						<SwitchGroup Name="PlayerType" ID="{DCA81712-3572-4C64-AEA8-C7009F464D03}">
+							<ChildrenList>
+								<Switch Name="Geralt" ID="{5FF1067B-5D3A-4E9B-85BE-2ADA09F6EA57}"/>
+								<Switch Name="Yennefer" ID="{B7C9519C-80B0-452F-BCE4-1A346CEE907A}"/>
+							</ChildrenList>
+						</SwitchGroup>
+						<SwitchGroup Name="SpellString" ID="{B32CB610-0CAB-4E7B-B58E-E0B535972EBF}">
+							<ChildrenList>
+								<Switch Name="Aard" ID="{B4C8E9F0-480B-47C0-9E50-A5953A0214ED}"/>
+								<Switch Name="Chain" ID="{9BF018BA-3C72-48D1-B64C-FF8730035A4A}"/>
+								<Switch Name="Fthrower" ID="{6A97F310-6CCC-4D16-A16E-6AAFBC64D131}"/>
+								<Switch Name="Ice_Nova" ID="{5FC45777-CF4E-46AC-98E8-99367AB35F70}"/>
+								<Switch Name="Igni" ID="{BC874F73-A576-4F2E-A8AA-3250EEF30679}"/>
+								<Switch Name="Quen" ID="{E71E9C78-B628-4978-B918-89DC8BF2D668}"/>
+								<Switch Name="Rock_Throw" ID="{1D8D1B61-36ED-43AC-AA30-00D40D89EFE2}"/>
+								<Switch Name="Yrden" ID="{C993413A-ACCF-485F-99D4-F2EB3B0B3574}"/>
+							</ChildrenList>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

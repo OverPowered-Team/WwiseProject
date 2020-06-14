@@ -59,10 +59,13 @@ namespace AK
         static const AkUniqueID PLAY_COLLECT_RUNESTONE = 3145159334U;
         static const AkUniqueID PLAY_COMBAT_LEVEL2 = 2955221517U;
         static const AkUniqueID PLAY_COMBAT_MUSIC = 3155474038U;
+        static const AkUniqueID PLAY_COMBOATTACK = 1307987412U;
         static const AkUniqueID PLAY_CROWS = 639442158U;
         static const AkUniqueID PLAY_DARFS_SINGING = 2435766720U;
         static const AkUniqueID PLAY_DEAD_SOLDIER_SCREAM = 2894428773U;
+        static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DIALOGUE1_19 = 757311290U;
+        static const AkUniqueID PLAY_DODGE = 3338421947U;
         static const AkUniqueID PLAY_DRIPPING = 2771949083U;
         static const AkUniqueID PLAY_EARTH_RUNESTONE = 3449845084U;
         static const AkUniqueID PLAY_EARTH_TRAIL = 42497351U;
@@ -85,13 +88,11 @@ namespace AK
         static const AkUniqueID PLAY_GERALT_PENDULUMSB = 2223359157U;
         static const AkUniqueID PLAY_GERALT_PREBOSS = 1817882324U;
         static const AkUniqueID PLAY_GERALT_ROCKS = 1907787566U;
-        static const AkUniqueID PLAY_GERALTDEATH = 2048623797U;
-        static const AkUniqueID PLAY_GERALTGETDAMAGED = 219750196U;
-        static const AkUniqueID PLAY_GERALTJUMP = 3778904045U;
+        static const AkUniqueID PLAY_GETDAMAGED = 2767564667U;
         static const AkUniqueID PLAY_GLOOMY = 2197695643U;
         static const AkUniqueID PLAY_ICE_RUNESTONE = 1709736977U;
         static const AkUniqueID PLAY_ICE_TRAIL = 35719318U;
-        static const AkUniqueID PLAY_IGNI = 511861945U;
+        static const AkUniqueID PLAY_IMPACT = 2764105556U;
         static const AkUniqueID PLAY_INITIAL_JASKIER = 3916752736U;
         static const AkUniqueID PLAY_INSECTS = 1213995237U;
         static const AkUniqueID PLAY_JASKIER_AFTERROCKS = 2822939804U;
@@ -105,6 +106,7 @@ namespace AK
         static const AkUniqueID PLAY_JASKIER_MEDIO = 1758950158U;
         static const AkUniqueID PLAY_JASKIER_PATHTOGHOULS = 2603363552U;
         static const AkUniqueID PLAY_JASKIER_PATHTOSWAMP = 698599938U;
+        static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_KAERMORHEN = 2997715096U;
         static const AkUniqueID PLAY_LESHEN_CLOUD = 1224400269U;
         static const AkUniqueID PLAY_LESHEN_CLOUD_APPEARS = 3186651586U;
@@ -132,7 +134,7 @@ namespace AK
         static const AkUniqueID PLAY_RIVER = 1498169336U;
         static const AkUniqueID PLAY_ROCKS = 2052558220U;
         static const AkUniqueID PLAY_ROCKSFALLING = 592172441U;
-        static const AkUniqueID PLAY_ROLL = 2719919427U;
+        static const AkUniqueID PLAY_SPELL = 826898240U;
         static const AkUniqueID PLAY_SQUIRRELS = 701022914U;
         static const AkUniqueID PLAY_STOPPER = 3884839695U;
         static const AkUniqueID PLAY_TREE_FALL = 3560238346U;
@@ -150,14 +152,10 @@ namespace AK
         static const AkUniqueID PLAY_YENLEVEL2_1 = 2431072026U;
         static const AkUniqueID PLAY_YENLEVEL2_2 = 2431072025U;
         static const AkUniqueID PLAY_YENLEVEL2_3 = 2431072024U;
-        static const AkUniqueID PLAY_YENNDEATH = 149154610U;
-        static const AkUniqueID PLAY_YENNGETDAMAGED = 831621349U;
-        static const AkUniqueID PLAY_YENNJUMP = 4258364352U;
         static const AkUniqueID PLAY_YENNSHOCKWAVE = 527437U;
         static const AkUniqueID PLAY_YENTUTORIAL = 4273097660U;
         static const AkUniqueID PLAYER_FALL = 2551268862U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
-        static const AkUniqueID PLAYER_SWORDHIT = 3070097383U;
         static const AkUniqueID PLAYGHOULS = 3184224717U;
         static const AkUniqueID REVIVE = 282544866U;
         static const AkUniqueID SOLDIER_BLOCK = 886195715U;
@@ -248,6 +246,25 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace ATTACKSTRING
+        {
+            static const AkUniqueID GROUP = 4220694966U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID H = 84696439U;
+                static const AkUniqueID HH = 1769415229U;
+                static const AkUniqueID HHH = 1133176431U;
+                static const AkUniqueID HL = 1769415225U;
+                static const AkUniqueID HLH = 1066065875U;
+                static const AkUniqueID L = 84696435U;
+                static const AkUniqueID LH = 1702304865U;
+                static const AkUniqueID LHL = 461483231U;
+                static const AkUniqueID LL = 1702304869U;
+                static const AkUniqueID LLL = 528593555U;
+            } // namespace SWITCH
+        } // namespace ATTACKSTRING
+
         namespace CIRI_BOSS
         {
             static const AkUniqueID GROUP = 3624371098U;
@@ -292,13 +309,43 @@ namespace AK
 
             namespace SWITCH
             {
+                static const AkUniqueID FLESH = 1153642577U;
                 static const AkUniqueID MUD = 712897245U;
                 static const AkUniqueID SAND = 803837735U;
+                static const AkUniqueID SNOW = 787898836U;
                 static const AkUniqueID STONE = 1216965916U;
                 static const AkUniqueID VEGETATION = 2932679629U;
                 static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace MATERIAL
+
+        namespace PLAYERTYPE
+        {
+            static const AkUniqueID GROUP = 3046950122U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GERALT = 47710518U;
+                static const AkUniqueID YENNEFER = 913499343U;
+            } // namespace SWITCH
+        } // namespace PLAYERTYPE
+
+        namespace SPELLSTRING
+        {
+            static const AkUniqueID GROUP = 2614591178U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID AARD = 3135582221U;
+                static const AkUniqueID CHAIN = 48383132U;
+                static const AkUniqueID FTHROWER = 3981361274U;
+                static const AkUniqueID ICE_NOVA = 949450511U;
+                static const AkUniqueID IGNI = 1874141802U;
+                static const AkUniqueID QUEN = 3997904982U;
+                static const AkUniqueID ROCK_THROW = 4064012791U;
+                static const AkUniqueID YRDEN = 771405733U;
+            } // namespace SWITCH
+        } // namespace SPELLSTRING
 
     } // namespace SWITCHES
 
