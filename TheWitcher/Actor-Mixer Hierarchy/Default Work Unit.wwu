@@ -4383,6 +4383,7 @@
 											<ChildrenList>
 												<Sound Name="After Ciri" ID="{F0FF0AA4-0011-4A31-BC40-4C6E156CA18A}" ShortID="911420087">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
@@ -4405,6 +4406,7 @@
 												</Sound>
 												<Sound Name="Before Ciri" ID="{C3700FDB-F97C-41F9-932D-55E7FE2A9FEC}" ShortID="968815675">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
@@ -4427,6 +4429,7 @@
 												</Sound>
 												<Sound Name="Ciri Boss" ID="{A4666067-C237-44AD-9FF6-18D8126E254A}" ShortID="677644915">
 													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
