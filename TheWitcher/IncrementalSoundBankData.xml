@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="1653842036">
+<IncrementalBankBuild Version="6" Flags="4208174439">
 	<Platform GUID="{FA75E206-572D-460D-9A76-F3FA0060C6AA}">
 		<Banks>
 			<Language ID="393239870">
@@ -7,7 +7,7 @@
 				<File Name="DialoguesGOLD" Hash="3058688365" Timestamp="1592117654"/>
 				<File Name="Enemy_Interaction" Hash="2787770895" Timestamp="1592118997"/>
 				<File Name="Environment_Lvl1" Hash="3863475919" Timestamp="1592117659"/>
-				<File Name="Init" Hash="2622116256" Timestamp="1592117681"/>
+				<File Name="Init" Hash="2622116256" Timestamp="1592123570"/>
 				<File Name="Main" Hash="1738556520" Timestamp="1584266089"/>
 				<File Name="Music" Hash="2985715095" Timestamp="1592117662"/>
 				<File Name="Music2" Hash="2031038231" Timestamp="1592117668"/>
@@ -22,7 +22,7 @@
 				<File Name="Player_SFX" Hash="2809542513" Timestamp="1592117681"/>
 				<File Name="SFX" Hash="4084861456" Timestamp="1585760996"/>
 				<File Name="TEST" Hash="4271699150" Timestamp="1582627318"/>
-				<File Name="UI_SFX" Hash="2110015006" Timestamp="1592117681"/>
+				<File Name="UI_SFX" Hash="218562064" Timestamp="1592123570"/>
 				<File Name="UI_SXF" Hash="2135185221" Timestamp="1585845378"/>
 			</Language>
 		</Banks>
@@ -41,7 +41,7 @@
 				<File Name="Main" Hash="1886030073" Timestamp="1582290574"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="157911056" Timestamp="1592118998"/>
+				<File Name="" Hash="688665657" Timestamp="1592123571"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

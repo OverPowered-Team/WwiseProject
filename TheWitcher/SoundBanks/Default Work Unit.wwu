@@ -105,7 +105,18 @@
 				</SoundBank>
 				<SoundBank Name="UI_SFX" ID="{563DC89C-8525-439B-8992-910987B0AC73}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Damage_Sound_Divisible" ID="{3F1BF016-BF27-40EC-9B39-B516FD79CE70}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Damage_Count" ID="{6109DC80-DE8D-4104-A567-83133962F7C7}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Revive_Player" ID="{B1081E71-4479-42E4-A685-698489CFEE62}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bubble" ID="{008B41AB-BBDF-4381-9C3F-D5B54543B928}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game_Over2" ID="{B176C88B-44B2-4568-B37B-C4033CD6F492}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="No_Mana" ID="{2728E65C-5C64-45A7-BA9C-2A13D7F34B36}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Victory" ID="{3628A467-7E27-46D6-8C6B-12DE31AD0D87}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Balance_Hit" ID="{B342E093-1C0A-474D-9A24-35B30826E9E3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Game_Over" ID="{0ACAF66B-6CD6-47EA-AD01-79FB9F05624E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music_Balance" ID="{2A9BE0F6-0A2D-4913-9708-4E9804D6021C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Head_Fall" ID="{2AFE4505-E1BC-4B77-AB49-8AA6407EA24D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CLICK" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ENTER" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

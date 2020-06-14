@@ -9515,6 +9515,215 @@
 										<ActiveSource Name="ENTER" ID="{06912FF2-368B-4413-A755-3F8DC5BD86A7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Bubble" ID="{008B41AB-BBDF-4381-9C3F-D5B54543B928}" ShortID="283771606">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="bubbles" ID="{917F10B3-9E64-4289-9877-C23A83E86DD8}" ShortID="474408967">
+											<Language>SFX</Language>
+											<AudioFile>bubbles.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="bubbles" ID="{917F10B3-9E64-4289-9877-C23A83E86DD8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Damage_Sound_Divisible" ID="{3F1BF016-BF27-40EC-9B39-B516FD79CE70}" ShortID="11943675">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="damage_count_divisible" ID="{1EBA006A-6D35-4D83-AD5E-87877D306C9A}" ShortID="851700468">
+											<Language>SFX</Language>
+											<AudioFile>damage_count_divisible.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="damage_count_divisible" ID="{1EBA006A-6D35-4D83-AD5E-87877D306C9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Damage_Count" ID="{6109DC80-DE8D-4104-A567-83133962F7C7}" ShortID="143521954">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="damage_counts" ID="{181E848F-EEA8-4C85-9904-106184E01F59}" ShortID="694195700">
+											<Language>SFX</Language>
+											<AudioFile>damage_counts.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="damage_counts" ID="{181E848F-EEA8-4C85-9904-106184E01F59}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="No_Mana" ID="{2728E65C-5C64-45A7-BA9C-2A13D7F34B36}" ShortID="614335330">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="no_mana" ID="{1941A1ED-D8FE-44F1-ABDA-F38505A30C3C}" ShortID="497063243">
+											<Language>SFX</Language>
+											<AudioFile>no_mana.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="no_mana" ID="{1941A1ED-D8FE-44F1-ABDA-F38505A30C3C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Music_Balance" ID="{2A9BE0F6-0A2D-4913-9708-4E9804D6021C}" ShortID="292526060">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="music_balance" ID="{FAFDF82B-76EC-429D-923A-036D82802ADC}" ShortID="492883860">
+											<Language>SFX</Language>
+											<AudioFile>music_balance.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="music_balance" ID="{FAFDF82B-76EC-429D-923A-036D82802ADC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Game_Over" ID="{0ACAF66B-6CD6-47EA-AD01-79FB9F05624E}" ShortID="80842656">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="game_over" ID="{8EA84DA4-D2CB-40F6-A56A-AE4900019511}" ShortID="993724257">
+											<Language>SFX</Language>
+											<AudioFile>game_over.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="game_over" ID="{8EA84DA4-D2CB-40F6-A56A-AE4900019511}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Game_Over2" ID="{B176C88B-44B2-4568-B37B-C4033CD6F492}" ShortID="675193991">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Game_over2" ID="{6407875B-67CA-4FC9-AFC5-48D0889B634D}" ShortID="610343515">
+											<Language>SFX</Language>
+											<AudioFile>Game_over2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Game_over2" ID="{6407875B-67CA-4FC9-AFC5-48D0889B634D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Victory" ID="{3628A467-7E27-46D6-8C6B-12DE31AD0D87}" ShortID="73401722">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="victory" ID="{D22674BC-F44F-497D-B123-22F02CF858EE}" ShortID="271431494">
+											<Language>SFX</Language>
+											<AudioFile>victory.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="victory" ID="{D22674BC-F44F-497D-B123-22F02CF858EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Revive_Player" ID="{B1081E71-4479-42E4-A685-698489CFEE62}" ShortID="1001828765">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="revive_player" ID="{E1A57C4E-D4A1-4E34-9669-2DA10C4BDF65}" ShortID="99319660">
+											<Language>SFX</Language>
+											<AudioFile>revive_player.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="revive_player" ID="{E1A57C4E-D4A1-4E34-9669-2DA10C4BDF65}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Balance_Hit" ID="{B342E093-1C0A-474D-9A24-35B30826E9E3}" ShortID="452234732">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="balance_hit" ID="{995DE7BC-49ED-4673-AFA1-9581E6E29B9C}" ShortID="457711648">
+											<Language>SFX</Language>
+											<AudioFile>balance_hit.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="balance_hit" ID="{995DE7BC-49ED-4673-AFA1-9581E6E29B9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Head_Fall" ID="{2AFE4505-E1BC-4B77-AB49-8AA6407EA24D}" ShortID="461508039">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="head_fall" ID="{E925C66B-D0AF-40E6-95E4-B3B3640743DE}" ShortID="121664623">
+											<Language>SFX</Language>
+											<AudioFile>head_fall.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="head_fall" ID="{E925C66B-D0AF-40E6-95E4-B3B3640743DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
