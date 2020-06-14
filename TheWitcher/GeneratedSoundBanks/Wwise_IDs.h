@@ -92,6 +92,7 @@ namespace AK
         static const AkUniqueID PLAY_ICE_RUNESTONE = 1709736977U;
         static const AkUniqueID PLAY_ICE_TRAIL = 35719318U;
         static const AkUniqueID PLAY_IGNI = 511861945U;
+        static const AkUniqueID PLAY_INITIAL_JASKIER = 3916752736U;
         static const AkUniqueID PLAY_INSECTS = 1213995237U;
         static const AkUniqueID PLAY_JASKIER_AFTERROCKS = 2822939804U;
         static const AkUniqueID PLAY_JASKIER_FINAL = 1293741004U;

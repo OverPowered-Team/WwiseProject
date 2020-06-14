@@ -1088,63 +1088,6 @@
 												<ActiveSource Name="Jaskier_Final" ID="{C29BC961-DDBB-4F8D-AD5D-ADD915A00EA0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Jaskier_inicio_1" ID="{625D6B81-FBB7-46B0-94EE-EC6E21619D24}" ShortID="751303270">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Jaskier_inicio_1" ID="{8D290038-75A0-4185-B885-57543C74AFDB}" ShortID="936646874">
-													<Language>SFX</Language>
-													<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Jaskier_inicio_1" ID="{8D290038-75A0-4185-B885-57543C74AFDB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Jaskier_inicio_2" ID="{7B2471F0-3523-4E18-B124-32536E7E34D7}" ShortID="81027050">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Jaskier_inicio_2" ID="{2B0CB879-3E4E-44BF-B06B-DFFFDF5AC364}" ShortID="84238038">
-													<Language>SFX</Language>
-													<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Jaskier_inicio_2" ID="{2B0CB879-3E4E-44BF-B06B-DFFFDF5AC364}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Jaskier_inicio_3" ID="{DC965304-AE32-4511-AAFE-0EC12449F31C}" ShortID="294305539">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Jaskier_inicio_3" ID="{2BC9466D-C1AA-4D24-AFD2-91577E8152E8}" ShortID="220019294">
-													<Language>SFX</Language>
-													<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Jaskier_inicio_3" ID="{2BC9466D-C1AA-4D24-AFD2-91577E8152E8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Jaskier_Medio" ID="{CE840AF2-F0D5-4DB5-88B3-0C612FB82B27}" ShortID="371132333">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1164,6 +1107,85 @@
 												<ActiveSource Name="Jaskier_Medio" ID="{7DE4412F-E739-4C70-8747-8BFECFECDCCA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<RandomSequenceContainer Name="Initial_Sequence" ID="{3AD89061-C8CE-439E-919E-E8A9BE3FB566}" ShortID="119960699">
+											<PropertyList>
+												<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Jaskier_inicio_1" ID="{625D6B81-FBB7-46B0-94EE-EC6E21619D24}" ShortID="751303270">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_inicio_1" ID="{8D290038-75A0-4185-B885-57543C74AFDB}" ShortID="936646874">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_inicio_1" ID="{8D290038-75A0-4185-B885-57543C74AFDB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jaskier_inicio_2" ID="{7B2471F0-3523-4E18-B124-32536E7E34D7}" ShortID="81027050">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_inicio_2" ID="{2B0CB879-3E4E-44BF-B06B-DFFFDF5AC364}" ShortID="84238038">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_inicio_2" ID="{2B0CB879-3E4E-44BF-B06B-DFFFDF5AC364}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jaskier_inicio_3" ID="{DC965304-AE32-4511-AAFE-0EC12449F31C}" ShortID="294305539">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jaskier_inicio_3" ID="{2BC9466D-C1AA-4D24-AFD2-91577E8152E8}" ShortID="220019294">
+															<Language>SFX</Language>
+															<AudioFile>Gold Dialogues\Jaskier_inicio_medio_fin\Jaskier_inicio_3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jaskier_inicio_3" ID="{2BC9466D-C1AA-4D24-AFD2-91577E8152E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Jaskier_inicio_1" ID="{625D6B81-FBB7-46B0-94EE-EC6E21619D24}"/>
+												<ItemRef Name="Jaskier_inicio_2" ID="{7B2471F0-3523-4E18-B124-32536E7E34D7}"/>
+												<ItemRef Name="Jaskier_inicio_3" ID="{DC965304-AE32-4511-AAFE-0EC12449F31C}"/>
+											</Playlist>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Level_1" ID="{4B1A550D-98CA-4EFF-A486-BC466082E8C4}" ShortID="297366234">

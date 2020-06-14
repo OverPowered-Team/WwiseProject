@@ -18,6 +18,7 @@
 								<ObjectRef Name="Play_Stopper" ID="{58B8AF02-63BD-4481-B33F-111F0C0B8C0D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_Medio" ID="{A6522E90-3674-44B4-B9FE-0DC124B75D4F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_lv2_MinecartsEnd" ID="{88DC0A2A-A453-44C3-9B32-5CFCF3871EB7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="Play_Initial_Jaskier" ID="{3A751A48-90BF-4558-A09D-B27497C25028}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_lv2_bridge" ID="{0E65BA80-F05B-45BE-9D6F-E32F26A7F9AC}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_Jaskier_PathToGhouls" ID="{9B3937FD-15AE-45ED-9279-8624DC0084EB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 								<ObjectRef Name="Play_YenLevel1_2" ID="{6028C85E-2388-45FB-AAEA-C1E8BCE4D4B0}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>

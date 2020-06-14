@@ -545,6 +545,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Initial_Jaskier" ID="{3A751A48-90BF-4558-A09D-B27497C25028}"/>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Level1" ID="{386E358A-88F4-47A0-9E9C-5250F408DBEC}" ShortID="184804062">
