@@ -106,17 +106,14 @@
 				<SoundBank Name="UI_SFX" ID="{563DC89C-8525-439B-8992-910987B0AC73}">
 					<ObjectInclusionList>
 						<ObjectRef Name="No_Mana" ID="{4BC29199-4F5D-4303-AB45-963D254D2D70}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Skip_button" ID="{6CB9662E-6697-435B-B4CF-EE74B0C58B4F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Damage_Divisible" ID="{324BFD74-167B-4409-867B-1BA4EFD74013}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Balance_Hit" ID="{B092D81F-E901-442D-BEBE-A36E2375C947}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Game_Over" ID="{68AA086F-362E-44F6-B770-C475933E880B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Revive" ID="{9113FEED-5953-4875-9F39-249D49E4BF88}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Bubble" ID="{2F33B63D-DE45-498F-B8FE-3BE05216FCA1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Victory" ID="{52C79004-E630-4AC1-8298-A03E4CFD8D04}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Balance" ID="{90564E48-B4F9-4B3A-9E8E-3F73B5F0A2E1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Head_Fall" ID="{E477AE92-6FBE-4CEE-9894-1F338D279B75}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CLICK" ID="{F640484A-2A3E-4D46-B15F-68EAEC51F984}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Credits" ID="{16234AC6-40A4-4ED7-B9DB-84F96DED63A3}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ENTER" ID="{AA7942AD-165B-4F6D-A52A-9269655E27CE}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Damage_Count" ID="{0F5C0B78-ED66-4FFC-81E9-716FCB1183DA}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

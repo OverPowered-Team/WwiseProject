@@ -1597,7 +1597,7 @@
 						</Event>
 						<Event Name="Music_Balance" ID="{90564E48-B4F9-4B3A-9E8E-3F73B5F0A2E1}">
 							<ChildrenList>
-								<Action Name="" ID="{72318E27-C5AD-4C01-9CF9-4AEE417A9F2E}" ShortID="393787519">
+								<Action Name="" ID="{C2326208-34CF-496B-ACC2-C19DCCBF9DC6}" ShortID="621481106">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
@@ -1646,34 +1646,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="victory" ID="{170BB9BA-8804-436C-950B-759EA2664A00}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Credits" ID="{16234AC6-40A4-4ED7-B9DB-84F96DED63A3}">
-							<ChildrenList>
-								<Action Name="" ID="{36C703FE-BF64-4D2D-A322-DED1E420864A}" ShortID="200052508">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Credits" ID="{E826EA30-2D59-40DC-8079-D38870D1B74E}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Skip_button" ID="{6CB9662E-6697-435B-B4CF-EE74B0C58B4F}">
-							<ChildrenList>
-								<Action Name="" ID="{21A05F65-8A05-46C6-A60F-75949FF0F66B}" ShortID="858623831">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Skip_button" ID="{60F2AAC4-993B-4C88-809D-210F9F5ACE3C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
