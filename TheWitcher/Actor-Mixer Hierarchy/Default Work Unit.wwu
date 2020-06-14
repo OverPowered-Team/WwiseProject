@@ -10392,6 +10392,65 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="impact_wood_1" ID="{C248B2E0-5FF9-44E4-8C39-DC0599657F92}" ShortID="896036169">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_wood_1" ID="{15C47686-F2F0-4A59-9420-253F2C757753}" ShortID="1055919631">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_wood_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_wood_1" ID="{15C47686-F2F0-4A59-9420-253F2C757753}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="impact_wood_2" ID="{88EE13FE-CCE3-4727-BBAB-B1EB6A5DCAA8}" ShortID="602546079">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_wood_2" ID="{D85DEECB-82A0-4B85-9F10-62E666E19442}" ShortID="574760075">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_wood_2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_wood_2" ID="{D85DEECB-82A0-4B85-9F10-62E666E19442}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="impact_wood_3" ID="{922A588C-FD1D-4F62-B22D-F73DA9CC214A}" ShortID="519427693">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_wood_3" ID="{B3D8D4BF-7759-4225-B7ED-EFB08EE50303}" ShortID="577120747">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_wood_3.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_wood_3" ID="{B3D8D4BF-7759-4225-B7ED-EFB08EE50303}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Sand" ID="{1ADBE35B-96DC-4EC6-9FAC-E2530CF44E98}" ShortID="433049842">
 													<ReferenceList>
@@ -10464,6 +10523,65 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="impact_stone_1" ID="{0EE59316-0D85-4DAB-97EB-D29172D5DFA7}" ShortID="64687055">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_stone_1" ID="{28D1A5AB-D6C6-4B54-9B3C-ACB3530DE981}" ShortID="90598462">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_stone_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_stone_1" ID="{28D1A5AB-D6C6-4B54-9B3C-ACB3530DE981}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="impact_stone_2" ID="{C0A98C3B-5C58-4A51-AD60-74EA476ADAAE}" ShortID="907835459">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_stone_2" ID="{CC8A8208-7910-45E2-9260-4440BDF3E96D}" ShortID="188782300">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_stone_2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_stone_2" ID="{CC8A8208-7910-45E2-9260-4440BDF3E96D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="impact_stone_3" ID="{C697F4B8-5DDE-48F4-9E58-7995C2FE298D}" ShortID="1066020253">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_stone_3" ID="{619E64BB-9620-401A-A12D-E1C356B357E3}" ShortID="639792349">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_stone_3.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_stone_3" ID="{619E64BB-9620-401A-A12D-E1C356B357E3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Vegetation" ID="{959B2038-C511-473C-A8EC-A2F56F0D6C74}" ShortID="639667936">
 													<ReferenceList>
@@ -10475,19 +10593,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Sword_Vegetation3" ID="{0835BA6C-93CA-4A46-88BB-859B8EDCD175}" ShortID="374534">
-															<PropertyList>
-																<Property Name="Highpass" Type="int16">
-																	<ValueList>
-																		<Value>43</Value>
-																	</ValueList>
-																</Property>
-																<Property Name="Pitch" Type="int32">
-																	<ValueList>
-																		<Value>200</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
+														<Sound Name="impact_grass_1" ID="{CC4D4E55-565A-400B-867B-B3FB4CB71AAB}" ShortID="977278073">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -10497,19 +10603,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Sword_Vegetation3" ID="{C9D2C636-C280-4ED4-9D5B-78F8CE030B93}" ShortID="371035625">
+																<AudioFileSource Name="impact_grass_1" ID="{37D7D761-551E-48CE-8245-2FA050E0227A}" ShortID="971826295">
 																	<Language>SFX</Language>
-																	<AudioFile>Sword_Vegetation3.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="800414205"/>
-																	</ConvertedFileIDList>
+																	<AudioFile>impact_grass_1.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sword_Vegetation3" ID="{C9D2C636-C280-4ED4-9D5B-78F8CE030B93}" Platform="Linked"/>
+																<ActiveSource Name="impact_grass_1" ID="{37D7D761-551E-48CE-8245-2FA050E0227A}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Sword_Vegetation5" ID="{1BD47CE5-DB0D-47F2-85A4-C26D4AFC8F5C}" ShortID="558295808">
+														<Sound Name="impact_grass_2" ID="{87D3C630-02FE-4484-97B0-3ECB117A5CD1}" ShortID="248609120">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -10519,16 +10622,32 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Sword_Vegetation5" ID="{93FC77FA-A7DF-42A3-9537-E4369744AD55}" ShortID="748443129">
+																<AudioFileSource Name="impact_grass_2" ID="{5C8172D7-CF44-40B4-A7FD-99034743CACD}" ShortID="599558006">
 																	<Language>SFX</Language>
-																	<AudioFile>Sword_Vegetation5.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="876941759"/>
-																	</ConvertedFileIDList>
+																	<AudioFile>impact_grass_2.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sword_Vegetation5" ID="{93FC77FA-A7DF-42A3-9537-E4369744AD55}" Platform="Linked"/>
+																<ActiveSource Name="impact_grass_2" ID="{5C8172D7-CF44-40B4-A7FD-99034743CACD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="impact_grass_3" ID="{53F192B4-2599-41F6-AC42-0F25298AAC15}" ShortID="873446319">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_grass_3" ID="{1A108746-2A54-444C-A0C4-14262A1CE347}" ShortID="187717706">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_grass_3.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_grass_3" ID="{1A108746-2A54-444C-A0C4-14262A1CE347}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -10542,6 +10661,65 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="impact_flesh_1" ID="{840FCEA7-715F-4335-BE14-0F12671DA0B7}" ShortID="446093819">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_flesh_1" ID="{4DFEC3AD-6ADF-43DE-A576-E7312CB4046B}" ShortID="11893008">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_flesh_1.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_flesh_1" ID="{4DFEC3AD-6ADF-43DE-A576-E7312CB4046B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="impact_flesh_2" ID="{34FD9462-E9CC-4985-B6DA-E8B12D62B8E3}" ShortID="1011866898">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_flesh_2" ID="{4876127E-1D1C-4A99-948A-3D2369138B62}" ShortID="421705289">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_flesh_2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_flesh_2" ID="{4876127E-1D1C-4A99-948A-3D2369138B62}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="impact_flesh_3" ID="{B29E5C77-BD7A-4D37-964C-2567A5AF21D2}" ShortID="129075478">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_flesh_3" ID="{7CE795D4-6A5C-45DB-87D6-10B82BFC6A03}" ShortID="689373480">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_flesh_3.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_flesh_3" ID="{7CE795D4-6A5C-45DB-87D6-10B82BFC6A03}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Mud" ID="{7C221A49-C02E-4585-BD7A-553159776FDB}" ShortID="477168177">
 													<PropertyList>
@@ -10566,14 +10744,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Sword_Snow2" ID="{090A930E-FC7D-4F39-9C1D-172640C50DEF}" ShortID="179895814">
-															<PropertyList>
-																<Property Name="Pitch" Type="int32">
-																	<ValueList>
-																		<Value>300</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
+														<Sound Name="impact_snow_1" ID="{1B9CB76E-F820-4279-B569-C1C95F0BFF46}" ShortID="507036008">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -10583,19 +10754,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Sword_Snow2" ID="{67AA2D22-7641-426D-A677-752981748356}" ShortID="617662115">
+																<AudioFileSource Name="impact_snow_1" ID="{769643B8-AAA7-4111-B03D-D3348A20AB82}" ShortID="1032961384">
 																	<Language>SFX</Language>
-																	<AudioFile>Sword_Snow2.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="512390980"/>
-																	</ConvertedFileIDList>
+																	<AudioFile>impact_snow_1.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sword_Snow2" ID="{67AA2D22-7641-426D-A677-752981748356}" Platform="Linked"/>
+																<ActiveSource Name="impact_snow_1" ID="{769643B8-AAA7-4111-B03D-D3348A20AB82}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Sword_Snow" ID="{6E5D4E77-9FAB-471A-B891-46E8311F4712}" ShortID="602572943">
+														<Sound Name="impact_snow_2" ID="{5D5CDFD5-24F9-46E7-AA0C-C7FEDA1AECC4}" ShortID="931025452">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
@@ -10605,16 +10773,32 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Sword_Snow" ID="{3BA98341-A1E7-4D47-9840-40755A2A5B01}" ShortID="122712946">
+																<AudioFileSource Name="impact_snow_2" ID="{C8E001FF-B0D9-40EA-AC9C-38341ED80BED}" ShortID="33438558">
 																	<Language>SFX</Language>
-																	<AudioFile>Sword_Snow.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="230131666"/>
-																	</ConvertedFileIDList>
+																	<AudioFile>impact_snow_2.wav</AudioFile>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sword_Snow" ID="{3BA98341-A1E7-4D47-9840-40755A2A5B01}" Platform="Linked"/>
+																<ActiveSource Name="impact_snow_2" ID="{C8E001FF-B0D9-40EA-AC9C-38341ED80BED}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="impact_snow_3" ID="{41D3DDCC-8C51-4296-8080-9D4CD73710BE}" ShortID="744753448">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="impact_snow_3" ID="{9E965753-976F-4CCB-8E74-1AF26FD16F9A}" ShortID="955445512">
+																	<Language>SFX</Language>
+																	<AudioFile>impact_snow_3.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="impact_snow_3" ID="{9E965753-976F-4CCB-8E74-1AF26FD16F9A}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
