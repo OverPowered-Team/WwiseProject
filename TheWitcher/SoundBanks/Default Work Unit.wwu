@@ -138,25 +138,33 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="SoldierBlock" ID="{166E9FCF-6080-404F-9E41-2602BD9EC8B9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Drowner_Movement_Water" ID="{63889C50-F7BB-40A3-A7A2-515565CC0B76}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CiriClone_Death" ID="{58484A87-9AE3-40C5-AB8A-8C268B6BA770}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Soldier_footstep" ID="{78068777-EF2E-421D-B884-D6ACB2E5ACF9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Death" ID="{7F1C8885-5021-4245-A48F-C407E0596076}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SoldierShoot" ID="{B4E08CEC-245B-42BD-A097-E1D1C8979ABD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CiriClone_OnHit" ID="{26980ED9-AE83-42EA-A792-38D09A98C3B1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Raven_Throw" ID="{DC714114-A9DE-4316-9B9C-9D79A13DF689}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SoldierSword" ID="{81C3AC75-8502-4368-B7C8-25335C8F129C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Drowner_Hit" ID="{CB380B45-61E2-43A8-B165-753C869D915E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ciri_Rock" ID="{0D81C72A-3AC3-4434-9572-309643717313}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="GhoulDeath" ID="{BCC6CC98-FFD1-4499-B275-272E20D8D91D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Drowner_Shot_Attack" ID="{98850FF6-7936-4583-BE1B-C26D94E494B5}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CiriClone_Scream" ID="{6E1C74C3-FF15-45A2-8EFD-A77063DD1612}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Cloud_Appears" ID="{436AF2E7-9021-46A8-8DB2-3ECB843C821A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="GhoulHit" ID="{F812DD4E-AE57-4758-BE1C-C63FA6AD3D0C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ciri_Scream" ID="{365E9FB6-9B55-47C3-A314-C565776D38FA}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Dizzy_Enemy" ID="{B5BB7DC3-C600-48CA-870C-85B9D4521C24}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Raven_Cloud" ID="{ECEA917C-063D-48D0-B121-B694EF20EB0A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Drowner_Splash_Water" ID="{1D29F3E9-5C67-49D1-9246-F00E019D5C02}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CiriClone_Dash" ID="{FCF6B1A8-2641-49FE-9DF6-34921C904EA7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="GhoulAttack" ID="{55E2D1AB-F2C1-4B15-B95D-911A91375F5E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Drowner_Death" ID="{8AF01053-1291-4B4B-B2C8-702238A2EA5B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Hit" ID="{6F3C0E4D-57FF-4B7E-A9F3-001B0998961D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CiriClone_Attack" ID="{CC3AB5E2-5BDA-4BCC-A64E-75C0ED5F7872}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SoldierDeath" ID="{E339A166-C39B-4C02-8419-08045A4D4BDD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Roots" ID="{C12AEEF7-E5B8-4CDF-984E-1A61593B32ED}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ciri_Tornado" ID="{B03D14FA-D628-4D3D-B493-173DC5792D42}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Cloud_Disapears" ID="{07648483-D917-4D6F-BE2E-F40C4D57FCAC}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Cloud" ID="{F4A117BB-F712-4D7B-9CE6-EEAF3A20E249}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Leshen_Melee_Attack" ID="{B5D9478E-FF07-4DC8-8BF1-F1903AB32E70}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
