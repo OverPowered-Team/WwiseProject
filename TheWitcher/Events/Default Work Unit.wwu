@@ -1855,6 +1855,26 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Wagon_Rock" ID="{089BEFE3-7101-481E-841E-F2070D3E36CD}">
+							<ChildrenList>
+								<Action Name="" ID="{31DE00F2-DA66-4E6A-B764-D68468A5E05B}" ShortID="815524239">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wagon_BigRock" ID="{86103336-90E9-42EF-BB47-E355D591D608}">
+							<ChildrenList>
+								<Action Name="" ID="{14A582CF-3354-4F9E-B60B-274A814C18C9}" ShortID="1013952408">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy_Interaction" ID="{B8C7B5ED-1177-4B97-9C38-43DACC882595}" ShortID="165262274">

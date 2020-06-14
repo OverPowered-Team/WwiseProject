@@ -123,6 +123,9 @@ namespace AK
         static const AkUniqueID PLAY_STOPPER = 3884839695U;
         static const AkUniqueID PLAY_TREE_FALL = 3560238346U;
         static const AkUniqueID PLAY_TRIAL_OF_THE_GRASSES = 352239193U;
+        static const AkUniqueID PLAY_WAGON_BIGROCK = 3689274742U;
+        static const AkUniqueID PLAY_WAGON_ROCK = 494863550U;
+        static const AkUniqueID PLAY_WAGON_WOOD = 1765965894U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
         static const AkUniqueID PLAY_WINMENU_MUSIC = 3241038393U;
         static const AkUniqueID PLAY_WOLF_HOWLING = 1297505753U;
