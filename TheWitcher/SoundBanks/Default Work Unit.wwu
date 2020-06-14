@@ -81,13 +81,14 @@
 				</SoundBank>
 				<SoundBank Name="Environment_Lvl1" ID="{7267D083-4784-4711-920F-B373A1BB55C0}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Birds" ID="{A4E0EF87-54C8-4164-BE96-40679F97CA12}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Cave" ID="{952D26FE-FF90-4173-8DD1-2F16E8E1C9F1}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_RocksFalling" ID="{3BF536C9-E18E-4289-A561-10A35CB2370D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wind" ID="{6EC1C5CE-6ABF-4349-896E-BC86F3120E57}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Minecart" ID="{636DBDA7-FB86-44F4-80A9-2A4B6CAD1238}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Explosion" ID="{E339B718-4570-4547-A299-0F94FEC8026C}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_darfs_singing" ID="{3468C44C-FB66-4593-B929-4BBAA18D29CA}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_dead_soldier_scream" ID="{42CB7559-E0DD-4687-8D40-6B135E799DF9}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_River" ID="{0A38E665-80C2-4694-B228-04B1604E350D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Squirrels" ID="{791DCB92-7809-476E-A973-934D68FF6A4B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Crows" ID="{B31414A4-F1EA-4877-A951-E04E7E6BCA3F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -95,6 +96,7 @@
 						<ObjectRef Name="Play_Insects" ID="{9881B2AE-0A42-4B76-9C9E-22995396A393}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Bats" ID="{73DC4792-2AA1-4C70-851E-42612D8AFD70}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Rocks" ID="{52F061FD-7F4D-4C96-B803-D3A9BF92F34D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_wood_cracking" ID="{B6849A12-B414-4D61-82E8-A67A23BCFF89}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wolf_Howling" ID="{2E1EC5BC-ADC2-4DE7-8EB5-8ADF2B44D7E4}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Dripping" ID="{9E1F9220-4C1B-4E81-AD12-7FF805BB7C4B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PreExplosion" ID="{461C0F8A-1D94-4FB2-BCBF-8CFB2450BAB3}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -177,7 +179,6 @@
 				<SoundBank Name="MusicLevel2_1" ID="{E5811D60-A0E3-433F-8041-04F77136759B}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Ciri" ID="{6CDA5813-9F8E-4220-B488-2D816EF6CD5A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Level2_Bridge" ID="{4794BC68-80CE-46CA-8CE4-85B0ACAA7859}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Level2_Hall" ID="{0133F55C-7ABE-48F3-A0E0-04437F5B192F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Level2_Ghouls" ID="{159636EE-AEF2-4C68-9045-193ADAB8E232}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -234,8 +235,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Level2_Start" ID="{1F544542-6E74-468D-8808-8CF8AA7822C3}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_PreCiri" ID="{E4CD887E-A92D-49D7-8F1C-138DEF6861FF}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_PostCiri" ID="{2CC47B22-4A97-4E3E-B49D-4A83A19D30D7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
