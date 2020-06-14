@@ -10050,6 +10050,25 @@
 																<ActiveSource Name="Sword_Vegetation3" ID="{B0F601FE-67C1-403D-82DF-B33DFE700A8E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
+														<Sound Name="Sword_Vegetation" ID="{46E8D1DC-4DF5-4C06-A29A-8764B79F49D7}" ShortID="449264457">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Sword_Vegetation" ID="{25ED7290-564C-4BF9-BD56-CE7EE13F8233}" ShortID="886920726">
+																	<Language>SFX</Language>
+																	<AudioFile>Sword_Vegetation.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sword_Vegetation" ID="{25ED7290-564C-4BF9-BD56-CE7EE13F8233}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Wood" ID="{A8A15F0E-F8AB-41B7-B651-96F27757C23E}" ShortID="157259960">
@@ -10284,6 +10303,55 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Sword_Sand4" ID="{3FBA747B-21C5-44BF-BEBF-363627F1D49A}" ShortID="481903199">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Sword_Sand4" ID="{C1F147ED-4113-47CB-99BA-60BB7566B207}" ShortID="790421518">
+																	<Language>SFX</Language>
+																	<AudioFile>Sword_Sand4.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="169242382"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sword_Sand4" ID="{C1F147ED-4113-47CB-99BA-60BB7566B207}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Sword_Sand3" ID="{319B51D4-F221-40D3-B29F-423AB77D861C}" ShortID="386980194">
+															<PropertyList>
+																<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Sword_Sand3" ID="{9BA95F5F-CCEA-4662-9062-63C4DC34F804}" ShortID="544056490">
+																	<Language>SFX</Language>
+																	<AudioFile>Sword_Sand3.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="542279760"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sword_Sand3" ID="{9BA95F5F-CCEA-4662-9062-63C4DC34F804}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Stone" ID="{741C667C-6072-4154-AE99-E6209D227498}" ShortID="1048987448">
 													<PropertyList>
@@ -10307,6 +10375,64 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Sword_Vegetation3" ID="{0835BA6C-93CA-4A46-88BB-859B8EDCD175}" ShortID="374534">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16">
+																	<ValueList>
+																		<Value>43</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>200</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Sword_Vegetation3" ID="{C9D2C636-C280-4ED4-9D5B-78F8CE030B93}" ShortID="371035625">
+																	<Language>SFX</Language>
+																	<AudioFile>Sword_Vegetation3.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="800414205"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sword_Vegetation3" ID="{C9D2C636-C280-4ED4-9D5B-78F8CE030B93}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Sword_Vegetation5" ID="{1BD47CE5-DB0D-47F2-85A4-C26D4AFC8F5C}" ShortID="558295808">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Sword_Vegetation5" ID="{93FC77FA-A7DF-42A3-9537-E4369744AD55}" ShortID="748443129">
+																	<Language>SFX</Language>
+																	<AudioFile>Sword_Vegetation5.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="876941759"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sword_Vegetation5" ID="{93FC77FA-A7DF-42A3-9537-E4369744AD55}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Flesh" ID="{2EA09FA1-21B0-461E-A950-7FB7186FEFED}" ShortID="921820141">
 													<ReferenceList>
@@ -10340,6 +10466,59 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Sword_Snow2" ID="{090A930E-FC7D-4F39-9C1D-172640C50DEF}" ShortID="179895814">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>300</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Sword_Snow2" ID="{67AA2D22-7641-426D-A677-752981748356}" ShortID="617662115">
+																	<Language>SFX</Language>
+																	<AudioFile>Sword_Snow2.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="512390980"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sword_Snow2" ID="{67AA2D22-7641-426D-A677-752981748356}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Sword_Snow" ID="{6E5D4E77-9FAB-471A-B891-46E8311F4712}" ShortID="602572943">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Sword_Snow" ID="{3BA98341-A1E7-4D47-9840-40755A2A5B01}" ShortID="122712946">
+																	<Language>SFX</Language>
+																	<AudioFile>Sword_Snow.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="230131666"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sword_Snow" ID="{3BA98341-A1E7-4D47-9840-40755A2A5B01}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 											<GroupingInfo>
@@ -10484,14 +10663,49 @@
 												<ActiveSource Name="roll" ID="{71589CF5-2D20-40F5-9E1C-23000CEF7E6E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="YennRoll" ID="{484D23CA-E5F6-481B-859E-A74D3DE82954}" ShortID="205561084">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="YennRoll" ID="{CE0100DA-2E1D-4DB8-AAAE-53CE9B7120AE}" ShortID="160855165">
+													<Language>SFX</Language>
+													<AudioFile>YennRoll.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="YennRoll" ID="{CE0100DA-2E1D-4DB8-AAAE-53CE9B7120AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="YennRoll" ID="{484D23CA-E5F6-481B-859E-A74D3DE82954}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="roll" ID="{5A8972E2-3AC1-4B80-8C52-94CD228B3DC6}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Yennefer" ID="{1DFDA7BC-B89E-4743-BEEC-BE21FE1C9D51}"/>
+												<ItemList>
+													<ItemRef Name="YennRoll" ID="{484D23CA-E5F6-481B-859E-A74D3DE82954}"/>
+												</ItemList>
+											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Geralt" ID="{BD9B25F2-E3DC-47D0-BB03-32AB99310869}"/>
 												<ItemList>
