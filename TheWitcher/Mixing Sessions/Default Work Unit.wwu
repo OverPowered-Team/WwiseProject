@@ -15,6 +15,21 @@
 						<ObjectRef Name="Leshen_Cloud_Loop" ID="{B3549D9A-B0B4-4394-82E0-529845C70606}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Relics" ID="{DFA682CD-26CA-4AD5-BD19-CCFB57CC700A}">
+					<ObjectList>
+						<ObjectRef Name="fire_runestone" ID="{4FD1C449-8015-4364-8E6A-9458F94F585C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="ambient_runestone" ID="{B9B62CB3-5A83-4437-A0E4-57CC09FB40A9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="collect_runestone" ID="{849F3368-AD0B-4F02-80B3-EAFAE5150428}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="earth_runestone" ID="{4346BBDB-F294-402F-8C94-310080C04726}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="ice_runestone" ID="{8DABE836-7FBE-445D-AFD9-13F4A4623B1A}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="lightning_runestone" ID="{3CB589A8-7140-490A-8E61-7C6232439F2D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="poison_runestone" ID="{BD6A27E1-1298-4EA9-B6B1-21C69D675FF9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="ice_trail" ID="{1924953D-0AEF-4524-A0F1-129F97848DBB}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="earth_trail" ID="{B3EC9577-CFB2-4179-BEE9-2A565880D334}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="fire_trail" ID="{D0F18EE7-5106-4046-8225-4A57AF5C0BBE}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+						<ObjectRef Name="poison_trail" ID="{1271FC4B-97D8-4021-A40B-31B0F8F96B3D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>

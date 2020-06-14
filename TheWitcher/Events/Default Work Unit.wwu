@@ -1785,6 +1785,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Coin" ID="{33BDB0B1-9DAD-4AD6-865A-30DC43D60B06}">
+							<ChildrenList>
+								<Action Name="" ID="{2EF1BD23-EC60-4D1D-B192-A0F588253F0C}" ShortID="288808517">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="coin" ID="{6EDDC731-4072-4AED-AB48-50D207906DB3}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Orb" ID="{FB1A8752-D831-4BCA-BCF7-483714C15A8A}">
+							<ChildrenList>
+								<Action Name="" ID="{EED65004-9A45-473A-B471-7CEEC3748AF7}" ShortID="822570850">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="life_orb" ID="{5AA54463-457A-4DBF-A1EF-82481DD27412}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy_Interaction" ID="{B8C7B5ED-1177-4B97-9C38-43DACC882595}" ShortID="165262274">
@@ -2100,6 +2128,164 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="fire_runestone" ID="{4FD1C449-8015-4364-8E6A-9458F94F585C}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ambient_Runestone" ID="{61790863-A529-48DA-81A7-8B351D4DE9A3}">
+							<ChildrenList>
+								<Action Name="" ID="{58C74A49-597F-48F8-9F77-6DAB20B54D51}" ShortID="666668154">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ambient_runestone" ID="{B9B62CB3-5A83-4437-A0E4-57CC09FB40A9}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Fire_Oil" ID="{DBA1822D-AE42-4FB4-99F6-9D6E01F84AB0}">
+							<ChildrenList>
+								<Action Name="" ID="{55275D98-C97D-49BB-B3B5-3212D3FD6D66}" ShortID="363599218">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fire_trail" ID="{D0F18EE7-5106-4046-8225-4A57AF5C0BBE}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FBB0A32B-5A58-4EE8-8944-5EA1D8A159B4}" ShortID="1059247344">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fire_trail" ID="{D0F18EE7-5106-4046-8225-4A57AF5C0BBE}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D8CE38C9-455E-4138-8830-BDCD138B8A07}" ShortID="283290698">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fire_trail" ID="{D0F18EE7-5106-4046-8225-4A57AF5C0BBE}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Poison_Oil" ID="{D44DDC7C-F8FB-41B3-9AA6-6A59B506772D}">
+							<ChildrenList>
+								<Action Name="" ID="{016C56B3-761C-4D89-95EC-B9AB2BAF28D1}" ShortID="440381408">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="poison_trail" ID="{1271FC4B-97D8-4021-A40B-31B0F8F96B3D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E90E505E-1DC5-44EF-9F24-313D8206796C}" ShortID="709388066">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="poison_trail" ID="{1271FC4B-97D8-4021-A40B-31B0F8F96B3D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EA63FF54-9109-481C-8BAF-8837953755AA}" ShortID="91342275">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="poison_trail" ID="{1271FC4B-97D8-4021-A40B-31B0F8F96B3D}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ice_Oil" ID="{61A66C43-99F7-4A33-B815-936B8E2EBE82}">
+							<ChildrenList>
+								<Action Name="" ID="{EEF9DF20-3F2B-4906-81D5-F99E2BA53879}" ShortID="613292502">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ice_trail" ID="{1924953D-0AEF-4524-A0F1-129F97848DBB}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D41809B5-A4F6-481A-A7D7-B2C2F9F0F6CC}" ShortID="1020701423">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ice_trail" ID="{1924953D-0AEF-4524-A0F1-129F97848DBB}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CDC15D1E-4961-4F87-BEB5-1639DA8A6A06}" ShortID="42398381">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ice_trail" ID="{1924953D-0AEF-4524-A0F1-129F97848DBB}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Earth_Oil" ID="{978D223A-76F3-4AED-9D93-5794F7677D7D}">
+							<ChildrenList>
+								<Action Name="" ID="{CA5CB1F6-B590-4695-BCB3-AE6ED2AE6BA1}" ShortID="1005140322">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="earth_trail" ID="{B3EC9577-CFB2-4179-BEE9-2A565880D334}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F1A69A37-1838-45CE-B7F4-B165087045A1}" ShortID="1050105090">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="earth_trail" ID="{B3EC9577-CFB2-4179-BEE9-2A565880D334}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2BF72185-0EDA-4D0F-B221-6F518B1A467D}" ShortID="931247">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="earth_trail" ID="{B3EC9577-CFB2-4179-BEE9-2A565880D334}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

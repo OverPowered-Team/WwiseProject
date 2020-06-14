@@ -6969,6 +6969,44 @@
 										<ActiveSource Name="RockFalling" ID="{15154545-82F4-4793-A167-DDA25052B97E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="life_orb" ID="{5AA54463-457A-4DBF-A1EF-82481DD27412}" ShortID="44990785">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ancient_Game_Magic_Buff_Melodic_2" ID="{63E81BC0-55D2-4FA1-9459-69B73048CC0A}" ShortID="498906062">
+											<Language>SFX</Language>
+											<AudioFile>Ancient_Game_Magic_Buff_Melodic_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ancient_Game_Magic_Buff_Melodic_2" ID="{63E81BC0-55D2-4FA1-9459-69B73048CC0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="coin" ID="{6EDDC731-4072-4AED-AB48-50D207906DB3}" ShortID="61801862">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coin_flip_toss_ring_BLASTWAVEFX_11978" ID="{02F8FA32-DEDD-4006-907B-5FF6AE9E1296}" ShortID="146395725">
+											<Language>SFX</Language>
+											<AudioFile>Coin_flip_toss_ring_BLASTWAVEFX_11978.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Coin_flip_toss_ring_BLASTWAVEFX_11978" ID="{02F8FA32-DEDD-4006-907B-5FF6AE9E1296}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Runestones" ID="{639C58EC-39CF-46BF-A1BD-04C9F410B069}" ShortID="669504280">
@@ -6979,6 +7017,15 @@
 											<ValueList>
 												<Value>-10</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9834A18B-BC21-4343-80A5-62CF8E70B509}">
+														<PropertyList>
+															<Property Name="Min" Type="Real64" Value="-15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -7003,8 +7050,19 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-4</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{065D1B9F-7539-423D-9ED8-B52870DD55CB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -7031,6 +7089,17 @@
 											<ValueList>
 												<Value>-10</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{832EE0A8-F25B-470D-ABEC-06FF764EE764}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -7055,8 +7124,19 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-8</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{913A7B15-9CD3-4A61-B905-E1D448263C82}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -7081,8 +7161,19 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-13</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3714A2B4-4B96-4485-A85C-390EA8DD629D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -7105,10 +7196,33 @@
 								</Sound>
 								<Sound Name="poison_runestone" ID="{BD6A27E1-1298-4EA9-B6B1-21C69D675FF9}" ShortID="803250841">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EB07491A-F29D-4EF4-BBF1-CC1165947612}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-4</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7F691E64-69D1-4898-979C-631AB66790DE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -7129,6 +7243,322 @@
 										<ActiveSource Name="poison_runestone" ID="{FF02E9D7-B3C9-44A1-B8E5-EE1FF2841505}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="ambient_runestone" ID="{B9B62CB3-5A83-4437-A0E4-57CC09FB40A9}" ShortID="265649824">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7BCFC79E-C004-4E81-949D-1F398F259022}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Objects" ID="{2C4D731F-E48E-4AB8-9A24-4074B751C9BC}" WorkUnitID="{36500535-4BAF-42E2-BBA0-F07FF4512BDE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic_organic_flutter_ethereal_02_SFXBible_ss06013" ID="{3287896B-B180-4E6A-A555-E1F00816169A}" ShortID="47263518">
+											<Language>SFX</Language>
+											<AudioFile>Magic_organic_flutter_ethereal_02_SFXBible_ss06013.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic_organic_flutter_ethereal_02_SFXBible_ss06013" ID="{3287896B-B180-4E6A-A555-E1F00816169A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="fire_trail" ID="{D0F18EE7-5106-4046-8225-4A57AF5C0BBE}" ShortID="912546063">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="fire_trail_1" ID="{E4C788F5-F248-485C-9717-043166D96E4E}" ShortID="859318000">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Torch_single_pass_by_whoosh_07_SFXBible_ss00767" ID="{8BEC1755-AB5A-4884-9200-0866A09372EB}" ShortID="824128198">
+													<Language>SFX</Language>
+													<AudioFile>Torch_single_pass_by_whoosh_07_SFXBible_ss00767.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Torch_single_pass_by_whoosh_07_SFXBible_ss00767" ID="{8BEC1755-AB5A-4884-9200-0866A09372EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="fire_trail_2" ID="{38A5E955-9683-4939-B064-86C73EC79EBA}" ShortID="798883193">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fireball_catapult_whoosh_pass_by_heavy_2_BLASTWAVEFX_01646" ID="{DA801F0C-0A3C-427B-9501-98E4314B5F7C}" ShortID="1028474054">
+													<Language>SFX</Language>
+													<AudioFile>Fireball_catapult_whoosh_pass_by_heavy_2_BLASTWAVEFX_01646.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fireball_catapult_whoosh_pass_by_heavy_2_BLASTWAVEFX_01646" ID="{DA801F0C-0A3C-427B-9501-98E4314B5F7C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="fire_trail_3" ID="{B5894AF3-E525-4EC1-ADA9-57E76829B5DB}" ShortID="246906595">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fire-Torch-Whoosh-Fast" ID="{65840305-CCDA-41F2-866E-6229CB5C07FA}" ShortID="638440512">
+													<Language>SFX</Language>
+													<AudioFile>Fire-Torch-Whoosh-Fast.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fire-Torch-Whoosh-Fast" ID="{65840305-CCDA-41F2-866E-6229CB5C07FA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="poison_trail" ID="{1271FC4B-97D8-4021-A40B-31B0F8F96B3D}" ShortID="199911580">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="poison_trail_1" ID="{A8B13E49-A99A-4642-8295-7958A1D10ED5}" ShortID="313794345">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fantasy_Game_Poison_1 (1)" ID="{F85DC9F0-C2B5-4A7B-B284-741CCB65C10C}" ShortID="225718011">
+													<Language>SFX</Language>
+													<AudioFile>Fantasy_Game_Poison_1 (1).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fantasy_Game_Poison_1 (1)" ID="{F85DC9F0-C2B5-4A7B-B284-741CCB65C10C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="poison_trail_2" ID="{36D1FFE7-0755-445D-800E-B11D3D5BA33F}" ShortID="610965413">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="2ndpoison" ID="{24791026-1FCF-4710-A668-C2E42800C9C8}" ShortID="86027356">
+													<Language>SFX</Language>
+													<AudioFile>2ndpoison.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="2ndpoison" ID="{24791026-1FCF-4710-A668-C2E42800C9C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="poison_trail_3" ID="{DCFEF45F-8DB2-44BD-B46E-99D9EBE76385}" ShortID="1071372442">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="poison3 (1)" ID="{68937CC9-6AF2-4FE2-B474-3F46D3773045}" ShortID="435814746">
+													<Language>SFX</Language>
+													<AudioFile>poison3 (1).wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="poison3 (1)" ID="{68937CC9-6AF2-4FE2-B474-3F46D3773045}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="earth_trail" ID="{B3EC9577-CFB2-4179-BEE9-2A565880D334}" ShortID="435507167">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="earth_trail_1" ID="{508A7BBB-23BD-44B3-8F85-0162DC336237}" ShortID="368572206">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="EFX_SD_Organic_Rock_Movement_18" ID="{2B8F6DDD-85BC-4FB7-8F87-1DE2F04F208B}" ShortID="478883925">
+													<Language>SFX</Language>
+													<AudioFile>EFX_SD_Organic_Rock_Movement_18.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="EFX_SD_Organic_Rock_Movement_18" ID="{2B8F6DDD-85BC-4FB7-8F87-1DE2F04F208B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="earth_trail_2" ID="{5331FF24-3041-45FA-AD3A-B0927FD4E691}" ShortID="387130699">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MediumRockTumble18" ID="{CCC7E271-F8B2-4AE6-A8FA-AB5E89B03F91}" ShortID="33169800">
+													<Language>SFX</Language>
+													<AudioFile>MediumRockTumble18.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="837127173"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MediumRockTumble18" ID="{CCC7E271-F8B2-4AE6-A8FA-AB5E89B03F91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="earth_trail_3" ID="{88560199-2654-43C4-81FB-920C4D69A2F7}" ShortID="155694104">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MediumRockRattle1_01" ID="{C35356E2-A799-4617-8B90-C3F01CFEDD50}" ShortID="145044075">
+													<Language>SFX</Language>
+													<AudioFile>MediumRockRattle1.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="957636271"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MediumRockRattle1_01" ID="{C35356E2-A799-4617-8B90-C3F01CFEDD50}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="ice_trail" ID="{1924953D-0AEF-4524-A0F1-129F97848DBB}" ShortID="659232891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ice_trail_1" ID="{C982773B-8135-4C45-9814-CB504AE71684}" ShortID="446458647">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1ce" ID="{9963CF6C-422B-4349-8F6D-2A45C4E507A5}" ShortID="652735994">
+													<Language>SFX</Language>
+													<AudioFile>1ce.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1ce" ID="{9963CF6C-422B-4349-8F6D-2A45C4E507A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ice_trail_2" ID="{31122AFE-8628-493F-920E-EB96CCCCEC9A}" ShortID="333867754">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ice2" ID="{1A86CFE3-4116-4908-A760-E75BA7CA70B0}" ShortID="381923074">
+													<Language>SFX</Language>
+													<AudioFile>ice2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ice2" ID="{1A86CFE3-4116-4908-A760-E75BA7CA70B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ice_trail_3" ID="{ED8BA62B-3888-420F-B715-4151BF99E509}" ShortID="636882843">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Snow-Plate-Crust-Drop-Gritty-1" ID="{6ED83F29-C783-4C36-BDA7-1F9170F6BBEF}" ShortID="308424538">
+													<Language>SFX</Language>
+													<AudioFile>Snow-Plate-Crust-Drop-Gritty-1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Snow-Plate-Crust-Drop-Gritty-1" ID="{6ED83F29-C783-4C36-BDA7-1F9170F6BBEF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Sound Name="443_wood- impact- small- fast- debris- destruction- smash- splinters 024" ID="{536C5FAD-A613-421C-9EF2-6B10CBA25C68}" ShortID="179092033">
