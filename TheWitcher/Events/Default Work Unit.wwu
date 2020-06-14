@@ -545,7 +545,20 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Initial_Jaskier" ID="{3A751A48-90BF-4558-A09D-B27497C25028}"/>
+										<Event Name="Play_Initial_Jaskier" ID="{3A751A48-90BF-4558-A09D-B27497C25028}">
+											<ChildrenList>
+												<Action Name="" ID="{C1C0A1C1-20E1-4366-AC40-CE5D2406C0E3}" ShortID="343047672">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Initial_Sequence" ID="{3AD89061-C8CE-439E-919E-E8A9BE3FB566}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Level1" ID="{386E358A-88F4-47A0-9E9C-5250F408DBEC}" ShortID="184804062">
