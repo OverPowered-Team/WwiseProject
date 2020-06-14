@@ -9456,17 +9456,181 @@
 												<ActiveSource Name="Fire_Spell_Flame_Breath_02_16_441" ID="{7F1426EF-ACA3-42EF-A99D-8C412134FED9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Aard" ID="{57BF6E43-7CE4-4BF7-BB36-98BED48A87C4}" ShortID="383035042">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Aard" ID="{5DE707A5-138F-48AD-92E7-3655F3C6C553}" ShortID="883211178">
+													<Language>SFX</Language>
+													<AudioFile>Aard.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Aard" ID="{5DE707A5-138F-48AD-92E7-3655F3C6C553}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="QuenAppear" ID="{A7F819A6-6D2D-4018-9A7D-B39AB636D549}" ShortID="698838609">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="QuenAppear" ID="{3C4EC1BE-C154-4FDF-A43F-8B9BD1C37326}" ShortID="1062395878">
+													<Language>SFX</Language>
+													<AudioFile>QuenAppear.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="QuenAppear" ID="{3C4EC1BE-C154-4FDF-A43F-8B9BD1C37326}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flamethrower" ID="{0B63B1D8-4D1B-4D2E-89CD-C183C4CE5B1D}" ShortID="32099180">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flamethrower" ID="{05691E61-3A33-4B2C-95B9-95BC700D936E}" ShortID="587633908">
+													<Language>SFX</Language>
+													<AudioFile>Flamethrower.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flamethrower" ID="{05691E61-3A33-4B2C-95B9-95BC700D936E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="QuenHit" ID="{F6DD5C68-41EF-4834-BFEB-5AD85D7B4FA2}" ShortID="207786262">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="QuenHit1" ID="{0789E9D7-B5FC-4919-84D1-3AA043BE2FDA}" ShortID="489241921">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="QuenHit1" ID="{92A6ECF4-B0DB-4410-83C0-7CFB14D44A61}" ShortID="581555445">
+															<Language>SFX</Language>
+															<AudioFile>QuenHit1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="QuenHit1" ID="{92A6ECF4-B0DB-4410-83C0-7CFB14D44A61}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="QuenHit2" ID="{F8107073-C2E5-4E51-BC26-276A20FC65DC}" ShortID="47506578">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>23</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="QuenHit2" ID="{52C6DF7B-B7AC-4528-A398-B9225CE5539E}" ShortID="33769510">
+															<Language>SFX</Language>
+															<AudioFile>QuenHit2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="QuenHit2" ID="{52C6DF7B-B7AC-4528-A398-B9225CE5539E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="QuenHit3" ID="{F8EB3B7F-9059-4C69-931B-D6495716B006}" ShortID="977362213">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>28</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="QuenHit3" ID="{435AA846-A8B1-49FA-BA2C-BCD047A4D417}" ShortID="132653440">
+															<Language>SFX</Language>
+															<AudioFile>QuenHit3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="QuenHit3" ID="{435AA846-A8B1-49FA-BA2C-BCD047A4D417}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
+												<ItemRef Name="Aard" ID="{57BF6E43-7CE4-4BF7-BB36-98BED48A87C4}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="QuenHit" ID="{F6DD5C68-41EF-4834-BFEB-5AD85D7B4FA2}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
 												<ItemRef Name="Igni" ID="{59EF8979-6C05-46FC-97A4-2F4912FB5E0B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="QuenAppear" ID="{A7F819A6-6D2D-4018-9A7D-B39AB636D549}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Chain" ID="{474A43C2-45A5-4C14-9F44-E1E6C5CF30FC}"/>
 											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Flamethrower" ID="{0B63B1D8-4D1B-4D2E-89CD-C183C4CE5B1D}"/>
+											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Aard" ID="{A4F7C02E-FCA6-4F14-916A-45060B17CCB1}"/>
+												<ItemList>
+													<ItemRef Name="Aard" ID="{57BF6E43-7CE4-4BF7-BB36-98BED48A87C4}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Quen" ID="{7EB8C83E-4BFF-4FCD-AEF9-4F1788F3E79A}"/>
+												<ItemList>
+													<ItemRef Name="QuenAppear" ID="{A7F819A6-6D2D-4018-9A7D-B39AB636D549}"/>
+												</ItemList>
+											</Grouping>
 											<Grouping>
 												<SwitchRef Name="Igni" ID="{6DC97E83-95F1-431B-9051-F3F8B51E1206}"/>
 												<ItemList>
@@ -9477,6 +9641,12 @@
 												<SwitchRef Name="Chain" ID="{15BB0C8D-D77B-437A-A290-EE46C060A97E}"/>
 												<ItemList>
 													<ItemRef Name="Chain" ID="{474A43C2-45A5-4C14-9F44-E1E6C5CF30FC}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Fthrower" ID="{7ACBFF8F-06CF-4A63-A88A-6CC742226732}"/>
+												<ItemList>
+													<ItemRef Name="Flamethrower" ID="{0B63B1D8-4D1B-4D2E-89CD-C183C4CE5B1D}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>

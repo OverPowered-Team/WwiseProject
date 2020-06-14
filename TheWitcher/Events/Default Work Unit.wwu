@@ -1427,6 +1427,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_QuenHit" ID="{F6CD8FC6-9FD6-4F23-81C2-2FD96CBEAA63}">
+							<ChildrenList>
+								<Action Name="" ID="{35DAAB47-C573-466E-B4C6-F8BF667B7BB1}" ShortID="324592533">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="QuenHit" ID="{F6DD5C68-41EF-4834-BFEB-5AD85D7B4FA2}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{5BB40668-A1E7-463E-978A-61B07C5C8801}" ShortID="537841474">
