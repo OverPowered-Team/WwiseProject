@@ -2589,6 +2589,9 @@
 														</Property>
 														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{49B16904-F623-4524-881E-37A66D56715F}">
@@ -2717,6 +2720,11 @@
 												<Sound Name="Ciri_RockThrow" ID="{2D74B873-BFB6-48C0-B01A-AFAA5D19A5C0}" ShortID="401199912">
 													<PropertyList>
 														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>9</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2768,6 +2776,11 @@
 														<Property Name="PositioningType" Type="int16" Value="1"/>
 														<Property Name="Spatialization" Type="int16" Value="1"/>
 														<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
