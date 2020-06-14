@@ -440,7 +440,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Forest" ID="{C4FF6980-256C-4E0B-9F46-A81569CC7EFC}"/>
-						<CurrentSwitchRef Name="BlockerObstacle" ID="{8E6C24CA-F7DC-4FD2-9D18-1AF40520821B}"/>
+						<CurrentSwitchRef Name="Drowned" ID="{3E0198D1-EB7B-47AD-841C-4C1939027893}"/>
 						<CurrentSwitchRef Name="Mud" ID="{38B10916-8D16-4E0A-8E34-0A099A870E2D}"/>
 						<CurrentSwitchRef Name="In_Fight" ID="{BFE8C3A2-3684-47BE-9F9C-863CC1627047}"/>
 					</CurrentSwitchList>
