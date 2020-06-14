@@ -205,6 +205,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Far_Environment" ID="{A85C947B-3370-4734-88A0-5A909A059576}" ShortID="373272702">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="110"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -219,12 +222,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>73.65079</XPos>
+											<XPos>85.55555</XPos>
 											<YPos>-2.47314</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>110</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

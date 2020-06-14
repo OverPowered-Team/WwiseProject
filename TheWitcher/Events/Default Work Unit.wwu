@@ -2069,6 +2069,48 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Bats2" ID="{81490135-E1D3-4E91-BAE6-719BD128360B}">
+							<ChildrenList>
+								<Action Name="" ID="{52BE9B13-2ACA-4FBD-9991-6D5366826EA3}" ShortID="275203787">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Murcielagos_ZonaVagonetas" ID="{20121453-C2D3-4BD2-9FBF-0C3CAD07AB49}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WaggonUp" ID="{CB7DE210-625A-44E4-B04D-A5F7F0B98CFB}">
+							<ChildrenList>
+								<Action Name="" ID="{B05F000F-4660-4D20-994A-BD2880C96204}" ShortID="356301936">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vagoneta_Subir" ID="{50B2B80B-A97D-4F48-96FD-8162F1076648}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wagonette" ID="{7791AB16-A7C9-43CF-A247-804F3D0902B7}">
+							<ChildrenList>
+								<Action Name="" ID="{8151CB23-81DC-4A38-A358-C85CA5F0458C}" ShortID="287908486">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Vagoneta_Giro" ID="{C7DA0351-B5DF-4407-8069-382F5AB3D808}" WorkUnitID="{27F8D845-0793-4BF1-8BD2-0B07B9235DBE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy_Interaction" ID="{B8C7B5ED-1177-4B97-9C38-43DACC882595}" ShortID="165262274">

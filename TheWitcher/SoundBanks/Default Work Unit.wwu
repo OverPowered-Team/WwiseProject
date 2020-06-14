@@ -127,7 +127,9 @@
 						<ObjectRef Name="Play_Poison_Trail" ID="{D44DDC7C-F8FB-41B3-9AA6-6A59B506772D}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wagon_Wood" ID="{59D6C150-1CD7-420A-B88E-464F55C4BF6E}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wagon_BigRock" ID="{86103336-90E9-42EF-BB47-E355D591D608}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Wagonette" ID="{7791AB16-A7C9-43CF-A247-804F3D0902B7}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Ice_Runestone" ID="{BE1CC294-F5EF-4459-B583-67B6EB47827F}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_WaggonUp" ID="{CB7DE210-625A-44E4-B04D-A5F7F0B98CFB}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fire_Runestone" ID="{E6D6BE91-E3B4-4512-849C-95CEBE86E6C2}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_FenceDestroy" ID="{13E4E853-E69A-4542-94A7-5DF2A7D01D51}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Wagon_Rock" ID="{089BEFE3-7101-481E-841E-F2070D3E36CD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
@@ -140,6 +142,7 @@
 						<ObjectRef Name="Play_Earth_Runestone" ID="{4C19BCB1-E7AC-4B79-95BB-F97DE2014ABD}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Orb" ID="{FB1A8752-D831-4BCA-BCF7-483714C15A8A}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Lightning_Runestone" ID="{D3AF8A4D-5C26-4DD9-A480-160AB75C1475}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Bats2" ID="{81490135-E1D3-4E91-BAE6-719BD128360B}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Fire_Trail" ID="{DBA1822D-AE42-4FB4-99F6-9D6E01F84AB0}" WorkUnitID="{3318B8F5-8C41-463C-BFAA-1599B517104A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
