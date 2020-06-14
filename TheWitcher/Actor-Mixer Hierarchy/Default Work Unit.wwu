@@ -9615,9 +9615,31 @@
 												<ActiveSource Name="Yrden" ID="{6706A013-C039-4642-8BE6-043361FEDF2A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="IceNova" ID="{047EEA09-A831-49A1-8A05-BE5AA21EBC78}" ShortID="967126343">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AADB8E7F-3482-4176-A255-8B6D96E28EE1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7C6E4C3-F775-470A-9A72-A15FAAE92195}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="IceNova" ID="{5CF594AA-5D9D-4DD6-8F6A-E1ADFEDB2E3A}" ShortID="264126767">
+													<Language>SFX</Language>
+													<AudioFile>IceNova.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="IceNova" ID="{5CF594AA-5D9D-4DD6-8F6A-E1ADFEDB2E3A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="IceNova" ID="{047EEA09-A831-49A1-8A05-BE5AA21EBC78}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Yrden" ID="{60902642-3E5D-42E0-8486-3AFEC5AF5FF1}"/>
 											</GroupingBehavior>
@@ -9669,6 +9691,12 @@
 												<SwitchRef Name="Chain" ID="{15BB0C8D-D77B-437A-A290-EE46C060A97E}"/>
 												<ItemList>
 													<ItemRef Name="Chain" ID="{474A43C2-45A5-4C14-9F44-E1E6C5CF30FC}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Ice_Nova" ID="{45C52D8F-978D-481E-A805-167163701FEF}"/>
+												<ItemList>
+													<ItemRef Name="IceNova" ID="{047EEA09-A831-49A1-8A05-BE5AA21EBC78}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
