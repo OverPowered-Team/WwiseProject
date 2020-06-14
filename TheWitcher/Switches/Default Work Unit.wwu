@@ -26,6 +26,15 @@
 						<Switch Name="Post_Fight" ID="{ACC1666F-2140-49B1-B211-41397E3D2E5D}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="EnemyType" ID="{9EEC7613-BCFA-4211-BC11-EF02AB5EFDCB}">
+					<ChildrenList>
+						<Switch Name="BlockerObstacle" ID="{8E6C24CA-F7DC-4FD2-9D18-1AF40520821B}"/>
+						<Switch Name="Drowned" ID="{3E0198D1-EB7B-47AD-841C-4C1939027893}"/>
+						<Switch Name="Ghoul" ID="{33DA4ACA-C0AF-4F2B-ABB3-CE61CD4C13BF}"/>
+						<Switch Name="Nilfgaard_Melee" ID="{29FC2D86-EACB-4C19-839A-8CF4CA5A68D4}"/>
+						<Switch Name="Nilfgard_Range" ID="{A4C6CEA8-9FA7-4751-BBC7-5EC8E4248A7D}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
