@@ -62,6 +62,7 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
+						<Bus Name="SFX" ID="{1B845677-3322-48CA-90D6-0C2BF88E50BF}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
